@@ -1,0 +1,280 @@
+{
+  "year": 1910,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "lasker",
+      "name": "Emanuel Lasker",
+      "short": "Lasker",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "schlechter",
+      "name": "Carl Schlechter",
+      "short": "Schlechter",
+      "country": {
+        "es": "Austria",
+        "en": "Austria"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "lasker",
+  "score": {
+    "schlechter": 5,
+    "lasker": 5
+  },
+  "retainedOnTie": true,
+  "site": {
+    "es": "Viena y Berlín",
+    "en": "Vienna and Berlin"
+  },
+  "dates": {
+    "start": "1910-01-07",
+    "end": "1910-02-10"
+  },
+  "summary": {
+    "es": "Match corto, a diez partidas, contra el austríaco Carl Schlechter, conocido por lo difícil que era ganarle. Schlechter ganó la quinta partida y llegó a la última con un punto de ventaja, pero en la décima jugó a ganar, se arriesgó y perdió. El 5 a 5 dejó el título en manos de Lasker; si Schlechter necesitaba ganar por dos puntos sigue siendo un misterio.",
+    "en": "A short, ten-game match against Austria's Carl Schlechter, known for how hard he was to beat. Schlechter won game 5 and went into the last game a point ahead, but in game 10 he played for a win, took risks and lost. The 5–5 result left Lasker with the title; whether Schlechter needed to win by two points remains a mystery."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "schlechter",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1910-01-07",
+      "eco": "C66",
+      "plies": 138,
+      "pgnRef": "WorldChamp1910a.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "schlechter",
+      "result": "1/2-1/2",
+      "date": "1910-01-13",
+      "eco": "C80",
+      "plies": 70,
+      "pgnRef": "WorldChamp1910a.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "schlechter",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1910-01-15",
+      "eco": "C66",
+      "plies": 62,
+      "pgnRef": "WorldChamp1910a.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "schlechter",
+      "result": "1/2-1/2",
+      "date": "1910-01-18",
+      "eco": "C80",
+      "plies": 112,
+      "pgnRef": "WorldChamp1910a.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "schlechter",
+      "black": "lasker",
+      "result": "1-0",
+      "date": "1910-01-22",
+      "eco": "C66",
+      "plies": 116,
+      "pgnRef": "WorldChamp1910a.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "schlechter",
+      "result": "1/2-1/2",
+      "date": "1910-01-29",
+      "eco": "C80",
+      "plies": 94,
+      "pgnRef": "WorldChamp1910a.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "schlechter",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1910-01-30",
+      "eco": "B57",
+      "plies": 96,
+      "pgnRef": "WorldChamp1910a.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "schlechter",
+      "result": "1/2-1/2",
+      "date": "1910-02-02",
+      "eco": "C80",
+      "plies": 86,
+      "pgnRef": "WorldChamp1910a.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "schlechter",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1910-02-05",
+      "eco": "B33",
+      "plies": 129,
+      "pgnRef": "WorldChamp1910a.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "schlechter",
+      "result": "1-0",
+      "date": "1910-02-08",
+      "eco": "D94",
+      "plies": 141,
+      "pgnRef": "WorldChamp1910a.pgn#9"
+    }
+  ],
+  "featuredRounds": [
+    10,
+    5
+  ],
+  "moments": [
+    {
+      "id": "error-de-lasker",
+      "title": {
+        "es": "Lasker se equivoca",
+        "en": "Lasker blunders"
+      },
+      "text": {
+        "es": "Tras cuatro tablas, Lasker tenía una gran ventaja en la quinta partida, pero cometió un error que le costó la derrota. Schlechter quedó un punto arriba.",
+        "en": "After four draws, Lasker had a big advantage in game 5 but made a mistake that cost him the game. Schlechter went a point up."
+      },
+      "round": 5
+    },
+    {
+      "id": "rescate-en-el-final",
+      "title": {
+        "es": "Un rescate inesperado",
+        "en": "An unexpected escape"
+      },
+      "text": {
+        "es": "En la novena partida, Schlechter estaba perdido en el final, pero un error de Lasker le permitió salvar las tablas. Llegó a la última partida ganando 5 a 4.",
+        "en": "In game 9, Schlechter was lost in the endgame, but a mistake by Lasker let him save a draw. He went into the final game leading 5–4."
+      },
+      "round": 9
+    },
+    {
+      "id": "ultima-partida",
+      "title": {
+        "es": "La última partida",
+        "en": "The final game"
+      },
+      "text": {
+        "es": "Schlechter buscó ganar y obtuvo una gran ventaja, pero dejó pasar una victoria clara en la jugada 35 y siguió arriesgando hasta perder. La partida se jugó en Berlín a lo largo de tres días, del 8 al 10 de febrero, y terminó en la jugada 71.",
+        "en": "Schlechter played for a win and got a big advantage, but missed a clear win on move 35 and kept taking risks until he lost. The game was played in Berlin over three days, 8–10 February, and ended on move 71."
+      },
+      "round": 10
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El historiador Edward Winter advierte: «Ningún evento de ajedrez exige más cautela a los historiadores que el match Lasker contra Schlechter». Nunca se encontraron publicadas las condiciones exactas.",
+        "en": "Historian Edward Winter warns: \"No chess event requires greater caution by historians than the Lasker v Schlechter match.\" The exact conditions have never been found in print."
+      },
+      "source": {
+        "label": "Edward Winter",
+        "url": "https://www.chesshistory.com/winter/extra/laskerschlechter.html"
+      }
+    },
+    {
+      "text": {
+        "es": "Dos días antes de la última partida, Lasker escribió en el New York Evening Post: «Parece probable que por primera vez en mi vida yo sea el perdedor. Si eso ocurre, un buen hombre habrá ganado el Campeonato del Mundo».",
+        "en": "Two days before the last game, Lasker wrote in the New York Evening Post: \"it appears probable that for the first time in my life I shall be the loser. If that should happen a good man will have won the World Championship.\""
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1910_(Lasker–Schlechter)"
+      }
+    },
+    {
+      "text": {
+        "es": "La regla de ganar por dos puntos sí figura en un acuerdo de 1908 para un match a 30 partidas, que luego se redujo a diez.",
+        "en": "A two-point-margin rule does appear in a 1908 agreement for a 30-game match, which was later cut to ten games."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1910_(Lasker–Schlechter)"
+      }
+    },
+    {
+      "text": {
+        "es": "Las cinco primeras partidas se jugaron en Viena y las cinco últimas en Berlín.",
+        "en": "The first five games were played in Vienna and the last five in Berlin."
+      },
+      "source": {
+        "label": "OlimpBase",
+        "url": "https://www.olimpbase.org/ind-wcc/wc1910s-wch.html"
+      }
+    },
+    {
+      "text": {
+        "es": "Schlechter era famoso por su estilo pacífico: cerca del 80 % de sus partidas terminaban en tablas.",
+        "en": "Schlechter was famous for his peaceful style: about 80% of his games ended in draws."
+      },
+      "source": {
+        "label": "Wikipedia (Emanuel Lasker)",
+        "url": "https://en.wikipedia.org/wiki/Emanuel_Lasker"
+      }
+    }
+  ],
+  "photos": [
+    "lasker-1909-eugene",
+    "schlechter-1896",
+    "lasker-1908"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1910_(Lasker–Schlechter)"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/10ls$wix.htm"
+    },
+    {
+      "label": "Edward Winter",
+      "url": "https://www.chesshistory.com/winter/extra/laskerschlechter.html"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1910s-wch.html"
+    },
+    {
+      "label": "Wikipedia (Emanuel Lasker)",
+      "url": "https://en.wikipedia.org/wiki/Emanuel_Lasker"
+    }
+  ]
+}

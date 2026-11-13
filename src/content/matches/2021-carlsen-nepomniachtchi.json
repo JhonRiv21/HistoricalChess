@@ -1,0 +1,312 @@
+{
+  "year": 2021,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "carlsen",
+      "name": "Magnus Carlsen",
+      "short": "Carlsen",
+      "country": {
+        "es": "Noruega",
+        "en": "Norway"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "nepomniachtchi",
+      "name": "Ian Nepomniachtchi",
+      "short": "Nepomniachtchi",
+      "country": {
+        "es": "Rusia (como jugador neutral)",
+        "en": "Russia (as a neutral player)"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "carlsen",
+  "score": {
+    "carlsen": 7.5,
+    "nepomniachtchi": 3.5
+  },
+  "site": {
+    "es": "Dubái, Emiratos Árabes Unidos",
+    "en": "Dubai, United Arab Emirates"
+  },
+  "dates": {
+    "start": "2021-11-26",
+    "end": "2021-12-10"
+  },
+  "summary": {
+    "es": "Carlsen defendió el título en Dubái, durante la Expo 2020, ante Ian Nepomniachtchi. Tras cinco tablas, Carlsen ganó la sexta partida en 136 jugadas, la más larga en la historia de los mundiales. Después, Nepomniachtchi cometió errores graves en las partidas 8, 9 y 11, y Carlsen ganó 7½–3½ con tres partidas de sobra.",
+    "en": "Carlsen defended the title in Dubai, during Expo 2020, against Ian Nepomniachtchi. After five draws Carlsen won game six in 136 moves, the longest game in World Championship history. Nepomniachtchi then made serious blunders in games 8, 9 and 11, and Carlsen won 7½–3½ with three games to spare."
+  },
+  "note": {
+    "es": "Nepomniachtchi es ruso, pero por las sanciones de la Agencia Mundial Antidopaje no pudo competir bajo la bandera de Rusia y jugó como jugador neutral.",
+    "en": "Nepomniachtchi is Russian, but because of World Anti-Doping Agency sanctions he could not compete under the Russian flag and played as a neutral player."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2021-11-26",
+      "eco": "C88",
+      "plies": 89,
+      "pgnRef": "WorldChamp2021.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "nepomniachtchi",
+      "result": "1/2-1/2",
+      "date": "2021-11-27",
+      "eco": "E06",
+      "plies": 116,
+      "pgnRef": "WorldChamp2021.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2021-11-28",
+      "eco": "C88",
+      "plies": 81,
+      "pgnRef": "WorldChamp2021.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "nepomniachtchi",
+      "result": "1/2-1/2",
+      "date": "2021-11-30",
+      "eco": "C42",
+      "plies": 65,
+      "pgnRef": "WorldChamp2021.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2021-12-01",
+      "eco": "C88",
+      "plies": 85,
+      "pgnRef": "WorldChamp2021.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "nepomniachtchi",
+      "result": "1-0",
+      "date": "2021-12-03",
+      "eco": "D02",
+      "plies": 271,
+      "pgnRef": "WorldChamp2021.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2021-12-04",
+      "eco": "C88",
+      "plies": 81,
+      "pgnRef": "WorldChamp2021.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "nepomniachtchi",
+      "result": "1-0",
+      "date": "2021-12-05",
+      "eco": "C43",
+      "plies": 91,
+      "pgnRef": "WorldChamp2021.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "carlsen",
+      "result": "0-1",
+      "date": "2021-12-07",
+      "eco": "A13",
+      "plies": 78,
+      "pgnRef": "WorldChamp2021.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "nepomniachtchi",
+      "result": "1/2-1/2",
+      "date": "2021-12-08",
+      "eco": "C42",
+      "plies": 81,
+      "pgnRef": "WorldChamp2021.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "carlsen",
+      "result": "0-1",
+      "date": "2021-12-10",
+      "eco": "C50",
+      "plies": 98,
+      "pgnRef": "WorldChamp2021.pgn#10"
+    }
+  ],
+  "featuredRounds": [
+    6,
+    8,
+    11
+  ],
+  "moments": [
+    {
+      "id": "partida-6",
+      "round": 6,
+      "title": {
+        "es": "La partida más larga",
+        "en": "The longest game"
+      },
+      "text": {
+        "es": "Carlsen ganó la sexta partida tras 136 jugadas y 7 horas y 45 minutos de juego, superando el récord de 124 jugadas del Karpov–Korchnoi de 1978.",
+        "en": "Carlsen won game six after 136 moves and 7 hours 45 minutes of play, beating the 124-move record set by Karpov–Korchnoi in 1978."
+      }
+    },
+    {
+      "id": "b5",
+      "round": 8,
+      "ply": 42,
+      "title": {
+        "es": "El primer error grave",
+        "en": "The first big blunder"
+      },
+      "text": {
+        "es": "Nepomniachtchi jugó 21…b5, que perdió el peón de a7 por una combinación sencilla. Carlsen convirtió con calma el final de damas y se puso dos puntos arriba.",
+        "en": "Nepomniachtchi played 21...b5, which lost the a7-pawn to a simple combination. Carlsen calmly converted the queen ending and went two points up."
+      }
+    },
+    {
+      "id": "g3",
+      "round": 11,
+      "ply": 45,
+      "title": {
+        "es": "Fin del match",
+        "en": "End of the match"
+      },
+      "text": {
+        "es": "En la partida 11, con una Italiana, Nepomniachtchi volvió a equivocarse con 23.g3 y Carlsen aseguró el título.",
+        "en": "In game 11, an Italian Game, Nepomniachtchi blundered again with 23.g3, and Carlsen sealed the title."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El match estaba previsto para la segunda mitad de 2020, pero se aplazó a 2021 por la pandemia de COVID-19.",
+        "en": "The match was planned for the second half of 2020 but was postponed to 2021 because of the COVID-19 pandemic."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2021"
+      }
+    },
+    {
+      "text": {
+        "es": "El Torneo de Candidatos de Ekaterimburgo se detuvo a mitad de camino en marzo de 2020 por la pandemia y se completó en abril de 2021.",
+        "en": "The Yekaterinburg Candidates Tournament was halted at its halfway point in March 2020 because of the pandemic and completed in April 2021."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2021"
+      }
+    },
+    {
+      "text": {
+        "es": "La sexta partida, de 136 jugadas, es la más larga en la historia del Campeonato del Mundo.",
+        "en": "Game six, at 136 moves, is the longest game in World Championship history."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2021"
+      }
+    },
+    {
+      "text": {
+        "es": "Carlsen terminó el match con cuatro victorias, siete tablas y ninguna derrota.",
+        "en": "Carlsen finished the match with four wins, seven draws and no losses."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2021"
+      }
+    }
+  ],
+  "photos": [
+    "wcc-2021-game11",
+    "dubai-2021-sobyanin",
+    "wcc-2021-carlsen",
+    "wcc-2021-nepomniachtchi"
+  ],
+  "videos": [
+    {
+      "youtubeId": "m7QwZAGJpJI",
+      "kind": "recap",
+      "title": {
+        "es": "Carlsen contra Nepomniachtchi, 2021: resumen de la partida 6",
+        "en": "Carlsen vs. Nepomniachtchi, 2021: game 6 recap"
+      },
+      "channel": "PowerPlayChess",
+      "round": 6,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "JNlyiwDzTnU",
+      "kind": "recap",
+      "title": {
+        "es": "Carlsen contra Nepomniachtchi, 2021: resumen de la partida 10",
+        "en": "Carlsen vs. Nepomniachtchi, 2021: game 10 recap"
+      },
+      "channel": "chess24",
+      "round": 10,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "_t7BglxHG_c",
+      "kind": "recap",
+      "title": {
+        "es": "Las emociones del campeonato mundial de 2021",
+        "en": "The emotions of the 2021 world championship"
+      },
+      "channel": "Chess.com",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2021"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/b9c0$wix.htm"
+    }
+  ]
+}

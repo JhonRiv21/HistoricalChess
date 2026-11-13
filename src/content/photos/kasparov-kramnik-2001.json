@@ -1,0 +1,20 @@
+{
+  "file": "kasparov-kramnik-2001.jpg",
+  "caption": {
+    "es": "Garry Kasparov y Vladimir Kramnik en el Memorial Botvinnik, 2001.",
+    "en": "Garry Kasparov and Vladimir Kramnik at the Botvinnik Memorial, 2001."
+  },
+  "alt": {
+    "es": "Dos jugadores en una mesa de madera con placas de nombre en cirílico y logotipos de patrocinadores.",
+    "en": "Two players at a wooden table with name plates in Cyrillic and sponsor logos."
+  },
+  "author": "Owen Williams / S.M.S.I., Inc.",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kasparov-11.jpg",
+  "focus": "50% 45%",
+  "people": [
+    "kasparov",
+    "kramnik"
+  ],
+  "year": 2001
+}

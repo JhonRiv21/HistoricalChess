@@ -1,0 +1,556 @@
+{
+  "year": 1935,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "alekhine",
+      "name": "Alexander Alekhine",
+      "short": "Alekhine",
+      "country": {
+        "es": "Rusia / Francia",
+        "en": "Russia / France"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "euwe",
+      "name": "Max Euwe",
+      "short": "Euwe",
+      "country": {
+        "es": "Países Bajos",
+        "en": "Netherlands"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "euwe",
+  "score": {
+    "alekhine": 14.5,
+    "euwe": 15.5
+  },
+  "retainedOnTie": true,
+  "site": {
+    "es": "Países Bajos (13 ciudades, entre ellas Ámsterdam, La Haya y Zandvoort)",
+    "en": "Netherlands (13 cities, including Amsterdam, The Hague and Zandvoort)"
+  },
+  "dates": {
+    "start": "1935-10-03",
+    "end": "1935-12-15"
+  },
+  "summary": {
+    "es": "El neerlandés Max Euwe, profesor de matemáticas, desafió a Alekhine en un match que recorrió 13 ciudades de Países Bajos. Alekhine llegó a tener tres puntos de ventaja después de la novena partida, pero Euwe remontó, ganó la célebre partida 26, la «Perla de Zandvoort», y se impuso 15½ a 14½. Fue considerado una gran sorpresa.",
+    "en": "Dutchman Max Euwe, a mathematics teacher, challenged Alekhine in a match that toured 13 cities in the Netherlands. Alekhine led by three points after game 9, but Euwe came back, won the famous game 26, the \"Pearl of Zandvoort\", and prevailed 15½–14½. It was seen as a major upset."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1935-10-03",
+      "eco": "D17",
+      "plies": 59,
+      "pgnRef": "WorldChamp1935.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1935-10-06",
+      "eco": "D81",
+      "plies": 89,
+      "pgnRef": "WorldChamp1935.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1935-10-08",
+      "eco": "C15",
+      "plies": 81,
+      "pgnRef": "WorldChamp1935.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1935-10-10",
+      "eco": "D81",
+      "plies": 88,
+      "pgnRef": "WorldChamp1935.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1935-10-12",
+      "eco": "C15",
+      "plies": 68,
+      "pgnRef": "WorldChamp1935.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1935-10-15",
+      "eco": "D12",
+      "plies": 145,
+      "pgnRef": "WorldChamp1935.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1935-10-17",
+      "eco": "C15",
+      "plies": 79,
+      "pgnRef": "WorldChamp1935.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1935-10-20",
+      "eco": "D45",
+      "plies": 137,
+      "pgnRef": "WorldChamp1935.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1935-10-22",
+      "eco": "C15",
+      "plies": 81,
+      "pgnRef": "WorldChamp1935.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1935-10-24",
+      "eco": "D45",
+      "plies": 81,
+      "pgnRef": "WorldChamp1935.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1935-10-27",
+      "eco": "D12",
+      "plies": 60,
+      "pgnRef": "WorldChamp1935.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1935-10-29",
+      "eco": "D97",
+      "plies": 71,
+      "pgnRef": "WorldChamp1935.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1935-10-31",
+      "eco": "C83",
+      "plies": 117,
+      "pgnRef": "WorldChamp1935.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1935-11-02",
+      "eco": "D82",
+      "plies": 81,
+      "pgnRef": "WorldChamp1935.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1935-11-05",
+      "eco": "D17",
+      "plies": 122,
+      "pgnRef": "WorldChamp1935.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1935-11-07",
+      "eco": "D12",
+      "plies": 130,
+      "pgnRef": "WorldChamp1935.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1935-11-09",
+      "eco": "D04",
+      "plies": 45,
+      "pgnRef": "WorldChamp1935.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1935-11-12",
+      "eco": "A20",
+      "plies": 31,
+      "pgnRef": "WorldChamp1935.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1935-11-14",
+      "eco": "D16",
+      "plies": 113,
+      "pgnRef": "WorldChamp1935.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1935-11-16",
+      "eco": "D17",
+      "plies": 81,
+      "pgnRef": "WorldChamp1935.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "0-1",
+      "date": "1935-11-19",
+      "eco": "D17",
+      "plies": 80,
+      "pgnRef": "WorldChamp1935.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1935-11-24",
+      "eco": "E33",
+      "plies": 35,
+      "pgnRef": "WorldChamp1935.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1935-11-26",
+      "eco": "D15",
+      "plies": 115,
+      "pgnRef": "WorldChamp1935.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1935-11-28",
+      "eco": "A90",
+      "plies": 65,
+      "pgnRef": "WorldChamp1935.pgn#23"
+    },
+    {
+      "round": 25,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "0-1",
+      "date": "1935-12-01",
+      "eco": "D52",
+      "plies": 90,
+      "pgnRef": "WorldChamp1935.pgn#24"
+    },
+    {
+      "round": 26,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1935-12-03",
+      "eco": "E18",
+      "plies": 93,
+      "pgnRef": "WorldChamp1935.pgn#25"
+    },
+    {
+      "round": 27,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1935-12-06",
+      "eco": "C27",
+      "plies": 81,
+      "pgnRef": "WorldChamp1935.pgn#26"
+    },
+    {
+      "round": 28,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1935-12-08",
+      "eco": "D66",
+      "plies": 125,
+      "pgnRef": "WorldChamp1935.pgn#27"
+    },
+    {
+      "round": 29,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1935-12-12",
+      "eco": "B05",
+      "plies": 100,
+      "pgnRef": "WorldChamp1935.pgn#28"
+    },
+    {
+      "round": 30,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1935-12-15",
+      "eco": "D21",
+      "plies": 79,
+      "pgnRef": "WorldChamp1935.pgn#29"
+    }
+  ],
+  "featuredRounds": [
+    26,
+    30
+  ],
+  "moments": [
+    {
+      "id": "tres-abajo",
+      "title": {
+        "es": "Tres puntos abajo",
+        "en": "Three points down"
+      },
+      "text": {
+        "es": "Tras la novena partida, Alekhine ganaba 6 a 3: Euwe había perdido cinco de las primeras nueve.",
+        "en": "After game 9, Alekhine led 6–3: Euwe had lost five of the first nine games."
+      },
+      "round": 9
+    },
+    {
+      "id": "euwe-adelante",
+      "title": {
+        "es": "Euwe se pone adelante",
+        "en": "Euwe takes the lead"
+      },
+      "text": {
+        "es": "Tras una larga remontada, Euwe ganó la partida 25 y pasó adelante en el marcador por primera vez en todo el match.",
+        "en": "After a long comeback, Euwe won game 25 and went ahead on the scoreboard for the first time in the match."
+      },
+      "round": 25
+    },
+    {
+      "id": "perla-de-zandvoort",
+      "title": {
+        "es": "La Perla de Zandvoort",
+        "en": "The Pearl of Zandvoort"
+      },
+      "text": {
+        "es": "El 3 de diciembre, en Zandvoort, Euwe ganó la partida 26, considerada la más bella del match: de sus 47 jugadas, 19 las hizo con el mismo caballo. Quedó 14 a 12 arriba.",
+        "en": "On 3 December in Zandvoort, Euwe won game 26, considered the finest of the match: of his 47 moves, 19 were made with the same knight. He went 14–12 up."
+      },
+      "round": 26
+    },
+    {
+      "id": "euwe-campeon",
+      "title": {
+        "es": "Euwe, campeón del mundo",
+        "en": "Euwe, world champion"
+      },
+      "text": {
+        "es": "El 15 de diciembre, las tablas en la partida 30 le dieron a Euwe el 15½ a 14½ y el título mundial.",
+        "en": "On 15 December, a draw in game 30 gave Euwe the 15½–14½ win and the world title."
+      },
+      "round": 30
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Antes del match, Capablanca dijo en una filmación: «El juego del Dr. Alekhine es 20 % bluf. El juego del Dr. Euwe es claro y directo».",
+        "en": "Before the match, Capablanca said on film: \"Dr. Alekhine's game is 20% bluff. Dr. Euwe's game is clear and straightforward.\""
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1935"
+      }
+    },
+    {
+      "text": {
+        "es": "Euwe era profesor de matemáticas: primero enseñó en Rotterdam y luego en un liceo de señoritas de Ámsterdam.",
+        "en": "Euwe was a mathematics teacher: he taught first in Rotterdam and later at a girls' lyceum in Amsterdam."
+      },
+      "source": {
+        "label": "Wikipedia (Max Euwe)",
+        "url": "https://en.wikipedia.org/wiki/Max_Euwe"
+      }
+    },
+    {
+      "text": {
+        "es": "Fue el primer campeonato del mundo en que los jugadores tuvieron ayudantes para analizar las partidas aplazadas.",
+        "en": "It was the first world championship in which the players had seconds to help them analyse adjourned games."
+      },
+      "source": {
+        "label": "Wikipedia (Max Euwe)",
+        "url": "https://en.wikipedia.org/wiki/Max_Euwe"
+      }
+    },
+    {
+      "text": {
+        "es": "Sobre los rumores de que Alekhine bebía mucho, Euwe dijo en 1978: «No creo que bebiera más de lo que solía»; agregó que muchos lo creían borracho por su forma de caminar, porque veía mal y no le gustaba usar lentes.",
+        "en": "Asked in 1978 about rumours of heavy drinking, Euwe said: \"I don't think he was drinking more then than he usually did\"; he added that many thought Alekhine drunk because of how he walked, as he saw poorly but disliked wearing glasses."
+      },
+      "source": {
+        "label": "Edward Winter",
+        "url": "https://www.chesshistory.com/winter/extra/alekhinealcohol.html"
+      }
+    },
+    {
+      "text": {
+        "es": "En la última partida, en el Teatro Bellevue, Alekhine ofreció tablas en la jugada 40; Euwe tenía dos peones de ventaja, pero aceptó y se coronó campeón.",
+        "en": "In the final game, at the Theater Bellevue, Alekhine offered a draw on move 40; Euwe was two pawns up but accepted and was crowned champion."
+      },
+      "source": {
+        "label": "Wikipedia (neerlandés)",
+        "url": "https://nl.wikipedia.org/wiki/Wereldkampioenschap_schaken_1935"
+      }
+    }
+  ],
+  "photos": [
+    "alekhine-euwe-phoenix-1935",
+    "euwe-1935",
+    "alekhine-1924-bain",
+    "euwe-bogoljubov-1928"
+  ],
+  "videos": [
+    {
+      "youtubeId": "maBDwodvLRc",
+      "kind": "archival",
+      "title": {
+        "es": "Noticiero de 1935: Euwe, campeón del mundo",
+        "en": "1935 newsreel: Euwe becomes world champion"
+      },
+      "channel": "Endspiel48",
+      "language": "nl",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "_z2gtjlnM60",
+      "kind": "archival",
+      "title": {
+        "es": "Imágenes raras del match Alekhine-Euwe, 1935",
+        "en": "Rare footage of the 1935 Alekhine-Euwe match"
+      },
+      "channel": "chessoholics",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "YO97VPiIDm0",
+      "kind": "recap",
+      "title": {
+        "es": "Match de 1935, partida 1: Alekhine golpea primero",
+        "en": "1935 match, game 1: Alekhine strikes first"
+      },
+      "channel": "Max Euwe Centre",
+      "round": 1,
+      "language": "nl",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1935"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/35ea$wix.htm"
+    },
+    {
+      "label": "Wikipedia (neerlandés)",
+      "url": "https://nl.wikipedia.org/wiki/Wereldkampioenschap_schaken_1935"
+    },
+    {
+      "label": "Wikipedia (neerlandés): Perla de Zandvoort",
+      "url": "https://nl.wikipedia.org/wiki/Parel_van_Zandvoort"
+    },
+    {
+      "label": "Wikipedia (Max Euwe)",
+      "url": "https://en.wikipedia.org/wiki/Max_Euwe"
+    },
+    {
+      "label": "Edward Winter",
+      "url": "https://www.chesshistory.com/winter/extra/alekhinealcohol.html"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1935-wch.html"
+    }
+  ]
+}

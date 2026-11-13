@@ -1,0 +1,23 @@
+{
+  "file": "wcc-1948-hague-group.jpg",
+  "caption": {
+    "es": "Los cinco jugadores del campeonato mundial de 1948 en La Haya, de izquierda a derecha: Euwe, Smyslov, Keres, Botvinnik y Reshevsky.",
+    "en": "The five players of the 1948 world championship in The Hague, from left to right: Euwe, Smyslov, Keres, Botvinnik and Reshevsky."
+  },
+  "alt": {
+    "es": "Cinco hombres de traje de pie, uno junto al otro, en fila.",
+    "en": "Five men in suits standing side by side in a formal line."
+  },
+  "author": "J.D. Noske (ANEFO)",
+  "license": "CC0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChessWC1948-4.jpg",
+  "focus": "55% 40%",
+  "people": [
+    "euwe",
+    "smyslov",
+    "keres",
+    "botvinnik",
+    "reshevsky"
+  ],
+  "year": 1948
+}

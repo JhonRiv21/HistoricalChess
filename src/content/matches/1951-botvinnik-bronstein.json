@@ -1,0 +1,417 @@
+{
+  "year": 1951,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "botvinnik",
+      "name": "Mikhail Botvinnik",
+      "short": "Botvinnik",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "bronstein",
+      "name": "David Bronstein",
+      "short": "Bronstein",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "botvinnik",
+  "score": {
+    "botvinnik": 12,
+    "bronstein": 12
+  },
+  "retainedOnTie": true,
+  "site": {
+    "es": "Moscú, URSS",
+    "en": "Moscow, Soviet Union"
+  },
+  "dates": {
+    "start": "1951-03-15",
+    "end": "1951-05-11"
+  },
+  "summary": {
+    "es": "Fue el primer match por el título bajo la supervisión de la FIDE: el campeón Mikhail Botvinnik, de 39 años, contra David Bronstein, de 27, que llegaba por el nuevo sistema de torneos interzonal y de candidatos. Bronstein ganó la partida 22 y quedó a un paso de la corona, pero Botvinnik ganó la 23 y entabló la 24. El 12–12 le bastó al campeón para conservar el título.",
+    "en": "It was the first title match supervised by FIDE: 39-year-old champion Mikhail Botvinnik against 27-year-old David Bronstein, who came through the new Interzonal and Candidates system. Bronstein won game 22 and stood one step from the crown, but Botvinnik won game 23 and drew game 24. The 12–12 tie was enough for the champion to keep the title."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "1/2-1/2",
+      "eco": "A91",
+      "plies": 57,
+      "pgnRef": "WorldChamp1951.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "D87",
+      "plies": 97,
+      "pgnRef": "WorldChamp1951.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "1/2-1/2",
+      "eco": "C08",
+      "plies": 126,
+      "pgnRef": "WorldChamp1951.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "D90",
+      "plies": 94,
+      "pgnRef": "WorldChamp1951.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "0-1",
+      "eco": "E43",
+      "plies": 78,
+      "pgnRef": "WorldChamp1951.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "B63",
+      "plies": 114,
+      "pgnRef": "WorldChamp1951.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "1-0",
+      "eco": "A94",
+      "plies": 131,
+      "pgnRef": "WorldChamp1951.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "D49",
+      "plies": 81,
+      "pgnRef": "WorldChamp1951.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "1/2-1/2",
+      "eco": "A91",
+      "plies": 82,
+      "pgnRef": "WorldChamp1951.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "A85",
+      "plies": 108,
+      "pgnRef": "WorldChamp1951.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "0-1",
+      "eco": "E17",
+      "plies": 78,
+      "pgnRef": "WorldChamp1951.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "A85",
+      "plies": 80,
+      "pgnRef": "WorldChamp1951.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "1/2-1/2",
+      "eco": "E44",
+      "plies": 112,
+      "pgnRef": "WorldChamp1951.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "A08",
+      "plies": 131,
+      "pgnRef": "WorldChamp1951.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "1/2-1/2",
+      "eco": "C08",
+      "plies": 65,
+      "pgnRef": "WorldChamp1951.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "A91",
+      "plies": 149,
+      "pgnRef": "WorldChamp1951.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "0-1",
+      "eco": "E45",
+      "plies": 70,
+      "pgnRef": "WorldChamp1951.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "D15",
+      "plies": 115,
+      "pgnRef": "WorldChamp1951.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "1-0",
+      "eco": "D74",
+      "plies": 119,
+      "pgnRef": "WorldChamp1951.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "A14",
+      "plies": 91,
+      "pgnRef": "WorldChamp1951.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "0-1",
+      "eco": "E69",
+      "plies": 128,
+      "pgnRef": "WorldChamp1951.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "A91",
+      "plies": 75,
+      "pgnRef": "WorldChamp1951.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "bronstein",
+      "result": "1-0",
+      "eco": "D71",
+      "plies": 113,
+      "pgnRef": "WorldChamp1951.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "bronstein",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "D44",
+      "plies": 43,
+      "pgnRef": "WorldChamp1951.pgn#23"
+    }
+  ],
+  "featuredRounds": [
+    22,
+    23
+  ],
+  "moments": [
+    {
+      "id": "bronstein-golpea-primero",
+      "title": {
+        "es": "Bronstein golpea primero",
+        "en": "Bronstein strikes first"
+      },
+      "text": {
+        "es": "Tras cuatro tablas, Bronstein ganó la quinta partida con negras y se puso adelante. Botvinnik respondió ganando las dos siguientes.",
+        "en": "After four draws, Bronstein won game five with Black and took the lead. Botvinnik answered by winning the next two."
+      },
+      "round": 5
+    },
+    {
+      "id": "la-jugada-secreta",
+      "title": {
+        "es": "La pelea por la jugada secreta",
+        "en": "The sealed-move dispute"
+      },
+      "text": {
+        "es": "En la novena partida, Bronstein dejó una torre colgada y Botvinnik quedó con una pieza de más, pero cambió mal y el final terminó en tablas. Además hubo una discusión sobre quién debía sellar la jugada al aplazar, que cada jugador contó a su manera.",
+        "en": "In game nine Bronstein blundered a rook and Botvinnik emerged a piece up, but traded badly and the ending was drawn. There was also an argument over who had to seal the move at adjournment, which each player told his own way."
+      },
+      "round": 9
+    },
+    {
+      "id": "a-un-paso-de-la-corona",
+      "title": {
+        "es": "A un paso de la corona",
+        "en": "One step from the crown"
+      },
+      "text": {
+        "es": "Bronstein ganó la partida 22 con un ataque brillante contra el rey de Botvinnik. Con dos partidas por jugar, le bastaba una victoria o dos tablas para ser campeón.",
+        "en": "Bronstein won game 22 with a brilliant attack on Botvinnik's king. With two games left, one win or two draws would make him champion."
+      },
+      "round": 22
+    },
+    {
+      "id": "zugzwang-salvador",
+      "title": {
+        "es": "Un zugzwang salvador",
+        "en": "A saving zugzwang"
+      },
+      "text": {
+        "es": "Botvinnik escribió que, si no ganaba la partida 23 con blancas, la derrota en el match parecía segura. Exprimió un final con la pareja de alfiles hasta dejar a Bronstein en zugzwang; Bronstein abandonó tras pensar 40 minutos.",
+        "en": "Botvinnik wrote that if he did not win game 23 with White, losing the match seemed certain. He squeezed an ending with the bishop pair until Bronstein was in zugzwang; Bronstein resigned after thinking for 40 minutes."
+      },
+      "round": 23,
+      "ply": 113
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Fue el primer match por el título con un sistema de clasificación de torneo interzonal y torneo de candidatos, un esquema que se mantuvo hasta 1993.",
+        "en": "It was the first title match with a qualifying system of an Interzonal and a Candidates tournament, a scheme that lasted until 1993."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1951",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1951"
+      }
+    },
+    {
+      "text": {
+        "es": "Para llegar al match, Bronstein empató el torneo de candidatos de Budapest 1950 con Isaac Boleslavsky y luego le ganó un desempate de 14 partidas por 7½–6½.",
+        "en": "To reach the match, Bronstein tied the Budapest 1950 Candidates tournament with Isaac Boleslavsky and then beat him 7½–6½ in a 14-game playoff."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1951",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1951"
+      }
+    },
+    {
+      "text": {
+        "es": "Terminó 12–12, con cinco victorias para cada uno y 14 tablas; las reglas daban el título al campeón en caso de empate.",
+        "en": "It ended 12–12, with five wins each and 14 draws; the rules gave the title to the champion in case of a tie."
+      },
+      "source": {
+        "label": "Mark Weeks: 1951 Botvinnik - Bronstein",
+        "url": "https://www.mark-weeks.com/chess/4951$wix.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "En 1973, Al Horowitz lo describió como «quizás el match más interesante jamás jugado por el campeonato del mundo».",
+        "en": "In 1973, Al Horowitz described it as \"perhaps the most interesting match ever played for the world championship\"."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1951",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1951"
+      }
+    }
+  ],
+  "photos": [
+    "euwe-botvinnik-1948",
+    "bronstein-1954",
+    "bronstein-1956-candidates"
+  ],
+  "videos": [
+    {
+      "youtubeId": "iGnwFsXzqe0",
+      "kind": "recap",
+      "title": {
+        "es": "Botvinnik contra Bronstein, 1951: clase de Yasser Seirawan",
+        "en": "Botvinnik vs. Bronstein, 1951: lecture by Yasser Seirawan"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1951",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1951"
+    },
+    {
+      "label": "Mark Weeks: 1951 Botvinnik - Bronstein",
+      "url": "https://www.mark-weeks.com/chess/4951$wix.htm"
+    },
+    {
+      "label": "Mark Weeks: 1951 Botvinnik - Bronstein Highlights",
+      "url": "https://www.mark-weeks.com/chess/51bb$$.htm"
+    }
+  ]
+}

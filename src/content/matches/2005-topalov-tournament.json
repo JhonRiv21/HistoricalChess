@@ -1,0 +1,835 @@
+{
+  "year": 2005,
+  "kind": "tournament",
+  "era": "split",
+  "title": "fide",
+  "players": [
+    {
+      "id": "topalov",
+      "name": "Veselin Topalov",
+      "short": "Topalov",
+      "country": {
+        "es": "Bulgaria",
+        "en": "Bulgaria"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "svidler",
+      "name": "Peter Svidler",
+      "short": "Svidler",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "adams",
+      "name": "Michael Adams",
+      "short": "Adams",
+      "country": {
+        "es": "Inglaterra",
+        "en": "England"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "polgar",
+      "name": "Judit Polgár",
+      "short": "Polgár",
+      "country": {
+        "es": "Hungría",
+        "en": "Hungary"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "short": "Anand",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "leko",
+      "name": "Peter Leko",
+      "short": "Leko",
+      "country": {
+        "es": "Hungría",
+        "en": "Hungary"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "morozevich",
+      "name": "Alexander Morozevich",
+      "short": "Morozevich",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "kasimdzhanov",
+      "name": "Rustam Kasimdzhanov",
+      "short": "Kasimdzhanov",
+      "country": {
+        "es": "Uzbekistán",
+        "en": "Uzbekistan"
+      },
+      "role": "contender"
+    }
+  ],
+  "winner": "topalov",
+  "score": {
+    "svidler": 8.5,
+    "adams": 5.5,
+    "polgar": 4.5,
+    "anand": 8.5,
+    "leko": 6.5,
+    "topalov": 10,
+    "morozevich": 7,
+    "kasimdzhanov": 5.5
+  },
+  "site": {
+    "es": "Potrero de los Funes, San Luis (Argentina)",
+    "en": "Potrero de los Funes, San Luis (Argentina)"
+  },
+  "dates": {
+    "start": "2005-09-28",
+    "end": "2005-10-14"
+  },
+  "summary": {
+    "es": "Tras años de torneos por eliminación directa, la FIDE decidió su título de 2005 con un torneo de ocho jugadores a doble vuelta en San Luis, Argentina. Veselin Topalov sumó 6½ de 7 puntos en la primera vuelta, empató todas sus partidas de la segunda y ganó con 10/14, un punto y medio por delante de Anand y Svidler. Kramnik, campeón del linaje clásico, no participó, así que el título siguió dividido.",
+    "en": "After years of knockout events, FIDE decided its 2005 title with an eight-player double round-robin in San Luis, Argentina. Veselin Topalov scored 6½ out of 7 in the first half, drew every game in the second and won with 10/14, a point and a half ahead of Anand and Svidler. Kramnik, champion of the classical line, did not take part, so the title stayed split."
+  },
+  "note": {
+    "es": "En los torneos, el número de «ronda» de cada partida en este sitio es su orden en el archivo de partidas (cuatro partidas por ronda del torneo).",
+    "en": "In tournaments, the \"round\" number of each game on this site is its order in the game file (four games per tournament round)."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "adams",
+      "result": "1/2-1/2",
+      "date": "2005-09-28",
+      "eco": "C42",
+      "plies": 47,
+      "pgnRef": "FideChamp2005.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "polgar",
+      "black": "anand",
+      "result": "0-1",
+      "date": "2005-09-28",
+      "eco": "B17",
+      "plies": 82,
+      "pgnRef": "FideChamp2005.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "leko",
+      "black": "topalov",
+      "result": "0-1",
+      "date": "2005-09-28",
+      "eco": "B90",
+      "plies": 80,
+      "pgnRef": "FideChamp2005.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "kasimdzhanov",
+      "result": "1/2-1/2",
+      "date": "2005-09-28",
+      "eco": "B92",
+      "plies": 108,
+      "pgnRef": "FideChamp2005.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "adams",
+      "black": "polgar",
+      "result": "1/2-1/2",
+      "date": "2005-09-29",
+      "eco": "B48",
+      "plies": 95,
+      "pgnRef": "FideChamp2005.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "kasimdzhanov",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2005-09-29",
+      "eco": "B06",
+      "plies": 47,
+      "pgnRef": "FideChamp2005.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2005-09-29",
+      "eco": "E15",
+      "plies": 194,
+      "pgnRef": "FideChamp2005.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "leko",
+      "black": "morozevich",
+      "result": "1/2-1/2",
+      "date": "2005-09-29",
+      "eco": "B80",
+      "plies": 136,
+      "pgnRef": "FideChamp2005.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "anand",
+      "black": "adams",
+      "result": "1-0",
+      "date": "2005-09-30",
+      "eco": "C92",
+      "plies": 63,
+      "pgnRef": "FideChamp2005.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "leko",
+      "result": "1-0",
+      "date": "2005-09-30",
+      "eco": "C88",
+      "plies": 61,
+      "pgnRef": "FideChamp2005.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "polgar",
+      "black": "kasimdzhanov",
+      "result": "1-0",
+      "date": "2005-09-30",
+      "eco": "B90",
+      "plies": 83,
+      "pgnRef": "FideChamp2005.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "topalov",
+      "result": "0-1",
+      "date": "2005-09-30",
+      "eco": "B52",
+      "plies": 148,
+      "pgnRef": "FideChamp2005.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "leko",
+      "black": "polgar",
+      "result": "1-0",
+      "date": "2005-10-01",
+      "eco": "B48",
+      "plies": 49,
+      "pgnRef": "FideChamp2005.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "kasimdzhanov",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2005-10-01",
+      "eco": "B90",
+      "plies": 75,
+      "pgnRef": "FideChamp2005.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "adams",
+      "result": "1-0",
+      "date": "2005-10-01",
+      "eco": "A30",
+      "plies": 75,
+      "pgnRef": "FideChamp2005.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "svidler",
+      "result": "0-1",
+      "date": "2005-10-01",
+      "eco": "E81",
+      "plies": 110,
+      "pgnRef": "FideChamp2005.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "topalov",
+      "result": "0-1",
+      "date": "2005-10-03",
+      "eco": "B90",
+      "plies": 88,
+      "pgnRef": "FideChamp2005.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "polgar",
+      "black": "morozevich",
+      "result": "1/2-1/2",
+      "date": "2005-10-03",
+      "eco": "C41",
+      "plies": 82,
+      "pgnRef": "FideChamp2005.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "adams",
+      "black": "kasimdzhanov",
+      "result": "1/2-1/2",
+      "date": "2005-10-03",
+      "eco": "B92",
+      "plies": 58,
+      "pgnRef": "FideChamp2005.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "anand",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2005-10-03",
+      "eco": "B33",
+      "plies": 120,
+      "pgnRef": "FideChamp2005.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "anand",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2005-10-04",
+      "eco": "C89",
+      "plies": 77,
+      "pgnRef": "FideChamp2005.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "kasimdzhanov",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2005-10-04",
+      "eco": "B33",
+      "plies": 85,
+      "pgnRef": "FideChamp2005.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "polgar",
+      "black": "topalov",
+      "result": "0-1",
+      "date": "2005-10-04",
+      "eco": "C67",
+      "plies": 128,
+      "pgnRef": "FideChamp2005.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "adams",
+      "black": "morozevich",
+      "result": "1/2-1/2",
+      "date": "2005-10-04",
+      "eco": "B45",
+      "plies": 152,
+      "pgnRef": "FideChamp2005.pgn#23"
+    },
+    {
+      "round": 25,
+      "kind": "classical",
+      "white": "leko",
+      "black": "adams",
+      "result": "1-0",
+      "date": "2005-10-05",
+      "eco": "C42",
+      "plies": 78,
+      "pgnRef": "FideChamp2005.pgn#24"
+    },
+    {
+      "round": 26,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2005-10-05",
+      "eco": "B12",
+      "plies": 99,
+      "pgnRef": "FideChamp2005.pgn#25"
+    },
+    {
+      "round": 27,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "polgar",
+      "result": "1-0",
+      "date": "2005-10-05",
+      "eco": "B90",
+      "plies": 117,
+      "pgnRef": "FideChamp2005.pgn#26"
+    },
+    {
+      "round": 28,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "kasimdzhanov",
+      "result": "1-0",
+      "date": "2005-10-05",
+      "eco": "C88",
+      "plies": 145,
+      "pgnRef": "FideChamp2005.pgn#27"
+    },
+    {
+      "round": 29,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2005-10-06",
+      "eco": "E15",
+      "plies": 47,
+      "pgnRef": "FideChamp2005.pgn#28"
+    },
+    {
+      "round": 30,
+      "kind": "classical",
+      "white": "adams",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2005-10-06",
+      "eco": "B80",
+      "plies": 80,
+      "pgnRef": "FideChamp2005.pgn#29"
+    },
+    {
+      "round": 31,
+      "kind": "classical",
+      "white": "kasimdzhanov",
+      "black": "morozevich",
+      "result": "0-1",
+      "date": "2005-10-06",
+      "eco": "B83",
+      "plies": 106,
+      "pgnRef": "FideChamp2005.pgn#30"
+    },
+    {
+      "round": 32,
+      "kind": "classical",
+      "white": "anand",
+      "black": "polgar",
+      "result": "1-0",
+      "date": "2005-10-06",
+      "eco": "B48",
+      "plies": 123,
+      "pgnRef": "FideChamp2005.pgn#31"
+    },
+    {
+      "round": 33,
+      "kind": "classical",
+      "white": "anand",
+      "black": "topalov",
+      "result": "1/2-1/2",
+      "date": "2005-10-08",
+      "eco": "C65",
+      "plies": 33,
+      "pgnRef": "FideChamp2005.pgn#32"
+    },
+    {
+      "round": 34,
+      "kind": "classical",
+      "white": "polgar",
+      "black": "adams",
+      "result": "1/2-1/2",
+      "date": "2005-10-08",
+      "eco": "C89",
+      "plies": 73,
+      "pgnRef": "FideChamp2005.pgn#33"
+    },
+    {
+      "round": 35,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "kasimdzhanov",
+      "result": "1/2-1/2",
+      "date": "2005-10-08",
+      "eco": "B90",
+      "plies": 67,
+      "pgnRef": "FideChamp2005.pgn#34"
+    },
+    {
+      "round": 36,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "leko",
+      "result": "1-0",
+      "date": "2005-10-08",
+      "eco": "B33",
+      "plies": 107,
+      "pgnRef": "FideChamp2005.pgn#35"
+    },
+    {
+      "round": 37,
+      "kind": "classical",
+      "white": "adams",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2005-10-09",
+      "eco": "C88",
+      "plies": 49,
+      "pgnRef": "FideChamp2005.pgn#36"
+    },
+    {
+      "round": 38,
+      "kind": "classical",
+      "white": "leko",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2005-10-09",
+      "eco": "C88",
+      "plies": 71,
+      "pgnRef": "FideChamp2005.pgn#37"
+    },
+    {
+      "round": 39,
+      "kind": "classical",
+      "white": "kasimdzhanov",
+      "black": "polgar",
+      "result": "1-0",
+      "date": "2005-10-09",
+      "eco": "B85",
+      "plies": 93,
+      "pgnRef": "FideChamp2005.pgn#38"
+    },
+    {
+      "round": 40,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "morozevich",
+      "result": "1/2-1/2",
+      "date": "2005-10-09",
+      "eco": "D37",
+      "plies": 121,
+      "pgnRef": "FideChamp2005.pgn#39"
+    },
+    {
+      "round": 41,
+      "kind": "classical",
+      "white": "polgar",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2005-10-10",
+      "eco": "B13",
+      "plies": 49,
+      "pgnRef": "FideChamp2005.pgn#40"
+    },
+    {
+      "round": 42,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasimdzhanov",
+      "result": "1-0",
+      "date": "2005-10-10",
+      "eco": "B90",
+      "plies": 57,
+      "pgnRef": "FideChamp2005.pgn#41"
+    },
+    {
+      "round": 43,
+      "kind": "classical",
+      "white": "adams",
+      "black": "topalov",
+      "result": "1/2-1/2",
+      "date": "2005-10-10",
+      "eco": "B85",
+      "plies": 89,
+      "pgnRef": "FideChamp2005.pgn#42"
+    },
+    {
+      "round": 44,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "morozevich",
+      "result": "1-0",
+      "date": "2005-10-10",
+      "eco": "C42",
+      "plies": 139,
+      "pgnRef": "FideChamp2005.pgn#43"
+    },
+    {
+      "round": 45,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2005-10-11",
+      "eco": "C88",
+      "plies": 41,
+      "pgnRef": "FideChamp2005.pgn#44"
+    },
+    {
+      "round": 46,
+      "kind": "classical",
+      "white": "leko",
+      "black": "anand",
+      "result": "0-1",
+      "date": "2005-10-11",
+      "eco": "C42",
+      "plies": 106,
+      "pgnRef": "FideChamp2005.pgn#45"
+    },
+    {
+      "round": 47,
+      "kind": "classical",
+      "white": "kasimdzhanov",
+      "black": "adams",
+      "result": "1/2-1/2",
+      "date": "2005-10-11",
+      "eco": "C88",
+      "plies": 95,
+      "pgnRef": "FideChamp2005.pgn#46"
+    },
+    {
+      "round": 48,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "polgar",
+      "result": "1/2-1/2",
+      "date": "2005-10-11",
+      "eco": "B90",
+      "plies": 108,
+      "pgnRef": "FideChamp2005.pgn#47"
+    },
+    {
+      "round": 49,
+      "kind": "classical",
+      "white": "adams",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2005-10-13",
+      "eco": "B30",
+      "plies": 49,
+      "pgnRef": "FideChamp2005.pgn#48"
+    },
+    {
+      "round": 50,
+      "kind": "classical",
+      "white": "anand",
+      "black": "morozevich",
+      "result": "1/2-1/2",
+      "date": "2005-10-13",
+      "eco": "C11",
+      "plies": 53,
+      "pgnRef": "FideChamp2005.pgn#49"
+    },
+    {
+      "round": 51,
+      "kind": "classical",
+      "white": "kasimdzhanov",
+      "black": "topalov",
+      "result": "1/2-1/2",
+      "date": "2005-10-13",
+      "eco": "C67",
+      "plies": 93,
+      "pgnRef": "FideChamp2005.pgn#50"
+    },
+    {
+      "round": 52,
+      "kind": "classical",
+      "white": "polgar",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2005-10-13",
+      "eco": "C89",
+      "plies": 77,
+      "pgnRef": "FideChamp2005.pgn#51"
+    },
+    {
+      "round": 53,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "polgar",
+      "result": "1/2-1/2",
+      "date": "2005-10-14",
+      "eco": "E15",
+      "plies": 36,
+      "pgnRef": "FideChamp2005.pgn#52"
+    },
+    {
+      "round": 54,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2005-10-14",
+      "eco": "C42",
+      "plies": 37,
+      "pgnRef": "FideChamp2005.pgn#53"
+    },
+    {
+      "round": 55,
+      "kind": "classical",
+      "white": "leko",
+      "black": "kasimdzhanov",
+      "result": "1-0",
+      "date": "2005-10-14",
+      "eco": "B42",
+      "plies": 95,
+      "pgnRef": "FideChamp2005.pgn#54"
+    },
+    {
+      "round": 56,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "adams",
+      "result": "1/2-1/2",
+      "date": "2005-10-14",
+      "eco": "C77",
+      "plies": 107,
+      "pgnRef": "FideChamp2005.pgn#55"
+    }
+  ],
+  "featuredRounds": [
+    7,
+    51
+  ],
+  "moments": [
+    {
+      "id": "primera-vuelta",
+      "round": 7,
+      "title": {
+        "es": "Una primera vuelta histórica",
+        "en": "A historic first half"
+      },
+      "text": {
+        "es": "Topalov ganó seis de sus siete partidas de la primera vuelta. Solo Anand lo frenó en la segunda ronda, defendiendo con tenacidad un final de dama y peones que tenía perdido.",
+        "en": "Topalov won six of his seven first-half games. Only Anand stopped him, in round two, by tenaciously defending a lost queen-and-pawn ending."
+      }
+    },
+    {
+      "id": "titulo-asegurado",
+      "round": 51,
+      "title": {
+        "es": "Título asegurado",
+        "en": "Title secured"
+      },
+      "text": {
+        "es": "Con unas tablas ante Kasimdzhanov en la ronda 13, Topalov se aseguró el primer lugar con una ronda de anticipación.",
+        "en": "With a draw against Kasimdzhanov in round 13, Topalov clinched first place with a round to spare."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Judit Polgár fue la primera y, hasta hoy, la única mujer en jugar un Campeonato del Mundo de formato reducido, es decir, no un torneo por eliminación con más de cien jugadores.",
+        "en": "Judit Polgár became the first and, to date, only woman to play in a small-format World Championship, meaning not a knockout with over a hundred players."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_2005"
+      }
+    },
+    {
+      "text": {
+        "es": "Kramnik se negó a jugar y Kasparov ya se había retirado; sus plazas fueron para Peter Svidler y Judit Polgár, los siguientes del ranking.",
+        "en": "Kramnik refused to play and Kasparov had already retired; their places went to Peter Svidler and Judit Polgár, next on the rating list."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_2005"
+      }
+    },
+    {
+      "text": {
+        "es": "Anand y Svidler empataron en el segundo lugar con 8½ puntos; Anand quedó adelante por tener más victorias.",
+        "en": "Anand and Svidler tied for second on 8½ points; Anand placed ahead on number of wins."
+      },
+      "source": {
+        "label": "Mark Weeks – World Chess Championship",
+        "url": "https://www.mark-weeks.com/chess/a4a5$wix.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "Kramnik sostuvo que, por el «Acuerdo de Praga», le correspondía un match directo contra el campeón de la FIDE. Ese match se jugó en 2006 y reunificó el título.",
+        "en": "Kramnik argued that the \"Prague Agreement\" entitled him to a direct match against the FIDE champion. That match was played in 2006 and reunified the title."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_2005"
+      }
+    }
+  ],
+  "photos": [
+    "topalov-2005",
+    "anand-2005",
+    "polgar-2008",
+    "adams-2008",
+    "leko-topalov-2002"
+  ],
+  "videos": [
+    {
+      "youtubeId": "44J7vTQDVlQ",
+      "kind": "recap",
+      "title": {
+        "es": "Topalov en el torneo de San Luis, 2005: clase de Eric Hansen",
+        "en": "Topalov at the 2005 San Luis tournament: lecture by Eric Hansen"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_2005"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/a4a5$wix.htm"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "file": "kasparov-karpov-1988.jpg",
+  "caption": {
+    "es": "Garry Kasparov (izquierda) y Anatoly Karpov en el torneo Optiebeurs en Ámsterdam, 19 de mayo de 1988.",
+    "en": "Garry Kasparov (left) and Anatoly Karpov at the Optiebeurs tournament in Amsterdam, 19 May 1988."
+  },
+  "alt": {
+    "es": "Kasparov cubriéndose el rostro con las manos frente a Karpov, con fotógrafos detrás.",
+    "en": "Kasparov covering his face with his hands across the table from Karpov, with photographers behind."
+  },
+  "author": "Rob Croes / Anefo (Nationaal Archief)",
+  "license": "CC0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Optiebeurs_schaakvierkamp_Garri_Kasparov_tegen_Anatoli_Karpov_(rechts),_Bestanddeelnr_934-2524.jpg",
+  "focus": "50% 45%",
+  "people": [
+    "kasparov",
+    "karpov"
+  ],
+  "year": 1988
+}

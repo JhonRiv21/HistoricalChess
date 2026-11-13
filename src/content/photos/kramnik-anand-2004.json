@@ -1,0 +1,20 @@
+{
+  "file": "kramnik-anand-2004.jpg",
+  "caption": {
+    "es": "Vladimir Kramnik y Viswanathan Anand en los Días de Ajedrez de Dortmund, agosto de 2004.",
+    "en": "Vladimir Kramnik and Viswanathan Anand at the Dortmund Chess Days, August 2004."
+  },
+  "alt": {
+    "es": "Dos jugadores ante un tablero con fotógrafos de pie detrás.",
+    "en": "Two players at a board with photographers standing behind them."
+  },
+  "author": "GFHund",
+  "license": "CC BY 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kramnik_Anand_2004_Dortmund.jpg",
+  "focus": "40% 45%",
+  "people": [
+    "kramnik",
+    "anand"
+  ],
+  "year": 2004
+}

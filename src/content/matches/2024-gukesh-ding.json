@@ -1,0 +1,336 @@
+{
+  "year": 2024,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "ding",
+      "name": "Ding Liren",
+      "short": "Ding",
+      "country": {
+        "es": "China",
+        "en": "China"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "gukesh",
+      "name": "Gukesh Dommaraju",
+      "short": "Gukesh",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "gukesh",
+  "score": {
+    "ding": 6.5,
+    "gukesh": 7.5
+  },
+  "site": {
+    "es": "Singapur",
+    "en": "Singapore"
+  },
+  "dates": {
+    "start": "2024-11-25",
+    "end": "2024-12-12"
+  },
+  "summary": {
+    "es": "Ding Liren defendió el título en Singapur ante el indio Gukesh Dommaraju, de 18 años, ganador del Torneo de Candidatos de 2024. Ding ganó la primera partida, Gukesh empató en la tercera y se adelantó en la undécima, pero Ding volvió a igualar al día siguiente. Cuando todo apuntaba al desempate, Ding cometió un error en el final de la última partida: Gukesh ganó 7½–6½ y se convirtió en el campeón mundial indiscutido más joven de la historia.",
+    "en": "Ding Liren defended the title in Singapore against India's 18-year-old Gukesh Dommaraju, winner of the 2024 Candidates. Ding won the first game, Gukesh levelled in game three and went ahead in game eleven, but Ding equalized again the next day. Just as a playoff seemed certain, Ding blundered in the ending of the final game: Gukesh won 7½–6½ and became the youngest undisputed world champion ever."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "gukesh",
+      "black": "ding",
+      "result": "0-1",
+      "date": "2024-11-25",
+      "eco": "C11",
+      "plies": 84,
+      "pgnRef": "WorldChamp2024.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "ding",
+      "black": "gukesh",
+      "result": "1/2-1/2",
+      "date": "2024-11-26",
+      "eco": "C50",
+      "plies": 46,
+      "pgnRef": "WorldChamp2024.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "gukesh",
+      "black": "ding",
+      "result": "1-0",
+      "date": "2024-11-27",
+      "eco": "D02",
+      "plies": 74,
+      "pgnRef": "WorldChamp2024.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "ding",
+      "black": "gukesh",
+      "result": "1/2-1/2",
+      "date": "2024-11-29",
+      "eco": "A06",
+      "plies": 84,
+      "pgnRef": "WorldChamp2024.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "gukesh",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2024-11-30",
+      "eco": "C01",
+      "plies": 80,
+      "pgnRef": "WorldChamp2024.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "ding",
+      "black": "gukesh",
+      "result": "1/2-1/2",
+      "date": "2024-12-01",
+      "eco": "A45",
+      "plies": 92,
+      "pgnRef": "WorldChamp2024.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "gukesh",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2024-12-03",
+      "eco": "D78",
+      "plies": 143,
+      "pgnRef": "WorldChamp2024.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "ding",
+      "black": "gukesh",
+      "result": "1/2-1/2",
+      "date": "2024-12-04",
+      "eco": "A21",
+      "plies": 102,
+      "pgnRef": "WorldChamp2024.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "gukesh",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2024-12-05",
+      "eco": "E00",
+      "plies": 107,
+      "pgnRef": "WorldChamp2024.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "ding",
+      "black": "gukesh",
+      "result": "1/2-1/2",
+      "date": "2024-12-07",
+      "eco": "D02",
+      "plies": 72,
+      "pgnRef": "WorldChamp2024.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "gukesh",
+      "black": "ding",
+      "result": "1-0",
+      "date": "2024-12-08",
+      "eco": "A09",
+      "plies": 57,
+      "pgnRef": "WorldChamp2024.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "ding",
+      "black": "gukesh",
+      "result": "1-0",
+      "date": "2024-12-09",
+      "eco": "A13",
+      "plies": 77,
+      "pgnRef": "WorldChamp2024.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "gukesh",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2024-12-11",
+      "eco": "C11",
+      "plies": 136,
+      "pgnRef": "WorldChamp2024.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "ding",
+      "black": "gukesh",
+      "result": "0-1",
+      "date": "2024-12-12",
+      "eco": "A08",
+      "plies": 116,
+      "pgnRef": "WorldChamp2024.pgn#13"
+    }
+  ],
+  "featuredRounds": [
+    1,
+    12,
+    14
+  ],
+  "moments": [
+    {
+      "id": "ding-arranca",
+      "round": 1,
+      "title": {
+        "es": "El campeón golpea primero",
+        "en": "The champion strikes first"
+      },
+      "text": {
+        "es": "Ding, que llegaba en el puesto 23 del ranking tras meses casi sin jugar, ganó la primera partida con negras.",
+        "en": "Ding, ranked 23rd after months of barely playing, won the first game with Black."
+      }
+    },
+    {
+      "id": "ding-responde",
+      "round": 12,
+      "title": {
+        "es": "La respuesta de Ding",
+        "en": "Ding's reply"
+      },
+      "text": {
+        "es": "Un día después de quedar abajo por la derrota en la partida 11, Ding ganó con blancas y empató el match 6–6.",
+        "en": "A day after falling behind with his loss in game 11, Ding won with White and tied the match at 6–6."
+      }
+    },
+    {
+      "id": "tf2",
+      "round": 14,
+      "ply": 109,
+      "title": {
+        "es": "El error decisivo",
+        "en": "The decisive blunder"
+      },
+      "text": {
+        "es": "En un final de tablas teóricas, Ding ofreció cambiar torres con 55.Tf2 cuando su alfil estaba encerrado en una esquina. Gukesh pasó a un final de peones ganado y se coronó campeón.",
+        "en": "In a theoretically drawn ending, Ding offered a rook trade with 55.Rf2 while his bishop was stuck in a corner. Gukesh went into a winning pawn ending and was crowned champion."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Con 18 años, Gukesh se convirtió en el campeón mundial indiscutido más joven; solo Ruslan Ponomariov, campeón de la FIDE en 2002 en la época del título dividido, ganó un título siendo más joven.",
+        "en": "At 18, Gukesh became the youngest undisputed world champion; only Ruslan Ponomariov, FIDE champion in 2002 during the split-title era, won a title at a younger age."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2024"
+      }
+    },
+    {
+      "text": {
+        "es": "Antes del match, Gukesh era quinto del ranking mundial con 2783 puntos y Ding era el número 23 con 2727.",
+        "en": "Before the match Gukesh was ranked fifth in the world with 2783 and Ding 23rd with 2727."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2024"
+      }
+    },
+    {
+      "text": {
+        "es": "Tras ganar el título en 2023, Ding estuvo meses sin jugar torneos; luego contó que se debía al cansancio y a la depresión.",
+        "en": "After winning the title in 2023 Ding stayed away from tournaments for months; he later said it was due to fatigue and depression."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2024"
+      }
+    },
+    {
+      "text": {
+        "es": "Gukesh recibió 1.350.000 dólares y Ding, 1.150.000.",
+        "en": "Gukesh received 1,350,000 dollars and Ding 1,150,000."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2024"
+      }
+    }
+  ],
+  "photos": [
+    "ding-gukesh-2023",
+    "gukesh-2024",
+    "ding-2024",
+    "wcc-2023-ding"
+  ],
+  "videos": [
+    {
+      "youtubeId": "wWkhcOOKC70",
+      "kind": "recap",
+      "title": {
+        "es": "Ding contra Gukesh, 2024: partida 14",
+        "en": "Ding vs. Gukesh, 2024: game 14"
+      },
+      "channel": "agadmator's Chess Channel",
+      "round": 14,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "vaC_lF3pVjw",
+      "kind": "recap",
+      "title": {
+        "es": "La partida final del campeonato mundial de 2024",
+        "en": "The final game of the 2024 world championship"
+      },
+      "channel": "ChessBase India",
+      "round": 14,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "MnaoIvHRl80",
+      "kind": "recap",
+      "title": {
+        "es": "Gukesh, campeón del mundo (2024)",
+        "en": "Gukesh is world champion (2024)"
+      },
+      "channel": "GothamChess",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2024"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+---
+// Horizontal rail of every championship, grouped by era. Pure HTML: no JavaScript needed.
+import { matchUrl, playerOf, type Match } from '../lib/content';
+import { scoreLine } from '../lib/format';
+import { pick, t, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang; matches: Match[] }
+const { lang, matches } = Astro.props;
+
+const ERAS = ['classic', 'fide', 'split', 'unified'] as const;
+const KIND_TAG = { tournament: 'kind.tournament', forfeit: 'kind.forfeit', knockout: 'kind.knockout', upcoming: 'kind.upcoming' } as const;
+const TITLE_TAG = { pca: 'title.pca', fide: 'title.fide', classical: 'title.classical' } as const;
+
+function card(match: Match) {
+  const d = match.data;
+  const winner = playerOf(d, d.winner);
+  const loser = d.kind === 'match' && winner ? d.players.find((p) => p.id !== winner.id) : undefined;
+  const [first, second] = winner && loser ? [winner, loser] : d.players;
+  const score = d.score && first && second && d.kind === 'match' ? scoreLine(d.score[first.id] ?? 0, d.score[second.id] ?? 0) : null;
+  const tiebreak = d.tiebreak && first && second ? scoreLine(d.tiebreak[first.id] ?? 0, d.tiebreak[second.id] ?? 0) : null;
+  return {
+    id: match.id,
+    year: d.year,
+    href: matchUrl(lang, match.id),
+    title: d.title !== 'undisputed' ? t(lang, TITLE_TAG[d.title]) : null,
+    winner: winner && loser ? winner.short : null,
+    loser: loser?.short ?? null,
+    names: d.players.slice(0, 2).map((p) => p.short).join(' – '),
+    score: score && tiebreak ? `${score}, ${t(lang, 'timeline.rapid')} ${tiebreak}` : score,
+    site: pick(d.site, lang),
+    note: d.note ? pick(d.note, lang) : null,
+    tag: d.kind !== 'match' ? t(lang, KIND_TAG[d.kind]) : null,
+    upcoming: d.kind === 'upcoming',
+  };
+}
+---
+
+<div class="timeline">
+  <ol class="tl-rail" tabindex="0" aria-label={t(lang, 'timeline.label')}>
+    {ERAS.map((era) => (
+      <li class={`tl-era era-${era}`}>
+        <h3 class="tl-era-title">{t(lang, `era.${era}`)}</h3>
+        <ol class="tl-cards">
+          {matches.filter((m) => m.data.era === era).map(card).map((c) => (
+            <li id={`y-${c.id}`}>
+              <a class:list={['tl-card', { 'has-page': c.upcoming }]} href={c.href}>
+                <span class="tl-year">{c.year}</span>
+                {c.title && <span class="tl-line">{c.title}</span>}
+                <span class="tl-players">
+                  {c.winner ? <><strong>{c.winner}</strong><span class="vs"> {t(lang, 'timeline.beats')} {c.loser}</span></> : <strong>{c.names}</strong>}
+                </span>
+                {c.score && <span class="tl-score">{c.score}</span>}
+                <span class="tl-site">{c.site}</span>
+                {c.tag && <span class:list={['tl-tag', { 'tag-upcoming': c.upcoming }]}>{c.tag}</span>}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </li>
+    ))}
+  </ol>
+</div>

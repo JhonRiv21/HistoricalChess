@@ -1,0 +1,437 @@
+{
+  "year": 1934,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "alekhine",
+      "name": "Alexander Alekhine",
+      "short": "Alekhine",
+      "country": {
+        "es": "Rusia / Francia",
+        "en": "Russia / France"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "bogoljubov",
+      "name": "Efim Bogoljubov",
+      "short": "Bogoljubov",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "alekhine",
+  "score": {
+    "bogoljubov": 10.5,
+    "alekhine": 15.5
+  },
+  "site": {
+    "es": "Alemania (doce ciudades, de Baden-Baden a Berlín)",
+    "en": "Germany (twelve cities, from Baden-Baden to Berlin)"
+  },
+  "dates": {
+    "start": "1934-04-01",
+    "end": "1934-06-14"
+  },
+  "summary": {
+    "es": "Una revancha que pocos pedían: Alekhine volvió a enfrentar a Bogoljubov cuando muchos creían que había retadores con más méritos. El match recorrió doce ciudades alemanas y Alekhine ganó 8 partidas contra 3, con 15 tablas, para un 15½ a 10½. El propio campeón diría después que el match fue inútil desde el punto de vista deportivo.",
+    "en": "A rematch few had asked for: Alekhine faced Bogoljubov again when many believed there were more deserving challengers. The match toured twelve German cities and Alekhine won 8 games to 3, with 15 draws, 15½–10½. The champion himself later called the match useless from a sporting point of view."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1934-04-01",
+      "eco": "D50",
+      "plies": 130,
+      "pgnRef": "WorldChamp1934.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1-0",
+      "date": "1934-04-04",
+      "eco": "D48",
+      "plies": 73,
+      "pgnRef": "WorldChamp1934.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1934-04-06",
+      "eco": "D22",
+      "plies": 54,
+      "pgnRef": "WorldChamp1934.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1-0",
+      "date": "1934-04-11",
+      "eco": "D31",
+      "plies": 121,
+      "pgnRef": "WorldChamp1934.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1934-04-13",
+      "eco": "D26",
+      "plies": 101,
+      "pgnRef": "WorldChamp1934.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1934-04-18",
+      "eco": "D30",
+      "plies": 120,
+      "pgnRef": "WorldChamp1934.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1934-04-20",
+      "eco": "D28",
+      "plies": 34,
+      "pgnRef": "WorldChamp1934.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1934-04-22",
+      "eco": "E24",
+      "plies": 127,
+      "pgnRef": "WorldChamp1934.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1934-04-25",
+      "eco": "A44",
+      "plies": 92,
+      "pgnRef": "WorldChamp1934.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "0-1",
+      "date": "1934-04-27",
+      "eco": "D52",
+      "plies": 162,
+      "pgnRef": "WorldChamp1934.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1934-04-29",
+      "eco": "A91",
+      "plies": 124,
+      "pgnRef": "WorldChamp1934.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1934-05-02",
+      "eco": "D49",
+      "plies": 149,
+      "pgnRef": "WorldChamp1934.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1934-05-06",
+      "eco": "A47",
+      "plies": 147,
+      "pgnRef": "WorldChamp1934.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1934-05-08",
+      "eco": "D60",
+      "plies": 107,
+      "pgnRef": "WorldChamp1934.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1934-05-11",
+      "eco": "D21",
+      "plies": 139,
+      "pgnRef": "WorldChamp1934.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1-0",
+      "date": "1934-05-13",
+      "eco": "C77",
+      "plies": 85,
+      "pgnRef": "WorldChamp1934.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1934-05-20",
+      "eco": "D24",
+      "plies": 82,
+      "pgnRef": "WorldChamp1934.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1934-05-21",
+      "eco": "D05",
+      "plies": 56,
+      "pgnRef": "WorldChamp1934.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1934-05-26",
+      "eco": "D27",
+      "plies": 115,
+      "pgnRef": "WorldChamp1934.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1934-05-27",
+      "eco": "D52",
+      "plies": 88,
+      "pgnRef": "WorldChamp1934.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1934-05-30",
+      "eco": "D30",
+      "plies": 126,
+      "pgnRef": "WorldChamp1934.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1934-06-01",
+      "eco": "E35",
+      "plies": 83,
+      "pgnRef": "WorldChamp1934.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1934-06-03",
+      "eco": "D23",
+      "plies": 115,
+      "pgnRef": "WorldChamp1934.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "0-1",
+      "date": "1934-06-06",
+      "eco": "D30",
+      "plies": 78,
+      "pgnRef": "WorldChamp1934.pgn#23"
+    },
+    {
+      "round": 25,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1934-06-11",
+      "eco": "D11",
+      "plies": 88,
+      "pgnRef": "WorldChamp1934.pgn#24"
+    },
+    {
+      "round": 26,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1934-06-14",
+      "eco": "E67",
+      "plies": 47,
+      "pgnRef": "WorldChamp1934.pgn#25"
+    }
+  ],
+  "featuredRounds": [
+    25,
+    24
+  ],
+  "moments": [
+    {
+      "id": "primera-victoria",
+      "title": {
+        "es": "Primera victoria",
+        "en": "First win"
+      },
+      "text": {
+        "es": "Tras unas tablas en la primera partida, Alekhine ganó la segunda y la cuarta con blancas.",
+        "en": "After a draw in game 1, Alekhine won games 2 and 4 with White."
+      },
+      "round": 2
+    },
+    {
+      "id": "dos-de-bogoljubov",
+      "title": {
+        "es": "Bogoljubov reacciona tarde",
+        "en": "Bogoljubov hits back too late"
+      },
+      "text": {
+        "es": "Bogoljubov ganó dos partidas seguidas, la 23 y la 24, pero ya estaba demasiado lejos en el marcador.",
+        "en": "Bogoljubov won two games in a row, 23 and 24, but by then he was too far behind."
+      },
+      "round": 24
+    },
+    {
+      "id": "mas-de-quince",
+      "title": {
+        "es": "Pasar de 15 puntos",
+        "en": "Getting past 15 points"
+      },
+      "text": {
+        "es": "Alekhine tenía seis victorias desde la partida 17, pero necesitaba más de 15 puntos: llegó a 15 con su triunfo en la 25 y los superó con las tablas de la 26.",
+        "en": "Alekhine had six wins from game 17 on, but needed more than 15 points: he reached 15 with his win in game 25 and passed it with a draw in game 26."
+      },
+      "round": 26
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Comentando una de las partidas en su libro de mejores partidas, Alekhine escribió: «Esta partida, más que ninguna otra, demuestra lo inútil que fue, desde el punto de vista deportivo, organizar este segundo match».",
+        "en": "Annotating one of the games in his best-games collection, Alekhine wrote: \"This game – more than any other – proves how useless from the sporting point of view was the arrangement of this second match.\""
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1934"
+      }
+    },
+    {
+      "text": {
+        "es": "Como en 1929, ganaba el primero que sumara seis victorias y más de 15 puntos.",
+        "en": "As in 1929, the winner was the first to collect six wins and more than 15 points."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1934"
+      }
+    },
+    {
+      "text": {
+        "es": "Se jugó en doce ciudades de Alemania, empezando en Baden-Baden y terminando en Berlín.",
+        "en": "It was played in twelve German cities, starting in Baden-Baden and finishing in Berlin."
+      },
+      "source": {
+        "label": "OlimpBase",
+        "url": "https://www.olimpbase.org/ind-wcc/wc1934-wch.html"
+      }
+    },
+    {
+      "text": {
+        "es": "Era la segunda vez que se enfrentaban por el título: en 1929, en la única defensa previa de Alekhine, ya le había ganado 15½ a 9½.",
+        "en": "It was their second title match: in 1929, Alekhine's only previous defence, he had already beaten Bogoljubov 15½–9½."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1934"
+      }
+    }
+  ],
+  "photos": [
+    "san-remo-1930",
+    "euwe-bogoljubov-1928",
+    "alekhine-1924-bain"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1934"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/34ab$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1934-wch.html"
+    }
+  ]
+}

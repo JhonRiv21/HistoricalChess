@@ -1,0 +1,18 @@
+{
+  "file": "marshall-portrait.jpg",
+  "caption": {
+    "es": "Retrato de Frank Marshall en un marco ovalado.",
+    "en": "Portrait of Frank Marshall in an oval frame."
+  },
+  "alt": {
+    "es": "Retrato oval en blanco y negro de Frank Marshall con corbatín.",
+    "en": "Oval black-and-white portrait of Frank Marshall with a bow tie."
+  },
+  "author": "Unknown author",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marshall,_Frank_James_-_DPLA_-_5a68b2a083f0a91b3a8d6fb699b66f59.jpg",
+  "focus": "50% 30%",
+  "people": [
+    "marshall"
+  ]
+}

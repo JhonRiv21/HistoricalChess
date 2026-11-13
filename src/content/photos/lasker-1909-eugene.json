@@ -1,0 +1,19 @@
+{
+  "file": "lasker-1909-eugene.jpg",
+  "caption": {
+    "es": "Emanuel Lasker en un retrato del fotógrafo Frank Eugene, 1909.",
+    "en": "Emanuel Lasker in a portrait by the photographer Frank Eugene, 1909."
+  },
+  "alt": {
+    "es": "Retrato de Emanuel Lasker frente a un fondo de tablero, con bigote y chaqueta oscura.",
+    "en": "Portrait of Emanuel Lasker in front of a chequered board, with a moustache and dark jacket."
+  },
+  "author": "Frank Eugene",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frank_Eugene_Smith_-_Bildnis_Schachweltmeister_Dr._Emanuel_Lasker.jpg",
+  "focus": "50% 25%",
+  "people": [
+    "lasker"
+  ],
+  "year": 1909
+}

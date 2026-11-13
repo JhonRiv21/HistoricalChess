@@ -1,0 +1,386 @@
+{
+  "year": 1894,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "steinitz",
+      "name": "Wilhelm Steinitz",
+      "short": "Steinitz",
+      "country": {
+        "es": "Austria / Estados Unidos",
+        "en": "Austria / United States"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "lasker",
+      "name": "Emanuel Lasker",
+      "short": "Lasker",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "lasker",
+  "score": {
+    "lasker": 12,
+    "steinitz": 7
+  },
+  "site": {
+    "es": "Nueva York, Filadelfia y Montreal",
+    "en": "New York, Philadelphia and Montreal"
+  },
+  "dates": {
+    "start": "1894-03-15",
+    "end": "1894-05-26"
+  },
+  "summary": {
+    "es": "El veterano Steinitz, que había hablado de retirarse, aceptó el desafío de Emanuel Lasker, un alemán 32 años más joven. Tras un comienzo parejo, Lasker ganó cinco partidas seguidas, de la 7 a la 11, y aunque Steinitz reaccionó en Montreal, Lasker logró su décima victoria el 26 de mayo. Empezaba el reinado más largo de la historia: 27 años.",
+    "en": "The veteran Steinitz, who had talked about retiring, accepted the challenge of Emanuel Lasker, a German 32 years his junior. After an even start, Lasker won five games in a row, from game 7 to 11, and although Steinitz fought back in Montreal, Lasker reached his tenth win on 26 May. It began the longest reign in history: 27 years."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1894-03-15",
+      "eco": "C62",
+      "plies": 119,
+      "pgnRef": "WorldChamp1894.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1-0",
+      "date": "1894-03-19",
+      "eco": "C65",
+      "plies": 83,
+      "pgnRef": "WorldChamp1894.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1894-03-21",
+      "eco": "C62",
+      "plies": 103,
+      "pgnRef": "WorldChamp1894.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1-0",
+      "date": "1894-03-23",
+      "eco": "C54",
+      "plies": 119,
+      "pgnRef": "WorldChamp1894.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1894-03-27",
+      "eco": "C62",
+      "plies": 99,
+      "pgnRef": "WorldChamp1894.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1894-03-29",
+      "eco": "C54",
+      "plies": 142,
+      "pgnRef": "WorldChamp1894.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1894-04-03",
+      "eco": "C62",
+      "plies": 91,
+      "pgnRef": "WorldChamp1894.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1894-04-05",
+      "eco": "C10",
+      "plies": 152,
+      "pgnRef": "WorldChamp1894.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1894-04-14",
+      "eco": "C46",
+      "plies": 97,
+      "pgnRef": "WorldChamp1894.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1894-04-19",
+      "eco": "D35",
+      "plies": 68,
+      "pgnRef": "WorldChamp1894.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1894-04-21",
+      "eco": "D40",
+      "plies": 75,
+      "pgnRef": "WorldChamp1894.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1894-05-03",
+      "eco": "D60",
+      "plies": 96,
+      "pgnRef": "WorldChamp1894.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1894-05-05",
+      "eco": "C68",
+      "plies": 110,
+      "pgnRef": "WorldChamp1894.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1-0",
+      "date": "1894-05-08",
+      "eco": "D46",
+      "plies": 91,
+      "pgnRef": "WorldChamp1894.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1894-05-15",
+      "eco": "D40",
+      "plies": 87,
+      "pgnRef": "WorldChamp1894.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1894-05-17",
+      "eco": "D60",
+      "plies": 108,
+      "pgnRef": "WorldChamp1894.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1894-05-19",
+      "eco": "C50",
+      "plies": 102,
+      "pgnRef": "WorldChamp1894.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1894-05-22",
+      "eco": "D67",
+      "plies": 122,
+      "pgnRef": "WorldChamp1894.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1894-05-26",
+      "eco": "D40",
+      "plies": 103,
+      "pgnRef": "WorldChamp1894.pgn#18"
+    }
+  ],
+  "featuredRounds": [
+    19,
+    11
+  ],
+  "moments": [
+    {
+      "id": "cinco-seguidas",
+      "title": {
+        "es": "Cinco victorias seguidas",
+        "en": "Five wins in a row"
+      },
+      "text": {
+        "es": "Steinitz mantuvo el equilibrio hasta la sexta partida, pero Lasker ganó de la 7 a la 11 y tomó una ventaja decisiva.",
+        "en": "Steinitz held the balance until game 6, but Lasker won games 7 through 11 and took a decisive lead."
+      },
+      "round": 11
+    },
+    {
+      "id": "reaccion-en-montreal",
+      "title": {
+        "es": "La reacción en Montreal",
+        "en": "The fightback in Montreal"
+      },
+      "text": {
+        "es": "Ya en Montreal, Steinitz ganó las partidas 13 y 14, pero Lasker respondió ganando la 15 y la 16.",
+        "en": "In Montreal, Steinitz won games 13 and 14, but Lasker answered by winning games 15 and 16."
+      },
+      "round": 14
+    },
+    {
+      "id": "nuevo-campeon",
+      "title": {
+        "es": "Un nuevo campeón",
+        "en": "A new champion"
+      },
+      "text": {
+        "es": "Con su victoria en la partida 19, el 26 de mayo de 1894, Lasker llegó a diez triunfos y se convirtió en el segundo campeón del mundo.",
+        "en": "With his win in game 19 on 26 May 1894, Lasker reached ten wins and became the second world champion."
+      },
+      "round": 19
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Lasker quería jugar por 5.000 dólares por bando; se acordaron 3.000, pero Steinitz aceptó rebajas porque a Lasker le costaba reunir el dinero, y al final fueron 2.000 por jugador.",
+        "en": "Lasker wanted $5,000 a side; $3,000 was agreed, but Steinitz accepted reductions because Lasker struggled to raise the money, and it ended at $2,000 each."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1894"
+      }
+    },
+    {
+      "text": {
+        "es": "Se jugó en tres ciudades: las partidas 1 a 8 en Nueva York, la 9 a la 11 en Filadelfia y la 12 a la 19 en Montreal.",
+        "en": "It was played in three cities: games 1–8 in New York, 9–11 in Philadelphia and 12–19 in Montreal."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1894"
+      }
+    },
+    {
+      "text": {
+        "es": "Según el maestro Jack Peters, Lasker buscó a propósito cambiar damas pronto, porque había notado que Steinitz dudaba en las posiciones simplificadas.",
+        "en": "According to master Jack Peters, Lasker deliberately sought early queen trades because he had noticed Steinitz's uncertainty in simplified positions."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1894"
+      }
+    },
+    {
+      "text": {
+        "es": "Años después Lasker escribió sobre su rival: «Era un pensador digno de un lugar en las aulas de una universidad. Un jugador, como el mundo creía que era, no lo era».",
+        "en": "Years later Lasker wrote of his rival: \"He was a thinker worthy of a seat in the halls of a University. A player, as the world believed he was, he was not.\""
+      },
+      "source": {
+        "label": "Mark Weeks",
+        "url": "https://www.mark-weeks.com/chess/z4ls$wix.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "En abril de 1894, en pleno match, el British Chess Magazine describía a Steinitz como dueño del «campeonato de ajedrez del mundo desde hace 28 años», contando desde su victoria sobre Anderssen en 1866.",
+        "en": "In April 1894, during the match, the British Chess Magazine described Steinitz as holding \"the chess championship of the world for 28 years\", counting from his 1866 win over Anderssen."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Wilhelm_Steinitz"
+      }
+    }
+  ],
+  "photos": [
+    "lasker-steinitz-1894-philadelphia",
+    "steinitz-1896",
+    "lasker-1908"
+  ],
+  "videos": [
+    {
+      "youtubeId": "BSH_ajWfoz0",
+      "kind": "recap",
+      "title": {
+        "es": "Lasker contra Steinitz, match de 1894",
+        "en": "Lasker vs. Steinitz, 1894 match"
+      },
+      "channel": "Partidas Inmortales de Ajedrez",
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1894"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/z4ls$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1894-wch.html"
+    },
+    {
+      "label": "Wikipedia (Wilhelm Steinitz)",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Steinitz"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+---
+import { getEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import HeroLineup from '../../components/HeroLineup.svelte';
+import Timeline from '../../components/Timeline.astro';
+import { FEATURED } from '../../data/featured';
+import { getMatches, matchUrl, playerOf } from '../../lib/content';
+import { responsive } from '../../lib/images';
+import { LANGS, pick, t, type Lang } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Lang;
+const matches = await getMatches();
+
+const champions = await Promise.all(FEATURED.map(async (f) => {
+  const match = matches.find((m) => m.id === f.matchSlug);
+  const player = match && playerOf(match.data, f.id);
+  const photo = await getEntry('photos', f.photo);
+  if (!match || !player || !photo) throw new Error(`Featured champion ${f.id}: missing match, player or photo`);
+  return {
+    id: f.id,
+    name: player.name,
+    short: player.short,
+    country: pick(player.country, lang),
+    reign: f.reign,
+    line: pick(f.line, lang),
+    image: { ...(await responsive(photo.data.file, [360, 640, 960])), focus: photo.data.focus },
+    href: matchUrl(lang, match.id),
+    cta: `${t(lang, 'hero.openMatch')} ${match.data.year}`,
+  };
+}));
+---
+
+<BaseLayout lang={lang} title={t(lang, 'site.name')} description={t(lang, 'site.tagline')} altPath={`/${lang === 'es' ? 'en' : 'es'}/`}>
+  <div class="view view-home">
+    <HeroLineup client:load {lang} {champions} />
+    <section class="section intro" id="timeline">
+      <h1 class="section-title">{t(lang, 'home.title')}</h1>
+      <p class="lede">{t(lang, 'home.lede')}</p>
+      <Timeline {lang} {matches} />
+    </section>
+  </div>
+</BaseLayout>

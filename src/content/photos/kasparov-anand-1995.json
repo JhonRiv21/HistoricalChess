@@ -1,0 +1,20 @@
+{
+  "file": "kasparov-anand-1995.jpg",
+  "caption": {
+    "es": "Garry Kasparov y Viswanathan Anand durante el match por el campeonato mundial de 1995 en el World Trade Center de Nueva York.",
+    "en": "Garry Kasparov and Viswanathan Anand during the 1995 world championship match at the World Trade Center in New York."
+  },
+  "alt": {
+    "es": "Dos jugadores en una mesa en un mirador alto con el horizonte de Manhattan detrás.",
+    "en": "Two players at a table on a high observation deck with the Manhattan skyline behind them."
+  },
+  "author": "Owen Williams / S.M.S.I., Inc.",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kasparov-10.jpg",
+  "focus": "40% 55%",
+  "people": [
+    "kasparov",
+    "anand"
+  ],
+  "year": 1995
+}

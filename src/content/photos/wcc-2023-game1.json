@@ -1,0 +1,20 @@
+{
+  "file": "wcc-2023-game1.jpg",
+  "caption": {
+    "es": "Ian Nepomniachtchi jugando 1.e4 contra Ding Liren en la partida 1 del campeonato mundial de 2023, 9 de abril de 2023.",
+    "en": "Ian Nepomniachtchi playing 1.e4 against Ding Liren in game 1 of the 2023 world championship, 9 April 2023."
+  },
+  "alt": {
+    "es": "Nepomniachtchi moviendo un peón mientras Ding espera y un árbitro está de pie detrás.",
+    "en": "Nepomniachtchi moving a pawn while Ding waits and an arbiter stands behind."
+  },
+  "author": "Vladimir Barsky / ruchess.ru",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Chess_Championship_2023,_game_01,_start.jpg",
+  "focus": "50% 55%",
+  "people": [
+    "nepomniachtchi",
+    "ding"
+  ],
+  "year": 2023
+}

@@ -1,0 +1,19 @@
+{
+  "file": "karpov-1993.jpg",
+  "caption": {
+    "es": "Anatoly Karpov en un torneo en 1993.",
+    "en": "Anatoly Karpov at a tournament in 1993."
+  },
+  "alt": {
+    "es": "Karpov visto de lado, sentado en una mesa de torneo con una bandera rusa.",
+    "en": "Karpov seen from the side, sitting at a tournament table with a Russian flag."
+  },
+  "author": "Stefan64",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anatoly_Karpov_in_1993.jpg",
+  "focus": "35% 55%",
+  "people": [
+    "karpov"
+  ],
+  "year": 1993
+}

@@ -1,0 +1,20 @@
+{
+  "file": "wcc-moscow-2012.jpg",
+  "caption": {
+    "es": "Entrada de la sede del match por el campeonato mundial de 2012 en Moscú.",
+    "en": "Entrance to the venue of the 2012 world championship match in Moscow."
+  },
+  "alt": {
+    "es": "La entrada de un salón decorada con el logotipo del match y jugadores de ajedrez pintados.",
+    "en": "A hall entrance decorated with the match logo and painted chess players."
+  },
+  "author": "Rodrigo Fernández",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Chess_Championship_2012.JPG",
+  "focus": "50% 50%",
+  "people": [
+    "anand",
+    "gelfand"
+  ],
+  "year": 2012
+}

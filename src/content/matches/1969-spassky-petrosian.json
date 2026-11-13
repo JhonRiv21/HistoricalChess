@@ -1,0 +1,421 @@
+{
+  "year": 1969,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "petrosian",
+      "name": "Tigran Petrosian",
+      "short": "Petrosian",
+      "country": {
+        "es": "URSS (Armenia)",
+        "en": "Soviet Union (Armenia)"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "spassky",
+      "name": "Boris Spassky",
+      "short": "Spassky",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "spassky",
+  "score": {
+    "spassky": 12.5,
+    "petrosian": 10.5
+  },
+  "site": {
+    "es": "Moscú, URSS",
+    "en": "Moscow, Soviet Union"
+  },
+  "dates": {
+    "start": "1969-04-14",
+    "end": "1969-06-17"
+  },
+  "summary": {
+    "es": "Spassky volvió a ganar los matches de candidatos y tuvo una segunda oportunidad contra Petrosian, tres años después. Perdió la primera partida, pero su estilo versátil terminó por imponerse y ganó 12½–10½, con seis victorias contra cuatro. Se convirtió en el décimo campeón del mundo.",
+    "en": "Spassky won the Candidates matches again and got a second chance against Petrosian, three years later. He lost the first game, but his versatile style prevailed and he won 12½–10½, with six wins to four. He became the tenth world champion."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "0-1",
+      "eco": "B42",
+      "plies": 112,
+      "pgnRef": "WorldChamp1969.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "D34",
+      "plies": 121,
+      "pgnRef": "WorldChamp1969.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "B36",
+      "plies": 86,
+      "pgnRef": "WorldChamp1969.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "0-1",
+      "eco": "D34",
+      "plies": 82,
+      "pgnRef": "WorldChamp1969.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1-0",
+      "eco": "D41",
+      "plies": 59,
+      "pgnRef": "WorldChamp1969.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "D56",
+      "plies": 94,
+      "pgnRef": "WorldChamp1969.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "D19",
+      "plies": 53,
+      "pgnRef": "WorldChamp1969.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "0-1",
+      "eco": "D37",
+      "plies": 88,
+      "pgnRef": "WorldChamp1969.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "A56",
+      "plies": 130,
+      "pgnRef": "WorldChamp1969.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "1-0",
+      "eco": "E48",
+      "plies": 75,
+      "pgnRef": "WorldChamp1969.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "0-1",
+      "eco": "E12",
+      "plies": 111,
+      "pgnRef": "WorldChamp1969.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "D34",
+      "plies": 97,
+      "pgnRef": "WorldChamp1969.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "C42",
+      "plies": 49,
+      "pgnRef": "WorldChamp1969.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "D55",
+      "plies": 111,
+      "pgnRef": "WorldChamp1969.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "C42",
+      "plies": 38,
+      "pgnRef": "WorldChamp1969.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "D34",
+      "plies": 62,
+      "pgnRef": "WorldChamp1969.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1-0",
+      "eco": "B42",
+      "plies": 115,
+      "pgnRef": "WorldChamp1969.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "D34",
+      "plies": 117,
+      "pgnRef": "WorldChamp1969.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1-0",
+      "eco": "B94",
+      "plies": 47,
+      "pgnRef": "WorldChamp1969.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "1-0",
+      "eco": "D55",
+      "plies": 99,
+      "pgnRef": "WorldChamp1969.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1-0",
+      "eco": "C92",
+      "plies": 105,
+      "pgnRef": "WorldChamp1969.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "D58",
+      "plies": 62,
+      "pgnRef": "WorldChamp1969.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "B48",
+      "plies": 81,
+      "pgnRef": "WorldChamp1969.pgn#22"
+    }
+  ],
+  "featuredRounds": [
+    5,
+    19
+  ],
+  "moments": [
+    {
+      "id": "mal-comienzo",
+      "title": {
+        "es": "Mal comienzo",
+        "en": "A bad start"
+      },
+      "text": {
+        "es": "Petrosian ganó la primera partida con negras y el retador empezó abajo.",
+        "en": "Petrosian won the first game with Black and the challenger started behind."
+      },
+      "round": 1
+    },
+    {
+      "id": "dos-seguidas",
+      "title": {
+        "es": "Dos seguidas",
+        "en": "Two in a row"
+      },
+      "text": {
+        "es": "Spassky ganó las partidas 4 y 5 y se puso adelante. Ganó también la 8 y llegó a sacar dos puntos de ventaja.",
+        "en": "Spassky won games 4 and 5 to turn the score around. He also won game 8 and opened a two-point lead."
+      },
+      "round": 5
+    },
+    {
+      "id": "ataque-en-la-19",
+      "title": {
+        "es": "Ataque en la 19",
+        "en": "The attack in game 19"
+      },
+      "text": {
+        "es": "En la partida 19, Spassky avanzó su peón g para lanzar un ataque contra el rey de Petrosian y ganó en 24 jugadas.",
+        "en": "In game 19 Spassky pushed his g-pawn to launch an attack on Petrosian's king and won in 24 moves."
+      },
+      "round": 19
+    },
+    {
+      "id": "decimo-campeon",
+      "title": {
+        "es": "El décimo campeón",
+        "en": "The tenth champion"
+      },
+      "text": {
+        "es": "Con unas tablas en la partida 23, Spassky llegó a 12½ puntos y le quitó el título a Petrosian.",
+        "en": "With a draw in game 23, Spassky reached 12½ points and took the title from Petrosian."
+      },
+      "round": 23
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Fue la segunda vez seguida que Petrosian y Spassky jugaron por el título.",
+        "en": "It was the second consecutive time Petrosian and Spassky played for the title."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1969",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1969"
+      }
+    },
+    {
+      "text": {
+        "es": "Para llegar al match, Spassky venció a Efim Geller y a Bent Larsen, ambos por 5½–2½, y luego a Viktor Korchnoi en la final de candidatos.",
+        "en": "To reach the match, Spassky beat Efim Geller and Bent Larsen, both 5½–2½, and then Viktor Korchnoi in the Candidates final."
+      },
+      "source": {
+        "label": "Wikipedia: Boris Spassky",
+        "url": "https://en.wikipedia.org/wiki/Boris_Spassky"
+      }
+    },
+    {
+      "text": {
+        "es": "En el Interzonal de Sousse 1967, Bobby Fischer iba primero con siete victorias y tres tablas, pero abandonó el torneo tras una disputa con los organizadores.",
+        "en": "At the 1967 Sousse Interzonal, Bobby Fischer was leading with seven wins and three draws, but walked out after a dispute with the organisers."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1969",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1969"
+      }
+    },
+    {
+      "text": {
+        "es": "La flexibilidad de estilo de Spassky se considera la clave de su victoria sobre Petrosian.",
+        "en": "Spassky's flexibility of style is considered the key to his victory over Petrosian."
+      },
+      "source": {
+        "label": "Wikipedia: Boris Spassky",
+        "url": "https://en.wikipedia.org/wiki/Boris_Spassky"
+      }
+    }
+  ],
+  "photos": [
+    "spassky-larsen-1970",
+    "petrosian-1973",
+    "petrosian-1973-ibm",
+    "spassky-1973"
+  ],
+  "videos": [
+    {
+      "youtubeId": "sVl9-4iV-Ug",
+      "kind": "recap",
+      "title": {
+        "es": "1969: Spassky pone fin a la era Petrosian",
+        "en": "1969: Spassky ends the Petrosian era"
+      },
+      "channel": "Brilliant Moves Factory",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "7rpkbyj7niw",
+      "kind": "recap",
+      "title": {
+        "es": "Spassky rompe al hombre de hierro (1969)",
+        "en": "Spassky breaks the iron man (1969)"
+      },
+      "channel": "ChessNetwork",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1969",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1969"
+    },
+    {
+      "label": "Mark Weeks: 1969 Spassky - Petrosian",
+      "url": "https://www.mark-weeks.com/chess/6769$wix.htm"
+    },
+    {
+      "label": "Mark Weeks: 1969 Spassky - Petrosian Highlights",
+      "url": "https://www.mark-weeks.com/chess/69sp$$.htm"
+    },
+    {
+      "label": "Wikipedia: Boris Spassky",
+      "url": "https://en.wikipedia.org/wiki/Boris_Spassky"
+    }
+  ]
+}

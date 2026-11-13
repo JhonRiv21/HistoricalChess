@@ -1,0 +1,19 @@
+{
+  "file": "carlsen-2012.jpg",
+  "caption": {
+    "es": "Magnus Carlsen en abril de 2012.",
+    "en": "Magnus Carlsen in April 2012."
+  },
+  "alt": {
+    "es": "Foto de cuerpo entero de Carlsen de pie con blazer gris.",
+    "en": "Full-length photo of Carlsen standing in a grey blazer."
+  },
+  "author": "Autopilot",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnus_Carlsen_(2012).jpg",
+  "focus": "50% 12%",
+  "people": [
+    "carlsen"
+  ],
+  "year": 2012
+}

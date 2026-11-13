@@ -1,0 +1,20 @@
+{
+  "file": "alekhine-capablanca-1927.jpg",
+  "caption": {
+    "es": "Alekhine, el árbitro Carlos Querencio y Capablanca durante el campeonato mundial de 1927 en Buenos Aires.",
+    "en": "Alekhine, the arbiter Carlos Querencio and Capablanca during the 1927 world championship in Buenos Aires."
+  },
+  "alt": {
+    "es": "Tres hombres sentados alrededor de una mesa de ajedrez con reloj durante el match.",
+    "en": "Three men seated around a chess table with a clock during the match."
+  },
+  "author": "Unknown author",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alekhine_Capablanca_WCC_1927.jpg",
+  "focus": "50% 45%",
+  "people": [
+    "capablanca",
+    "alekhine"
+  ],
+  "year": 1927
+}

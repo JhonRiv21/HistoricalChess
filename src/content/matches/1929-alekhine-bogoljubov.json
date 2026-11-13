@@ -1,0 +1,452 @@
+{
+  "year": 1929,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "alekhine",
+      "name": "Alexander Alekhine",
+      "short": "Alekhine",
+      "country": {
+        "es": "Rusia / Francia",
+        "en": "Russia / France"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "bogoljubov",
+      "name": "Efim Bogoljubov",
+      "short": "Bogoljubov",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "alekhine",
+  "score": {
+    "alekhine": 15.5,
+    "bogoljubov": 9.5
+  },
+  "site": {
+    "es": "Alemania y Países Bajos (Wiesbaden, Heidelberg, Berlín, La Haya, Rotterdam y Ámsterdam)",
+    "en": "Germany and the Netherlands (Wiesbaden, Heidelberg, Berlin, The Hague, Rotterdam and Amsterdam)"
+  },
+  "dates": {
+    "start": "1929-09-06",
+    "end": "1929-11-12"
+  },
+  "summary": {
+    "es": "En esa época el campeón elegía a su retador, y Alekhine prefirió a Efim Bogoljubov, ganador del gran torneo de Bad Kissingen 1928, en lugar de una revancha con Capablanca. El match viajó por seis ciudades de Alemania y Países Bajos, y Alekhine ganó con claridad: 11 victorias contra 5, para un 15½ a 9½. En la octava partida dio un jaque mate real sobre el tablero, algo rarísimo en un campeonato del mundo.",
+    "en": "In those days the champion chose his challenger, and Alekhine picked Efim Bogoljubov, winner of the great Bad Kissingen 1928 tournament, rather than a rematch with Capablanca. The match toured six cities in Germany and the Netherlands, and Alekhine won clearly: 11 wins to 5, 15½–9½. In game 8 he delivered an actual checkmate on the board, something extremely rare in a world championship."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1-0",
+      "date": "1929-09-06",
+      "eco": "D16",
+      "plies": 51,
+      "pgnRef": "WorldChamp1929.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1929-09-07",
+      "eco": "E23",
+      "plies": 101,
+      "pgnRef": "WorldChamp1929.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1929-09-09",
+      "eco": "D17",
+      "plies": 140,
+      "pgnRef": "WorldChamp1929.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1929-09-12",
+      "eco": "E38",
+      "plies": 75,
+      "pgnRef": "WorldChamp1929.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1-0",
+      "date": "1929-09-13",
+      "eco": "D17",
+      "plies": 95,
+      "pgnRef": "WorldChamp1929.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1929-09-15",
+      "eco": "E22",
+      "plies": 95,
+      "pgnRef": "WorldChamp1929.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1-0",
+      "date": "1929-09-17",
+      "eco": "D78",
+      "plies": 69,
+      "pgnRef": "WorldChamp1929.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1929-09-19",
+      "eco": "A50",
+      "plies": 60,
+      "pgnRef": "WorldChamp1929.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1929-10-03",
+      "eco": "D52",
+      "plies": 60,
+      "pgnRef": "WorldChamp1929.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1929-10-05",
+      "eco": "D52",
+      "plies": 99,
+      "pgnRef": "WorldChamp1929.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1929-10-07",
+      "eco": "D51",
+      "plies": 126,
+      "pgnRef": "WorldChamp1929.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1929-10-11",
+      "eco": "D52",
+      "plies": 112,
+      "pgnRef": "WorldChamp1929.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "0-1",
+      "date": "1929-10-13",
+      "eco": "D52",
+      "plies": 68,
+      "pgnRef": "WorldChamp1929.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1929-10-15",
+      "eco": "D30",
+      "plies": 141,
+      "pgnRef": "WorldChamp1929.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1929-10-17",
+      "eco": "E70",
+      "plies": 88,
+      "pgnRef": "WorldChamp1929.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1929-10-19",
+      "eco": "D30",
+      "plies": 120,
+      "pgnRef": "WorldChamp1929.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1-0",
+      "date": "1929-10-21",
+      "eco": "D70",
+      "plies": 67,
+      "pgnRef": "WorldChamp1929.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1929-10-26",
+      "eco": "C11",
+      "plies": 101,
+      "pgnRef": "WorldChamp1929.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1-0",
+      "date": "1929-10-28",
+      "eco": "D51",
+      "plies": 153,
+      "pgnRef": "WorldChamp1929.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1929-10-30",
+      "eco": "C79",
+      "plies": 95,
+      "pgnRef": "WorldChamp1929.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1-0",
+      "date": "1929-11-01",
+      "eco": "E22",
+      "plies": 97,
+      "pgnRef": "WorldChamp1929.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1929-11-03",
+      "eco": "C76",
+      "plies": 78,
+      "pgnRef": "WorldChamp1929.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1929-11-06",
+      "eco": "D46",
+      "plies": 165,
+      "pgnRef": "WorldChamp1929.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "bogoljubov",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1929-11-10",
+      "eco": "C11",
+      "plies": 76,
+      "pgnRef": "WorldChamp1929.pgn#23"
+    },
+    {
+      "round": 25,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "bogoljubov",
+      "result": "1/2-1/2",
+      "date": "1929-11-11",
+      "eco": "D30",
+      "plies": 110,
+      "pgnRef": "WorldChamp1929.pgn#24"
+    }
+  ],
+  "featuredRounds": [
+    8,
+    1
+  ],
+  "moments": [
+    {
+      "id": "arranque-rapido",
+      "title": {
+        "es": "Un arranque rápido",
+        "en": "A quick start"
+      },
+      "text": {
+        "es": "Alekhine ganó la primera partida, el 6 de septiembre, en solo 26 jugadas.",
+        "en": "Alekhine won the first game, on 6 September, in just 26 moves."
+      },
+      "round": 1
+    },
+    {
+      "id": "jaque-mate",
+      "title": {
+        "es": "Jaque mate sobre el tablero",
+        "en": "Checkmate on the board"
+      },
+      "text": {
+        "es": "En la octava partida, Alekhine sacrificó material para abrir el enroque blanco y terminó con 30...Th2#, un jaque mate real.",
+        "en": "In game 8, Alekhine sacrificed material to break open White's king position and finished with 30...Rh2#, an actual checkmate."
+      },
+      "round": 8,
+      "ply": 60
+    },
+    {
+      "id": "seis-no-bastan",
+      "title": {
+        "es": "Seis victorias no bastaban",
+        "en": "Six wins were not enough"
+      },
+      "text": {
+        "es": "Tras la partida 12, Alekhine ya tenía seis victorias, pero solo 8 puntos: el reglamento también exigía más de 15, así que el match siguió.",
+        "en": "After game 12, Alekhine already had six wins but only 8 points: the rules also required more than 15, so the match went on."
+      },
+      "round": 12
+    },
+    {
+      "id": "cierre-con-tablas",
+      "title": {
+        "es": "Unas tablas para cerrar",
+        "en": "A draw to finish"
+      },
+      "text": {
+        "es": "Con las tablas de la partida 25, Alekhine llegó a 15½ puntos y retuvo el título.",
+        "en": "With a draw in game 25, Alekhine reached 15½ points and kept the title."
+      },
+      "round": 25
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Para ganar había que sumar seis victorias y además más de 15 puntos.",
+        "en": "To win, a player needed six wins and also more than 15 points."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1929"
+      }
+    },
+    {
+      "text": {
+        "es": "En Bad Kissingen 1928, Bogoljubov terminó por delante de Capablanca y de casi todos los grandes de la época; Alekhine no jugó ese torneo.",
+        "en": "At Bad Kissingen 1928, Bogoljubov finished ahead of Capablanca and nearly every leading player of the day; Alekhine did not take part."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1929"
+      }
+    },
+    {
+      "text": {
+        "es": "Alekhine también tenía una oferta para una revancha con Capablanca en Bradley Beach, Nueva Jersey, pero eligió a Bogoljubov.",
+        "en": "Alekhine also had an offer for a rematch with Capablanca in Bradley Beach, New Jersey, but chose Bogoljubov."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1929"
+      }
+    },
+    {
+      "text": {
+        "es": "La octava partida terminó con jaque mate en el tablero, 30...Th2#. En los campeonatos del mundo lo habitual es que el perdedor abandone antes.",
+        "en": "Game 8 ended with checkmate on the board, 30...Rh2#. In world championships the loser almost always resigns before that."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1929"
+      }
+    }
+  ],
+  "photos": [
+    "san-remo-1930",
+    "euwe-bogoljubov-1928",
+    "alekhine-colle-1925",
+    "alekhine-1924-bain"
+  ],
+  "videos": [
+    {
+      "youtubeId": "hsXwSWYIiU0",
+      "kind": "recap",
+      "title": {
+        "es": "Alekhine contra Bogoljubov, 1929: clase de Eric Hansen",
+        "en": "Alekhine vs. Bogoljubov, 1929: lecture by Eric Hansen"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1929"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/29ab$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1929-wch.html"
+    }
+  ]
+}

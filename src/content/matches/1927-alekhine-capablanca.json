@@ -1,0 +1,564 @@
+{
+  "year": 1927,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "capablanca",
+      "name": "José Raúl Capablanca",
+      "short": "Capablanca",
+      "country": {
+        "es": "Cuba",
+        "en": "Cuba"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "alekhine",
+      "name": "Alexander Alekhine",
+      "short": "Alekhine",
+      "country": {
+        "es": "Rusia / Francia",
+        "en": "Russia / France"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "alekhine",
+  "score": {
+    "capablanca": 15.5,
+    "alekhine": 18.5
+  },
+  "site": {
+    "es": "Buenos Aires",
+    "en": "Buenos Aires"
+  },
+  "dates": {
+    "start": "1927-09-16",
+    "end": "1927-11-29"
+  },
+  "summary": {
+    "es": "Capablanca, que llevaba ventaja en sus duelos previos con Alexander Alekhine, puso el título en juego en Buenos Aires en un match a seis victorias, sin contar las tablas. Alekhine ganó la primera partida y, tras una larga sucesión de tablas, se impuso 6 victorias a 3, con 25 tablas. Las 34 partidas convirtieron el duelo en una maratón de más de dos meses.",
+    "en": "Capablanca, who held the edge in his earlier games against Alexander Alekhine, put the title on the line in Buenos Aires in a first-to-six-wins match, with draws not counting. Alekhine won the first game and, after a long run of draws, prevailed by 6 wins to 3, with 25 draws. Its 34 games turned the duel into a marathon of more than two months."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1927-09-16",
+      "eco": "C01",
+      "plies": 86,
+      "pgnRef": "WorldChamp1927.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-09-20",
+      "eco": "D65",
+      "plies": 38,
+      "pgnRef": "WorldChamp1927.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1927-09-21",
+      "eco": "A47",
+      "plies": 83,
+      "pgnRef": "WorldChamp1927.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-09-23",
+      "eco": "D64",
+      "plies": 98,
+      "pgnRef": "WorldChamp1927.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-09-27",
+      "eco": "D51",
+      "plies": 83,
+      "pgnRef": "WorldChamp1927.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-09-29",
+      "eco": "D67",
+      "plies": 79,
+      "pgnRef": "WorldChamp1927.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1927-09-30",
+      "eco": "D52",
+      "plies": 71,
+      "pgnRef": "WorldChamp1927.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-10-03",
+      "eco": "D62",
+      "plies": 84,
+      "pgnRef": "WorldChamp1927.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-10-05",
+      "eco": "D51",
+      "plies": 68,
+      "pgnRef": "WorldChamp1927.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-10-06",
+      "eco": "D62",
+      "plies": 40,
+      "pgnRef": "WorldChamp1927.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1927-10-07",
+      "eco": "D52",
+      "plies": 132,
+      "pgnRef": "WorldChamp1927.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1-0",
+      "date": "1927-10-11",
+      "eco": "D64",
+      "plies": 81,
+      "pgnRef": "WorldChamp1927.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-10-13",
+      "eco": "D63",
+      "plies": 54,
+      "pgnRef": "WorldChamp1927.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-10-14",
+      "eco": "D65",
+      "plies": 50,
+      "pgnRef": "WorldChamp1927.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-10-15",
+      "eco": "D63",
+      "plies": 59,
+      "pgnRef": "WorldChamp1927.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-10-17",
+      "eco": "D67",
+      "plies": 47,
+      "pgnRef": "WorldChamp1927.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-10-18",
+      "eco": "D63",
+      "plies": 118,
+      "pgnRef": "WorldChamp1927.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-10-20",
+      "eco": "D67",
+      "plies": 55,
+      "pgnRef": "WorldChamp1927.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-10-22",
+      "eco": "D63",
+      "plies": 42,
+      "pgnRef": "WorldChamp1927.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-10-24",
+      "eco": "D67",
+      "plies": 86,
+      "pgnRef": "WorldChamp1927.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1927-10-26",
+      "eco": "D63",
+      "plies": 64,
+      "pgnRef": "WorldChamp1927.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-10-28",
+      "eco": "D67",
+      "plies": 172,
+      "pgnRef": "WorldChamp1927.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-11-01",
+      "eco": "D63",
+      "plies": 95,
+      "pgnRef": "WorldChamp1927.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-11-03",
+      "eco": "D67",
+      "plies": 81,
+      "pgnRef": "WorldChamp1927.pgn#23"
+    },
+    {
+      "round": 25,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-11-05",
+      "eco": "D65",
+      "plies": 80,
+      "pgnRef": "WorldChamp1927.pgn#24"
+    },
+    {
+      "round": 26,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-11-08",
+      "eco": "D64",
+      "plies": 43,
+      "pgnRef": "WorldChamp1927.pgn#25"
+    },
+    {
+      "round": 27,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-11-09",
+      "eco": "D65",
+      "plies": 76,
+      "pgnRef": "WorldChamp1927.pgn#26"
+    },
+    {
+      "round": 28,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-11-10",
+      "eco": "D67",
+      "plies": 85,
+      "pgnRef": "WorldChamp1927.pgn#27"
+    },
+    {
+      "round": 29,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1927-11-14",
+      "eco": "D52",
+      "plies": 139,
+      "pgnRef": "WorldChamp1927.pgn#28"
+    },
+    {
+      "round": 30,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1927-11-16",
+      "eco": "D67",
+      "plies": 80,
+      "pgnRef": "WorldChamp1927.pgn#29"
+    },
+    {
+      "round": 31,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-11-18",
+      "eco": "D51",
+      "plies": 83,
+      "pgnRef": "WorldChamp1927.pgn#30"
+    },
+    {
+      "round": 32,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1-0",
+      "date": "1927-11-22",
+      "eco": "D35",
+      "plies": 125,
+      "pgnRef": "WorldChamp1927.pgn#31"
+    },
+    {
+      "round": 33,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1927-11-25",
+      "eco": "D51",
+      "plies": 36,
+      "pgnRef": "WorldChamp1927.pgn#32"
+    },
+    {
+      "round": 34,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "capablanca",
+      "result": "1-0",
+      "date": "1927-11-26",
+      "eco": "D51",
+      "plies": 163,
+      "pgnRef": "WorldChamp1927.pgn#33"
+    }
+  ],
+  "featuredRounds": [
+    34,
+    1
+  ],
+  "moments": [
+    {
+      "id": "golpe-inicial",
+      "title": {
+        "es": "Golpe inicial con negras",
+        "en": "An opening blow with Black"
+      },
+      "text": {
+        "es": "Alekhine ganó la primera partida con las piezas negras, con una defensa francesa, y se adelantó al campeón desde el primer día.",
+        "en": "Alekhine won the first game with the black pieces, in a French Defence, and went ahead of the champion from day one."
+      },
+      "round": 1
+    },
+    {
+      "id": "dos-seguidas",
+      "title": {
+        "es": "Dos victorias seguidas",
+        "en": "Two wins in a row"
+      },
+      "text": {
+        "es": "Capablanca había ganado las partidas 3 y 7, pero Alekhine respondió con victorias en la 11 y la 12 para ponerse 3 a 2.",
+        "en": "Capablanca had won games 3 and 7, but Alekhine answered with wins in games 11 and 12 to lead 3–2."
+      },
+      "round": 12
+    },
+    {
+      "id": "sexta-victoria",
+      "title": {
+        "es": "La sexta victoria",
+        "en": "The sixth win"
+      },
+      "text": {
+        "es": "La partida 34 duró 82 jugadas. Con ella Alekhine llegó a su sexta victoria y se convirtió en el cuarto campeón del mundo.",
+        "en": "Game 34 lasted 82 moves. With it Alekhine reached his sixth win and became the fourth world champion."
+      },
+      "round": 34
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Antes del match, Capablanca le llevaba ventaja a Alekhine con 4 victorias, 1 derrota y 5 tablas en sus partidas anteriores.",
+        "en": "Before the match, Capablanca led Alekhine with 4 wins, 1 loss and 5 draws in their previous games."
+      },
+      "source": {
+        "label": "Mark Weeks",
+        "url": "https://www.mark-weeks.com/chess/27ac$wix.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "Se jugó con las «reglas de Londres» de 1922: el Club Argentino de Ajedrez ofreció una bolsa de 10.000 dólares; el campeón cobraba primero el 20 %, y del resto el ganador se llevaba el 60 % y el perdedor el 40 %.",
+        "en": "It was played under the 1922 \"London Rules\": the Club Argentino de Ajedrez offered a $10,000 purse; the champion first received 20%, and of the rest the winner took 60% and the loser 40%."
+      },
+      "source": {
+        "label": "Edward Winter",
+        "url": "https://www.chesshistory.com/winter/extra/capablancaalekhine1927.html"
+      }
+    },
+    {
+      "text": {
+        "es": "Alekhine, nacido en Rusia, se nacionalizó francés en pleno match, el 5 de noviembre de 1927.",
+        "en": "Russian-born Alekhine became a naturalised French citizen during the match, on 5 November 1927."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1927"
+      }
+    },
+    {
+      "text": {
+        "es": "Se ha dicho muchas veces que un 5 a 5 en victorias habría dejado el match empatado, pero Edward Winter no encontró pruebas documentales: las reglas de Londres no mencionan esa condición.",
+        "en": "It has often been said that a 5–5 score in wins would have ended the match drawn, but Edward Winter found no documentary evidence: the London Rules make no mention of such a condition."
+      },
+      "source": {
+        "label": "Edward Winter",
+        "url": "https://www.chesshistory.com/winter/extra/capablancaalekhine1927.html"
+      }
+    },
+    {
+      "text": {
+        "es": "El presidente de Argentina, Marcelo Torcuato de Alvear, visitó el match.",
+        "en": "The President of Argentina, Marcelo Torcuato de Alvear, visited the match."
+      },
+      "source": {
+        "label": "Edward Winter",
+        "url": "https://www.chesshistory.com/winter/extra/capablancaalekhine1927.html"
+      }
+    }
+  ],
+  "photos": [
+    "alekhine-capablanca-1927",
+    "capablanca-derujinsky-1922",
+    "alekhine-1924-bain",
+    "alekhine-colle-1925",
+    "capablanca-1921-rol"
+  ],
+  "videos": [
+    {
+      "youtubeId": "LAY8MB_SwOg",
+      "kind": "recap",
+      "title": {
+        "es": "Alekhine contra Capablanca, Buenos Aires 1927",
+        "en": "Alekhine vs. Capablanca, Buenos Aires 1927"
+      },
+      "channel": "Partidas Inmortales de Ajedrez",
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "TrTdp7ghS3M",
+      "kind": "recap",
+      "title": {
+        "es": "El match de 1927: clase de Ben Finegold",
+        "en": "The 1927 match: lecture by Ben Finegold"
+      },
+      "channel": "GMBenjaminFinegold",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1927"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/27ac$wix.htm"
+    },
+    {
+      "label": "Edward Winter",
+      "url": "https://www.chesshistory.com/winter/extra/capablancaalekhine1927.html"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1927-wch.html"
+    }
+  ]
+}

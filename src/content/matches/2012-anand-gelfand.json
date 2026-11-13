@@ -1,0 +1,355 @@
+{
+  "year": 2012,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "short": "Anand",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "gelfand",
+      "name": "Boris Gelfand",
+      "short": "Gelfand",
+      "country": {
+        "es": "Israel",
+        "en": "Israel"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "anand",
+  "score": {
+    "anand": 6,
+    "gelfand": 6
+  },
+  "tiebreak": {
+    "anand": 2.5,
+    "gelfand": 1.5
+  },
+  "site": {
+    "es": "Galería Tretiakov, Moscú",
+    "en": "Tretyakov Gallery, Moscow"
+  },
+  "dates": {
+    "start": "2012-05-11",
+    "end": "2012-05-30"
+  },
+  "summary": {
+    "es": "Anand defendió el título en la Galería Tretiakov de Moscú ante Boris Gelfand, ganador del Torneo de Candidatos de 2011. Tras seis tablas, Gelfand ganó la séptima partida y Anand respondió al día siguiente con una victoria en solo 17 jugadas. Las doce partidas lentas terminaron 6–6 y Anand ganó el desempate rápido 2½–1½.",
+    "en": "Anand defended the title at Moscow's Tretyakov Gallery against Boris Gelfand, winner of the 2011 Candidates. After six draws Gelfand won game seven, and Anand replied the next day with a win in just 17 moves. The twelve classical games ended 6–6, and Anand won the rapid playoff 2½–1½."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "anand",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2012-05-11",
+      "eco": "D85",
+      "plies": 48,
+      "pgnRef": "WorldChamp2012.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2012-05-12",
+      "eco": "D45",
+      "plies": 49,
+      "pgnRef": "WorldChamp2012.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "anand",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2012-05-14",
+      "eco": "D70",
+      "plies": 74,
+      "pgnRef": "WorldChamp2012.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2012-05-15",
+      "eco": "D45",
+      "plies": 68,
+      "pgnRef": "WorldChamp2012.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "anand",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2012-05-17",
+      "eco": "B33",
+      "plies": 53,
+      "pgnRef": "WorldChamp2012.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2012-05-18",
+      "eco": "D45",
+      "plies": 58,
+      "pgnRef": "WorldChamp2012.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2012-05-20",
+      "eco": "D45",
+      "plies": 75,
+      "pgnRef": "WorldChamp2012.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "anand",
+      "black": "gelfand",
+      "result": "1-0",
+      "date": "2012-05-21",
+      "eco": "E60",
+      "plies": 33,
+      "pgnRef": "WorldChamp2012.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2012-05-23",
+      "eco": "E54",
+      "plies": 98,
+      "pgnRef": "WorldChamp2012.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "anand",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2012-05-24",
+      "eco": "B30",
+      "plies": 49,
+      "pgnRef": "WorldChamp2012.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2012-05-26",
+      "eco": "E54",
+      "plies": 48,
+      "pgnRef": "WorldChamp2012.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "anand",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2012-05-28",
+      "eco": "B30",
+      "plies": 43,
+      "pgnRef": "WorldChamp2012.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "rapid",
+      "white": "gelfand",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2012-05-30",
+      "eco": "D45",
+      "plies": 64,
+      "pgnRef": "WorldChamp2012.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "rapid",
+      "white": "anand",
+      "black": "gelfand",
+      "result": "1-0",
+      "date": "2012-05-30",
+      "eco": "B30",
+      "plies": 153,
+      "pgnRef": "WorldChamp2012.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "rapid",
+      "white": "gelfand",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2012-05-30",
+      "eco": "D12",
+      "plies": 126,
+      "pgnRef": "WorldChamp2012.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "rapid",
+      "white": "anand",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2012-05-30",
+      "eco": "B51",
+      "plies": 111,
+      "pgnRef": "WorldChamp2012.pgn#15"
+    }
+  ],
+  "featuredRounds": [
+    7,
+    8,
+    14
+  ],
+  "moments": [
+    {
+      "id": "gelfand-gana",
+      "round": 7,
+      "title": {
+        "es": "Gelfand toma la delantera",
+        "en": "Gelfand takes the lead"
+      },
+      "text": {
+        "es": "Con blancas, Gelfand aprovechó el error 23…g5 de Anand y ganó la primera partida decisiva del match.",
+        "en": "With White, Gelfand pounced on Anand's mistake 23...g5 and won the first decisive game of the match."
+      }
+    },
+    {
+      "id": "diecisiete",
+      "round": 8,
+      "ply": 33,
+      "title": {
+        "es": "Diecisiete jugadas",
+        "en": "Seventeen moves"
+      },
+      "text": {
+        "es": "Al día siguiente, Gelfand se equivocó en la jugada 14 y pasó por alto 17.Df2 de Anand, que atrapó su dama. Fue la partida decisiva más corta en la historia de los mundiales.",
+        "en": "The next day Gelfand went wrong on move 14 and overlooked Anand's 17.Qf2, which trapped his queen. It was the shortest decisive game in World Championship history."
+      }
+    },
+    {
+      "id": "rapidas",
+      "round": 14,
+      "title": {
+        "es": "La única victoria del desempate",
+        "en": "The only win of the playoff"
+      },
+      "text": {
+        "es": "En el desempate, Anand jugó tan rápido que dejó a Gelfand con muy poco tiempo. Ganó la segunda partida con blancas y empató las otras tres.",
+        "en": "In the playoff Anand played so fast that he left Gelfand very short of time. He won the second game with White and drew the other three."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "La partida 8, de solo 17 jugadas, es la partida decisiva más corta en la historia del Campeonato del Mundo.",
+        "en": "Game 8, only 17 moves long, is the shortest decisive game in World Championship history."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2012"
+      }
+    },
+    {
+      "text": {
+        "es": "Fue la tercera defensa consecutiva del título para Anand, tras 2008 y 2010.",
+        "en": "It was Anand's third consecutive title defence, after 2008 and 2010."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2012"
+      }
+    },
+    {
+      "text": {
+        "es": "La bolsa fue de 2,55 millones de dólares.",
+        "en": "The prize fund was 2.55 million US dollars."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2012"
+      }
+    },
+    {
+      "text": {
+        "es": "Londres tenía la opción de organizar el match, pero retiró su candidatura en febrero de 2011; Moscú la obtuvo después.",
+        "en": "London held an option to host the match but withdrew in February 2011; Moscow was awarded it afterwards."
+      },
+      "source": {
+        "label": "Mark Weeks – World Chess Championship",
+        "url": "https://www.mark-weeks.com/chess/a8b0$wix.htm"
+      }
+    }
+  ],
+  "photos": [
+    "gelfand-anand-2012",
+    "wcc-moscow-2012",
+    "anand-moscow-2012",
+    "putin-anand-gelfand-2012",
+    "gelfand-2013"
+  ],
+  "videos": [
+    {
+      "youtubeId": "i-5plOCg5EM",
+      "kind": "recap",
+      "title": {
+        "es": "La partida decisiva más corta de un mundial: Anand-Gelfand, partida 8",
+        "en": "The shortest decisive game in a world championship: Anand-Gelfand, game 8"
+      },
+      "channel": "ChessNetwork",
+      "round": 8,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "h7pPojklgo0",
+      "kind": "documentary",
+      "title": {
+        "es": "Documental sobre el match Gelfand-Anand, 2012",
+        "en": "Documentary on the 2012 Gelfand-Anand match"
+      },
+      "channel": "Philosophia Entis",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2012"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/a8b0$wix.htm"
+    }
+  ]
+}

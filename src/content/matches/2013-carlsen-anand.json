@@ -1,0 +1,272 @@
+{
+  "year": 2013,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "short": "Anand",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "carlsen",
+      "name": "Magnus Carlsen",
+      "short": "Carlsen",
+      "country": {
+        "es": "Noruega",
+        "en": "Norway"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "carlsen",
+  "score": {
+    "carlsen": 6.5,
+    "anand": 3.5
+  },
+  "site": {
+    "es": "Chennai, India",
+    "en": "Chennai, India"
+  },
+  "dates": {
+    "start": "2013-11-09",
+    "end": "2013-11-22"
+  },
+  "summary": {
+    "es": "Magnus Carlsen, de 22 años, desafió a Anand en Chennai (India). Tras cuatro tablas, Carlsen ganó las partidas 5 y 6 exprimiendo finales que parecían iguales, y volvió a ganar en la novena. Se impuso 6½–3½ tras 10 de las 12 partidas y se convirtió en el nuevo campeón mundial.",
+    "en": "22-year-old Magnus Carlsen challenged Anand in Chennai, India. After four draws Carlsen won games 5 and 6 by squeezing endgames that looked level, and won again in game nine. He took the match 6½–3½ after 10 of the 12 games and became the new world champion."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2013-11-09",
+      "eco": "A07",
+      "plies": 32,
+      "pgnRef": "WorldChamp2013.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2013-11-10",
+      "eco": "B18",
+      "plies": 50,
+      "pgnRef": "WorldChamp2013.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2013-11-12",
+      "eco": "A07",
+      "plies": 102,
+      "pgnRef": "WorldChamp2013.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2013-11-13",
+      "eco": "C67",
+      "plies": 127,
+      "pgnRef": "WorldChamp2013.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2013-11-15",
+      "eco": "D31",
+      "plies": 115,
+      "pgnRef": "WorldChamp2013.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "0-1",
+      "date": "2013-11-16",
+      "eco": "C65",
+      "plies": 134,
+      "pgnRef": "WorldChamp2013.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2013-11-18",
+      "eco": "C65",
+      "plies": 64,
+      "pgnRef": "WorldChamp2013.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2013-11-19",
+      "eco": "C67",
+      "plies": 66,
+      "pgnRef": "WorldChamp2013.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "0-1",
+      "date": "2013-11-21",
+      "eco": "E25",
+      "plies": 56,
+      "pgnRef": "WorldChamp2013.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2013-11-22",
+      "eco": "B51",
+      "plies": 130,
+      "pgnRef": "WorldChamp2013.pgn#9"
+    }
+  ],
+  "featuredRounds": [
+    5,
+    6,
+    9
+  ],
+  "moments": [
+    {
+      "id": "primera",
+      "round": 5,
+      "title": {
+        "es": "El primer golpe",
+        "en": "The first blow"
+      },
+      "text": {
+        "es": "En un final, Anand jugó 45…Tc1+, considerado el error decisivo. Carlsen ganó un segundo peón y se puso 3–2.",
+        "en": "In an endgame Anand played 45...Rc1+, seen as the decisive mistake. Carlsen won a second pawn and went 3–2 up."
+      }
+    },
+    {
+      "id": "segunda",
+      "round": 6,
+      "title": {
+        "es": "Exprimir un final de tablas",
+        "en": "Squeezing a drawn ending"
+      },
+      "text": {
+        "es": "La partida llegó a un final de torres que se consideraba tablas, pero Carlsen siguió jugando y Anand terminó cometiendo el error decisivo con 60.Ta4.",
+        "en": "The game reached a rook ending considered drawn, but Carlsen kept playing and Anand eventually made the decisive mistake with 60.Ra4."
+      }
+    },
+    {
+      "id": "novena",
+      "round": 9,
+      "title": {
+        "es": "El ataque que no llegó",
+        "en": "The attack that never landed"
+      },
+      "text": {
+        "es": "Anand buscó un ataque contra el rey con blancas, pero Carlsen se defendió con precisión y coronó su peón b con jaque mientras Anand trasladaba sus piezas pesadas.",
+        "en": "Anand went for a kingside attack with White, but Carlsen defended accurately and queened his b-pawn with check while Anand was shifting his heavy pieces."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Garry Kasparov y otros celebraron el resultado como el inicio de una nueva era: Carlsen fue el primer campeón formado en la época de las computadoras de ajedrez muy fuertes.",
+        "en": "Garry Kasparov and others hailed the result as the start of a new era: Carlsen was the first champion to develop his game in the age of super-strong chess computers."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2013"
+      }
+    },
+    {
+      "text": {
+        "es": "Carlsen se clasificó al ganar el Torneo de Candidatos de Londres 2013 por desempate: él y Kramnik perdieron en la última ronda y Carlsen quedó primero por tener más victorias.",
+        "en": "Carlsen qualified by winning the 2013 London Candidates on tiebreak: he and Kramnik both lost in the last round, and Carlsen placed first on number of wins."
+      },
+      "source": {
+        "label": "Mark Weeks – World Chess Championship",
+        "url": "https://www.mark-weeks.com/chess/b1b3$wix.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "El match lo organizaron la FIDE y la federación india, con el patrocinio del gobierno de Tamil Nadu.",
+        "en": "The match was organized by FIDE and the All India Chess Federation, sponsored by the Government of Tamil Nadu."
+      },
+      "source": {
+        "label": "Mark Weeks – World Chess Championship",
+        "url": "https://www.mark-weeks.com/chess/b1b3$wix.htm"
+      }
+    }
+  ],
+  "photos": [
+    "carlsen-tata-2013",
+    "anand-2013",
+    "carlsen-2012",
+    "carlsen-2012-bust"
+  ],
+  "videos": [
+    {
+      "youtubeId": "fUwOfGlz8-Q",
+      "kind": "recap",
+      "title": {
+        "es": "Carlsen gana el campeonato mundial de 2013 en Chennai",
+        "en": "Carlsen wins the 2013 world championship in Chennai"
+      },
+      "channel": "Chess.com",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "RcXZDc9T02I",
+      "kind": "recap",
+      "title": {
+        "es": "Cómo Magnus Carlsen se hizo campeón del mundo",
+        "en": "How Magnus Carlsen became world champion"
+      },
+      "channel": "GothamChess",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2013"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/b1b3$wix.htm"
+    }
+  ]
+}

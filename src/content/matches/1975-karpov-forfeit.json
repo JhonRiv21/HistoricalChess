@@ -1,0 +1,157 @@
+{
+  "year": 1975,
+  "kind": "forfeit",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "fischer",
+      "name": "Bobby Fischer",
+      "short": "Fischer",
+      "country": {
+        "es": "Estados Unidos",
+        "en": "United States"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "karpov",
+  "site": {
+    "es": "Manila, Filipinas (previsto; no se jugó)",
+    "en": "Manila, Philippines (planned; never played)"
+  },
+  "dates": {},
+  "summary": {
+    "es": "Anatoly Karpov ganó el ciclo de candidatos para enfrentar a Fischer en Manila en 1975, pero el match nunca se jugó. Fischer exigió que ganara el primero en llegar a diez victorias, sin límite de partidas y con el título para el campeón si llegaban a 9–9; la FIDE aceptó las diez victorias, pero rechazó lo demás. Fischer no respondió y, en abril de 1975, Karpov fue proclamado campeón sin jugar.",
+    "en": "Anatoly Karpov won the Candidates cycle to face Fischer in Manila in 1975, but the match was never played. Fischer demanded that the first to ten wins take the title, with no game limit and the champion keeping it at 9–9; FIDE accepted the ten wins but rejected the rest. Fischer never replied and, in April 1975, Karpov was proclaimed champion without playing."
+  },
+  "games": [],
+  "featuredRounds": [],
+  "moments": [
+    {
+      "id": "diez-victorias",
+      "title": {
+        "es": "Diez victorias o nada",
+        "en": "Ten wins or nothing"
+      },
+      "text": {
+        "es": "Fischer pensaba que el formato a 12½ puntos premiaba al que iba adelante por jugar a las tablas, como había hecho él en 1972. Pidió volver al sistema del primer campeonato: gana el primero que llega a diez victorias y las tablas no cuentan.",
+        "en": "Fischer felt the first-to-12½ format rewarded whoever was ahead for playing for draws, as he himself had done in 1972. He asked to return to the system of the first championship: the first to ten wins takes it, and draws do not count."
+      }
+    },
+    {
+      "id": "congreso-de-niza",
+      "title": {
+        "es": "El congreso de Niza",
+        "en": "The Nice Congress"
+      },
+      "text": {
+        "es": "En el congreso de la FIDE de 1974, durante la Olimpiada de Niza, los delegados aprobaron las diez victorias, pero rechazaron la cláusula del 9–9 y el match sin límite de partidas.",
+        "en": "At the 1974 FIDE Congress, held during the Nice Olympiad, the delegates approved the ten wins but rejected the 9–9 clause and the unlimited match."
+      }
+    },
+    {
+      "id": "ultima-oportunidad",
+      "title": {
+        "es": "La última oportunidad",
+        "en": "The last chance"
+      },
+      "text": {
+        "es": "Un congreso extraordinario de la FIDE en Bergen aan Zee, Países Bajos, en marzo de 1975, se negó a cambiar la decisión. Fischer no respondió a la invitación de jugar con las reglas de la FIDE.",
+        "en": "An extraordinary FIDE Congress at Bergen aan Zee, in the Netherlands, in March 1975 refused to change the decision. Fischer did not answer FIDE's invitation to play under its rules."
+      }
+    },
+    {
+      "id": "campeon-sin-jugar",
+      "title": {
+        "es": "Campeón sin jugar",
+        "en": "Champion without playing"
+      },
+      "text": {
+        "es": "Vencidos los plazos, Karpov fue declarado campeón del mundo en abril de 1975. Fue la primera vez en la historia que el título se entregó por incomparecencia.",
+        "en": "Once the deadlines had passed, Karpov was declared world champion in April 1975. It was the first time in history that the title was handed over by forfeit."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El match debía empezar el 1 de junio de 1975 en Manila.",
+        "en": "The match was due to start on 1 June 1975 in Manila."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1975",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1975"
+      }
+    },
+    {
+      "text": {
+        "es": "Karpov llegó como retador tras ganarle a Viktor Korchnoi la final de candidatos por 3–2, con 19 tablas.",
+        "en": "Karpov became the challenger by beating Viktor Korchnoi in the Candidates final 3–2, with 19 draws."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1975",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1975"
+      }
+    },
+    {
+      "text": {
+        "es": "Karpov escribió que lamentaba no haber jugado nunca contra Fischer: se sintió como un niño al que le prometen un juguete maravilloso y se lo quitan en el último momento.",
+        "en": "Karpov wrote that he regretted never playing Fischer: he felt like a child promised a wonderful toy that is taken away at the last moment."
+      },
+      "source": {
+        "label": "Mark Weeks: 1975 Fischer forfeits to Karpov",
+        "url": "https://www.mark-weeks.com/chess/7375$wix.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "Para responder a quienes dudaban de su título, Karpov jugó casi todos los grandes torneos de los diez años siguientes y encadenó nueve victorias seguidas en torneos.",
+        "en": "To answer those who doubted his title, Karpov played in almost every major tournament for the next ten years and won nine tournaments in a row."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1975",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1975"
+      }
+    }
+  ],
+  "photos": [
+    "fischer-1972",
+    "karpov-1979",
+    "fischer-1971",
+    "karpov-kavalek-1979"
+  ],
+  "videos": [
+    {
+      "youtubeId": "-jBbgLqJaQw",
+      "kind": "recap",
+      "title": {
+        "es": "Fischer-Karpov 1975: el match que no se jugó",
+        "en": "Fischer-Karpov 1975: the match that was never played"
+      },
+      "channel": "Brilliant Moves Factory",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1975",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1975"
+    },
+    {
+      "label": "Mark Weeks: 1975 Fischer forfeits to Karpov",
+      "url": "https://www.mark-weeks.com/chess/7375$wix.htm"
+    }
+  ]
+}

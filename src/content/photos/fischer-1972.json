@@ -1,0 +1,19 @@
+{
+  "file": "fischer-1972.jpg",
+  "caption": {
+    "es": "Bobby Fischer en Ámsterdam el 31 de enero de 1972, durante las conversaciones sobre su match con Spassky.",
+    "en": "Bobby Fischer in Amsterdam on 31 January 1972, during talks about his match with Spassky."
+  },
+  "alt": {
+    "es": "Fischer sonriendo con chaqueta oscura y una corbata de motivos geométricos.",
+    "en": "Smiling Fischer in a dark jacket and a bold geometric tie."
+  },
+  "author": "Bert Verhoeff for Anefo (Nationaal Archief)",
+  "license": "CC0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bobby_Fischer_1972.jpg",
+  "focus": "45% 25%",
+  "people": [
+    "fischer"
+  ],
+  "year": 1972
+}

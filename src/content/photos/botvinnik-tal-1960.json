@@ -1,0 +1,20 @@
+{
+  "file": "botvinnik-tal-1960.jpg",
+  "caption": {
+    "es": "Mikhail Botvinnik y Mikhail Tal durante la cuarta partida de su match de 1960 en Moscú, 22 de marzo de 1960.",
+    "en": "Mikhail Botvinnik and Mikhail Tal during the fourth game of their 1960 match in Moscow, 22 March 1960."
+  },
+  "alt": {
+    "es": "Dos jugadores en una mesa con placas de nombre en cirílico y dos banderas pequeñas.",
+    "en": "Two players at a table with name plates in Cyrillic and two small flags."
+  },
+  "author": "Moscow Main Archive (Главархив Москвы)",
+  "license": "CC BY 4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Botvinnik_and_Tal_22_March_1960.jpg",
+  "focus": "50% 45%",
+  "people": [
+    "botvinnik",
+    "tal"
+  ],
+  "year": 1960
+}

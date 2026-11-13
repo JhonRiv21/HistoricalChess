@@ -1,0 +1,58 @@
+---
+// About: what counts as a world championship, how the analysis works, and every photo credit.
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { credit } from '../lib/images';
+import { pick, t, type Lang } from '../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const photos = (await getCollection('photos')).sort((a, b) => (a.data.year ?? 0) - (b.data.year ?? 0));
+const copy = {
+  es: {
+    title: 'Sobre el sitio',
+    lineageTitle: 'Qué cuenta como campeonato del mundo',
+    lineage: 'Seguimos el linaje del título desde el primer match oficial, Steinitz contra Zukertort en 1886. Entre 1993 y 2006 el título estuvo dividido: incluimos los matches de las dos líneas (PCA/clásica y FIDE) y los torneos de 2005 y 2007. Los torneos eliminatorios de la FIDE entre 1998 y 2004 aparecen en la línea de tiempo, pero sin sus cientos de partidas.',
+    engineTitle: 'Cómo se analizan las partidas',
+    engine: 'Cada posición se evaluó con Stockfish 17.1 a profundidad 18. La probabilidad de ganar y la precisión usan las fórmulas públicas de Lichess. Una imprecisión (?!), un error (?) y un error grave (??) son jugadas que reducen la probabilidad de ganar en 5, 10 y 15 puntos porcentuales. El motor es una referencia moderna: los campeones de otras épocas no tenían computadoras para preparar.',
+    gamesTitle: 'De dónde salen las partidas',
+    games: 'Las partidas vienen de pgnmentor.com y de los estudios de Lichess. Revisamos los resultados contra Wikipedia, Mark Weeks y Edward Winter; cuando una fuente se equivocaba, la corregimos y lo dejamos anotado en la partida.',
+    photosTitle: 'Créditos de las fotos',
+    photosIntro: 'Todas las fotos tienen licencia libre y vienen de Wikimedia Commons. Las del Nationaal Archief neerlandés (Anefo) son de dominio público.',
+    noAds: 'Este sitio no tiene anuncios, registro ni seguimiento.',
+  },
+  en: {
+    title: 'About',
+    lineageTitle: 'What counts as a world championship',
+    lineage: 'We follow the title lineage from the first official match, Steinitz versus Zukertort in 1886. Between 1993 and 2006 the title was split: we include the matches of both lines (PCA/classical and FIDE) and the 2005 and 2007 tournaments. FIDE’s knockout events of 1998–2004 appear on the timeline without their hundreds of games.',
+    engineTitle: 'How games are analyzed',
+    engine: 'Every position was evaluated with Stockfish 17.1 at depth 18. Winning chances and accuracy use Lichess’s public formulas. An inaccuracy (?!), a mistake (?) and a blunder (??) are moves that cut the winning chances by 5, 10 and 15 percentage points. The engine is a modern yardstick: champions of earlier eras had no computers to prepare with.',
+    gamesTitle: 'Where the games come from',
+    games: 'Games come from pgnmentor.com and Lichess studies. Results were checked against Wikipedia, Mark Weeks and Edward Winter; when a source was wrong we corrected it and noted it on the game.',
+    photosTitle: 'Photo credits',
+    photosIntro: 'Every photo is freely licensed and comes from Wikimedia Commons. Those from the Dutch National Archives (Anefo) are in the public domain.',
+    noAds: 'This site has no ads, no sign-up and no tracking.',
+  },
+}[lang];
+---
+
+<BaseLayout {lang} title={copy.title} description={copy.lineage} altPath={lang === 'es' ? '/en/about/' : '/es/sobre/'}>
+  <div class="view">
+    <article class="section prose">
+      <h1 class="section-title">{copy.title}</h1>
+      <p>{copy.noAds}</p>
+      <h2>{copy.lineageTitle}</h2>
+      <p>{copy.lineage}</p>
+      <h2>{copy.engineTitle}</h2>
+      <p>{copy.engine}</p>
+      <h2>{copy.gamesTitle}</h2>
+      <p>{copy.games}</p>
+      <h2>{copy.photosTitle}</h2>
+      <p>{copy.photosIntro}</p>
+      <ul class="credits-list">
+        {photos.map((p) => <li>{pick(p.data.caption, lang)} {credit(p)}. <a href={p.data.sourceUrl} target="_blank" rel="noopener">Commons</a></li>)}
+      </ul>
+      <p>{t(lang, 'footer.credits')}</p>
+    </article>
+  </div>
+</BaseLayout>

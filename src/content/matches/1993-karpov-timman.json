@@ -1,0 +1,399 @@
+{
+  "year": 1993,
+  "kind": "match",
+  "era": "split",
+  "title": "fide",
+  "players": [
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "challenger"
+    },
+    {
+      "id": "timman",
+      "name": "Jan Timman",
+      "short": "Timman",
+      "country": {
+        "es": "Países Bajos",
+        "en": "Netherlands"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "karpov",
+  "score": {
+    "karpov": 12.5,
+    "timman": 8.5
+  },
+  "site": {
+    "es": "Zwolle, Arnhem y Ámsterdam (Países Bajos) y Yakarta (Indonesia)",
+    "en": "Zwolle, Arnhem and Amsterdam (Netherlands) and Jakarta (Indonesia)"
+  },
+  "dates": {
+    "start": "1993-09-06",
+    "end": "1993-11-01"
+  },
+  "summary": {
+    "es": "Cuando Kasparov y Short dejaron la FIDE, esta organizó su propio match por el título entre Anatoli Karpov y Jan Timman, los dos jugadores a los que Short había eliminado en el ciclo de candidatos. El match empezó en Países Bajos y terminó en Yakarta. Karpov ganó 12½–8½ y recuperó el título de la FIDE que había tenido de 1975 a 1985.",
+    "en": "When Kasparov and Short left FIDE, it organized its own title match between Anatoly Karpov and Jan Timman, the two players Short had knocked out in the Candidates cycle. The match began in the Netherlands and finished in Jakarta. Karpov won 12½–8½ and regained the FIDE title he had held from 1975 to 1985."
+  },
+  "note": {
+    "es": "Ninguno de los dos llegaba como campeón: la FIDE le había quitado el título a Kasparov y cubrió las dos plazas con Karpov y Timman, derrotados por Short en la semifinal y la final de candidatos.",
+    "en": "Neither player came in as champion: FIDE had stripped Kasparov of the title and filled both places with Karpov and Timman, whom Short had beaten in the Candidates semifinal and final."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "0-1",
+      "date": "1993-09-06",
+      "eco": "B17",
+      "plies": 112,
+      "pgnRef": "FideChamp1993.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "0-1",
+      "date": "1993-09-07",
+      "eco": "E15",
+      "plies": 92,
+      "pgnRef": "FideChamp1993.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1993-09-09",
+      "eco": "B17",
+      "plies": 97,
+      "pgnRef": "FideChamp1993.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "1/2-1/2",
+      "date": "1993-09-11",
+      "eco": "D43",
+      "plies": 40,
+      "pgnRef": "FideChamp1993.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1993-09-12",
+      "eco": "A29",
+      "plies": 109,
+      "pgnRef": "FideChamp1993.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "1-0",
+      "date": "1993-09-14",
+      "eco": "D39",
+      "plies": 65,
+      "pgnRef": "FideChamp1993.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1993-09-17",
+      "eco": "B17",
+      "plies": 41,
+      "pgnRef": "FideChamp1993.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "1/2-1/2",
+      "date": "1993-09-18",
+      "eco": "D39",
+      "plies": 55,
+      "pgnRef": "FideChamp1993.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1993-09-20",
+      "eco": "A46",
+      "plies": 93,
+      "pgnRef": "FideChamp1993.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "1-0",
+      "date": "1993-09-22",
+      "eco": "D85",
+      "plies": 105,
+      "pgnRef": "FideChamp1993.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1993-09-23",
+      "eco": "E15",
+      "plies": 21,
+      "pgnRef": "FideChamp1993.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "1/2-1/2",
+      "date": "1993-09-25",
+      "eco": "D79",
+      "plies": 102,
+      "pgnRef": "FideChamp1993.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1993-10-17",
+      "eco": "A12",
+      "plies": 53,
+      "pgnRef": "FideChamp1993.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "1-0",
+      "date": "1993-10-18",
+      "eco": "D39",
+      "plies": 105,
+      "pgnRef": "FideChamp1993.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "0-1",
+      "date": "1993-10-20",
+      "eco": "E32",
+      "plies": 68,
+      "pgnRef": "FideChamp1993.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "1-0",
+      "date": "1993-10-22",
+      "eco": "E81",
+      "plies": 117,
+      "pgnRef": "FideChamp1993.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1993-10-23",
+      "eco": "B12",
+      "plies": 66,
+      "pgnRef": "FideChamp1993.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "1/2-1/2",
+      "date": "1993-10-25",
+      "eco": "E81",
+      "plies": 76,
+      "pgnRef": "FideChamp1993.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1993-10-28",
+      "eco": "E12",
+      "plies": 85,
+      "pgnRef": "FideChamp1993.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "timman",
+      "result": "0-1",
+      "date": "1993-10-30",
+      "eco": "A33",
+      "plies": 80,
+      "pgnRef": "FideChamp1993.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "timman",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1993-11-01",
+      "eco": "E32",
+      "plies": 37,
+      "pgnRef": "FideChamp1993.pgn#20"
+    }
+  ],
+  "featuredRounds": [
+    2,
+    16
+  ],
+  "moments": [
+    {
+      "id": "golpe-y-respuesta",
+      "round": 2,
+      "title": {
+        "es": "Golpe y respuesta",
+        "en": "Blow for blow"
+      },
+      "text": {
+        "es": "Karpov ganó la primera partida con negras y Timman le devolvió el golpe al día siguiente, también con negras.",
+        "en": "Karpov won the first game with Black, and Timman struck back the very next day, also with Black."
+      }
+    },
+    {
+      "id": "yakarta",
+      "round": 13,
+      "title": {
+        "es": "El match viaja a Yakarta",
+        "en": "The match moves to Jakarta"
+      },
+      "text": {
+        "es": "Las primeras doce partidas se jugaron en tres ciudades de Países Bajos. Karpov llegó a Indonesia con ventaja de 7–5 y desde la partida 13 el match siguió en Yakarta.",
+        "en": "The first twelve games were played in three Dutch cities. Karpov arrived in Indonesia leading 7–5, and from game 13 the match continued in Jakarta."
+      }
+    },
+    {
+      "id": "tres-seguidas",
+      "round": 16,
+      "title": {
+        "es": "Tres victorias seguidas",
+        "en": "Three wins in a row"
+      },
+      "text": {
+        "es": "Karpov ganó las partidas 14, 15 y 16 y dejó el match prácticamente resuelto.",
+        "en": "Karpov won games 14, 15 and 16, which all but decided the match."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Short había eliminado a Karpov en la semifinal de candidatos y a Timman en la final; por eso la FIDE los eligió para su match.",
+        "en": "Short had knocked out Karpov in the Candidates semifinal and Timman in the final, which is why FIDE picked them for its match."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1993"
+      }
+    },
+    {
+      "text": {
+        "es": "Con este match y el de Kasparov y Short hubo, por primera vez en la historia, dos campeones mundiales rivales. La división duró hasta 2006.",
+        "en": "With this match and the Kasparov–Short match there were, for the first time ever, two rival world champions. The split lasted until 2006."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1993"
+      }
+    },
+    {
+      "text": {
+        "es": "Karpov recuperó el título de la FIDE que había tenido de 1975 a 1985, antes de perderlo ante Kasparov.",
+        "en": "Karpov regained the FIDE title he had held from 1975 to 1985, before losing it to Kasparov."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1993"
+      }
+    },
+    {
+      "text": {
+        "es": "Las partidas 1 a 12 se jugaron en Zwolle, Arnhem y Ámsterdam; las partidas 13 a 21, en Yakarta.",
+        "en": "Games 1 to 12 were played in Zwolle, Arnhem and Amsterdam; games 13 to 21 in Jakarta."
+      },
+      "source": {
+        "label": "Lichess – Karpov vs. Timman 1993 (PGN)",
+        "url": "https://lichess.org/study/oHnbE1SD"
+      }
+    }
+  ],
+  "photos": [
+    "karpov-1993",
+    "timman-1989",
+    "short-timman-1989",
+    "kasparov-timman-karpov-1988"
+  ],
+  "videos": [
+    {
+      "youtubeId": "3WCH0zDF3rg",
+      "kind": "archival",
+      "title": {
+        "es": "Imágenes del match Karpov-Timman en Yakarta, 1993",
+        "en": "Footage of the Karpov-Timman match in Jakarta, 1993"
+      },
+      "channel": "RCTI Files",
+      "language": "id",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1993"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/9193fwix.htm"
+    },
+    {
+      "label": "Lichess – Karpov vs. Timman 1993 (PGN)",
+      "url": "https://lichess.org/study/oHnbE1SD"
+    }
+  ]
+}

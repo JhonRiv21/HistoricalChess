@@ -1,0 +1,405 @@
+{
+  "year": 1958,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "smyslov",
+      "name": "Vasily Smyslov",
+      "short": "Smyslov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "botvinnik",
+      "name": "Mikhail Botvinnik",
+      "short": "Botvinnik",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "botvinnik",
+  "score": {
+    "smyslov": 10.5,
+    "botvinnik": 12.5
+  },
+  "site": {
+    "es": "Moscú, URSS",
+    "en": "Moscow, Soviet Union"
+  },
+  "dates": {
+    "start": "1958-03-04",
+    "end": "1958-05-09"
+  },
+  "summary": {
+    "es": "Como campeón destronado, Botvinnik tenía derecho a una revancha al año siguiente, y se preparó de forma obsesiva. Sorprendió a Smyslov con la Defensa Caro-Kann, ganó las tres primeras partidas y administró la ventaja hasta el 12½–10½. Así recuperó el título que había perdido en 1957.",
+    "en": "As the dethroned champion, Botvinnik was entitled to a rematch the following year, and he prepared obsessively. He surprised Smyslov with the Caro-Kann Defence, won the first three games and managed the lead all the way to 12½–10½. That is how he regained the title he had lost in 1957."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "B11",
+      "plies": 124,
+      "pgnRef": "WorldChamp1958.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "E81",
+      "plies": 81,
+      "pgnRef": "WorldChamp1958.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "B19",
+      "plies": 132,
+      "pgnRef": "WorldChamp1958.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "D98",
+      "plies": 163,
+      "pgnRef": "WorldChamp1958.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "B72",
+      "plies": 81,
+      "pgnRef": "WorldChamp1958.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "E81",
+      "plies": 97,
+      "pgnRef": "WorldChamp1958.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B72",
+      "plies": 31,
+      "pgnRef": "WorldChamp1958.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "E69",
+      "plies": 81,
+      "pgnRef": "WorldChamp1958.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B72",
+      "plies": 80,
+      "pgnRef": "WorldChamp1958.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "A16",
+      "plies": 87,
+      "pgnRef": "WorldChamp1958.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "D99",
+      "plies": 47,
+      "pgnRef": "WorldChamp1958.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "A12",
+      "plies": 81,
+      "pgnRef": "WorldChamp1958.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "D47",
+      "plies": 81,
+      "pgnRef": "WorldChamp1958.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "A16",
+      "plies": 135,
+      "pgnRef": "WorldChamp1958.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "B12",
+      "plies": 109,
+      "pgnRef": "WorldChamp1958.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "A16",
+      "plies": 72,
+      "pgnRef": "WorldChamp1958.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B10",
+      "plies": 98,
+      "pgnRef": "WorldChamp1958.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "A16",
+      "plies": 147,
+      "pgnRef": "WorldChamp1958.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "B11",
+      "plies": 69,
+      "pgnRef": "WorldChamp1958.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "A30",
+      "plies": 95,
+      "pgnRef": "WorldChamp1958.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B34",
+      "plies": 45,
+      "pgnRef": "WorldChamp1958.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "0-1",
+      "eco": "A95",
+      "plies": 76,
+      "pgnRef": "WorldChamp1958.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "A05",
+      "plies": 81,
+      "pgnRef": "WorldChamp1958.pgn#22"
+    }
+  ],
+  "featuredRounds": [
+    1,
+    3
+  ],
+  "moments": [
+    {
+      "id": "tres-de-entrada",
+      "title": {
+        "es": "Tres victorias de entrada",
+        "en": "Three wins to start"
+      },
+      "text": {
+        "es": "Botvinnik ganó las tres primeras partidas, dos de ellas con la Caro-Kann, una defensa para la que Smyslov no estaba preparado. Después jugó con más cautela para cuidar la ventaja.",
+        "en": "Botvinnik won the first three games, two of them with the Caro-Kann, a defence Smyslov was not prepared for. After that he played more cautiously to protect the lead."
+      },
+      "round": 3
+    },
+    {
+      "id": "smyslov-no-se-rinde",
+      "title": {
+        "es": "Smyslov no se rinde",
+        "en": "Smyslov fights on"
+      },
+      "text": {
+        "es": "Smyslov ganó las partidas 5, 11, 15, 19 y 22, pero nunca logró alcanzar a Botvinnik, que siempre volvió a sacar distancia.",
+        "en": "Smyslov won games 5, 11, 15, 19 and 22, but he never caught Botvinnik, who always pulled ahead again."
+      },
+      "round": 22
+    },
+    {
+      "id": "revancha-cumplida",
+      "title": {
+        "es": "Revancha cumplida",
+        "en": "Rematch accomplished"
+      },
+      "text": {
+        "es": "Con unas tablas en la partida 23, Botvinnik llegó a 12½ puntos y volvió a ser campeón del mundo.",
+        "en": "With a draw in game 23, Botvinnik reached 12½ points and was world champion once more."
+      },
+      "round": 23
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El premio fijado para el ganador era de 5000 rublos.",
+        "en": "The prize fund was set at 5,000 roubles for the winner."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1958",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1958"
+      }
+    },
+    {
+      "text": {
+        "es": "Smyslov contó después que su salud sufrió durante la revancha, porque enfermó de neumonía, pero reconoció que Botvinnik se había preparado a fondo.",
+        "en": "Smyslov later said his health suffered during the rematch, as he came down with pneumonia, but he acknowledged that Botvinnik had prepared very thoroughly."
+      },
+      "source": {
+        "label": "Wikipedia: Vasily Smyslov",
+        "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+      }
+    },
+    {
+      "text": {
+        "es": "Sumando sus tres matches por el título, Smyslov ganó 18 partidas, Botvinnik 17 y hubo 34 tablas; aun así, Smyslov fue campeón solo un año.",
+        "en": "Across their three title matches, Smyslov won 18 games, Botvinnik 17, and 34 were drawn; even so, Smyslov was champion for only one year."
+      },
+      "source": {
+        "label": "Wikipedia: Vasily Smyslov",
+        "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+      }
+    },
+    {
+      "text": {
+        "es": "El regreso de Botvinnik se vio como un símbolo de los ideales de la llamada edad de oro del ajedrez soviético.",
+        "en": "Botvinnik's comeback was seen as emblematic of the ideals of the so-called golden age of Soviet chess."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1958",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1958"
+      }
+    }
+  ],
+  "photos": [
+    "botvinnik-smyslov-1957",
+    "smyslov-1956",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "videos": [
+    {
+      "youtubeId": "x0uPvbk9m3k",
+      "kind": "archival",
+      "title": {
+        "es": "Noticiero de 1958: match por el título mundial",
+        "en": "1958 newsreel: the world title match"
+      },
+      "channel": "British Pathé",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "HShUibKrXKw",
+      "kind": "recap",
+      "title": {
+        "es": "Smyslov contra Botvinnik, 1958: partida 11",
+        "en": "Smyslov vs. Botvinnik, 1958: game 11"
+      },
+      "channel": "agadmator's Chess Channel",
+      "round": 11,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1958",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1958"
+    },
+    {
+      "label": "Mark Weeks: 1958 Botvinnik - Smyslov",
+      "url": "https://www.mark-weeks.com/chess/55572wix.htm"
+    },
+    {
+      "label": "Wikipedia: Vasily Smyslov",
+      "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+    }
+  ]
+}

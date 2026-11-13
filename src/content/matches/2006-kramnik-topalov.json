@@ -1,0 +1,381 @@
+{
+  "year": 2006,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "topalov",
+      "name": "Veselin Topalov",
+      "short": "Topalov",
+      "country": {
+        "es": "Bulgaria",
+        "en": "Bulgaria"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "kramnik",
+      "name": "Vladimir Kramnik",
+      "short": "Kramnik",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "champion"
+    }
+  ],
+  "winner": "kramnik",
+  "score": {
+    "kramnik": 6,
+    "topalov": 6
+  },
+  "tiebreak": {
+    "kramnik": 2.5,
+    "topalov": 1.5
+  },
+  "site": {
+    "es": "Elistá, Kalmukia (Rusia)",
+    "en": "Elista, Kalmykia (Russia)"
+  },
+  "dates": {
+    "start": "2006-09-23",
+    "end": "2006-10-13"
+  },
+  "summary": {
+    "es": "Este match reunificó el título tras trece años de división: Kramnik, campeón del linaje clásico, contra Topalov, campeón de la FIDE. Kramnik ganó las dos primeras partidas, pero el equipo de Topalov se quejó de sus frecuentes visitas al baño y Kramnik, en protesta, no se presentó a la quinta partida, que perdió. Tras empatar 6–6 en partidas lentas, Kramnik ganó el desempate rápido 2½–1½ y se convirtió en campeón mundial indiscutido.",
+    "en": "This match reunified the title after thirteen years of division: Kramnik, champion of the classical line, against Topalov, the FIDE champion. Kramnik won the first two games, but Topalov's team complained about his frequent bathroom visits, and Kramnik, in protest, did not show up for game five, which he lost by forfeit. After a 6–6 tie in classical games, Kramnik won the rapid playoff 2½–1½ and became undisputed world champion."
+  },
+  "note": {
+    "es": "Ambos llegaban como campeones: Kramnik del linaje clásico y Topalov de la FIDE. La partida 5 no se jugó; se cuenta como victoria de Topalov por incomparecencia dentro del 6–6 de las partidas lentas.",
+    "en": "Both came in as champions: Kramnik of the classical line and Topalov of FIDE. Game 5 was never played; it counts as a forfeit win for Topalov within the 6–6 classical score."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "topalov",
+      "result": "1-0",
+      "date": "2006-09-23",
+      "eco": "E04",
+      "plies": 149,
+      "pgnRef": "WorldChamp2006.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "kramnik",
+      "result": "0-1",
+      "date": "2006-09-24",
+      "eco": "D19",
+      "plies": 126,
+      "pgnRef": "WorldChamp2006.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "topalov",
+      "result": "1/2-1/2",
+      "date": "2006-09-26",
+      "eco": "E02",
+      "plies": 76,
+      "pgnRef": "WorldChamp2006.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2006-09-27",
+      "eco": "D47",
+      "plies": 107,
+      "pgnRef": "WorldChamp2006.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "forfeit",
+      "white": "kramnik",
+      "black": "topalov",
+      "result": "0-1",
+      "date": "2006-09-29",
+      "plies": 0,
+      "pgnRef": "WorldChamp2006.pgn#4",
+      "note": {
+        "es": "No se jugó. Kramnik se negó a jugar en protesta por el cierre de su baño privado, su reloj corrió durante una hora y el árbitro le dio la victoria a Topalov.",
+        "en": "Not played. Kramnik refused to play in protest at the closing of his private bathroom; his clock ran for an hour and the arbiter awarded the win to Topalov."
+      }
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2006-10-02",
+      "eco": "D17",
+      "plies": 61,
+      "pgnRef": "WorldChamp2006.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2006-10-04",
+      "eco": "D27",
+      "plies": 119,
+      "pgnRef": "WorldChamp2006.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "topalov",
+      "result": "0-1",
+      "date": "2006-10-05",
+      "eco": "D47",
+      "plies": 104,
+      "pgnRef": "WorldChamp2006.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "kramnik",
+      "result": "1-0",
+      "date": "2006-10-07",
+      "eco": "D12",
+      "plies": 77,
+      "pgnRef": "WorldChamp2006.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "topalov",
+      "result": "1-0",
+      "date": "2006-10-08",
+      "eco": "E08",
+      "plies": 85,
+      "pgnRef": "WorldChamp2006.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2006-10-10",
+      "eco": "D12",
+      "plies": 131,
+      "pgnRef": "WorldChamp2006.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "topalov",
+      "result": "1/2-1/2",
+      "date": "2006-10-12",
+      "eco": "D12",
+      "plies": 94,
+      "pgnRef": "WorldChamp2006.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "rapid",
+      "white": "topalov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2006-10-13",
+      "eco": "D18",
+      "plies": 93,
+      "pgnRef": "WorldChamp2006.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "rapid",
+      "white": "kramnik",
+      "black": "topalov",
+      "result": "1-0",
+      "date": "2006-10-13",
+      "eco": "D45",
+      "plies": 89,
+      "pgnRef": "WorldChamp2006.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "rapid",
+      "white": "topalov",
+      "black": "kramnik",
+      "result": "1-0",
+      "date": "2006-10-13",
+      "eco": "D12",
+      "plies": 99,
+      "pgnRef": "WorldChamp2006.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "rapid",
+      "white": "kramnik",
+      "black": "topalov",
+      "result": "1-0",
+      "date": "2006-10-13",
+      "eco": "D47",
+      "plies": 89,
+      "pgnRef": "WorldChamp2006.pgn#15"
+    }
+  ],
+  "featuredRounds": [
+    2,
+    10,
+    16
+  ],
+  "moments": [
+    {
+      "id": "mate-en-tres",
+      "round": 2,
+      "title": {
+        "es": "Un mate que nadie vio",
+        "en": "A mate nobody saw"
+      },
+      "text": {
+        "es": "Kramnik ganó también la segunda partida. Más tarde contó que en ella los dos habían pasado por alto un mate en tres.",
+        "en": "Kramnik won the second game too. He later said that both players had missed a mate in three in it."
+      }
+    },
+    {
+      "id": "toiletgate",
+      "round": 5,
+      "title": {
+        "es": "El «Toiletgate»",
+        "en": "\"Toiletgate\""
+      },
+      "text": {
+        "es": "El 28 de septiembre, el mánager de Topalov, Silvio Danailov, calificó de «extrañas, si no sospechosas» las visitas de Kramnik al baño, el único lugar sin cámaras. Al día siguiente se cerraron los baños privados y Kramnik se negó a jugar. Perdió la partida 5 por incomparecencia y siguió el match bajo protesta.",
+        "en": "On 28 September, Topalov's manager Silvio Danailov called Kramnik's bathroom visits \"strange, if not suspicious\", since the bathroom was the only place without cameras. The next day the private bathrooms were closed and Kramnik refused to play. He forfeited game 5 and carried on under protest."
+      }
+    },
+    {
+      "id": "reaccion",
+      "round": 10,
+      "title": {
+        "es": "Kramnik reacciona",
+        "en": "Kramnik strikes back"
+      },
+      "text": {
+        "es": "Topalov ganó las partidas 8 y 9 y tomó la delantera por primera vez, pero Kramnik ganó la décima y empató de nuevo el match.",
+        "en": "Topalov won games 8 and 9 to take the lead for the first time, but Kramnik won game 10 and levelled the match again."
+      }
+    },
+    {
+      "id": "desempate",
+      "round": 16,
+      "title": {
+        "es": "Decidido en la última rápida",
+        "en": "Decided in the last rapid game"
+      },
+      "text": {
+        "es": "Con el desempate igualado tras tres partidas, Topalov cometió un error grave en la cuarta y Kramnik ganó el título indiscutido.",
+        "en": "With the playoff level after three games, Topalov blundered in the fourth and Kramnik won the undisputed title."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Fue la primera partida perdida por incomparecencia en un Campeonato del Mundo desde el Spassky–Fischer de 1972.",
+        "en": "It was the first forfeited game in a World Championship match since Spassky–Fischer in 1972."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2006"
+      }
+    },
+    {
+      "text": {
+        "es": "Más de 30 grandes maestros y maestros internacionales, entre ellos los excampeones Karpov y Spassky, apoyaron públicamente la posición de Kramnik.",
+        "en": "More than 30 grandmasters and international masters, including former champions Karpov and Spassky, publicly backed Kramnik's position."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2006"
+      }
+    },
+    {
+      "text": {
+        "es": "La comisión de apelaciones concluyó que la frecuencia de las visitas al baño se había exagerado, pero aun así cerró los baños privados y abrió uno común para los dos jugadores.",
+        "en": "The appeals committee found that the frequency of the bathroom visits had been exaggerated, but still closed the private bathrooms and opened a shared one for both players."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2006"
+      }
+    },
+    {
+      "text": {
+        "es": "En 2015, nueve años después, Kramnik dijo que no respetaba a Topalov como persona y que no le daría la mano.",
+        "en": "In 2015, nine years later, Kramnik said he did not respect Topalov as a person and would not shake his hand."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2006"
+      }
+    },
+    {
+      "text": {
+        "es": "Al ganar, Kramnik ocupó el lugar de Topalov en el torneo por el título de 2007.",
+        "en": "By winning, Kramnik took Topalov's place in the 2007 title tournament."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2006"
+      }
+    }
+  ],
+  "photos": [
+    "topalov-2005",
+    "kramnik-2006",
+    "topalov-2007",
+    "kramnik-anand-2004"
+  ],
+  "videos": [
+    {
+      "youtubeId": "ap77WvxkotY",
+      "kind": "recap",
+      "title": {
+        "es": "El escándalo del baño en el match de 2006",
+        "en": "The 2006 toilet scandal"
+      },
+      "channel": "GothamChess",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "Xz84AygeR2w",
+      "kind": "recap",
+      "title": {
+        "es": "Toiletgate: Kramnik contra Topalov, 2006",
+        "en": "Toiletgate: Kramnik vs. Topalov, 2006"
+      },
+      "channel": "Xadrez Brasil",
+      "language": "pt",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2006"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/a5a7uwix.htm"
+    }
+  ]
+}

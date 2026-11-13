@@ -1,0 +1,333 @@
+{
+  "year": 1896,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "lasker",
+      "name": "Emanuel Lasker",
+      "short": "Lasker",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "steinitz",
+      "name": "Wilhelm Steinitz",
+      "short": "Steinitz",
+      "country": {
+        "es": "Austria / Estados Unidos",
+        "en": "Austria / United States"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "lasker",
+  "score": {
+    "steinitz": 4.5,
+    "lasker": 12.5
+  },
+  "site": {
+    "es": "Moscú",
+    "en": "Moscow"
+  },
+  "dates": {
+    "start": "1896-11-06",
+    "end": "1897-01-14"
+  },
+  "summary": {
+    "es": "Steinitz había quedado segundo, detrás de Lasker, en el gran torneo de San Petersburgo 1895–96, y eso le permitió reunir apoyo para una revancha en Moscú. Pero Lasker fue muy superior: ganó las cuatro primeras partidas y terminó con 10 victorias, 2 derrotas y 5 tablas. Fue su primera defensa del título y el último campeonato del mundo durante una década.",
+    "en": "Steinitz had finished second, behind Lasker, at the great St. Petersburg 1895–96 tournament, which helped him raise support for a rematch in Moscow. But Lasker was far stronger: he won the first four games and finished with 10 wins, 2 losses and 5 draws. It was his first title defence and the last world championship for a decade."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "0-1",
+      "eco": "C54",
+      "plies": 90,
+      "pgnRef": "WorldChamp1896.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "eco": "C64",
+      "plies": 72,
+      "pgnRef": "WorldChamp1896.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "0-1",
+      "eco": "C54",
+      "plies": 78,
+      "pgnRef": "WorldChamp1896.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "eco": "C64",
+      "plies": 131,
+      "pgnRef": "WorldChamp1896.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "eco": "D53",
+      "plies": 78,
+      "pgnRef": "WorldChamp1896.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "eco": "C50",
+      "plies": 115,
+      "pgnRef": "WorldChamp1896.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "eco": "D53",
+      "plies": 150,
+      "pgnRef": "WorldChamp1896.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "eco": "C62",
+      "plies": 111,
+      "pgnRef": "WorldChamp1896.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "eco": "D53",
+      "plies": 68,
+      "pgnRef": "WorldChamp1896.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "eco": "C68",
+      "plies": 81,
+      "pgnRef": "WorldChamp1896.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "0-1",
+      "eco": "D53",
+      "plies": 128,
+      "pgnRef": "WorldChamp1896.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "0-1",
+      "eco": "C71",
+      "plies": 60,
+      "pgnRef": "WorldChamp1896.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1-0",
+      "eco": "D53",
+      "plies": 75,
+      "pgnRef": "WorldChamp1896.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "eco": "C68",
+      "plies": 155,
+      "pgnRef": "WorldChamp1896.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "eco": "D53",
+      "plies": 69,
+      "pgnRef": "WorldChamp1896.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "steinitz",
+      "result": "1-0",
+      "eco": "C71",
+      "plies": 83,
+      "pgnRef": "WorldChamp1896.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "lasker",
+      "result": "0-1",
+      "eco": "D60",
+      "plies": 118,
+      "pgnRef": "WorldChamp1896.pgn#16"
+    }
+  ],
+  "featuredRounds": [
+    17,
+    13
+  ],
+  "moments": [
+    {
+      "id": "cuatro-de-cuatro",
+      "title": {
+        "es": "Cuatro de cuatro",
+        "en": "Four out of four"
+      },
+      "text": {
+        "es": "Lasker ganó las cuatro primeras partidas del match y dejó claro desde el comienzo quién mandaba.",
+        "en": "Lasker won the first four games of the match and made it clear from the start who was in charge."
+      },
+      "round": 4
+    },
+    {
+      "id": "orgullo-de-steinitz",
+      "title": {
+        "es": "El orgullo del excampeón",
+        "en": "The former champion's pride"
+      },
+      "text": {
+        "es": "Con el match ya muy cuesta arriba, Steinitz ganó dos partidas seguidas, la 12 y la 13: fueron sus únicas victorias.",
+        "en": "With the match already slipping away, Steinitz won two games in a row, 12 and 13: they were his only wins."
+      },
+      "round": 13
+    },
+    {
+      "id": "decima-victoria",
+      "title": {
+        "es": "La décima victoria",
+        "en": "The tenth win"
+      },
+      "text": {
+        "es": "Lasker ganó la partida 17 y llegó a las diez victorias que exigía el reglamento para retener el título.",
+        "en": "Lasker won game 17 to reach the ten wins the rules required to keep the title."
+      },
+      "round": 17
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "En San Petersburgo 1895–96, Steinitz terminó segundo detrás de Lasker y por delante de Harry Pillsbury y Mijaíl Chigorin.",
+        "en": "At St. Petersburg 1895–96, Steinitz finished second behind Lasker and ahead of Harry Pillsbury and Mikhail Chigorin."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1896–1897"
+      }
+    },
+    {
+      "text": {
+        "es": "Las dos únicas victorias de Steinitz llegaron seguidas, en las partidas 12 y 13.",
+        "en": "Steinitz's only two wins came back to back, in games 12 and 13."
+      },
+      "source": {
+        "label": "Mark Weeks",
+        "url": "https://www.mark-weeks.com/chess/z6ls$wix.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "No hubo otro campeonato del mundo hasta 1907, en parte porque Lasker se dedicó a su doctorado en matemáticas.",
+        "en": "There was no other world championship until 1907, partly because Lasker devoted himself to his doctorate in mathematics."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1907"
+      }
+    },
+    {
+      "text": {
+        "es": "A comienzos de 1896, Steinitz había ganado un match al ruso Emanuel Schiffers con 6 victorias, 4 derrotas y 1 tablas.",
+        "en": "Earlier in 1896, Steinitz had beaten Russia's Emanuel Schiffers in a match with 6 wins, 4 losses and 1 draw."
+      },
+      "source": {
+        "label": "Wikipedia (Wilhelm Steinitz)",
+        "url": "https://en.wikipedia.org/wiki/Wilhelm_Steinitz"
+      }
+    }
+  ],
+  "photos": [
+    "lasker-steinitz-1894-philadelphia",
+    "steinitz-1896",
+    "lasker-1908"
+  ],
+  "videos": [
+    {
+      "youtubeId": "UyV6jx6NlZU",
+      "kind": "recap",
+      "title": {
+        "es": "Lasker contra Steinitz, 1896: análisis de Jan Gustafsson",
+        "en": "Lasker vs. Steinitz, 1896: analysis by Jan Gustafsson"
+      },
+      "channel": "chess24",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1896–1897"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/z6ls$wix.htm"
+    },
+    {
+      "label": "Wikipedia (Wilhelm Steinitz)",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Steinitz"
+    }
+  ]
+}

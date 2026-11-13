@@ -1,0 +1,275 @@
+{
+  "year": 1910,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "lasker",
+      "name": "Emanuel Lasker",
+      "short": "Lasker",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "janowski",
+      "name": "Dawid Janowski",
+      "short": "Janowski",
+      "country": {
+        "es": "Francia",
+        "en": "France"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "lasker",
+  "score": {
+    "lasker": 9.5,
+    "janowski": 1.5
+  },
+  "site": {
+    "es": "Berlín",
+    "en": "Berlin"
+  },
+  "dates": {
+    "start": "1910-11-08",
+    "end": "1910-12-08"
+  },
+  "summary": {
+    "es": "Segunda defensa de Lasker en 1910, contra Dawid Janowski, un jugador de ataque nacido en Polonia que había pedido la revancha tras perder un match de exhibición en 1909. Lasker ganó ocho partidas, hubo tres tablas y Janowski no ganó ninguna: 9½ a 1½. Es el resultado más desigual de la historia de los campeonatos del mundo.",
+    "en": "Lasker's second title defence of 1910, against Dawid Janowski, a Polish-born attacking player who had asked for a rematch after losing an exhibition match in 1909. Lasker won eight games, three were drawn, and Janowski won none: 9½–1½. It is the most one-sided result in world championship history."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "janowski",
+      "result": "1-0",
+      "date": "1910-11-08",
+      "eco": "D32",
+      "plies": 43,
+      "pgnRef": "WorldChamp1910b.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "janowski",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1910-11-09",
+      "eco": "D05",
+      "plies": 90,
+      "pgnRef": "WorldChamp1910b.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "janowski",
+      "result": "1/2-1/2",
+      "date": "1910-11-12",
+      "eco": "D55",
+      "plies": 201,
+      "pgnRef": "WorldChamp1910b.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "janowski",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1910-11-17",
+      "eco": "D27",
+      "plies": 62,
+      "pgnRef": "WorldChamp1910b.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "janowski",
+      "result": "1-0",
+      "date": "1910-11-19",
+      "eco": "D32",
+      "plies": 57,
+      "pgnRef": "WorldChamp1910b.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "janowski",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1910-11-20",
+      "eco": "D40",
+      "plies": 133,
+      "pgnRef": "WorldChamp1910b.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "janowski",
+      "result": "1-0",
+      "date": "1910-11-24",
+      "eco": "D32",
+      "plies": 91,
+      "pgnRef": "WorldChamp1910b.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "janowski",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1910-11-27",
+      "eco": "D40",
+      "plies": 176,
+      "pgnRef": "WorldChamp1910b.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "janowski",
+      "result": "1-0",
+      "date": "1910-12-01",
+      "eco": "C79",
+      "plies": 85,
+      "pgnRef": "WorldChamp1910b.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "janowski",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1910-12-06",
+      "eco": "B07",
+      "plies": 104,
+      "pgnRef": "WorldChamp1910b.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "janowski",
+      "result": "1-0",
+      "date": "1910-12-08",
+      "eco": "C30",
+      "plies": 59,
+      "pgnRef": "WorldChamp1910b.pgn#10"
+    }
+  ],
+  "featuredRounds": [
+    11
+  ],
+  "moments": [
+    {
+      "id": "primer-golpe",
+      "title": {
+        "es": "El primer golpe",
+        "en": "The first blow"
+      },
+      "text": {
+        "es": "Lasker ganó la primera partida con blancas y marcó el tono de todo el match.",
+        "en": "Lasker won the first game with White and set the tone for the whole match."
+      },
+      "round": 1
+    },
+    {
+      "id": "janowski-desconcertado",
+      "title": {
+        "es": "Janowski, desconcertado",
+        "en": "Janowski baffled"
+      },
+      "text": {
+        "es": "Tras sus tres primeras derrotas, Janowski le dijo a Edward Lasker: «Su homónimo juega tan estúpidamente que ni siquiera puedo mirar el tablero cuando piensa. Me temo que no haré nada bueno en este match».",
+        "en": "After his first three losses, Janowski told Edward Lasker: \"Your homonym plays so stupidly that I cannot even look at the chessboard when he thinks. I am afraid I will not do anything good in this match.\""
+      },
+      "round": 5
+    },
+    {
+      "id": "octava-victoria",
+      "title": {
+        "es": "Ocho victorias, cero derrotas",
+        "en": "Eight wins, no losses"
+      },
+      "text": {
+        "es": "Lasker ganó las últimas cinco partidas y cerró el match en la undécima con su octava victoria.",
+        "en": "Lasker won the last five games and closed the match in game 11 with his eighth win."
+      },
+      "round": 11
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "En 1909 jugaron dos matches de exhibición: el primero terminó empatado, con dos victorias por bando, y el segundo lo ganó Lasker con 7 victorias, 2 tablas y 1 derrota.",
+        "en": "In 1909 they played two exhibition matches: the first was drawn at two wins each, and Lasker won the second with 7 wins, 2 draws and 1 loss."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1910_(Lasker–Janowski)"
+      }
+    },
+    {
+      "text": {
+        "es": "Al match más largo de 1909 a veces se lo llama campeonato del mundo, pero según las investigaciones de Edward Winter el título no estaba en juego.",
+        "en": "The longer 1909 match is sometimes called a world championship, but Edward Winter's research indicates the title was not at stake."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1910_(Lasker–Janowski)"
+      }
+    },
+    {
+      "text": {
+        "es": "Ganaba el primero en llegar a ocho victorias, y Lasker lo logró en solo once partidas.",
+        "en": "The winner was the first to eight wins, and Lasker got there in just eleven games."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1910_(Lasker–Janowski)"
+      }
+    },
+    {
+      "text": {
+        "es": "Se jugó en Berlín, pocos meses después del match contra Schlechter.",
+        "en": "It was played in Berlin, a few months after the match against Schlechter."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1910_(Lasker–Janowski)"
+      }
+    }
+  ],
+  "photos": [
+    "lasker-1909-eugene",
+    "janowski-1896",
+    "lasker-1908"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1910_(Lasker–Janowski)"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/10lj$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1910j-wch.html"
+    },
+    {
+      "label": "Wikipedia (Emanuel Lasker)",
+      "url": "https://en.wikipedia.org/wiki/Emanuel_Lasker"
+    }
+  ]
+}

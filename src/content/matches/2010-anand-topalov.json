@@ -1,0 +1,307 @@
+{
+  "year": 2010,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "short": "Anand",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "topalov",
+      "name": "Veselin Topalov",
+      "short": "Topalov",
+      "country": {
+        "es": "Bulgaria",
+        "en": "Bulgaria"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "anand",
+  "score": {
+    "anand": 6.5,
+    "topalov": 5.5
+  },
+  "site": {
+    "es": "Sofía, Bulgaria",
+    "en": "Sofia, Bulgaria"
+  },
+  "dates": {
+    "start": "2010-04-24",
+    "end": "2010-05-11"
+  },
+  "summary": {
+    "es": "Anand defendió el título en Sofía, la ciudad de su rival, Veselin Topalov. Topalov ganó la primera partida, Anand le dio la vuelta con victorias en la segunda y la cuarta, y Topalov volvió a empatar en la octava. Con el match igualado 5½–5½, Anand ganó la última partida con negras y retuvo el título 6½–5½ sin necesidad de desempate.",
+    "en": "Anand defended the title in Sofia, the home city of his rival, Veselin Topalov. Topalov won the first game, Anand turned it around with wins in games two and four, and Topalov levelled again in game eight. With the match tied 5½–5½, Anand won the final game with Black and kept the title 6½–5½ without a playoff."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2010-04-24",
+      "eco": "D86",
+      "plies": 59,
+      "pgnRef": "WorldChamp2010.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "anand",
+      "black": "topalov",
+      "result": "1-0",
+      "date": "2010-04-25",
+      "eco": "E04",
+      "plies": 85,
+      "pgnRef": "WorldChamp2010.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2010-04-27",
+      "eco": "D17",
+      "plies": 91,
+      "pgnRef": "WorldChamp2010.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "anand",
+      "black": "topalov",
+      "result": "1-0",
+      "date": "2010-04-28",
+      "eco": "E04",
+      "plies": 63,
+      "pgnRef": "WorldChamp2010.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2010-04-30",
+      "eco": "D17",
+      "plies": 87,
+      "pgnRef": "WorldChamp2010.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "anand",
+      "black": "topalov",
+      "result": "1/2-1/2",
+      "date": "2010-05-01",
+      "eco": "E04",
+      "plies": 116,
+      "pgnRef": "WorldChamp2010.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "anand",
+      "black": "topalov",
+      "result": "1/2-1/2",
+      "date": "2010-05-03",
+      "eco": "E10",
+      "plies": 115,
+      "pgnRef": "WorldChamp2010.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2010-05-04",
+      "eco": "D17",
+      "plies": 111,
+      "pgnRef": "WorldChamp2010.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "anand",
+      "black": "topalov",
+      "result": "1/2-1/2",
+      "date": "2010-05-06",
+      "eco": "E53",
+      "plies": 165,
+      "pgnRef": "WorldChamp2010.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2010-05-07",
+      "eco": "D86",
+      "plies": 119,
+      "pgnRef": "WorldChamp2010.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "anand",
+      "black": "topalov",
+      "result": "1/2-1/2",
+      "date": "2010-05-09",
+      "eco": "A29",
+      "plies": 130,
+      "pgnRef": "WorldChamp2010.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "topalov",
+      "black": "anand",
+      "result": "0-1",
+      "date": "2010-05-11",
+      "eco": "D56",
+      "plies": 112,
+      "pgnRef": "WorldChamp2010.pgn#11"
+    }
+  ],
+  "featuredRounds": [
+    1,
+    4,
+    12
+  ],
+  "moments": [
+    {
+      "id": "olvido",
+      "round": 1,
+      "ply": 46,
+      "title": {
+        "es": "Un olvido costoso",
+        "en": "A costly lapse"
+      },
+      "text": {
+        "es": "Anand admitió que olvidó su preparación al pensar su jugada 23 y cometió el error 23…Rf7. Topalov lo castigó con el sacrificio 24.Cxf6 y ganó.",
+        "en": "Anand admitted he forgot his preparation while thinking about his 23rd move and blundered with 23...Kf7. Topalov punished it with the sacrifice 24.Nxf6 and won."
+      }
+    },
+    {
+      "id": "novedad",
+      "round": 4,
+      "ply": 19,
+      "title": {
+        "es": "La novedad del año",
+        "en": "Novelty of the year"
+      },
+      "text": {
+        "es": "En la Catalana, Anand jugó 10.Ca3, una novedad que más tarde ganó el premio a la mejor novedad de 2010 del Yearbook. Remató con el sacrificio 23.Cxh6+ y ganó.",
+        "en": "In the Catalan, Anand played 10.Na3, a novelty that later won the Yearbook Novelty Award for 2010. He finished with the sacrifice 23.Nxh6+ and won."
+      }
+    },
+    {
+      "id": "final",
+      "round": 12,
+      "title": {
+        "es": "Victoria con negras en la última",
+        "en": "A win with Black in the last game"
+      },
+      "text": {
+        "es": "Topalov quería evitar un desempate rápido y buscó complicaciones. Anand respondió con 30…f5 y tomó la iniciativa; fue la única victoria con negras de todo el match.",
+        "en": "Topalov wanted to avoid a rapid playoff and went for complications. Anand answered with 30...f5 and seized the initiative; it was the only win with Black in the whole match."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "La erupción del volcán islandés Eyjafjallajökull dejó a Anand varado en Fráncfort. Llegó a Sofía tras 40 horas por carretera y la primera partida se aplazó un día.",
+        "en": "The eruption of the Icelandic volcano Eyjafjallajökull left Anand stranded in Frankfurt. He reached Sofia after a 40-hour road trip, and the first game was postponed by one day."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2010"
+      }
+    },
+    {
+      "text": {
+        "es": "Para prepararse, Topalov usó una supercomputadora IBM Blue Gene/P de 8.192 procesadores con el programa Rybka.",
+        "en": "To prepare, Topalov used an IBM Blue Gene/P supercomputer with 8,192 processors running the Rybka engine."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2010"
+      }
+    },
+    {
+      "text": {
+        "es": "El equipo de Topalov quiso imponer las «reglas de Sofía», que prohíben ofrecer tablas. Anand se negó, y Danailov dijo que Topalov no le ofrecería tablas ni le hablaría.",
+        "en": "Topalov's team wanted to impose the \"Sofia rules\", which ban draw offers. Anand refused, and Danailov said Topalov would neither offer him a draw nor speak to him."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2010"
+      }
+    },
+    {
+      "text": {
+        "es": "Durante la quinta partida hubo un apagón de trece minutos por una falla eléctrica en el centro de Sofía.",
+        "en": "During game five there was a thirteen-minute power cut caused by an electrical failure in central Sofia."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2010"
+      }
+    }
+  ],
+  "photos": [
+    "anand-2010",
+    "topalov-2008",
+    "topalov-2007",
+    "anand-2008"
+  ],
+  "videos": [
+    {
+      "youtubeId": "7wo-9B_1dQo",
+      "kind": "recap",
+      "title": {
+        "es": "Anand contra Topalov, 2010: clase de Ben Finegold",
+        "en": "Anand vs. Topalov, 2010: lecture by Ben Finegold"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "oWPhTgdLOY8",
+      "kind": "recap",
+      "title": {
+        "es": "Topalov contra Anand, 2010: revisión de la partida 1",
+        "en": "Topalov vs. Anand, 2010: game 1 review"
+      },
+      "channel": "Saint Louis Chess Club",
+      "round": 1,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2010"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/a7a8$wix.htm"
+    }
+  ]
+}

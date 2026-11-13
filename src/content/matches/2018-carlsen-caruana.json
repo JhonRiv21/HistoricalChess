@@ -1,0 +1,365 @@
+{
+  "year": 2018,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "carlsen",
+      "name": "Magnus Carlsen",
+      "short": "Carlsen",
+      "country": {
+        "es": "Noruega",
+        "en": "Norway"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "caruana",
+      "name": "Fabiano Caruana",
+      "short": "Caruana",
+      "country": {
+        "es": "Estados Unidos",
+        "en": "United States"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "carlsen",
+  "score": {
+    "carlsen": 6,
+    "caruana": 6
+  },
+  "tiebreak": {
+    "carlsen": 3,
+    "caruana": 0
+  },
+  "site": {
+    "es": "Londres, Inglaterra",
+    "en": "London, England"
+  },
+  "dates": {
+    "start": "2018-11-09",
+    "end": "2018-11-28"
+  },
+  "summary": {
+    "es": "Carlsen defendió el título en Londres ante el estadounidense Fabiano Caruana, ganador del Torneo de Candidatos de Berlín. Por primera vez en la historia, las doce partidas lentas terminaron en tablas, aunque varias fueron batallas muy disputadas. En el desempate rápido, Carlsen ganó las tres primeras partidas y retuvo el título.",
+    "en": "Carlsen defended the title in London against American Fabiano Caruana, winner of the Berlin Candidates. For the first time ever, all twelve classical games were drawn, though several were hard-fought battles. In the rapid playoff Carlsen won the first three games and kept the title."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "caruana",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2018-11-09",
+      "eco": "B31",
+      "plies": 229,
+      "pgnRef": "WorldChamp2018.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "caruana",
+      "result": "1/2-1/2",
+      "date": "2018-11-10",
+      "eco": "D37",
+      "plies": 97,
+      "pgnRef": "WorldChamp2018.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "caruana",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2018-11-12",
+      "eco": "B31",
+      "plies": 97,
+      "pgnRef": "WorldChamp2018.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "caruana",
+      "result": "1/2-1/2",
+      "date": "2018-11-13",
+      "eco": "A29",
+      "plies": 67,
+      "pgnRef": "WorldChamp2018.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "caruana",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2018-11-15",
+      "eco": "B31",
+      "plies": 67,
+      "pgnRef": "WorldChamp2018.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "caruana",
+      "result": "1/2-1/2",
+      "date": "2018-11-16",
+      "eco": "C42",
+      "plies": 160,
+      "pgnRef": "WorldChamp2018.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "caruana",
+      "result": "1/2-1/2",
+      "date": "2018-11-18",
+      "eco": "D37",
+      "plies": 79,
+      "pgnRef": "WorldChamp2018.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "caruana",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2018-11-19",
+      "eco": "B33",
+      "plies": 75,
+      "pgnRef": "WorldChamp2018.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "caruana",
+      "result": "1/2-1/2",
+      "date": "2018-11-21",
+      "eco": "A29",
+      "plies": 112,
+      "pgnRef": "WorldChamp2018.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "caruana",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2018-11-22",
+      "eco": "B33",
+      "plies": 107,
+      "pgnRef": "WorldChamp2018.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "caruana",
+      "result": "1/2-1/2",
+      "date": "2018-11-24",
+      "eco": "C42",
+      "plies": 110,
+      "pgnRef": "WorldChamp2018.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "caruana",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2018-11-26",
+      "eco": "B33",
+      "plies": 62,
+      "pgnRef": "WorldChamp2018.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "rapid",
+      "white": "carlsen",
+      "black": "caruana",
+      "result": "1-0",
+      "date": "2018-11-28",
+      "eco": "A22",
+      "plies": 109,
+      "pgnRef": "WorldChamp2018.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "rapid",
+      "white": "caruana",
+      "black": "carlsen",
+      "result": "0-1",
+      "date": "2018-11-28",
+      "eco": "B33",
+      "plies": 56,
+      "pgnRef": "WorldChamp2018.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "rapid",
+      "white": "carlsen",
+      "black": "caruana",
+      "result": "1-0",
+      "date": "2018-11-28",
+      "eco": "B40",
+      "plies": 101,
+      "pgnRef": "WorldChamp2018.pgn#14"
+    }
+  ],
+  "featuredRounds": [
+    1,
+    6,
+    13
+  ],
+  "moments": [
+    {
+      "id": "maraton",
+      "round": 1,
+      "title": {
+        "es": "Un maratón para empezar",
+        "en": "A marathon to start"
+      },
+      "text": {
+        "es": "La primera partida duró siete horas antes de terminar en tablas.",
+        "en": "The first game lasted seven hours before ending in a draw."
+      }
+    },
+    {
+      "id": "mate-oculto",
+      "round": 6,
+      "ply": 133,
+      "title": {
+        "es": "Un mate que nadie podía ver",
+        "en": "A mate no one could see"
+      },
+      "text": {
+        "es": "Tras 67.Rg6, las computadoras encontraron un mate forzado en 58 jugadas para Caruana, empezando con 67…Ag5. Era tan sutil que Garry Kasparov escribió que ningún humano lo habría encontrado; la partida terminó en tablas.",
+        "en": "After 67.Kg6, engines found a forced mate in 58 for Caruana, starting with 67...Bg5. It was so subtle that Garry Kasparov wrote that no human could have found it; the game was drawn."
+      }
+    },
+    {
+      "id": "tablas-ofrecidas",
+      "round": 12,
+      "title": {
+        "es": "Tablas con ventaja",
+        "en": "A draw from a better position"
+      },
+      "text": {
+        "es": "En la última partida lenta, Carlsen ofreció tablas en una posición favorable. Kasparov opinó que el campeón parecía estar perdiendo los nervios.",
+        "en": "In the last classical game Carlsen offered a draw in a favourable position. Kasparov said the champion seemed to be losing his nerve."
+      }
+    },
+    {
+      "id": "desempate",
+      "round": 15,
+      "title": {
+        "es": "Desempate sin discusión",
+        "en": "A one-sided playoff"
+      },
+      "text": {
+        "es": "En las partidas rápidas, Carlsen ganó tres seguidas y no hizo falta jugar la cuarta.",
+        "en": "In the rapid games Carlsen won three in a row, and the fourth was not needed."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Es el único Campeonato del Mundo en que todas las partidas de ritmo clásico terminaron en tablas.",
+        "en": "It is the only World Championship in which every classical game was drawn."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2018"
+      }
+    },
+    {
+      "text": {
+        "es": "El match se jugó en The College, en el barrio londinense de Holborn.",
+        "en": "The match was played at The College in London's Holborn district."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2018"
+      }
+    },
+    {
+      "text": {
+        "es": "En ritmo clásico, Carlsen y Caruana estaban separados por solo 3 puntos de rating; en partidas rápidas, la diferencia era de 91 puntos a favor de Carlsen.",
+        "en": "In classical chess Carlsen and Caruana were just 3 rating points apart; in rapid chess the gap was 91 points in Carlsen's favour."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2018"
+      }
+    },
+    {
+      "text": {
+        "es": "Con este triunfo, Carlsen se convirtió en campeón mundial por cuarta vez.",
+        "en": "With this win Carlsen became world champion for the fourth time."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2018"
+      }
+    }
+  ],
+  "photos": [
+    "london-2018-match",
+    "london-2018-start",
+    "caruana-london-2018",
+    "carlsen-2012"
+  ],
+  "videos": [
+    {
+      "youtubeId": "3pFwFhRTuzQ",
+      "kind": "recap",
+      "title": {
+        "es": "Autoanálisis del campeonato mundial por Carlsen y Caruana",
+        "en": "Carlsen and Caruana self-review the world championship"
+      },
+      "channel": "Team Liquid Chess",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "KVUKYW42kks",
+      "kind": "recap",
+      "title": {
+        "es": "Carlsen contra Caruana, 2018: resumen del desempate",
+        "en": "Carlsen vs. Caruana, 2018: tiebreak recap"
+      },
+      "channel": "chess24 en Español",
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "_iyaUHYOYaw",
+      "kind": "recap",
+      "title": {
+        "es": "Fuerza imparable contra objeto inamovible: Carlsen y Caruana",
+        "en": "Unstoppable force vs. immovable object: Carlsen and Caruana"
+      },
+      "channel": "64 Squares",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2018"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/b7b8$wix.htm"
+    }
+  ]
+}

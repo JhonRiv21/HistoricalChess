@@ -1,0 +1,347 @@
+{
+  "year": 2000,
+  "kind": "match",
+  "era": "split",
+  "title": "classical",
+  "players": [
+    {
+      "id": "kasparov",
+      "name": "Garry Kasparov",
+      "short": "Kasparov",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "kramnik",
+      "name": "Vladimir Kramnik",
+      "short": "Kramnik",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "kramnik",
+  "score": {
+    "kasparov": 6.5,
+    "kramnik": 8.5
+  },
+  "site": {
+    "es": "Londres, Inglaterra",
+    "en": "London, England"
+  },
+  "dates": {
+    "start": "2000-10-08",
+    "end": "2000-11-02"
+  },
+  "summary": {
+    "es": "Sin la PCA, Kasparov eligió a su retador por ranking y, tras fracasar las negociaciones con Shirov y con Anand, enfrentó en Londres a Vladímir Kramnik. Kramnik neutralizó las aperturas de Kasparov con la Defensa Berlinesa, ganó las partidas 2 y 10 y no perdió ninguna. Ganó 8½–6½ y se convirtió en el nuevo campeón del linaje clásico.",
+    "en": "Without the PCA, Kasparov chose his challenger by rating and, after talks with Shirov and Anand fell through, faced Vladimir Kramnik in London. Kramnik blunted Kasparov's openings with the Berlin Defence, won games 2 and 10 and lost none. He won 8½–6½ and became the new champion of the classical line."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2000-10-08",
+      "eco": "C67",
+      "plies": 50,
+      "pgnRef": "WorldChamp2000.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "kasparov",
+      "result": "1-0",
+      "date": "2000-10-10",
+      "eco": "D85",
+      "plies": 79,
+      "pgnRef": "WorldChamp2000.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2000-10-12",
+      "eco": "C67",
+      "plies": 106,
+      "pgnRef": "WorldChamp2000.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "2000-10-14",
+      "eco": "D27",
+      "plies": 147,
+      "pgnRef": "WorldChamp2000.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2000-10-15",
+      "eco": "A34",
+      "plies": 48,
+      "pgnRef": "WorldChamp2000.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "2000-10-17",
+      "eco": "D27",
+      "plies": 131,
+      "pgnRef": "WorldChamp2000.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2000-10-19",
+      "eco": "A32",
+      "plies": 21,
+      "pgnRef": "WorldChamp2000.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "2000-10-21",
+      "eco": "E32",
+      "plies": 75,
+      "pgnRef": "WorldChamp2000.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2000-10-22",
+      "eco": "C67",
+      "plies": 60,
+      "pgnRef": "WorldChamp2000.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "kasparov",
+      "result": "1-0",
+      "date": "2000-10-24",
+      "eco": "E54",
+      "plies": 49,
+      "pgnRef": "WorldChamp2000.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2000-10-26",
+      "eco": "C78",
+      "plies": 82,
+      "pgnRef": "WorldChamp2000.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "2000-10-28",
+      "eco": "E55",
+      "plies": 66,
+      "pgnRef": "WorldChamp2000.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2000-10-29",
+      "eco": "C67",
+      "plies": 27,
+      "pgnRef": "WorldChamp2000.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "2000-10-31",
+      "eco": "A30",
+      "plies": 114,
+      "pgnRef": "WorldChamp2000.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2000-11-02",
+      "eco": "E05",
+      "plies": 76,
+      "pgnRef": "WorldChamp2000.pgn#14"
+    }
+  ],
+  "featuredRounds": [
+    1,
+    2,
+    10
+  ],
+  "moments": [
+    {
+      "id": "berlinesa",
+      "round": 1,
+      "title": {
+        "es": "El muro de Berlín",
+        "en": "The Berlin Wall"
+      },
+      "text": {
+        "es": "Desde la primera partida, Kramnik respondió al 1.e4 de Kasparov con la Defensa Berlinesa de la Apertura Española, para la que el campeón no estaba preparado.",
+        "en": "From the very first game, Kramnik met Kasparov's 1.e4 with the Berlin Defence of the Ruy Lopez, which the champion was not ready for."
+      }
+    },
+    {
+      "id": "grunfeld",
+      "round": 2,
+      "title": {
+        "es": "Golpe en la Grünfeld",
+        "en": "A blow in the Grünfeld"
+      },
+      "text": {
+        "es": "Kramnik ganó con blancas usando una idea nueva contra la Defensa Grünfeld, la favorita de Kasparov, que había descubierto entrenando con Boris Gelfand un año antes.",
+        "en": "Kramnik won with White using a new idea against Kasparov's favourite Grünfeld Defence, which he had found while training with Boris Gelfand a year earlier."
+      }
+    },
+    {
+      "id": "decima",
+      "round": 10,
+      "title": {
+        "es": "La segunda victoria",
+        "en": "The second win"
+      },
+      "text": {
+        "es": "Kramnik ganó la décima partida gracias al conocimiento profundo de una variante que habían estudiado sus segundos, Joël Lautier y Evgeny Bareev.",
+        "en": "Kramnik won game 10 thanks to deep knowledge of a line studied by his seconds, Joël Lautier and Evgeny Bareev."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Kasparov no ganó ninguna partida: Kramnik terminó con dos victorias, trece tablas y ninguna derrota.",
+        "en": "Kasparov did not win a single game: Kramnik finished with two wins, thirteen draws and no losses."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2000"
+      }
+    },
+    {
+      "text": {
+        "es": "En 1998, Alexéi Shirov le había ganado a Kramnik un match clasificatorio para enfrentar a Kasparov, pero ese match por el título nunca se concretó.",
+        "en": "In 1998 Alexei Shirov had beaten Kramnik in a qualifying match to face Kasparov, but that title match never happened."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2000"
+      }
+    },
+    {
+      "text": {
+        "es": "Después de este match, la Defensa Berlinesa se volvió muy popular como arma sólida para las negras.",
+        "en": "After this match the Berlin Defence became hugely popular as a solid weapon for Black."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2000"
+      }
+    },
+    {
+      "text": {
+        "es": "Se jugó en los estudios de televisión Riverside, en Hammersmith, con una bolsa de 2 millones de dólares.",
+        "en": "It was played at the Riverside television studios in Hammersmith, with a prize fund of 2 million dollars."
+      },
+      "source": {
+        "label": "Mark Weeks – World Chess Championship",
+        "url": "https://www.mark-weeks.com/chess/a0a1kkix.htm"
+      }
+    }
+  ],
+  "photos": [
+    "kasparov-kramnik-2001",
+    "anand-kasparov-2000",
+    "kasparov-linares-2005"
+  ],
+  "videos": [
+    {
+      "youtubeId": "fr3PtIuPlQY",
+      "kind": "recap",
+      "title": {
+        "es": "Kasparov contra Kramnik, 2000: clase de Varuzhan Akobian",
+        "en": "Kasparov vs. Kramnik, 2000: lecture by Varuzhan Akobian"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "ktxqGubVyzQ",
+      "kind": "recap",
+      "title": {
+        "es": "Campeonatos históricos: Kasparov contra Kramnik, 2000",
+        "en": "Historic championships: Kasparov vs. Kramnik, 2000"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "osOPgg_XyEw",
+      "kind": "recap",
+      "title": {
+        "es": "El fin de una era: Kramnik contra Kasparov, 2000",
+        "en": "The end of an era: Kramnik vs. Kasparov, 2000"
+      },
+      "channel": "Partidas Inmortales de Ajedrez",
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2000"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/a0a1kkix.htm"
+    }
+  ]
+}

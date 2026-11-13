@@ -1,0 +1,419 @@
+{
+  "year": 1987,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "kasparov",
+      "name": "Garry Kasparov",
+      "short": "Kasparov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "kasparov",
+  "score": {
+    "karpov": 12,
+    "kasparov": 12
+  },
+  "retainedOnTie": true,
+  "site": {
+    "es": "Teatro Lope de Vega, Sevilla, España",
+    "en": "Teatro Lope de Vega, Seville, Spain"
+  },
+  "dates": {
+    "start": "1987-10-12",
+    "end": "1987-12-19"
+  },
+  "summary": {
+    "es": "El cuarto match entre Kasparov y Karpov se jugó en Sevilla y fue parejo de principio a fin. Tras 22 partidas iban empatados; Karpov ganó la 23 y quedó a unas tablas del título. Kasparov ganó la 24, en una partida tensa y larga, empató 12–12 y conservó la corona.",
+    "en": "The fourth Kasparov–Karpov match was played in Seville and was close from start to finish. After 22 games they were level; Karpov won game 23 and stood a draw away from the title. Kasparov won game 24, a long and tense game, tied 12–12 and kept the crown."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D79",
+      "plies": 59,
+      "pgnRef": "WorldChamp1987.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "0-1",
+      "eco": "A29",
+      "plies": 64,
+      "pgnRef": "WorldChamp1987.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D79",
+      "plies": 58,
+      "pgnRef": "WorldChamp1987.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "A29",
+      "plies": 81,
+      "pgnRef": "WorldChamp1987.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "D87",
+      "plies": 75,
+      "pgnRef": "WorldChamp1987.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "A25",
+      "plies": 55,
+      "pgnRef": "WorldChamp1987.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D87",
+      "plies": 158,
+      "pgnRef": "WorldChamp1987.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "A21",
+      "plies": 99,
+      "pgnRef": "WorldChamp1987.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D88",
+      "plies": 140,
+      "pgnRef": "WorldChamp1987.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "B17",
+      "plies": 39,
+      "pgnRef": "WorldChamp1987.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "0-1",
+      "eco": "D87",
+      "plies": 100,
+      "pgnRef": "WorldChamp1987.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D31",
+      "plies": 41,
+      "pgnRef": "WorldChamp1987.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D85",
+      "plies": 72,
+      "pgnRef": "WorldChamp1987.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "B17",
+      "plies": 41,
+      "pgnRef": "WorldChamp1987.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D97",
+      "plies": 85,
+      "pgnRef": "WorldChamp1987.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "0-1",
+      "eco": "A29",
+      "plies": 81,
+      "pgnRef": "WorldChamp1987.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "E97",
+      "plies": 92,
+      "pgnRef": "WorldChamp1987.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D58",
+      "plies": 80,
+      "pgnRef": "WorldChamp1987.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D58",
+      "plies": 120,
+      "pgnRef": "WorldChamp1987.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D53",
+      "plies": 74,
+      "pgnRef": "WorldChamp1987.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D97",
+      "plies": 56,
+      "pgnRef": "WorldChamp1987.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D37",
+      "plies": 37,
+      "pgnRef": "WorldChamp1987.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "A34",
+      "plies": 114,
+      "pgnRef": "WorldChamp1987.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "A14",
+      "plies": 127,
+      "pgnRef": "WorldChamp1987.pgn#23"
+    }
+  ],
+  "featuredRounds": [
+    23,
+    24
+  ],
+  "moments": [
+    {
+      "id": "reloj-olvidado",
+      "title": {
+        "es": "El reloj olvidado",
+        "en": "The forgotten clock"
+      },
+      "text": {
+        "es": "En la segunda partida, Kasparov jugó 1.c4 por primera vez en su vida. Con tres minutos en el reloj tras su jugada 26, olvidó pararlo; cuando se dio cuenta, le quedaba un minuto y terminó perdiendo.",
+        "en": "In game two Kasparov played 1.c4 for the first time in his life. With three minutes left after his 26th move, he forgot to stop his clock; by the time he noticed he had one minute left, and he went on to lose."
+      },
+      "round": 2
+    },
+    {
+      "id": "sacrificio-refutado",
+      "title": {
+        "es": "Un sacrificio refutado",
+        "en": "A refuted sacrifice"
+      },
+      "text": {
+        "es": "En la partida 23, Kasparov hizo un sacrificio en su jugada 50 que creía que le daba las tablas y el match. Karpov encontró la refutación en la jugada 53, ganó y se puso 12–11.",
+        "en": "In game 23 Kasparov made a sacrifice on move 50 that he thought would draw the game and win the match. Karpov found the refutation on move 53, won, and led 12–11."
+      },
+      "round": 23
+    },
+    {
+      "id": "ganar-o-perderlo-todo",
+      "title": {
+        "es": "Ganar o perderlo todo",
+        "en": "Win or lose it all"
+      },
+      "text": {
+        "es": "Kasparov necesitaba ganar la última partida. Karpov se quedó corto de tiempo, Kasparov sacrificó un peón para atacar y, en el aplazamiento de la jugada 42, ya tenía un peón de más. Karpov abandonó en la jugada 64.",
+        "en": "Kasparov had to win the last game. Karpov ran short of time, Kasparov sacrificed a pawn for an attack and, when the game was adjourned at move 42, he was a pawn up. Karpov resigned on move 64."
+      },
+      "round": 24,
+      "ply": 127
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Sevilla presentó su candidatura como preparación para la Exposición Universal de 1992, y el match se jugó en el Teatro Lope de Vega, restaurado justo antes.",
+        "en": "Seville bid for the match as preparation for the 1992 World Expo, and it was played in the Teatro Lope de Vega, refurbished just beforehand."
+      },
+      "source": {
+        "label": "Mark Weeks: 1987 Kasparov - Karpov Highlights",
+        "url": "https://www.mark-weeks.com/chess/87kk$$.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "A último momento, los organizadores pidieron cambiar las cuatro torres del tablero por miniaturas de monumentos sevillanos del siglo XIII, y los dos jugadores aceptaron de inmediato.",
+        "en": "At the last moment the organisers asked to replace the four rooks with miniature replicas of 13th-century Seville monuments, and both players agreed immediately."
+      },
+      "source": {
+        "label": "Mark Weeks: 1987 Kasparov - Karpov Highlights",
+        "url": "https://www.mark-weeks.com/chess/87kk$$.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "El excampeón Boris Spassky fue el comentarista principal del match.",
+        "en": "Former champion Boris Spassky was the chief commentator of the match."
+      },
+      "source": {
+        "label": "Mark Weeks: 1987 Kasparov - Karpov Highlights",
+        "url": "https://www.mark-weeks.com/chess/87kk$$.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "La bolsa era de 2,8 millones de francos suizos.",
+        "en": "The prize fund was 2.8 million Swiss francs."
+      },
+      "source": {
+        "label": "Mark Weeks: 1987 Kasparov - Karpov Highlights",
+        "url": "https://www.mark-weeks.com/chess/87kk$$.htm"
+      }
+    }
+  ],
+  "photos": [
+    "kasparov-karpov-1988",
+    "kasparov-1988-optiebeurs",
+    "karpov-korchnoi-1987",
+    "kasparov-timman-karpov-1988"
+  ],
+  "videos": [
+    {
+      "youtubeId": "sW6lRpAcN-w",
+      "kind": "archival",
+      "title": {
+        "es": "Sevilla 1987: Kasparov gana la partida 24 y conserva el título",
+        "en": "Seville 1987: Kasparov wins game 24 and keeps the title"
+      },
+      "channel": "peter verschueren",
+      "round": 24,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "cK4IAWZRs_0",
+      "kind": "recap",
+      "title": {
+        "es": "Los momentos memorables de Kasparov: la partida final de 1987",
+        "en": "Kasparov's memorable moments: the 1987 final game"
+      },
+      "channel": "agadmator's Chess Channel",
+      "round": 24,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1987",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1987"
+    },
+    {
+      "label": "Mark Weeks: 1987 Kasparov - Karpov",
+      "url": "https://www.mark-weeks.com/chess/8587$wix.htm"
+    },
+    {
+      "label": "Mark Weeks: 1987 Kasparov - Karpov Highlights",
+      "url": "https://www.mark-weeks.com/chess/87kk$$.htm"
+    }
+  ]
+}

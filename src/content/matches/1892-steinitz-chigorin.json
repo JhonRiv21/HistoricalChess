@@ -1,0 +1,407 @@
+{
+  "year": 1892,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "steinitz",
+      "name": "Wilhelm Steinitz",
+      "short": "Steinitz",
+      "country": {
+        "es": "Austria / Estados Unidos",
+        "en": "Austria / United States"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "chigorin",
+      "name": "Mikhail Chigorin",
+      "short": "Chigorin",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "steinitz",
+  "score": {
+    "chigorin": 10.5,
+    "steinitz": 12.5
+  },
+  "retainedOnTie": true,
+  "site": {
+    "es": "La Habana",
+    "en": "Havana"
+  },
+  "dates": {
+    "start": "1892-01-01",
+    "end": "1892-02-28"
+  },
+  "summary": {
+    "es": "Revancha de 1889, otra vez en La Habana, después de que Chigorin le ganara a Steinitz un match por telégrafo nacido de una polémica sobre el gambito Evans. Fue un duelo durísimo: después de 20 partidas iban 10 a 10, con ocho victorias cada uno, y siguieron jugando hasta que alguien llegara a diez. Steinitz ganó las partidas 22 y 23, la última gracias a uno de los peores errores en la historia de los campeonatos.",
+    "en": "A rematch of 1889, again in Havana, after Chigorin beat Steinitz in a cable match born of an argument over the Evans Gambit. It was a fierce fight: after 20 games it stood 10–10 with eight wins each, so play continued until someone reached ten wins. Steinitz won games 22 and 23, the last thanks to one of the worst blunders in championship history."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1892-01-01",
+      "eco": "C52",
+      "plies": 61,
+      "pgnRef": "WorldChamp1892.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1/2-1/2",
+      "date": "1892-01-03",
+      "eco": "C65",
+      "plies": 63,
+      "pgnRef": "WorldChamp1892.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1892-01-05",
+      "eco": "C52",
+      "plies": 64,
+      "pgnRef": "WorldChamp1892.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1892-01-07",
+      "eco": "C65",
+      "plies": 55,
+      "pgnRef": "WorldChamp1892.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1892-01-10",
+      "eco": "C52",
+      "plies": 109,
+      "pgnRef": "WorldChamp1892.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1892-01-12",
+      "eco": "C59",
+      "plies": 93,
+      "pgnRef": "WorldChamp1892.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1892-01-14",
+      "eco": "C52",
+      "plies": 55,
+      "pgnRef": "WorldChamp1892.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "0-1",
+      "date": "1892-01-16",
+      "eco": "C58",
+      "plies": 48,
+      "pgnRef": "WorldChamp1892.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1892-01-19",
+      "eco": "C52",
+      "plies": 67,
+      "pgnRef": "WorldChamp1892.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "0-1",
+      "date": "1892-01-21",
+      "eco": "C58",
+      "plies": 60,
+      "pgnRef": "WorldChamp1892.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1892-01-24",
+      "eco": "C62",
+      "plies": 90,
+      "pgnRef": "WorldChamp1892.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "0-1",
+      "date": "1892-01-26",
+      "eco": "C59",
+      "plies": 52,
+      "pgnRef": "WorldChamp1892.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1892-01-31",
+      "eco": "C52",
+      "plies": 76,
+      "pgnRef": "WorldChamp1892.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1892-02-02",
+      "eco": "C65",
+      "plies": 65,
+      "pgnRef": "WorldChamp1892.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1892-02-04",
+      "eco": "C52",
+      "plies": 93,
+      "pgnRef": "WorldChamp1892.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1892-02-07",
+      "eco": "C77",
+      "plies": 75,
+      "pgnRef": "WorldChamp1892.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1892-02-09",
+      "eco": "C52",
+      "plies": 77,
+      "pgnRef": "WorldChamp1892.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1892-02-14",
+      "eco": "A85",
+      "plies": 77,
+      "pgnRef": "WorldChamp1892.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1892-02-16",
+      "eco": "C45",
+      "plies": 63,
+      "pgnRef": "WorldChamp1892.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1892-02-18",
+      "eco": "D37",
+      "plies": 81,
+      "pgnRef": "WorldChamp1892.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1892-02-23",
+      "eco": "C25",
+      "plies": 93,
+      "pgnRef": "WorldChamp1892.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1892-02-25",
+      "eco": "D55",
+      "plies": 97,
+      "pgnRef": "WorldChamp1892.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1892-02-28",
+      "eco": "C34",
+      "plies": 64,
+      "pgnRef": "WorldChamp1892.pgn#22"
+    }
+  ],
+  "featuredRounds": [
+    23,
+    22
+  ],
+  "moments": [
+    {
+      "id": "diez-a-diez",
+      "title": {
+        "es": "Veinte partidas y todo igual",
+        "en": "Twenty games, still level"
+      },
+      "text": {
+        "es": "Con la victoria de Steinitz en la partida 20, el marcador quedó 10 a 10, con ocho triunfos por bando. El match siguió hasta que alguien sumara diez victorias.",
+        "en": "Steinitz's win in game 20 left the score 10–10, with eight wins each. The match went on until someone reached ten wins."
+      },
+      "round": 20
+    },
+    {
+      "id": "peon-perdido",
+      "title": {
+        "es": "Un peón regalado",
+        "en": "A pawn thrown away"
+      },
+      "text": {
+        "es": "En la partida 22, Chigorin jugó 9...Cxd5?, un error elemental que perdía un peón; después su alfil quedó atrapado y Steinitz ganó.",
+        "en": "In game 22, Chigorin played 9...Nxd5?, an elementary error that lost a pawn; his bishop was later trapped and Steinitz won."
+      },
+      "round": 22,
+      "ply": 18
+    },
+    {
+      "id": "mate-en-dos",
+      "title": {
+        "es": "El mate en dos que decidió el título",
+        "en": "The mate in two that decided the title"
+      },
+      "text": {
+        "es": "En la partida 23, Chigorin tenía una pieza de más y la partida ganada, pero jugó 32.Ab4?? y Steinitz respondió 32...Txh2+, con mate inevitable. Chigorin abandonó y Steinitz retuvo el título.",
+        "en": "In game 23, Chigorin was a piece up and winning, but played 32.Bb4?? and Steinitz replied 32...Rxh2+, with unstoppable mate. Chigorin resigned and Steinitz kept the title."
+      },
+      "round": 23,
+      "ply": 63
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Entre 1890 y 1891 jugaron por telégrafo dos partidas que empezaban con el gambito Evans, con tres días por jugada. Chigorin ganó las dos, y ese interés del público llevó a la revancha.",
+        "en": "In 1890–91 they played two games by telegraph cable, both starting from the Evans Gambit, with three days per move. Chigorin won both, and the public interest led to the rematch."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1892"
+      }
+    },
+    {
+      "text": {
+        "es": "La Sociedad de Ajedrez de San Petersburgo y el Club de Ajedrez de La Habana ofrecieron organizar el match; Steinitz eligió La Habana.",
+        "en": "Both the St. Petersburg Chess Society and the Havana Chess Club offered to host; Steinitz chose Havana."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1892"
+      }
+    },
+    {
+      "text": {
+        "es": "Si llegaban a nueve victorias cada uno, el match terminaba empatado y Steinitz conservaba el título.",
+        "en": "Had both players reached nine wins, the match would have ended drawn and Steinitz would have kept the title."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1892"
+      }
+    },
+    {
+      "text": {
+        "es": "Las partidas se jugaron en el Centro Asturiano de La Habana.",
+        "en": "The games were played at the Centro Asturiano in Havana."
+      },
+      "source": {
+        "label": "OlimpBase",
+        "url": "https://www.olimpbase.org/ind-wcc/wc1892-wch.html"
+      }
+    }
+  ],
+  "photos": [
+    "chigorin-ascharin-1892",
+    "steinitz-1896",
+    "steinitz-1883"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1892"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/z2sc$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1892-wch.html"
+    }
+  ]
+}

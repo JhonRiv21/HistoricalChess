@@ -1,0 +1,18 @@
+{
+  "file": "gunsberg-dore.jpg",
+  "caption": {
+    "es": "Isidor Gunsberg en un retrato de estudio de la casa Dore, de Londres.",
+    "en": "Isidor Gunsberg in a studio portrait by the Dore studio of London."
+  },
+  "alt": {
+    "es": "Retrato oval en sepia de Isidor Gunsberg, un hombre con bigote y chaqueta oscura.",
+    "en": "Oval sepia portrait of Isidor Gunsberg, a man with a moustache wearing a dark jacket."
+  },
+  "author": "Dore",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gunsberg,_Isidor_-_DPLA_-_6ee1c646ca44c337a603d3fa9bf050ac.jpg",
+  "focus": "50% 40%",
+  "people": [
+    "gunsberg"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "file": "zukertort-portrait.jpg",
+  "caption": {
+    "es": "Retrato de perfil de Johannes Zukertort.",
+    "en": "Portrait of Johannes Zukertort in profile."
+  },
+  "alt": {
+    "es": "Retrato en blanco y negro de Johannes Zukertort, un hombre barbado que mira hacia un lado.",
+    "en": "Black-and-white portrait of Johannes Zukertort, a bearded man looking to the side."
+  },
+  "author": "Unknown author",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zukertort,_J._H._-_DPLA_-_178f6bd2074f2347becb2e4ebeabd45b.jpg",
+  "focus": "50% 35%",
+  "people": [
+    "zukertort"
+  ]
+}

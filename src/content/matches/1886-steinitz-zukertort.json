@@ -1,0 +1,394 @@
+{
+  "year": 1886,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "steinitz",
+      "name": "Wilhelm Steinitz",
+      "short": "Steinitz",
+      "country": {
+        "es": "Austria / Estados Unidos",
+        "en": "Austria / United States"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "zukertort",
+      "name": "Johannes Zukertort",
+      "short": "Zukertort",
+      "country": {
+        "es": "Polonia / Reino Unido",
+        "en": "Poland / United Kingdom"
+      },
+      "role": "contender"
+    }
+  ],
+  "winner": "steinitz",
+  "score": {
+    "zukertort": 7.5,
+    "steinitz": 12.5
+  },
+  "site": {
+    "es": "Nueva York, San Luis y Nueva Orleans",
+    "en": "New York, St. Louis and New Orleans"
+  },
+  "dates": {
+    "start": "1886-01-11",
+    "end": "1886-03-29"
+  },
+  "summary": {
+    "es": "Fue el primer match reconocido como Campeonato del Mundo: enfrentó a los dos mejores jugadores de la época, que llevaban años disputándose ese lugar. Zukertort ganó cuatro de las primeras cinco partidas en Nueva York, pero Steinitz empató la cuenta en San Luis y dominó en Nueva Orleans. Con diez victorias contra cinco, Steinitz se convirtió en el primer campeón mundial oficial.",
+    "en": "This was the first match recognized as a World Championship, between the two best players of the day, who had spent years disputing that place. Zukertort won four of the first five games in New York, but Steinitz levelled the count in St. Louis and took control in New Orleans. With ten wins to five, Steinitz became the first official world champion."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1886-01-11",
+      "eco": "D11",
+      "plies": 92,
+      "pgnRef": "WorldChamp1886.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "0-1",
+      "date": "1886-01-13",
+      "eco": "C47",
+      "plies": 92,
+      "pgnRef": "WorldChamp1886.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1886-01-15",
+      "eco": "D10",
+      "plies": 93,
+      "pgnRef": "WorldChamp1886.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "0-1",
+      "date": "1886-01-18",
+      "eco": "C67",
+      "plies": 78,
+      "pgnRef": "WorldChamp1886.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1886-01-20",
+      "eco": "D10",
+      "plies": 63,
+      "pgnRef": "WorldChamp1886.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "1-0",
+      "date": "1886-02-03",
+      "eco": "C67",
+      "plies": 121,
+      "pgnRef": "WorldChamp1886.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1886-02-05",
+      "eco": "D40",
+      "plies": 70,
+      "pgnRef": "WorldChamp1886.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "1/2-1/2",
+      "date": "1886-02-08",
+      "eco": "C67",
+      "plies": 43,
+      "pgnRef": "WorldChamp1886.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1886-02-10",
+      "eco": "D26",
+      "plies": 76,
+      "pgnRef": "WorldChamp1886.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "1/2-1/2",
+      "date": "1886-02-26",
+      "eco": "C67",
+      "plies": 42,
+      "pgnRef": "WorldChamp1886.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1886-03-01",
+      "eco": "C49",
+      "plies": 84,
+      "pgnRef": "WorldChamp1886.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "1-0",
+      "date": "1886-03-03",
+      "eco": "C67",
+      "plies": 87,
+      "pgnRef": "WorldChamp1886.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1886-03-05",
+      "eco": "D26",
+      "plies": 171,
+      "pgnRef": "WorldChamp1886.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "1/2-1/2",
+      "date": "1886-03-12",
+      "eco": "C67",
+      "plies": 96,
+      "pgnRef": "WorldChamp1886.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1886-03-15",
+      "eco": "D50",
+      "plies": 97,
+      "pgnRef": "WorldChamp1886.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "1-0",
+      "date": "1886-03-17",
+      "eco": "C65",
+      "plies": 97,
+      "pgnRef": "WorldChamp1886.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1886-03-19",
+      "eco": "D60",
+      "plies": 104,
+      "pgnRef": "WorldChamp1886.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "1-0",
+      "date": "1886-03-22",
+      "eco": "C65",
+      "plies": 79,
+      "pgnRef": "WorldChamp1886.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "zukertort",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1886-03-24",
+      "eco": "D53",
+      "plies": 58,
+      "pgnRef": "WorldChamp1886.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "zukertort",
+      "result": "1-0",
+      "date": "1886-03-29",
+      "eco": "C25",
+      "plies": 37,
+      "pgnRef": "WorldChamp1886.pgn#19"
+    }
+  ],
+  "featuredRounds": [
+    20,
+    5
+  ],
+  "moments": [
+    {
+      "id": "arranque-de-zukertort",
+      "title": {
+        "es": "Zukertort arranca a toda máquina",
+        "en": "Zukertort storms out of the gate"
+      },
+      "text": {
+        "es": "Tras perder la primera partida, Zukertort ganó las cuatro siguientes y se puso 4 a 1 en victorias. Con eso terminó la etapa de Nueva York.",
+        "en": "After losing the first game, Zukertort won the next four to lead 4–1 in wins. That closed the New York leg of the match."
+      },
+      "round": 5
+    },
+    {
+      "id": "empate-en-san-luis",
+      "title": {
+        "es": "Todo igualado en San Luis",
+        "en": "All square in St. Louis"
+      },
+      "text": {
+        "es": "Steinitz ganó tres de las cuatro partidas jugadas en San Luis y el match llegó a Nueva Orleans empatado 4 a 4 en victorias.",
+        "en": "Steinitz won three of the four games played in St. Louis, and the match moved to New Orleans level at four wins each."
+      },
+      "round": 9
+    },
+    {
+      "id": "la-ultima-partida",
+      "title": {
+        "es": "El error que coronó al primer campeón",
+        "en": "The blunder that crowned the first champion"
+      },
+      "text": {
+        "es": "En la partida 20, Zukertort jugó 15...Cgh6, un error que Steinitz castigó con sacrificios que le ganaron la dama. Zukertort abandonó el 29 de marzo de 1886 y felicitó al nuevo campeón del mundo.",
+        "en": "In game 20, Zukertort played 15...Ngh6, a blunder Steinitz punished with sacrifices that won the queen. Zukertort resigned on 29 March 1886 and congratulated the new world champion."
+      },
+      "round": 20,
+      "ply": 30
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Ganaba el primero en llegar a diez victorias; las tablas no contaban. Si llegaban 9 a 9, ninguno de los dos se quedaba con el título.",
+        "en": "The winner was the first to ten wins, with draws not counting. At 9–9, neither player would have become champion."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1886"
+      }
+    },
+    {
+      "text": {
+        "es": "Por primera vez en la historia del ajedrez se colgó sobre los jugadores un tablero mural de alrededor de un metro por lado, para que el público pudiera seguir las partidas sentado.",
+        "en": "For the first time in chess history, a demonstration board about one metre square was hung above the players so spectators could follow the games from their seats."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1886"
+      }
+    },
+    {
+      "text": {
+        "es": "Los organizadores estadounidenses le dieron a Zukertort 750 dólares para cruzar el Atlántico, y al ganador le prometieron una cuarta parte de lo recaudado en las apuestas.",
+        "en": "The American organizers gave Zukertort $750 to cross the Atlantic, and the winner was promised a quarter of the proceeds from the betting syndicate."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1886"
+      }
+    },
+    {
+      "text": {
+        "es": "Steinitz pidió que la bandera de Estados Unidos estuviera junto a él durante el match, aunque todavía no era ciudadano de ese país.",
+        "en": "Steinitz asked for the United States flag to be placed beside him during the match, even though he was not yet an American citizen."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1886"
+      }
+    },
+    {
+      "text": {
+        "es": "Ya se habían enfrentado en 1872: Steinitz ganó aquel match con 7 victorias, 1 derrota y 4 tablas. Algunos historiadores lo consideran el verdadero primer campeonato del mundo.",
+        "en": "They had already met in 1872, when Steinitz won their match with 7 wins, 1 loss and 4 draws. Some historians consider that the real first world championship."
+      },
+      "source": {
+        "label": "Mark Weeks",
+        "url": "https://www.mark-weeks.com/chess/y6sz$wix.htm"
+      }
+    }
+  ],
+  "photos": [
+    "steinitz-zukertort-sternitzky",
+    "steinitz-1883",
+    "zukertort-portrait"
+  ],
+  "videos": [
+    {
+      "youtubeId": "iFCFwkqjDOc",
+      "kind": "recap",
+      "title": {
+        "es": "Steinitz contra Zukertort, 1886: clase de Ben Finegold",
+        "en": "Steinitz vs. Zukertort, 1886: lecture by Ben Finegold"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1886"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/y6sz$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1886-wch.html"
+    }
+  ]
+}

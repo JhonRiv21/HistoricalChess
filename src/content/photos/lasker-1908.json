@@ -1,0 +1,19 @@
+{
+  "file": "lasker-1908.jpg",
+  "caption": {
+    "es": "Retrato de Emanuel Lasker, 1908.",
+    "en": "Portrait of Emanuel Lasker, 1908."
+  },
+  "alt": {
+    "es": "Retrato de Emanuel Lasker, un hombre con espeso bigote y cabello oscuro.",
+    "en": "Close portrait of Emanuel Lasker, a man with a thick moustache and dark hair."
+  },
+  "author": "Unknown author",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emanuel_Lasker_1.jpg",
+  "focus": "50% 30%",
+  "people": [
+    "lasker"
+  ],
+  "year": 1908
+}

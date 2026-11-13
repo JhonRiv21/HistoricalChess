@@ -1,0 +1,385 @@
+{
+  "year": 2023,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "nepomniachtchi",
+      "name": "Ian Nepomniachtchi",
+      "short": "Nepomniachtchi",
+      "country": {
+        "es": "Rusia (bajo bandera de la FIDE)",
+        "en": "Russia (under the FIDE flag)"
+      },
+      "role": "challenger"
+    },
+    {
+      "id": "ding",
+      "name": "Ding Liren",
+      "short": "Ding",
+      "country": {
+        "es": "China",
+        "en": "China"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "ding",
+  "score": {
+    "nepomniachtchi": 7,
+    "ding": 7
+  },
+  "tiebreak": {
+    "ding": 2.5,
+    "nepomniachtchi": 1.5
+  },
+  "site": {
+    "es": "Astaná, Kazajistán",
+    "en": "Astana, Kazakhstan"
+  },
+  "dates": {
+    "start": "2023-04-09",
+    "end": "2023-04-30"
+  },
+  "summary": {
+    "es": "Magnus Carlsen decidió no defender su título, así que el campeonato se jugó en Astaná entre Ian Nepomniachtchi y Ding Liren, ganador y subcampeón del Torneo de Candidatos de 2022. Nepomniachtchi tomó la delantera tres veces y Ding empató el marcador las tres; las 14 partidas lentas terminaron 7–7. Ding ganó con negras la última partida rápida del desempate y se convirtió en el primer campeón mundial de China.",
+    "en": "Magnus Carlsen chose not to defend his title, so the championship was played in Astana between Ian Nepomniachtchi and Ding Liren, winner and runner-up of the 2022 Candidates. Nepomniachtchi took the lead three times and Ding levelled each time; the 14 classical games ended 7–7. Ding won the last rapid game of the playoff with Black and became China's first world champion."
+  },
+  "note": {
+    "es": "Ninguno de los dos llegaba como campeón: Carlsen renunció a defender el título y la FIDE convocó al ganador y al subcampeón del Torneo de Candidatos de 2022.",
+    "en": "Neither player came in as champion: Carlsen gave up his right to defend the title, and FIDE called up the winner and runner-up of the 2022 Candidates."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2023-04-09",
+      "eco": "C85",
+      "plies": 97,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "ding",
+      "black": "nepomniachtchi",
+      "result": "0-1",
+      "date": "2023-04-10",
+      "eco": "E10",
+      "plies": 58,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2023-04-12",
+      "eco": "D35",
+      "plies": 60,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "ding",
+      "black": "nepomniachtchi",
+      "result": "1-0",
+      "date": "2023-04-13",
+      "eco": "A28",
+      "plies": 93,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "ding",
+      "result": "1-0",
+      "date": "2023-04-15",
+      "eco": "C84",
+      "plies": 95,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "ding",
+      "black": "nepomniachtchi",
+      "result": "1-0",
+      "date": "2023-04-16",
+      "eco": "D02",
+      "plies": 87,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "ding",
+      "result": "1-0",
+      "date": "2023-04-18",
+      "eco": "C07",
+      "plies": 74,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "ding",
+      "black": "nepomniachtchi",
+      "result": "1/2-1/2",
+      "date": "2023-04-20",
+      "eco": "E28",
+      "plies": 89,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2023-04-21",
+      "eco": "C65",
+      "plies": 163,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "ding",
+      "black": "nepomniachtchi",
+      "result": "1/2-1/2",
+      "date": "2023-04-23",
+      "eco": "A28",
+      "plies": 90,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2023-04-24",
+      "eco": "C84",
+      "plies": 77,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "ding",
+      "black": "nepomniachtchi",
+      "result": "1-0",
+      "date": "2023-04-26",
+      "eco": "D04",
+      "plies": 75,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "nepomniachtchi",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2023-04-27",
+      "eco": "C84",
+      "plies": 79,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "ding",
+      "black": "nepomniachtchi",
+      "result": "1/2-1/2",
+      "date": "2023-04-29",
+      "eco": "E46",
+      "plies": 180,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "rapid",
+      "white": "ding",
+      "black": "nepomniachtchi",
+      "result": "1/2-1/2",
+      "date": "2023-04-30",
+      "eco": "D02",
+      "plies": 69,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "rapid",
+      "white": "nepomniachtchi",
+      "black": "ding",
+      "result": "1/2-1/2",
+      "date": "2023-04-30",
+      "eco": "C84",
+      "plies": 94,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "rapid",
+      "white": "ding",
+      "black": "nepomniachtchi",
+      "result": "1/2-1/2",
+      "date": "2023-04-30",
+      "eco": "A14",
+      "plies": 65,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "rapid",
+      "white": "nepomniachtchi",
+      "black": "ding",
+      "result": "0-1",
+      "date": "2023-04-30",
+      "eco": "C84",
+      "plies": 136,
+      "pgnRef": "extra/WorldChamp2023-full.pgn#17"
+    }
+  ],
+  "featuredRounds": [
+    12,
+    14,
+    18
+  ],
+  "moments": [
+    {
+      "id": "tres-remontadas",
+      "round": 12,
+      "title": {
+        "es": "Tres veces atrás, tres veces de vuelta",
+        "en": "Three times behind, three times back"
+      },
+      "text": {
+        "es": "Nepomniachtchi ganó las partidas 2, 5 y 7, y Ding respondió en la 4, la 6 y la 12. En esa última, llena de nervios y errores, Ding remontó una posición difícil y volvió a empatar el match.",
+        "en": "Nepomniachtchi won games 2, 5 and 7, and Ding answered in games 4, 6 and 12. In that last one, full of nerves and mistakes, Ding turned around a difficult position and levelled the match once more."
+      }
+    },
+    {
+      "id": "partida-14",
+      "round": 14,
+      "title": {
+        "es": "Noventa jugadas para seguir vivo",
+        "en": "Ninety moves to stay alive"
+      },
+      "text": {
+        "es": "En la última partida lenta, una victoria daba el título. Nepomniachtchi tuvo ventaja, pero Ding pasó a un final de torres con un peón menos y encontró la única jugada para hacer tablas, 65.f4. Hubo tablas en 90 jugadas.",
+        "en": "In the last classical game a win would have decided the title. Nepomniachtchi had an edge, but Ding steered into a pawn-down rook ending and found the only drawing move, 65.f4. The game was drawn in 90 moves."
+      }
+    },
+    {
+      "id": "rg6",
+      "round": 18,
+      "ply": 92,
+      "title": {
+        "es": "Jugar a ganar",
+        "en": "Playing for the win"
+      },
+      "text": {
+        "es": "En la cuarta partida rápida, Ding podía forzar tablas por repetición, pero eligió seguir con 46…Tg6, clavando su propia torre. Con los dos relojes por debajo de un minuto, Nepomniachtchi se equivocó y Ding se llevó la partida y el título.",
+        "en": "In the fourth rapid game Ding could have taken a draw by repetition, but chose to play on with 46...Rg6, pinning his own rook. With both clocks under a minute, Nepomniachtchi went wrong, and Ding took the game and the title."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El 20 de julio de 2022, Magnus Carlsen anunció que no defendería su título.",
+        "en": "On 20 July 2022 Magnus Carlsen announced that he would not defend his title."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2023"
+      }
+    },
+    {
+      "text": {
+        "es": "Ding entró al Torneo de Candidatos por rating, como reemplazo de Sergey Karjakin, a quien la FIDE había excluido.",
+        "en": "Ding got into the Candidates on rating, as a replacement for Sergey Karjakin, whom FIDE had barred."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2023"
+      }
+    },
+    {
+      "text": {
+        "es": "Ding fue el primer chino en ser campeón mundial; junto con Ju Wenjun, campeona femenina, China pasó a tener los dos títulos mundiales.",
+        "en": "Ding became the first Chinese world champion; together with women's champion Ju Wenjun, China held both world titles."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2023"
+      }
+    },
+    {
+      "text": {
+        "es": "Antes de 2023, solo dos campeonatos indiscutidos se habían jugado sin el campeón defensor: 1948, tras la muerte de Alekhine, y 1975, cuando Fischer no defendió su título.",
+        "en": "Before 2023, only two undisputed championships had been played without the defending champion: 1948, after Alekhine's death, and 1975, when Fischer did not defend his title."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2023"
+      }
+    }
+  ],
+  "photos": [
+    "wcc-2023-game1",
+    "wcc-2023-tiebreak",
+    "wcc-2023-ding",
+    "wcc-2023-game2",
+    "wcc-2021-nepomniachtchi"
+  ],
+  "videos": [
+    {
+      "youtubeId": "eYUNpxiqFkg",
+      "kind": "recap",
+      "title": {
+        "es": "Nepomniachtchi contra Ding, 2023: partida 6",
+        "en": "Nepomniachtchi vs. Ding, 2023: game 6"
+      },
+      "channel": "agadmator's Chess Channel",
+      "round": 6,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "Xxqi7IvwekE",
+      "kind": "recap",
+      "title": {
+        "es": "Ding Liren, campeón del mundo (2023)",
+        "en": "Ding Liren is world champion (2023)"
+      },
+      "channel": "GothamChess",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2023"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/c1c2$wix.htm"
+    },
+    {
+      "label": "Lichess – 2023 rapid tiebreak games (PGN)",
+      "url": "https://lichess.org/study/jCs1wd0E"
+    }
+  ]
+}

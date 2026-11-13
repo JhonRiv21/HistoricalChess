@@ -1,0 +1,325 @@
+{
+  "year": 1907,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "lasker",
+      "name": "Emanuel Lasker",
+      "short": "Lasker",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "marshall",
+      "name": "Frank Marshall",
+      "short": "Marshall",
+      "country": {
+        "es": "Estados Unidos",
+        "en": "United States"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "lasker",
+  "score": {
+    "marshall": 3.5,
+    "lasker": 11.5
+  },
+  "site": {
+    "es": "Estados Unidos (Nueva York, Filadelfia, Washington, Baltimore, Chicago y Memphis)",
+    "en": "United States (New York, Philadelphia, Washington, Baltimore, Chicago and Memphis)"
+  },
+  "dates": {
+    "start": "1907-01-26",
+    "end": "1907-04-06"
+  },
+  "summary": {
+    "es": "Fue el primer campeonato del mundo en diez años: Lasker se había tomado un descanso, en parte para doctorarse en matemáticas. El estadounidense Frank Marshall, un jugador de ataque que lo había superado en el torneo de Cambridge Springs 1904, no pudo ganarle ni una partida. Lasker ganó ocho, hubo siete tablas y el match terminó 11½ a 3½.",
+    "en": "It was the first world championship in ten years: Lasker had taken a break, partly to earn a doctorate in mathematics. American Frank Marshall, an attacking player who had finished ahead of him at Cambridge Springs 1904, could not win a single game. Lasker won eight, seven were drawn, and the match ended 11½–3½."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "marshall",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1907-01-26",
+      "eco": "C65",
+      "plies": 98,
+      "pgnRef": "WorldChamp1907.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "marshall",
+      "result": "1-0",
+      "date": "1907-01-29",
+      "eco": "C11",
+      "plies": 103,
+      "pgnRef": "WorldChamp1907.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "marshall",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1907-01-31",
+      "eco": "D53",
+      "plies": 84,
+      "pgnRef": "WorldChamp1907.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "marshall",
+      "result": "1/2-1/2",
+      "date": "1907-02-02",
+      "eco": "C12",
+      "plies": 80,
+      "pgnRef": "WorldChamp1907.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "marshall",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1907-02-05",
+      "eco": "D53",
+      "plies": 82,
+      "pgnRef": "WorldChamp1907.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "marshall",
+      "result": "1/2-1/2",
+      "date": "1907-02-09",
+      "eco": "C12",
+      "plies": 42,
+      "pgnRef": "WorldChamp1907.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "marshall",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1907-02-16",
+      "eco": "D32",
+      "plies": 97,
+      "pgnRef": "WorldChamp1907.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "marshall",
+      "result": "1-0",
+      "date": "1907-02-19",
+      "eco": "C12",
+      "plies": 136,
+      "pgnRef": "WorldChamp1907.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "marshall",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1907-03-02",
+      "eco": "D32",
+      "plies": 91,
+      "pgnRef": "WorldChamp1907.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "marshall",
+      "result": "1/2-1/2",
+      "date": "1907-03-08",
+      "eco": "C12",
+      "plies": 95,
+      "pgnRef": "WorldChamp1907.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "marshall",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1907-03-16",
+      "eco": "A83",
+      "plies": 101,
+      "pgnRef": "WorldChamp1907.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "marshall",
+      "result": "1-0",
+      "date": "1907-03-19",
+      "eco": "C11",
+      "plies": 91,
+      "pgnRef": "WorldChamp1907.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "marshall",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1907-03-21",
+      "eco": "D07",
+      "plies": 116,
+      "pgnRef": "WorldChamp1907.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "marshall",
+      "result": "1-0",
+      "date": "1907-03-23",
+      "eco": "C11",
+      "plies": 41,
+      "pgnRef": "WorldChamp1907.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "marshall",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1907-04-06",
+      "eco": "D53",
+      "plies": 74,
+      "pgnRef": "WorldChamp1907.pgn#14"
+    }
+  ],
+  "featuredRounds": [
+    15
+  ],
+  "moments": [
+    {
+      "id": "tres-de-entrada",
+      "title": {
+        "es": "Tres victorias de entrada",
+        "en": "Three wins straight away"
+      },
+      "text": {
+        "es": "Lasker ganó las tres primeras partidas y dejó a Marshall muy lejos desde el comienzo.",
+        "en": "Lasker won the first three games and left Marshall far behind from the start."
+      },
+      "round": 3
+    },
+    {
+      "id": "resistencia-de-marshall",
+      "title": {
+        "es": "Marshall resiste",
+        "en": "Marshall holds on"
+      },
+      "text": {
+        "es": "Entre las partidas 4 y 11, Marshall aguantó siete tablas, aunque perdió la octava.",
+        "en": "Between games 4 and 11, Marshall held seven draws, though he lost game 8."
+      },
+      "round": 11
+    },
+    {
+      "id": "cierre-perfecto",
+      "title": {
+        "es": "Un cierre perfecto",
+        "en": "A perfect finish"
+      },
+      "text": {
+        "es": "Lasker ganó las últimas cuatro partidas y terminó el match sin una sola derrota.",
+        "en": "Lasker won the last four games and finished the match without a single loss."
+      },
+      "round": 15
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Lasker pidió 5.000 dólares, así que Marshall buscó el apoyo de clubes de varias ciudades; por eso el match recorrió media docena de ciudades de Estados Unidos.",
+        "en": "Lasker asked for $5,000, so Marshall sought sponsorship from chess associations in several cities, which is why the match toured half a dozen American cities."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1907"
+      }
+    },
+    {
+      "text": {
+        "es": "El 2 de marzo los dos jugadores conocieron al presidente Theodore Roosevelt, y la partida de Washington se jugó en el Northern Liberty Market.",
+        "en": "On 2 March both players met President Theodore Roosevelt, and the Washington game was played at the Northern Liberty Market."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1907"
+      }
+    },
+    {
+      "text": {
+        "es": "Ganaba el primero en llegar a ocho victorias: en 1906 acordaron bajar el requisito de diez a ocho, y el siguiente campeonato mantuvo esa cifra.",
+        "en": "The winner was the first to eight wins: in 1906 they agreed to lower the requirement from ten to eight, and the next championship kept that number."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1907"
+      }
+    },
+    {
+      "text": {
+        "es": "Fue el último campeonato del mundo jugado en Estados Unidos hasta 1990.",
+        "en": "It was the last world championship played in the United States until 1990."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1907"
+      }
+    },
+    {
+      "text": {
+        "es": "Marshall resumió el match en su autobiografía con una sola frase: «El juego tedioso pensado para desgastar al rival es contrario a mi naturaleza».",
+        "en": "Marshall summed up the match in his autobiography in one sentence: \"Tedious play aimed at wearing down my opponent is averse to my nature.\""
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1907"
+      }
+    }
+  ],
+  "photos": [
+    "lasker-1908",
+    "marshall-portrait",
+    "lasker-1909-eugene"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1907"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/07lm$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1907-wch.html"
+    }
+  ]
+}

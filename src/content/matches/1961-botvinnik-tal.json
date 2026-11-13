@@ -1,0 +1,385 @@
+{
+  "year": 1961,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "tal",
+      "name": "Mikhail Tal",
+      "short": "Tal",
+      "country": {
+        "es": "URSS (Letonia)",
+        "en": "Soviet Union (Latvia)"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "botvinnik",
+      "name": "Mikhail Botvinnik",
+      "short": "Botvinnik",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "botvinnik",
+  "score": {
+    "botvinnik": 13,
+    "tal": 8
+  },
+  "site": {
+    "es": "Moscú, URSS",
+    "en": "Moscow, Soviet Union"
+  },
+  "dates": {
+    "start": "1961-03-15",
+    "end": "1961-05-13"
+  },
+  "summary": {
+    "es": "Un año después, Botvinnik usó su derecho a revancha contra Tal, al que casi todos daban como favorito por su victoria aplastante y por ser 25 años más joven. Botvinnik, de 49 años, frenó el estilo de ataque de Tal con una estrategia superior y ganó 13–8, con diez victorias. Fue su tercer reinado, algo que nadie más ha logrado.",
+    "en": "A year later Botvinnik used his right to a rematch against Tal, whom nearly everyone considered the favourite after his crushing win and because he was 25 years younger. Botvinnik, aged 49, blunted Tal's attacking style with superior strategy and won 13–8, with ten victories. It was his third reign, something no one else has achieved."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1-0",
+      "eco": "E51",
+      "plies": 81,
+      "pgnRef": "WorldChamp1961.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "B18",
+      "plies": 89,
+      "pgnRef": "WorldChamp1961.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1-0",
+      "eco": "E51",
+      "plies": 85,
+      "pgnRef": "WorldChamp1961.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B12",
+      "plies": 82,
+      "pgnRef": "WorldChamp1961.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1/2-1/2",
+      "eco": "E51",
+      "plies": 146,
+      "pgnRef": "WorldChamp1961.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B12",
+      "plies": 50,
+      "pgnRef": "WorldChamp1961.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1-0",
+      "eco": "E24",
+      "plies": 65,
+      "pgnRef": "WorldChamp1961.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "B12",
+      "plies": 57,
+      "pgnRef": "WorldChamp1961.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1-0",
+      "eco": "A23",
+      "plies": 145,
+      "pgnRef": "WorldChamp1961.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "B12",
+      "plies": 84,
+      "pgnRef": "WorldChamp1961.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1-0",
+      "eco": "D14",
+      "plies": 84,
+      "pgnRef": "WorldChamp1961.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "C18",
+      "plies": 81,
+      "pgnRef": "WorldChamp1961.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1-0",
+      "eco": "E85",
+      "plies": 81,
+      "pgnRef": "WorldChamp1961.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B12",
+      "plies": 65,
+      "pgnRef": "WorldChamp1961.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1-0",
+      "eco": "E81",
+      "plies": 125,
+      "pgnRef": "WorldChamp1961.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B12",
+      "plies": 180,
+      "pgnRef": "WorldChamp1961.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "0-1",
+      "eco": "E81",
+      "plies": 166,
+      "pgnRef": "WorldChamp1961.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "B12",
+      "plies": 82,
+      "pgnRef": "WorldChamp1961.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "0-1",
+      "eco": "E81",
+      "plies": 150,
+      "pgnRef": "WorldChamp1961.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B12",
+      "plies": 242,
+      "pgnRef": "WorldChamp1961.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1-0",
+      "eco": "E87",
+      "plies": 65,
+      "pgnRef": "WorldChamp1961.pgn#20"
+    }
+  ],
+  "featuredRounds": [
+    20,
+    21
+  ],
+  "moments": [
+    {
+      "id": "golpe-y-respuesta",
+      "title": {
+        "es": "Golpe y respuesta",
+        "en": "Blow and counterblow"
+      },
+      "text": {
+        "es": "Botvinnik ganó la primera partida y Tal la segunda. Después el excampeón ganó cinco de las nueve siguientes, contra una sola de Tal, y tomó una ventaja que ya no soltó.",
+        "en": "Botvinnik won the first game and Tal the second. Then the former champion won five of the next nine, against just one for Tal, and took a lead he never gave up."
+      },
+      "round": 2
+    },
+    {
+      "id": "maraton-de-121",
+      "title": {
+        "es": "Maratón de 121 jugadas",
+        "en": "A 121-move marathon"
+      },
+      "text": {
+        "es": "La partida 20 terminó en tablas después de 121 jugadas. Fue la partida más larga de la historia de los campeonatos del mundo hasta 1978.",
+        "en": "Game 20 ended in a draw after 121 moves. It was the longest game in world championship history until 1978."
+      },
+      "round": 20
+    },
+    {
+      "id": "tercera-corona",
+      "title": {
+        "es": "La tercera corona",
+        "en": "The third crown"
+      },
+      "text": {
+        "es": "Botvinnik ganó la partida 21, llegó a 13 puntos y recuperó el título por segunda vez.",
+        "en": "Botvinnik won game 21, reached 13 points and regained the title for the second time."
+      },
+      "round": 21
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "En 2002, Yuri Averbakh reveló que los médicos de Riga le aconsejaron a Tal postergar el match por su salud. Botvinnik solo aceptaba aplazarlo si médicos de Moscú lo declaraban no apto, y Tal decidió jugar convencido de que igual ganaría.",
+        "en": "In 2002 Yuri Averbakh revealed that Tal's doctors in Riga advised him to postpone the match for health reasons. Botvinnik would only agree if Moscow doctors certified him unfit, and Tal decided to play, thinking he would win anyway."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1961",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1961"
+      }
+    },
+    {
+      "text": {
+        "es": "Con 49 años, Botvinnik es el jugador de más edad en ganar un match por el campeonato del mundo desde que Steinitz, con 55, venció a Chigorin en 1892.",
+        "en": "At 49, Botvinnik is the oldest player to win a world championship match since 55-year-old Steinitz beat Chigorin in 1892."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1961",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1961"
+      }
+    },
+    {
+      "text": {
+        "es": "Las 121 jugadas de la partida 20 fueron récord en los campeonatos del mundo hasta la quinta partida de Karpov–Korchnoi en 1978.",
+        "en": "The 121 moves of game 20 were a world championship record until game five of Karpov–Korchnoi in 1978."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1978",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1978"
+      }
+    },
+    {
+      "text": {
+        "es": "Botvinnik ganó diez partidas, Tal cinco y hubo seis tablas.",
+        "en": "Botvinnik won ten games, Tal five, and six were drawn."
+      },
+      "source": {
+        "label": "Mark Weeks: 1961 Botvinnik - Tal",
+        "url": "https://www.mark-weeks.com/chess/58602wix.htm"
+      }
+    }
+  ],
+  "photos": [
+    "botvinnik-tal-1960",
+    "tal-1964",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "videos": [
+    {
+      "youtubeId": "wTK4iA0l5pw",
+      "kind": "archival",
+      "title": {
+        "es": "Noticiero de 1961: Botvinnik recupera el título",
+        "en": "1961 newsreel: Botvinnik regains the title"
+      },
+      "channel": "British Pathé",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "WMA_FHxLwRA",
+      "kind": "recap",
+      "title": {
+        "es": "Tal contra Botvinnik, 1961: partida 10",
+        "en": "Tal vs. Botvinnik, 1961: game 10"
+      },
+      "channel": "Saint Louis Chess Club",
+      "round": 10,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1961",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1961"
+    },
+    {
+      "label": "Mark Weeks: 1961 Botvinnik - Tal",
+      "url": "https://www.mark-weeks.com/chess/58602wix.htm"
+    },
+    {
+      "label": "Wikipedia: World Chess Championship 1978",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1978"
+    }
+  ]
+}

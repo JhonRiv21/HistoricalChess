@@ -1,0 +1,354 @@
+{
+  "year": 1889,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "steinitz",
+      "name": "Wilhelm Steinitz",
+      "short": "Steinitz",
+      "country": {
+        "es": "Austria / Estados Unidos",
+        "en": "Austria / United States"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "chigorin",
+      "name": "Mikhail Chigorin",
+      "short": "Chigorin",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "steinitz",
+  "score": {
+    "chigorin": 6.5,
+    "steinitz": 10.5
+  },
+  "retainedOnTie": true,
+  "site": {
+    "es": "La Habana",
+    "en": "Havana"
+  },
+  "dates": {
+    "start": "1889-01-20",
+    "end": "1889-02-24"
+  },
+  "summary": {
+    "es": "El Club de Ajedrez de La Habana invitó a Steinitz a defender el título en Cuba contra el rival que él eligiera, y escogió al ruso Mijaíl Chigorin, un jugador de ataque contra quien no le había ido bien en torneos. Chigorin ganó seis partidas, la mayoría con el gambito Evans, pero Steinitz fue más sólido y se impuso 10½ a 6½. Fue la primera defensa exitosa del título mundial.",
+    "en": "The Havana Chess Club invited Steinitz to defend his title in Cuba against an opponent of his choice, and he picked Russia's Mikhail Chigorin, an attacking player against whom he had a poor tournament record. Chigorin won six games, most of them with the Evans Gambit, but Steinitz was more solid and won 10½–6½. It was the first successful defence of the world title."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1889-01-20",
+      "eco": "C52",
+      "plies": 115,
+      "pgnRef": "WorldChamp1889.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1889-01-22",
+      "eco": "D02",
+      "plies": 75,
+      "pgnRef": "WorldChamp1889.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1889-01-24",
+      "eco": "C62",
+      "plies": 165,
+      "pgnRef": "WorldChamp1889.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1889-01-26",
+      "eco": "D02",
+      "plies": 43,
+      "pgnRef": "WorldChamp1889.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1889-01-27",
+      "eco": "C52",
+      "plies": 52,
+      "pgnRef": "WorldChamp1889.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "0-1",
+      "date": "1889-01-29",
+      "eco": "D02",
+      "plies": 74,
+      "pgnRef": "WorldChamp1889.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1889-01-31",
+      "eco": "C52",
+      "plies": 67,
+      "pgnRef": "WorldChamp1889.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1889-02-04",
+      "eco": "D46",
+      "plies": 75,
+      "pgnRef": "WorldChamp1889.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1889-02-05",
+      "eco": "C52",
+      "plies": 112,
+      "pgnRef": "WorldChamp1889.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1889-02-08",
+      "eco": "D07",
+      "plies": 53,
+      "pgnRef": "WorldChamp1889.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1889-02-10",
+      "eco": "C52",
+      "plies": 61,
+      "pgnRef": "WorldChamp1889.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1889-02-12",
+      "eco": "D07",
+      "plies": 121,
+      "pgnRef": "WorldChamp1889.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1889-02-16",
+      "eco": "C52",
+      "plies": 127,
+      "pgnRef": "WorldChamp1889.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1889-02-19",
+      "eco": "D07",
+      "plies": 69,
+      "pgnRef": "WorldChamp1889.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1889-02-21",
+      "eco": "C52",
+      "plies": 72,
+      "pgnRef": "WorldChamp1889.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "chigorin",
+      "result": "1-0",
+      "date": "1889-02-23",
+      "eco": "A85",
+      "plies": 103,
+      "pgnRef": "WorldChamp1889.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "chigorin",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1889-02-24",
+      "eco": "C52",
+      "plies": 140,
+      "pgnRef": "WorldChamp1889.pgn#16"
+    }
+  ],
+  "featuredRounds": [
+    10,
+    4
+  ],
+  "moments": [
+    {
+      "id": "trampa-de-steinitz",
+      "title": {
+        "es": "Una pieza atrapada",
+        "en": "A piece in a trap"
+      },
+      "text": {
+        "es": "En la cuarta partida, Steinitz jugó 10.a3!: el alfil negro quedó sin una retirada buena y Steinitz ganó material.",
+        "en": "In game 4, Steinitz played 10.a3!, leaving Black's bishop with no good retreat, and won material."
+      },
+      "round": 4,
+      "ply": 19
+    },
+    {
+      "id": "descuido-de-chigorin",
+      "title": {
+        "es": "Un descuido que cuesta caro",
+        "en": "A costly oversight"
+      },
+      "text": {
+        "es": "En la quinta partida, Chigorin jugó 18.h3?? sin ver que su peón de f2 estaba clavado, y Steinitz ganó la partida con negras.",
+        "en": "In game 5, Chigorin played 18.h3?? overlooking that his f2-pawn was pinned, and Steinitz won with Black."
+      },
+      "round": 5,
+      "ply": 35
+    },
+    {
+      "id": "sacrificio-de-torre",
+      "title": {
+        "es": "El sacrificio de torre",
+        "en": "The rook sacrifice"
+      },
+      "text": {
+        "es": "En la décima partida, Steinitz entregó una torre con 25.Txe7! para dejar expuesto al rey negro; Chigorin abandonó dos jugadas después.",
+        "en": "In game 10, Steinitz gave up a rook with 25.Rxe7! to expose Black's king; Chigorin resigned two moves later."
+      },
+      "round": 10,
+      "ply": 49
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "La bolsa total fue de 1.150 dólares, el premio más pequeño de todos los campeonatos del mundo.",
+        "en": "The total purse was $1,150, the smallest prize fund of any world championship."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1889"
+      }
+    },
+    {
+      "text": {
+        "es": "El match era a un máximo de 20 partidas: ganaba el primero en llegar a 10½ puntos, y con un empate 10 a 10 el campeón conservaba el título.",
+        "en": "The match had a maximum of 20 games: the first to 10½ points won, and at 10–10 the champion would keep the title."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1889"
+      }
+    },
+    {
+      "text": {
+        "es": "Chigorin jugó el gambito Evans en ocho de sus nueve partidas con blancas.",
+        "en": "Chigorin played the Evans Gambit in eight of his nine games with White."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1889"
+      }
+    },
+    {
+      "text": {
+        "es": "El ritmo de juego fue de 30 jugadas en 2 horas y luego 15 jugadas por hora.",
+        "en": "The time control was 30 moves in 2 hours, then 15 moves per hour."
+      },
+      "source": {
+        "label": "OlimpBase",
+        "url": "https://www.olimpbase.org/ind-wcc/wc1889-wch.html"
+      }
+    }
+  ],
+  "photos": [
+    "chigorin-ascharin-1892",
+    "steinitz-1883",
+    "steinitz-1896"
+  ],
+  "videos": [
+    {
+      "youtubeId": "3GHDikzFFFk",
+      "kind": "recap",
+      "title": {
+        "es": "Steinitz vence a Chigorin en el match de 1889",
+        "en": "Steinitz beats Chigorin in the 1889 match"
+      },
+      "channel": "Chess and Mind en Español",
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1889"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/y9sc$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1889-wch.html"
+    }
+  ]
+}

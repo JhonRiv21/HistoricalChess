@@ -1,0 +1,144 @@
+{
+  "year": 2026,
+  "kind": "upcoming",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "gukesh",
+      "name": "Gukesh Dommaraju",
+      "short": "Gukesh",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "sindarov",
+      "name": "Javokhir Sindarov",
+      "short": "Sindarov",
+      "country": {
+        "es": "Uzbekistán",
+        "en": "Uzbekistan"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": null,
+  "site": {
+    "es": "Fondation Martin Bodmer, Cologny (Ginebra), Suiza",
+    "en": "Fondation Martin Bodmer, Cologny (Geneva), Switzerland"
+  },
+  "dates": {
+    "start": "2026-11-24",
+    "end": "2026-12-12"
+  },
+  "summary": {
+    "es": "Gukesh, campeón desde 2024, defenderá el título ante el uzbeko Javokhir Sindarov, ganador de la Copa del Mundo de 2025 y del Torneo de Candidatos de 2026. Los dos tendrán 20 años al empezar, así que será el match por el título más joven de la historia. Se jugará a un máximo de 14 partidas lentas, con desempates rápidos si hacen falta, en la Fondation Martin Bodmer de Cologny, junto a Ginebra.",
+    "en": "Gukesh, champion since 2024, will defend his title against Uzbekistan's Javokhir Sindarov, winner of the 2025 World Cup and the 2026 Candidates. Both will be 20 when it begins, making it the youngest title match in history. It will be played over a maximum of 14 classical games, with faster tiebreaks if needed, at the Fondation Martin Bodmer in Cologny, next to Geneva."
+  },
+  "note": {
+    "es": "Las fuentes no coinciden en las fechas. Al anunciar la sede en julio de 2026, la FIDE habló de un match del 25 de noviembre al 15 de diciembre. El calendario oficial publicado después fija la ceremonia de apertura el 22 de noviembre, la primera partida el 24 de noviembre, la última partida lenta el 11 de diciembre y los posibles desempates el 12 de diciembre. Aquí usamos este último calendario.",
+    "en": "Sources disagree on the dates. When it announced the venue in July 2026, FIDE spoke of a match from 25 November to 15 December. The official schedule published later sets the opening ceremony on 22 November, game one on 24 November, the last classical game on 11 December and any tiebreaks on 12 December. We use that later schedule here."
+  },
+  "games": [],
+  "featuredRounds": [],
+  "moments": [
+    {
+      "id": "candidatos",
+      "title": {
+        "es": "El camino de Sindarov",
+        "en": "Sindarov's road"
+      },
+      "text": {
+        "es": "Sindarov ganó la Copa del Mundo de 2025 en Goa, la más joven de su historia, y luego el Torneo de Candidatos de 2026 en Chipre, con una ronda de anticipación.",
+        "en": "Sindarov won the 2025 World Cup in Goa, as its youngest-ever winner, and then the 2026 Candidates in Cyprus with a round to spare."
+      }
+    },
+    {
+      "id": "campeon-en-duda",
+      "title": {
+        "es": "Un campeón bajo presión",
+        "en": "A champion under pressure"
+      },
+      "text": {
+        "es": "Desde su título, Gukesh atravesó una mala racha de resultados en 2025 y 2026, criticada por los excampeones Magnus Carlsen y Garry Kasparov. En la Olimpiada de 2026 mostró una mejoría.",
+        "en": "Since winning the title, Gukesh went through a poor run of results in 2025 and 2026, criticized by former champions Magnus Carlsen and Garry Kasparov. He showed signs of improvement at the 2026 Olympiad."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Gukesh y Sindarov tendrán 20 años al empezar el match: será el duelo por el título mundial más joven de la historia.",
+        "en": "Gukesh and Sindarov will both be 20 when the match begins: it will be the youngest World Championship contest in history."
+      },
+      "source": {
+        "label": "FIDE – Schedule, format and prize fund confirmed",
+        "url": "https://www.fide.com/salesforce-fide-world-championship-match-2026-schedule-format-and-prize-fund-confirmed/"
+      }
+    },
+    {
+      "text": {
+        "es": "Sindarov es el primer jugador de Uzbekistán en clasificarse a un match por el título mundial indiscutido.",
+        "en": "Sindarov is the first player from Uzbekistan to qualify for an undisputed World Championship match."
+      },
+      "source": {
+        "label": "FIDE – Schedule, format and prize fund confirmed",
+        "url": "https://www.fide.com/salesforce-fide-world-championship-match-2026-schedule-format-and-prize-fund-confirmed/"
+      }
+    },
+    {
+      "text": {
+        "es": "La bolsa es de 2,5 millones de dólares.",
+        "en": "The prize fund is 2.5 million US dollars."
+      },
+      "source": {
+        "label": "FIDE – Schedule, format and prize fund confirmed",
+        "url": "https://www.fide.com/salesforce-fide-world-championship-match-2026-schedule-format-and-prize-fund-confirmed/"
+      }
+    },
+    {
+      "text": {
+        "es": "Será el primer match por el título mundial en Suiza desde el Kramnik–Leko de 2004, en Brissago.",
+        "en": "It will be the first world title match in Switzerland since Kramnik–Leko in Brissago in 2004."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2026"
+      }
+    },
+    {
+      "text": {
+        "es": "La FIDE eligió Ginebra por encima de las candidaturas de India, Estados Unidos y Chipre.",
+        "en": "FIDE chose Geneva over bids from India, the United States and Cyprus."
+      },
+      "source": {
+        "label": "FIDE – Geneva to host the 2026 match",
+        "url": "https://www.fide.com/geneva-to-host-fide-world-championship-match-2026/"
+      }
+    }
+  ],
+  "photos": [
+    "gukesh-2025",
+    "sindarov-2026",
+    "sindarov-2024-budapest",
+    "gukesh-2024"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2026"
+    },
+    {
+      "label": "FIDE – Schedule, format and prize fund confirmed",
+      "url": "https://www.fide.com/salesforce-fide-world-championship-match-2026-schedule-format-and-prize-fund-confirmed/"
+    },
+    {
+      "label": "FIDE – Geneva to host the 2026 match",
+      "url": "https://www.fide.com/geneva-to-host-fide-world-championship-match-2026/"
+    }
+  ]
+}

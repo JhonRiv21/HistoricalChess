@@ -1,0 +1,19 @@
+{
+  "file": "kasparov-1985.jpg",
+  "caption": {
+    "es": "Garry Kasparov en el match de dos partidas de la KRO contra Jan Timman, 17 de diciembre de 1985.",
+    "en": "Garry Kasparov at the KRO two-game match against Jan Timman, 17 December 1985."
+  },
+  "alt": {
+    "es": "Kasparov mirando con intensidad hacia arriba desde detrás del tablero.",
+    "en": "Kasparov looking intensely upward from behind the chessboard."
+  },
+  "author": "Rob Bogaerts / Anefo (Nationaal Archief)",
+  "license": "CC0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:KRO_schaaktweekamp_Timman_tegen_Kasparov_(l)_Garri_Kasparov,_Bestanddeelnr_933-5170.jpg",
+  "focus": "50% 30%",
+  "people": [
+    "kasparov"
+  ],
+  "year": 1985
+}

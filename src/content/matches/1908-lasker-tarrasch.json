@@ -1,0 +1,330 @@
+{
+  "year": 1908,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "lasker",
+      "name": "Emanuel Lasker",
+      "short": "Lasker",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "tarrasch",
+      "name": "Siegbert Tarrasch",
+      "short": "Tarrasch",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "lasker",
+  "score": {
+    "lasker": 10.5,
+    "tarrasch": 5.5
+  },
+  "site": {
+    "es": "Düsseldorf y Múnich",
+    "en": "Düsseldorf and Munich"
+  },
+  "dates": {
+    "start": "1908-08-17",
+    "end": "1908-09-30"
+  },
+  "summary": {
+    "es": "Duelo entre dos alemanes que llevaban años de rivalidad y no se llevaban bien. Siegbert Tarrasch se ganó el lugar al vencer en el torneo de Ostende 1907 y los comentaristas esperaban un match parejo, pero Lasker tomó la delantera desde el comienzo y ganó ocho partidas contra tres, para un 10½ a 5½. La partida 14, de 119 jugadas, fue la más larga de un campeonato del mundo hasta 1978.",
+    "en": "A duel between two Germans who had been rivals for years and were not on good terms. Siegbert Tarrasch earned his place by winning the Ostend 1907 tournament and commentators expected a close match, but Lasker took the lead from the start and won eight games to three, 10½–5½. Game 14, at 119 moves, was the longest in a world championship until 1978."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "tarrasch",
+      "result": "1-0",
+      "date": "1908-08-17",
+      "eco": "C68",
+      "plies": 109,
+      "pgnRef": "WorldChamp1908.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "tarrasch",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1908-08-19",
+      "eco": "C66",
+      "plies": 82,
+      "pgnRef": "WorldChamp1908.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "tarrasch",
+      "result": "0-1",
+      "date": "1908-08-22",
+      "eco": "C98",
+      "plies": 88,
+      "pgnRef": "WorldChamp1908.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "tarrasch",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1908-08-24",
+      "eco": "C66",
+      "plies": 82,
+      "pgnRef": "WorldChamp1908.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "tarrasch",
+      "result": "1-0",
+      "date": "1908-09-01",
+      "eco": "C98",
+      "plies": 75,
+      "pgnRef": "WorldChamp1908.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "tarrasch",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1908-09-02",
+      "eco": "C10",
+      "plies": 106,
+      "pgnRef": "WorldChamp1908.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "tarrasch",
+      "result": "1-0",
+      "date": "1908-09-05",
+      "eco": "C15",
+      "plies": 151,
+      "pgnRef": "WorldChamp1908.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "tarrasch",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1908-09-09",
+      "eco": "C67",
+      "plies": 96,
+      "pgnRef": "WorldChamp1908.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "tarrasch",
+      "result": "1/2-1/2",
+      "date": "1908-09-11",
+      "eco": "C15",
+      "plies": 143,
+      "pgnRef": "WorldChamp1908.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "tarrasch",
+      "black": "lasker",
+      "result": "1-0",
+      "date": "1908-09-14",
+      "eco": "C67",
+      "plies": 63,
+      "pgnRef": "WorldChamp1908.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "tarrasch",
+      "result": "1-0",
+      "date": "1908-09-15",
+      "eco": "C12",
+      "plies": 55,
+      "pgnRef": "WorldChamp1908.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "tarrasch",
+      "black": "lasker",
+      "result": "1-0",
+      "date": "1908-09-16",
+      "eco": "C49",
+      "plies": 129,
+      "pgnRef": "WorldChamp1908.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "tarrasch",
+      "result": "1-0",
+      "date": "1908-09-23",
+      "eco": "D40",
+      "plies": 87,
+      "pgnRef": "WorldChamp1908.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "tarrasch",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1908-09-24",
+      "eco": "C67",
+      "plies": 238,
+      "pgnRef": "WorldChamp1908.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "tarrasch",
+      "result": "1/2-1/2",
+      "date": "1908-09-28",
+      "eco": "D02",
+      "plies": 102,
+      "pgnRef": "WorldChamp1908.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "tarrasch",
+      "black": "lasker",
+      "result": "0-1",
+      "date": "1908-09-30",
+      "eco": "C49",
+      "plies": 52,
+      "pgnRef": "WorldChamp1908.pgn#15"
+    }
+  ],
+  "featuredRounds": [
+    2,
+    16
+  ],
+  "moments": [
+    {
+      "id": "contraataque-de-lasker",
+      "title": {
+        "es": "Lasker resiste y contraataca",
+        "en": "Lasker weathers the storm"
+      },
+      "text": {
+        "es": "En la segunda partida, Tarrasch consiguió un ataque fuerte, pero Lasker puso a salvo a su rey y contraatacó. Tarrasch se equivocó con 40.a4?? y, tras 40...f3, la amenaza de mate lo obligó a abandonar poco después.",
+        "en": "In game 2, Tarrasch built a strong attack, but Lasker got his king to safety and counterattacked. Tarrasch erred with 40.a4??, and after 40...f3 the mating threat forced him to resign soon after."
+      },
+      "round": 2,
+      "ply": 79
+    },
+    {
+      "id": "partida-maraton",
+      "title": {
+        "es": "Una partida maratónica",
+        "en": "A marathon game"
+      },
+      "text": {
+        "es": "La partida 14 duró 119 jugadas y terminó en tablas. Fue la más larga de un campeonato del mundo hasta la quinta partida de 1978, de 124 jugadas.",
+        "en": "Game 14 lasted 119 moves and ended in a draw. It was the longest world championship game until game 5 of 1978, at 124 moves."
+      },
+      "round": 14
+    },
+    {
+      "id": "final-abrupto",
+      "title": {
+        "es": "Un final abrupto",
+        "en": "An abrupt ending"
+      },
+      "text": {
+        "es": "La partida 16 fue la más corta del match: Tarrasch jugó 26.Cd4??, Lasker respondió 26...Axd4 y con su octava victoria retuvo el título.",
+        "en": "Game 16 was the shortest of the match: Tarrasch played 26.Nd4??, Lasker replied 26...Bxd4, and his eighth win kept him champion."
+      },
+      "round": 16,
+      "ply": 51
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Lasker desafió a Tarrasch en 1892, pero este se negó y le dijo que primero ganara un torneo internacional. Un match previsto para 1904 se canceló por una disputa sobre un aplazamiento que pidió Tarrasch, alegando un accidente patinando.",
+        "en": "Lasker challenged Tarrasch in 1892, but Tarrasch declined and told him to win an international tournament first. A match planned for 1904 collapsed over a postponement Tarrasch requested, citing a skating accident."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1908"
+      }
+    },
+    {
+      "text": {
+        "es": "El ritmo era de 15 jugadas por hora, con aplazamiento después de seis horas de juego. Lasker cobró además 7.500 marcos solo por presentarse.",
+        "en": "The time control was 15 moves per hour, with adjournment after six hours of play. Lasker also received a 7,500-mark appearance fee."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1908"
+      }
+    },
+    {
+      "text": {
+        "es": "Las cuatro primeras partidas se jugaron en Düsseldorf y las otras doce en Múnich.",
+        "en": "The first four games were played in Düsseldorf and the other twelve in Munich."
+      },
+      "source": {
+        "label": "OlimpBase",
+        "url": "https://www.olimpbase.org/ind-wcc/wc1908-wch.html"
+      }
+    },
+    {
+      "text": {
+        "es": "Tarrasch escribió que el marcador daba una «impresión equivocada» de su inferioridad; en su momento también culpó a la falta de práctica y al clima marítimo de Düsseldorf.",
+        "en": "Tarrasch wrote that the score gave \"a faulty impression\" of his inferiority; at the time he also blamed a lack of practice and Düsseldorf's maritime climate."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1908"
+      }
+    }
+  ],
+  "photos": [
+    "lasker-tarrasch-1908",
+    "tarrasch-1900",
+    "lasker-1909-eugene",
+    "lasker-1908"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1908"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/08lt$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1908-wch.html"
+    }
+  ]
+}

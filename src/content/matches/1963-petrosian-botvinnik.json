@@ -1,0 +1,393 @@
+{
+  "year": 1963,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "botvinnik",
+      "name": "Mikhail Botvinnik",
+      "short": "Botvinnik",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "petrosian",
+      "name": "Tigran Petrosian",
+      "short": "Petrosian",
+      "country": {
+        "es": "URSS (Armenia)",
+        "en": "Soviet Union (Armenia)"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "petrosian",
+  "score": {
+    "petrosian": 12.5,
+    "botvinnik": 9.5
+  },
+  "site": {
+    "es": "Moscú, URSS",
+    "en": "Moscow, Soviet Union"
+  },
+  "dates": {
+    "start": "1963-03-23",
+    "end": "1963-05-20"
+  },
+  "summary": {
+    "es": "Tigran Petrosian ganó un torneo de candidatos polémico en Curazao y retó a Botvinnik. Perdió la primera partida, pero su juego sólido terminó por desgastar al campeón: ganó 12½–9½, con cinco victorias contra dos y quince tablas. Petrosian fue el noveno campeón del mundo y Botvinnik, ya sin derecho a revancha, se retiró de la lucha por el título.",
+    "en": "Tigran Petrosian won a controversial Candidates tournament in Curaçao and challenged Botvinnik. He lost the first game, but his rock-solid play wore the champion down: he won 12½–9½, with five wins to two and fifteen draws. Petrosian became the ninth world champion and Botvinnik, no longer entitled to a rematch, retired from title play."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "E35",
+      "plies": 80,
+      "pgnRef": "WorldChamp1963.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "D27",
+      "plies": 70,
+      "pgnRef": "WorldChamp1963.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "E18",
+      "plies": 172,
+      "pgnRef": "WorldChamp1963.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "A35",
+      "plies": 48,
+      "pgnRef": "WorldChamp1963.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "D94",
+      "plies": 95,
+      "pgnRef": "WorldChamp1963.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "D27",
+      "plies": 54,
+      "pgnRef": "WorldChamp1963.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "A21",
+      "plies": 103,
+      "pgnRef": "WorldChamp1963.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "D27",
+      "plies": 109,
+      "pgnRef": "WorldChamp1963.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "E08",
+      "plies": 110,
+      "pgnRef": "WorldChamp1963.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "D27",
+      "plies": 86,
+      "pgnRef": "WorldChamp1963.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "D32",
+      "plies": 82,
+      "pgnRef": "WorldChamp1963.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "D31",
+      "plies": 105,
+      "pgnRef": "WorldChamp1963.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "E18",
+      "plies": 107,
+      "pgnRef": "WorldChamp1963.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1-0",
+      "eco": "D31",
+      "plies": 113,
+      "pgnRef": "WorldChamp1963.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "D97",
+      "plies": 115,
+      "pgnRef": "WorldChamp1963.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "D27",
+      "plies": 107,
+      "pgnRef": "WorldChamp1963.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "E14",
+      "plies": 78,
+      "pgnRef": "WorldChamp1963.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "0-1",
+      "eco": "D31",
+      "plies": 122,
+      "pgnRef": "WorldChamp1963.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "E19",
+      "plies": 131,
+      "pgnRef": "WorldChamp1963.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "D27",
+      "plies": 42,
+      "pgnRef": "WorldChamp1963.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "petrosian",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "A16",
+      "plies": 19,
+      "pgnRef": "WorldChamp1963.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "petrosian",
+      "result": "1/2-1/2",
+      "eco": "D23",
+      "plies": 20,
+      "pgnRef": "WorldChamp1963.pgn#21"
+    }
+  ],
+  "featuredRounds": [
+    5,
+    19
+  ],
+  "moments": [
+    {
+      "id": "tropiezo-inicial",
+      "title": {
+        "es": "Tropiezo inicial",
+        "en": "An early stumble"
+      },
+      "text": {
+        "es": "Botvinnik ganó la primera partida, jugada el 23 de marzo de 1963, con negras.",
+        "en": "Botvinnik won the first game, played on 23 March 1963, with Black."
+      },
+      "round": 1
+    },
+    {
+      "id": "petrosian-toma-el-mando",
+      "title": {
+        "es": "Petrosian toma el mando",
+        "en": "Petrosian takes charge"
+      },
+      "text": {
+        "es": "Petrosian ganó las partidas 5 y 7 y se puso adelante. Botvinnik lo igualó en la 14, pero Petrosian ganó la 15 y no volvió a quedar atrás.",
+        "en": "Petrosian won games 5 and 7 and went ahead. Botvinnik levelled in game 14, but Petrosian won game 15 and never trailed."
+      },
+      "round": 7
+    },
+    {
+      "id": "el-cierre",
+      "title": {
+        "es": "El cierre",
+        "en": "The finish"
+      },
+      "text": {
+        "es": "Tras ganar las partidas 18 y 19, a Petrosian le bastaba con entablar las tres últimas. La final, el 20 de mayo, terminó en tablas y le dio los 12½ puntos.",
+        "en": "After winning games 18 and 19, Petrosian only had to draw the last three. The final game, on 20 May, was drawn and gave him the 12½ points."
+      },
+      "round": 22
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Después de las acusaciones de tablas pactadas en Curazao 1962, la FIDE reemplazó el torneo de candidatos por matches eliminatorios, un formato que se usó hasta 2013.",
+        "en": "After the allegations of pre-arranged draws at Curaçao 1962, FIDE replaced the Candidates tournament with knockout matches, a format used until 2013."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1963",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1963"
+      }
+    },
+    {
+      "text": {
+        "es": "Las reglas habían cambiado: a diferencia de 1957 y 1960, el campeón derrotado ya no tenía derecho a revancha. Botvinnik dejó la lucha por el título, aunque siguió jugando.",
+        "en": "The rules had changed: unlike in 1957 and 1960, the defeated champion no longer had a right to a rematch. Botvinnik left title play, though he kept playing chess."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1963",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1963"
+      }
+    },
+    {
+      "text": {
+        "es": "A Petrosian lo apodaban «Tigran de Hierro» por su estilo defensivo casi impenetrable.",
+        "en": "Petrosian was nicknamed \"Iron Tigran\" for his almost impenetrable defensive style."
+      },
+      "source": {
+        "label": "Wikipedia: Tigran Petrosian",
+        "url": "https://en.wikipedia.org/wiki/Tigran_Petrosian"
+      }
+    },
+    {
+      "text": {
+        "es": "En Curazao, Petrosian entabló sus cinco últimas partidas y aun así ganó el torneo.",
+        "en": "At Curaçao, Petrosian drew his last five games and still won the tournament."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1963",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1963"
+      }
+    }
+  ],
+  "photos": [
+    "petrosian-1962",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "videos": [
+    {
+      "youtubeId": "Pu4b77EMTj0",
+      "kind": "recap",
+      "title": {
+        "es": "Botvinnik contra Petrosian, 1963: clase de Varuzhan Akobian",
+        "en": "Botvinnik vs. Petrosian, 1963: lecture by Varuzhan Akobian"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "KeV_g_ggGRQ",
+      "kind": "archival",
+      "title": {
+        "es": "Imágenes del match Petrosian-Botvinnik, 1963",
+        "en": "Footage of the 1963 Petrosian-Botvinnik match"
+      },
+      "channel": "alecksandrkoblents",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1963",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1963"
+    },
+    {
+      "label": "Mark Weeks: 1963 Petrosian - Botvinnik",
+      "url": "https://www.mark-weeks.com/chess/6163$wix.htm"
+    },
+    {
+      "label": "Wikipedia: Tigran Petrosian",
+      "url": "https://en.wikipedia.org/wiki/Tigran_Petrosian"
+    }
+  ]
+}

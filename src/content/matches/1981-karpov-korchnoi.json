@@ -1,0 +1,362 @@
+{
+  "year": 1981,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "korchnoi",
+      "name": "Viktor Korchnoi",
+      "short": "Korchnoi",
+      "country": {
+        "es": "Exiliado de la URSS, residente en Suiza",
+        "en": "Soviet exile living in Switzerland"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "karpov",
+  "score": {
+    "karpov": 11,
+    "korchnoi": 7
+  },
+  "site": {
+    "es": "Merano, Italia",
+    "en": "Merano, Italy"
+  },
+  "dates": {
+    "start": "1981-10-01",
+    "end": "1981-11-19"
+  },
+  "summary": {
+    "es": "Tres años después de Baguio, Karpov y Korchnoi volvieron a jugar por el título, ahora en Merano, Italia, otra vez al primero en ganar seis partidas. Esta vez no hubo suspenso: Karpov ganó 6–2 con diez tablas, un resultado tan claro que se lo llamó «la masacre de Merano». Fuera del tablero, la esposa y el hijo de Korchnoi seguían sin poder salir de la URSS.",
+    "en": "Three years after Baguio, Karpov and Korchnoi met again for the title, now in Merano, Italy, once more to the first player to win six games. This time there was no suspense: Karpov won 6–2 with ten draws, a result so clear it was dubbed \"the Massacre in Merano\". Away from the board, Korchnoi's wife and son were still not allowed to leave the USSR."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "0-1",
+      "eco": "D58",
+      "plies": 86,
+      "pgnRef": "WorldChamp1981.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1-0",
+      "eco": "C67",
+      "plies": 113,
+      "pgnRef": "WorldChamp1981.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D58",
+      "plies": 81,
+      "pgnRef": "WorldChamp1981.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1-0",
+      "eco": "C42",
+      "plies": 105,
+      "pgnRef": "WorldChamp1981.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D53",
+      "plies": 89,
+      "pgnRef": "WorldChamp1981.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "0-1",
+      "eco": "C82",
+      "plies": 82,
+      "pgnRef": "WorldChamp1981.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D53",
+      "plies": 61,
+      "pgnRef": "WorldChamp1981.pgn#6",
+      "note": {
+        "es": "El PGN de origen la registra como victoria de Korchnoi, pero terminó en tablas: tras su jugada 31, Korchnoi ofreció tablas a través del árbitro y Karpov aceptó. Con esta corrección el marcador queda 11–7, el resultado histórico.",
+        "en": "The source PGN records it as a Korchnoi win, but it was drawn: after his 31st move Korchnoi offered a draw through the arbiter and Karpov accepted. With this correction the score is 11–7, the historical result."
+      }
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C54",
+      "plies": 167,
+      "pgnRef": "WorldChamp1981.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "0-1",
+      "eco": "D53",
+      "plies": 86,
+      "pgnRef": "WorldChamp1981.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C54",
+      "plies": 63,
+      "pgnRef": "WorldChamp1981.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D37",
+      "plies": 70,
+      "pgnRef": "WorldChamp1981.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "A16",
+      "plies": 93,
+      "pgnRef": "WorldChamp1981.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "D31",
+      "plies": 82,
+      "pgnRef": "WorldChamp1981.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1-0",
+      "eco": "C80",
+      "plies": 91,
+      "pgnRef": "WorldChamp1981.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "A29",
+      "plies": 80,
+      "pgnRef": "WorldChamp1981.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C80",
+      "plies": 84,
+      "pgnRef": "WorldChamp1981.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D53",
+      "plies": 46,
+      "pgnRef": "WorldChamp1981.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1-0",
+      "eco": "C80",
+      "plies": 81,
+      "pgnRef": "WorldChamp1981.pgn#17"
+    }
+  ],
+  "featuredRounds": [
+    6,
+    13,
+    18
+  ],
+  "moments": [
+    {
+      "id": "arranque-arrollador",
+      "title": {
+        "es": "Arranque arrollador",
+        "en": "A crushing start"
+      },
+      "text": {
+        "es": "Karpov ganó las partidas 1, 2 y 4 y se puso 3–0 en victorias. Korchnoi pidió un tiempo de descanso.",
+        "en": "Karpov won games 1, 2 and 4 to lead 3–0 in wins. Korchnoi took a timeout."
+      },
+      "round": 4
+    },
+    {
+      "id": "primera-de-korchnoi",
+      "title": {
+        "es": "La primera de Korchnoi",
+        "en": "Korchnoi's first win"
+      },
+      "text": {
+        "es": "En la sexta partida, Korchnoi superó a Karpov con negras. Karpov tuvo una oportunidad de cambiar el rumbo de la partida justo antes del control de tiempo, no la vio y abandonó sin reanudarla.",
+        "en": "In game six Korchnoi outplayed Karpov with Black. Karpov had a chance to turn the game around just before the time control, missed it and resigned without resuming."
+      },
+      "round": 6
+    },
+    {
+      "id": "dama-contra-torre",
+      "title": {
+        "es": "Dama contra torre",
+        "en": "Queen against rook"
+      },
+      "text": {
+        "es": "En la partida 13, Korchnoi tenía una posición ganada, pero permitió golpes tácticos de Karpov. Karpov entregó la dama por torre y caballo, no encontró una fortaleza y abandonó: fue la única victoria de Korchnoi con blancas.",
+        "en": "In game 13 Korchnoi had a won position but allowed Karpov some tactical blows. Karpov gave up his queen for rook and knight, found no fortress and resigned: it was Korchnoi's only win with White."
+      },
+      "round": 13
+    },
+    {
+      "id": "la-sexta-de-karpov",
+      "title": {
+        "es": "La sexta de Karpov",
+        "en": "Karpov's sixth"
+      },
+      "text": {
+        "es": "Karpov ganó la partida 18, llegó a seis victorias y retuvo el título.",
+        "en": "Karpov won game 18, reached six wins and kept the title."
+      },
+      "round": 18
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El hijo de Korchnoi fue reclutado por el ejército soviético después de entregar su pasaporte con la promesa de que podría reunirse con su padre. Fue condenado a dos años y medio en un campo de trabajo y cumplió la pena completa.",
+        "en": "Korchnoi's son was drafted into the Soviet army after handing in his passport on the promise that he could join his father. He was sentenced to two and a half years in a labour camp and served the full term."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1981",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1981"
+      }
+    },
+    {
+      "text": {
+        "es": "La esposa y el hijo de Korchnoi recién pudieron salir de la URSS en 1982.",
+        "en": "Korchnoi's wife and son were only allowed to leave the USSR in 1982."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1981",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1981"
+      }
+    },
+    {
+      "text": {
+        "es": "Korchnoi exigía que las ofertas de tablas pasaran por el árbitro. En la cuarta partida, Karpov creía que su ventaja no alcanzaba para ganar, pero por esa exigencia siguió jugando, y terminó ganando.",
+        "en": "Korchnoi insisted that draw offers go through the arbiter. In game four Karpov felt his edge was not enough to win, but because of that demand he played on, and ended up winning."
+      },
+      "source": {
+        "label": "Mark Weeks: 1981 Karpov - Korchnoi Highlights",
+        "url": "https://www.mark-weeks.com/chess/81kk$$.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "En la partida 14, Korchnoi pensó 78 minutos una sola jugada, su récord personal en sus tres matches contra Karpov.",
+        "en": "In game 14 Korchnoi spent 78 minutes on a single move, his personal record across his three matches with Karpov."
+      },
+      "source": {
+        "label": "Mark Weeks: 1981 Karpov - Korchnoi Highlights",
+        "url": "https://www.mark-weeks.com/chess/81kk$$.htm"
+      }
+    }
+  ],
+  "photos": [
+    "karpov-korchnoi-1981-meran",
+    "korchnoi-1981-meran",
+    "korchnoi-1982",
+    "karpov-1979"
+  ],
+  "videos": [
+    {
+      "youtubeId": "3ylTr9KF5Bg",
+      "kind": "recap",
+      "title": {
+        "es": "Karpov contra Korchnoi, Merano 1981: partida 18",
+        "en": "Karpov vs. Korchnoi, Merano 1981: game 18"
+      },
+      "channel": "Ajedrez90",
+      "round": 18,
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1981",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1981"
+    },
+    {
+      "label": "Mark Weeks: 1981 Karpov - Korchnoi",
+      "url": "https://www.mark-weeks.com/chess/7981$wix.htm"
+    },
+    {
+      "label": "Mark Weeks: 1981 Karpov - Korchnoi Highlights",
+      "url": "https://www.mark-weeks.com/chess/81kk$$.htm"
+    }
+  ]
+}

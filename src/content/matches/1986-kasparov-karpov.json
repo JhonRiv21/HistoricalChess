@@ -1,0 +1,426 @@
+{
+  "year": 1986,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "kasparov",
+      "name": "Garry Kasparov",
+      "short": "Kasparov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "kasparov",
+  "score": {
+    "karpov": 11.5,
+    "kasparov": 12.5
+  },
+  "site": {
+    "es": "Londres (Reino Unido) y Leningrado (URSS)",
+    "en": "London (United Kingdom) and Leningrad (Soviet Union)"
+  },
+  "dates": {
+    "start": "1986-07-28",
+    "end": "1986-10-08"
+  },
+  "summary": {
+    "es": "Karpov ejerció su derecho a la revancha y el match se repartió entre Londres y Leningrado: fue la primera vez que dos soviéticos jugaron por el título fuera de Moscú. Kasparov llegó a sacar tres puntos de ventaja, pero Karpov ganó tres partidas seguidas, la 17, la 18 y la 19, e igualó. Kasparov ganó la partida 22 y retuvo la corona por 12½–11½.",
+    "en": "Karpov used his right to a rematch, and the match was split between London and Leningrad: the first time two Soviets played for the title outside Moscow. Kasparov built a three-point lead, but Karpov won three straight games, 17, 18 and 19, to level. Kasparov won game 22 and kept the crown 12½–11½."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D92",
+      "plies": 41,
+      "pgnRef": "WorldChamp1986.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E20",
+      "plies": 104,
+      "pgnRef": "WorldChamp1986.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D79",
+      "plies": 69,
+      "pgnRef": "WorldChamp1986.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "E20",
+      "plies": 80,
+      "pgnRef": "WorldChamp1986.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "D82",
+      "plies": 63,
+      "pgnRef": "WorldChamp1986.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C42",
+      "plies": 83,
+      "pgnRef": "WorldChamp1986.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D31",
+      "plies": 81,
+      "pgnRef": "WorldChamp1986.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "D35",
+      "plies": 61,
+      "pgnRef": "WorldChamp1986.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D93",
+      "plies": 40,
+      "pgnRef": "WorldChamp1986.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D55",
+      "plies": 86,
+      "pgnRef": "WorldChamp1986.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D93",
+      "plies": 81,
+      "pgnRef": "WorldChamp1986.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D55",
+      "plies": 67,
+      "pgnRef": "WorldChamp1986.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D79",
+      "plies": 80,
+      "pgnRef": "WorldChamp1986.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "C92",
+      "plies": 81,
+      "pgnRef": "WorldChamp1986.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D98",
+      "plies": 58,
+      "pgnRef": "WorldChamp1986.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "C92",
+      "plies": 81,
+      "pgnRef": "WorldChamp1986.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "D98",
+      "plies": 61,
+      "pgnRef": "WorldChamp1986.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "0-1",
+      "eco": "E13",
+      "plies": 116,
+      "pgnRef": "WorldChamp1986.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "D97",
+      "plies": 80,
+      "pgnRef": "WorldChamp1986.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E05",
+      "plies": 42,
+      "pgnRef": "WorldChamp1986.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "E15",
+      "plies": 90,
+      "pgnRef": "WorldChamp1986.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "D55",
+      "plies": 91,
+      "pgnRef": "WorldChamp1986.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "A30",
+      "plies": 64,
+      "pgnRef": "WorldChamp1986.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E16",
+      "plies": 81,
+      "pgnRef": "WorldChamp1986.pgn#23"
+    }
+  ],
+  "featuredRounds": [
+    16,
+    22
+  ],
+  "moments": [
+    {
+      "id": "bandera-caida",
+      "title": {
+        "es": "La bandera cae",
+        "en": "The flag falls"
+      },
+      "text": {
+        "es": "En la octava partida, Kasparov sacrificó un peón para atacar. Karpov, con un minuto en el reloj, cometió un error y su bandera cayó dos jugadas después.",
+        "en": "In game eight Kasparov sacrificed a pawn to attack. Karpov, with one minute on his clock, blundered and his flag fell two moves later."
+      },
+      "round": 8
+    },
+    {
+      "id": "ataque-total",
+      "title": {
+        "es": "Ataque total",
+        "en": "All-out attack"
+      },
+      "text": {
+        "es": "En la partida 16, Kasparov abandonó el flanco de dama, dejó un caballo varado en a3 y fue con todo contra el rey de Karpov. Ganó y se puso 9½–6½; casi todos dieron el match por decidido.",
+        "en": "In game 16 Kasparov abandoned the queenside, left a knight stranded on a3 and went all out against Karpov's king. He won to lead 9½–6½, and nearly everyone considered the match decided."
+      },
+      "round": 16
+    },
+    {
+      "id": "tres-seguidas",
+      "title": {
+        "es": "Tres seguidas de Karpov",
+        "en": "Three in a row for Karpov"
+      },
+      "text": {
+        "es": "Karpov ganó las partidas 17, 18 y 19 y empató 9½–9½. Después, Kasparov acusó a su segundo Evgeny Vladimirov de vender sus análisis a Karpov y lo despidió; Karpov negó cualquier espionaje.",
+        "en": "Karpov won games 17, 18 and 19 to level at 9½–9½. Afterwards Kasparov accused his second Evgeny Vladimirov of selling his analysis to Karpov and dismissed him; Karpov denied any spying."
+      },
+      "round": 19
+    },
+    {
+      "id": "la-22",
+      "title": {
+        "es": "La partida 22",
+        "en": "Game 22"
+      },
+      "text": {
+        "es": "Kasparov selló su jugada 41 cuando casi todos esperaban un final de torres difícil de ganar, pero encontró una línea preciosa sin defensa. Karpov abandonó a pocas jugadas de reanudar.",
+        "en": "Kasparov sealed his 41st move when most observers expected a rook ending that would be hard to win, but he found a beautiful line with no defence. Karpov resigned a few moves into the second session."
+      },
+      "round": 22
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "La primera ministra británica Margaret Thatcher hizo el sorteo de colores en Londres.",
+        "en": "British Prime Minister Margaret Thatcher made the draw for colours in London."
+      },
+      "source": {
+        "label": "Mark Weeks: 1986 Kasparov - Karpov Highlights",
+        "url": "https://www.mark-weeks.com/chess/86kk$$.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "Los dos jugadores donaron su parte de la bolsa de Londres a las víctimas de Chernóbil.",
+        "en": "Both players donated their share of the London prize fund to the victims of Chernobyl."
+      },
+      "source": {
+        "label": "Mark Weeks: 1986 Kasparov - Karpov Highlights",
+        "url": "https://www.mark-weeks.com/chess/86kk$$.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "La partida 11 ganó un premio de belleza de 10 000 libras esterlinas, que se repartió entre los dos jugadores.",
+        "en": "Game 11 won a brilliancy prize of 10,000 pounds sterling, which was split between the two players."
+      },
+      "source": {
+        "label": "Mark Weeks: 1986 Kasparov - Karpov Highlights",
+        "url": "https://www.mark-weeks.com/chess/86kk$$.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "Las partidas 1 a 12 se jugaron en el Park Lane Hotel de Londres y las 13 a 24 en el Hotel Leningrado.",
+        "en": "Games 1–12 were played at the Park Lane Hotel in London and games 13–24 at the Hotel Leningrad."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1986",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1986"
+      }
+    }
+  ],
+  "photos": [
+    "kasparov-karpov-1988",
+    "kasparov-1985",
+    "karpov-1986-interpolis"
+  ],
+  "videos": [
+    {
+      "youtubeId": "vsH4bSwiwnY",
+      "kind": "archival",
+      "title": {
+        "es": "Noticias de Thames, 1986: Kasparov y Karpov",
+        "en": "Thames News, 1986: Kasparov and Karpov"
+      },
+      "channel": "ThamesTv",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "RQVriWDLdkg",
+      "kind": "recap",
+      "title": {
+        "es": "Kasparov contra Karpov, 1986: clase de Ben Finegold",
+        "en": "Kasparov vs. Karpov, 1986: lecture by Ben Finegold"
+      },
+      "channel": "GMBenjaminFinegold",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1986",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1986"
+    },
+    {
+      "label": "Mark Weeks: 1986 Kasparov - Karpov",
+      "url": "https://www.mark-weeks.com/chess/82843wix.htm"
+    },
+    {
+      "label": "Mark Weeks: 1986 Kasparov - Karpov Highlights",
+      "url": "https://www.mark-weeks.com/chess/86kk$$.htm"
+    }
+  ]
+}

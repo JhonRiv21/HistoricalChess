@@ -1,0 +1,367 @@
+{
+  "year": 2016,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "carlsen",
+      "name": "Magnus Carlsen",
+      "short": "Carlsen",
+      "country": {
+        "es": "Noruega",
+        "en": "Norway"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "karjakin",
+      "name": "Sergey Karjakin",
+      "short": "Karjakin",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "carlsen",
+  "score": {
+    "carlsen": 6,
+    "karjakin": 6
+  },
+  "tiebreak": {
+    "carlsen": 3,
+    "karjakin": 1
+  },
+  "site": {
+    "es": "Nueva York, Estados Unidos",
+    "en": "New York, United States"
+  },
+  "dates": {
+    "start": "2016-11-11",
+    "end": "2016-11-30"
+  },
+  "summary": {
+    "es": "Carlsen defendió el título en Nueva York ante el ruso Sergey Karjakin, ganador del Torneo de Candidatos de 2016. Tras siete tablas, Karjakin ganó la octava partida y Carlsen empató en la décima; las doce partidas lentas terminaron 6–6. En el desempate rápido, Carlsen ganó las dos últimas partidas, la final con un sacrificio de dama, y retuvo el título 3–1.",
+    "en": "Carlsen defended the title in New York against Russia's Sergey Karjakin, winner of the 2016 Candidates. After seven draws Karjakin won game eight and Carlsen levelled in game ten; the twelve classical games ended 6–6. In the rapid playoff Carlsen won the last two games, the final one with a queen sacrifice, and kept the title 3–1."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "karjakin",
+      "result": "1/2-1/2",
+      "date": "2016-11-11",
+      "eco": "A45",
+      "plies": 84,
+      "pgnRef": "WorldChamp2016.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "karjakin",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2016-11-12",
+      "eco": "C84",
+      "plies": 65,
+      "pgnRef": "WorldChamp2016.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "karjakin",
+      "result": "1/2-1/2",
+      "date": "2016-11-14",
+      "eco": "C67",
+      "plies": 156,
+      "pgnRef": "WorldChamp2016.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "karjakin",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2016-11-15",
+      "eco": "C88",
+      "plies": 187,
+      "pgnRef": "WorldChamp2016.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "karjakin",
+      "result": "1/2-1/2",
+      "date": "2016-11-17",
+      "eco": "C50",
+      "plies": 102,
+      "pgnRef": "WorldChamp2016.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "karjakin",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2016-11-18",
+      "eco": "C88",
+      "plies": 64,
+      "pgnRef": "WorldChamp2016.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "karjakin",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2016-11-20",
+      "eco": "D10",
+      "plies": 66,
+      "pgnRef": "WorldChamp2016.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "karjakin",
+      "result": "0-1",
+      "date": "2016-11-21",
+      "eco": "D05",
+      "plies": 104,
+      "pgnRef": "WorldChamp2016.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "karjakin",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2016-11-23",
+      "eco": "C78",
+      "plies": 148,
+      "pgnRef": "WorldChamp2016.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "karjakin",
+      "result": "1-0",
+      "date": "2016-11-24",
+      "eco": "C65",
+      "plies": 149,
+      "pgnRef": "WorldChamp2016.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "karjakin",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2016-11-26",
+      "eco": "C84",
+      "plies": 67,
+      "pgnRef": "WorldChamp2016.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "karjakin",
+      "result": "1/2-1/2",
+      "date": "2016-11-28",
+      "eco": "C67",
+      "plies": 60,
+      "pgnRef": "WorldChamp2016.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "rapid",
+      "white": "karjakin",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2016-11-30",
+      "eco": "C84",
+      "plies": 74,
+      "pgnRef": "WorldChamp2016.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "rapid",
+      "white": "carlsen",
+      "black": "karjakin",
+      "result": "1/2-1/2",
+      "date": "2016-11-30",
+      "eco": "C50",
+      "plies": 167,
+      "pgnRef": "WorldChamp2016.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "rapid",
+      "white": "karjakin",
+      "black": "carlsen",
+      "result": "0-1",
+      "date": "2016-11-30",
+      "eco": "C84",
+      "plies": 76,
+      "pgnRef": "WorldChamp2016.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "rapid",
+      "white": "carlsen",
+      "black": "karjakin",
+      "result": "1-0",
+      "date": "2016-11-30",
+      "eco": "B54",
+      "plies": 99,
+      "pgnRef": "WorldChamp2016.pgn#15"
+    }
+  ],
+  "featuredRounds": [
+    8,
+    10,
+    16
+  ],
+  "moments": [
+    {
+      "id": "karjakin-gana",
+      "round": 8,
+      "title": {
+        "es": "Karjakin golpea primero",
+        "en": "Karjakin strikes first"
+      },
+      "text": {
+        "es": "Carlsen arriesgó demasiado buscando la victoria y Karjakin lo castigó. Visiblemente molesto, Carlsen se fue antes de la conferencia de prensa y fue multado.",
+        "en": "Carlsen took too many risks playing for a win, and Karjakin punished him. Visibly upset, Carlsen walked out before the press conference and was fined."
+      }
+    },
+    {
+      "id": "carlsen-iguala",
+      "round": 10,
+      "title": {
+        "es": "Carlsen empata el match",
+        "en": "Carlsen levels the match"
+      },
+      "text": {
+        "es": "En un final largo, Karjakin se defendió durante horas hasta que la imprecisión 56…Thh7 le permitió a Carlsen la ruptura 57.b5 en el momento justo. Carlsen ganó y empató el marcador.",
+        "en": "In a long ending Karjakin defended for hours until the inaccuracy 56...Rhh7 let Carlsen play the break 57.b5 at just the right moment. Carlsen won and levelled the score."
+      }
+    },
+    {
+      "id": "dama-h6",
+      "round": 16,
+      "ply": 99,
+      "title": {
+        "es": "Un final brillante",
+        "en": "A brilliant finish"
+      },
+      "text": {
+        "es": "Karjakin necesitaba ganar con negras y se arriesgó. Carlsen cerró el match con 50.Dh6+, un sacrificio de dama que lleva al mate en la jugada siguiente. El gran maestro Lubomir Kavalek lo describió como la jugada final más brillante en la historia de los mundiales.",
+        "en": "Karjakin needed to win with Black and took risks. Carlsen ended the match with 50.Qh6+, a queen sacrifice that leads to mate on the next move. Grandmaster Lubomir Kavalek called it the most brilliant final move in World Championship history."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El match se jugó en el renovado Fulton Market Building, en el South Street Seaport de Manhattan.",
+        "en": "The match was played in the renovated Fulton Market Building in Manhattan's South Street Seaport."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2016"
+      }
+    },
+    {
+      "text": {
+        "es": "Por dejar la conferencia de prensa tras perder la partida 8, Carlsen fue multado; en apelación, la multa quedó en el 5 % de su premio.",
+        "en": "For skipping the press conference after losing game 8, Carlsen was fined; on appeal the fine was set at 5% of his prize money."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2016"
+      }
+    },
+    {
+      "text": {
+        "es": "La partida 12 terminó en tablas en 30 jugadas y solo 35 minutos de juego, la partida más rápida en terminar en la historia de los mundiales.",
+        "en": "Game 12 was drawn in 30 moves and only 35 minutes of play, the fastest game to finish in World Championship history."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2016"
+      }
+    },
+    {
+      "text": {
+        "es": "En la primera partida, Carlsen jugó el Ataque Trompowsky, y su nombre dio pie a muchas preguntas por su parecido con el de Donald Trump, elegido presidente tres días antes.",
+        "en": "In game one Carlsen played the Trompowsky Attack, and its name drew many questions because of its resemblance to Donald Trump, elected president three days earlier."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2016"
+      }
+    }
+  ],
+  "photos": [
+    "wcc-2016-tiebreak",
+    "wcc-2016-game12",
+    "wcc-2016-press",
+    "karjakin-2017",
+    "carlsen-2012"
+  ],
+  "videos": [
+    {
+      "youtubeId": "oEOBloxwBoo",
+      "kind": "recap",
+      "title": {
+        "es": "Revive el campeonato mundial de 2016",
+        "en": "Relive the 2016 world championship"
+      },
+      "channel": "chess24",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "T5I_fB-wNPA",
+      "kind": "recap",
+      "title": {
+        "es": "Sacrificio de dama para ganar el título: partida 10 de 2016",
+        "en": "Queen sacrifice to win the title: game 10 of 2016"
+      },
+      "channel": "agadmator's Chess Channel",
+      "round": 10,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "F5q1eR70Qe4",
+      "kind": "recap",
+      "title": {
+        "es": "Carlsen-Karjakin 2016: resumen de la partida 10",
+        "en": "Carlsen-Karjakin 2016: game 10 summary"
+      },
+      "channel": "chess24 en Español",
+      "round": 10,
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2016"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/b4b6$wix.htm"
+    }
+  ]
+}

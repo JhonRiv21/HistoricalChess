@@ -1,0 +1,371 @@
+{
+  "year": 1890,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "steinitz",
+      "name": "Wilhelm Steinitz",
+      "short": "Steinitz",
+      "country": {
+        "es": "Austria / Estados Unidos",
+        "en": "Austria / United States"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "gunsberg",
+      "name": "Isidor Gunsberg",
+      "short": "Gunsberg",
+      "country": {
+        "es": "Hungría / Reino Unido",
+        "en": "Hungary / United Kingdom"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "steinitz",
+  "score": {
+    "steinitz": 10.5,
+    "gunsberg": 8.5
+  },
+  "site": {
+    "es": "Nueva York",
+    "en": "New York"
+  },
+  "dates": {
+    "start": "1890-12-09",
+    "end": "1891-01-22"
+  },
+  "summary": {
+    "es": "El retador debía salir de un torneo en Nueva York en 1889, pero sus dos ganadores, Chigorin y Max Weiss, no quisieron desafiar a Steinitz. El tercero, el húngaro Isidor Gunsberg, sí aceptó, y llegó a ir adelante y a quedar a una sola victoria del campeón. Steinitz ganó la partida 18 y cerró el match 10½ a 8½, con seis victorias contra cuatro.",
+    "en": "The challenger was supposed to come out of a New York tournament in 1889, but its two winners, Chigorin and Max Weiss, declined to challenge Steinitz. The third-placed Hungarian, Isidor Gunsberg, accepted, led early and later stayed within a single win of the champion. Steinitz won game 18 and closed the match 10½–8½, with six wins to four."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "1/2-1/2",
+      "date": "1890-12-09",
+      "eco": "D35",
+      "plies": 50,
+      "pgnRef": "WorldChamp1890.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "gunsberg",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1890-12-11",
+      "eco": "C62",
+      "plies": 78,
+      "pgnRef": "WorldChamp1890.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "1/2-1/2",
+      "date": "1890-12-13",
+      "eco": "D31",
+      "plies": 54,
+      "pgnRef": "WorldChamp1890.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "gunsberg",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1890-12-15",
+      "eco": "C50",
+      "plies": 113,
+      "pgnRef": "WorldChamp1890.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "0-1",
+      "date": "1890-12-18",
+      "eco": "D20",
+      "plies": 50,
+      "pgnRef": "WorldChamp1890.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "gunsberg",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1890-12-20",
+      "eco": "D05",
+      "plies": 86,
+      "pgnRef": "WorldChamp1890.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "1-0",
+      "date": "1890-12-22",
+      "eco": "E51",
+      "plies": 55,
+      "pgnRef": "WorldChamp1890.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "gunsberg",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1890-12-27",
+      "eco": "C54",
+      "plies": 71,
+      "pgnRef": "WorldChamp1890.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "1/2-1/2",
+      "date": "1890-12-29",
+      "eco": "D30",
+      "plies": 159,
+      "pgnRef": "WorldChamp1890.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "gunsberg",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1891-01-02",
+      "eco": "C54",
+      "plies": 86,
+      "pgnRef": "WorldChamp1890.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "1/2-1/2",
+      "date": "1891-01-03",
+      "eco": "D40",
+      "plies": 57,
+      "pgnRef": "WorldChamp1890.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "gunsberg",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1891-01-05",
+      "eco": "C52",
+      "plies": 47,
+      "pgnRef": "WorldChamp1890.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "1-0",
+      "date": "1891-01-07",
+      "eco": "D37",
+      "plies": 79,
+      "pgnRef": "WorldChamp1890.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "gunsberg",
+      "black": "steinitz",
+      "result": "1/2-1/2",
+      "date": "1891-01-10",
+      "eco": "C52",
+      "plies": 66,
+      "pgnRef": "WorldChamp1890.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "1/2-1/2",
+      "date": "1891-01-12",
+      "eco": "E14",
+      "plies": 77,
+      "pgnRef": "WorldChamp1890.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "gunsberg",
+      "black": "steinitz",
+      "result": "1-0",
+      "date": "1891-01-15",
+      "eco": "C52",
+      "plies": 41,
+      "pgnRef": "WorldChamp1890.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "1/2-1/2",
+      "date": "1891-01-17",
+      "eco": "D06",
+      "plies": 112,
+      "pgnRef": "WorldChamp1890.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "gunsberg",
+      "black": "steinitz",
+      "result": "0-1",
+      "date": "1891-01-21",
+      "eco": "C52",
+      "plies": 108,
+      "pgnRef": "WorldChamp1890.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "steinitz",
+      "black": "gunsberg",
+      "result": "1/2-1/2",
+      "date": "1891-01-22",
+      "eco": "D40",
+      "plies": 82,
+      "pgnRef": "WorldChamp1890.pgn#18"
+    }
+  ],
+  "featuredRounds": [
+    18,
+    2
+  ],
+  "moments": [
+    {
+      "id": "clavada-no-vista",
+      "title": {
+        "es": "La clavada que nadie vio",
+        "en": "The pin nobody saw"
+      },
+      "text": {
+        "es": "En la segunda partida, Gunsberg jugó 18.g3?? sin ver una clavada, y tras 18...Cc3 Steinitz ganó material y la partida.",
+        "en": "In game 2, Gunsberg played 18.g3?? missing a pin, and after 18...Nc3 Steinitz won material and the game."
+      },
+      "round": 2,
+      "ply": 35
+    },
+    {
+      "id": "gunsberg-adelante",
+      "title": {
+        "es": "Gunsberg toma la delantera",
+        "en": "Gunsberg takes the lead"
+      },
+      "text": {
+        "es": "Con victorias en las partidas 4 y 5, Gunsberg se puso adelante en el match frente al campeón.",
+        "en": "With wins in games 4 and 5, Gunsberg went ahead of the champion in the match."
+      },
+      "round": 5
+    },
+    {
+      "id": "steinitz-sentencia",
+      "title": {
+        "es": "Steinitz sentencia",
+        "en": "Steinitz seals it"
+      },
+      "text": {
+        "es": "Gunsberg ganó la partida 16 y quedó a una sola victoria, pero Steinitz respondió ganando la 18 y las tablas de la 19 cerraron el match.",
+        "en": "Gunsberg won game 16 to trail by a single win, but Steinitz answered by winning game 18, and a draw in game 19 closed the match."
+      },
+      "round": 18
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "En 1887 Steinitz escribió en su propia revista: «Sé que no estoy en condiciones de ser el campeón, y no es probable que lleve ese título para siempre».",
+        "en": "In 1887 Steinitz wrote in his own magazine: \"I know I am not fit to be the champion, and I am not likely to bear that title for ever.\""
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1890–1891"
+      }
+    },
+    {
+      "text": {
+        "es": "Max Weiss, que empató el primer puesto en Nueva York 1889, prefirió volver a su trabajo en el banco Rothschild antes que disputar el título.",
+        "en": "Max Weiss, who tied for first at New York 1889, preferred to go back to his job at the Rothschild bank rather than play for the title."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1890–1891"
+      }
+    },
+    {
+      "text": {
+        "es": "Para prepararse, Gunsberg jugó antes un match contra Chigorin a diez victorias, que terminó empatado 11½ a 11½.",
+        "en": "To prepare, Gunsberg first played a first-to-ten-wins match against Chigorin, which ended level at 11½ each."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1890–1891"
+      }
+    },
+    {
+      "text": {
+        "es": "Ganaba el primero en llegar a diez victorias, sin contar las tablas, o el que tuviera más victorias tras 20 partidas. Steinitz fue declarado ganador porque, a falta de una partida, ya llevaba dos puntos de ventaja.",
+        "en": "The winner was the first to ten wins, draws not counting, or whoever had more wins after 20 games. Steinitz was declared the winner because he led by two points with only one game left."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1890–1891"
+      }
+    },
+    {
+      "text": {
+        "es": "El match se jugó en el Manhattan Chess Club de Nueva York.",
+        "en": "The match was played at the Manhattan Chess Club in New York."
+      },
+      "source": {
+        "label": "OlimpBase",
+        "url": "https://www.olimpbase.org/ind-wcc/wc1891-wch.html"
+      }
+    }
+  ],
+  "photos": [
+    "gunsberg-dore",
+    "steinitz-1896",
+    "steinitz-1883"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1890–1891"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/z0sg$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1891-wch.html"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+---
+import { Picture } from 'astro:assets';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ScoreRace from '../../../components/ScoreRace.svelte';
+import GameViewer from '../../../components/viewer/GameViewer.svelte';
+import Gallery from '../../../components/Gallery.svelte';
+import VideoList from '../../../components/VideoList.svelte';
+import { gameUrl, getMatches, getPhotos, isTiebreak, photoAsset, playerOf, type Match } from '../../../lib/content';
+import { formatDate, half } from '../../../lib/format';
+import { galleryPhoto } from '../../../lib/images';
+import { analysisPath, finalists, hasAnalysis, resultLabel, scoreRace, standings, verdict } from '../../../lib/match-view';
+import { LANGS, pick, t, type Lang } from '../../../i18n/ui';
+
+export async function getStaticPaths() {
+  const matches = await getMatches();
+  return LANGS.flatMap((lang) => matches.map((match) => ({ params: { lang, slug: match.id }, props: { match } })));
+}
+
+const { match } = Astro.props as { match: Match };
+const lang = Astro.params.lang as Lang;
+const d = match.data;
+const slug = match.id;
+const pair = finalists(d);
+const photos = await getPhotos(d.photos);
+const portrait = (playerId: string) => photos.find((p) => p.data.people.length === 1 && p.data.people[0] === playerId) ?? photos.find((p) => p.data.people.includes(playerId));
+const race = scoreRace(d, slug, lang);
+const featuredRound = d.featuredRounds.find((r) => hasAnalysis(slug, r));
+const featuredGame = d.games.find((g) => g.round === featuredRound);
+const gallery = await Promise.all(photos.map((p) => galleryPhoto(p, lang)));
+const momentPhotos = await getPhotos(d.moments.flatMap((m) => (m.photo ? [{ id: m.photo }] : [])));
+const kindLabel = { archival: { es: 'Archivo', en: 'Archival' }, recap: { es: 'Resumen', en: 'Recap' }, documentary: { es: 'Documental', en: 'Documentary' } };
+const videos = d.videos.map((v) => ({ youtubeId: v.youtubeId, title: pick(v.title, lang), channel: v.channel, kindLabel: kindLabel[v.kind][lang], language: v.language }));
+const dateRange = [formatDate(d.dates.start, lang), formatDate(d.dates.end, lang)].filter(Boolean).join(' – ');
+const title = pair ? `${pair.a.short}–${pair.b.short} ${d.year}` : `${pick(d.site, lang)} ${d.year}`;
+const tableGames = d.games;
+---
+
+<BaseLayout lang={lang} title={title} description={pick(d.summary, lang)} altPath={`/${lang === 'es' ? 'en' : 'es'}/${slug}/`}>
+  <div class="view view-match">
+    <nav class="crumbs" aria-label="breadcrumb"><a href={`/${lang}/#y-${slug}`}>{t(lang, 'match.crumbs')}</a> / {d.year}</nav>
+
+    <header class:list={['duel', { 'is-solo': !pair }]}>
+      {pair && (() => {
+        const photo = portrait(pair.a.id);
+        return (
+          <figure class="duel-player is-a">
+            <div class="duel-photo">{photo && <Picture src={photoAsset(photo.data.file)} formats={['avif', 'webp']} widths={[320, 560]} sizes="(max-width: 820px) 45vw, 30vw" alt={pick(photo.data.alt, lang)} style={`object-position:${photo.data.focus}`} loading="eager" />}</div>
+            <figcaption><span class="duel-role">{t(lang, `role.${pair.a.role}`)}</span><strong class="duel-name">{pair.a.name}</strong><span class="duel-meta">{pick(pair.a.country, lang)}</span></figcaption>
+          </figure>
+        );
+      })()}
+      <div class="duel-center">
+        <h1 class="duel-title">{pick(d.site, lang)}{dateRange && <><br />{dateRange}</>}</h1>
+        {pair && d.score ? (
+          <p class="duel-score" aria-label={`${pair.a.short} ${half(d.score[pair.a.id] ?? 0)}, ${pair.b.short} ${half(d.score[pair.b.id] ?? 0)}`}>
+            <span>{half(d.score[pair.a.id] ?? 0)}</span><span class="duel-dash">–</span><span>{half(d.score[pair.b.id] ?? 0)}</span>
+          </p>
+        ) : <p class="duel-score">{pair ? 'vs' : d.year}</p>}
+        {d.tiebreak && pair && <p class="duel-place">{t(lang, 'match.tiebreak')}: {half(d.tiebreak[pair.a.id] ?? 0)}–{half(d.tiebreak[pair.b.id] ?? 0)}</p>}
+        {d.kind !== 'upcoming' && <p class="duel-verdict">{verdict(d, lang)}</p>}
+      </div>
+      {pair && (() => {
+        const photo = portrait(pair.b.id);
+        return (
+          <figure class="duel-player is-b">
+            <div class="duel-photo">{photo && <Picture src={photoAsset(photo.data.file)} formats={['avif', 'webp']} widths={[320, 560]} sizes="(max-width: 820px) 45vw, 30vw" alt={pick(photo.data.alt, lang)} style={`object-position:${photo.data.focus}`} loading="eager" />}</div>
+            <figcaption><span class="duel-role">{t(lang, `role.${pair.b.role}`)}</span><strong class="duel-name">{pair.b.name}</strong><span class="duel-meta">{pick(pair.b.country, lang)}</span></figcaption>
+          </figure>
+        );
+      })()}
+    </header>
+
+    <section class="section">
+      <p class="lede">{pick(d.summary, lang)}</p>
+      {d.note && <p class="section-sub">{pick(d.note, lang)}</p>}
+    </section>
+
+    {race && (
+      <section class="section">
+        <h2 class="section-title">{t(lang, 'match.progress')}</h2>
+        <ScoreRace client:visible {lang} a={race.a} b={race.b} cells={race.cells} />
+      </section>
+    )}
+
+    {!pair && d.games.length > 0 && (
+      <section class="section">
+        <h2 class="section-title">{t(lang, 'kind.tournament')}</h2>
+        <div class="games-wrap">
+          <table class="games-table">
+            <tbody>{standings(d).map((row, i) => <tr><td class="num">{i + 1}</td><td>{row.player.name}</td><td class="num">{row.points}</td></tr>)}</tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
+    {featuredGame && (
+      <section class="section" id="partida">
+        <div class="section-head">
+          <h2 class="section-title">{t(lang, 'match.featured')}: {t(lang, 'match.round').toLowerCase()} {featuredGame.round}</h2>
+          <p class="section-sub">{playerOf(d, featuredGame.white)?.short} – {playerOf(d, featuredGame.black)?.short}, {featuredGame.result.replace('1/2-1/2', '½–½')}. {t(lang, 'viewer.keys')}</p>
+        </div>
+        <GameViewer client:visible src={analysisPath(slug, featuredGame.round)} {lang}
+          white={playerOf(d, featuredGame.white)?.short ?? featuredGame.white}
+          black={playerOf(d, featuredGame.black)?.short ?? featuredGame.black}
+          resultText={resultLabel(d, featuredGame, lang)} />
+      </section>
+    )}
+
+    {d.moments.length > 0 && (
+      <section class="section">
+        <h2 class="section-title">{t(lang, 'match.moments')}</h2>
+        <ul class="moment-list">
+          {d.moments.map((m) => {
+            const photo = momentPhotos.find((p) => p.id === m.photo);
+            return (
+              <li class="moment">
+                {photo && <div class="moment-photo"><Picture src={photoAsset(photo.data.file)} formats={['avif', 'webp']} widths={[360, 640]} sizes="(max-width: 600px) 90vw, 30vw" alt={pick(photo.data.alt, lang)} style={`object-position:${photo.data.focus}`} /></div>}
+                {m.round && <a class="moment-round" href={gameUrl(lang, slug, m.round)}>{t(lang, 'match.round')} {m.round}</a>}
+                <h3 class="moment-title">{pick(m.title, lang)}</h3>
+                <p>{pick(m.text, lang)}</p>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+    )}
+
+    {tableGames.length > 0 && (
+      <section class="section">
+        <h2 class="section-title">{t(lang, 'match.games')}</h2>
+        <div class="games-wrap">
+          <table class="games-table">
+            <thead><tr>
+              <th scope="col" class="num">#</th><th scope="col">{t(lang, 'match.white')}</th><th scope="col">{t(lang, 'match.black')}</th>
+              <th scope="col">{t(lang, 'match.result')}</th><th scope="col">{t(lang, 'match.opening')}</th><th scope="col" class="num">{t(lang, 'match.moves')}</th>
+            </tr></thead>
+            <tbody>
+              {tableGames.map((g) => (
+                <tr class:list={[{ 'is-tiebreak': isTiebreak(g) }]}>
+                  <td class="num">{g.plies > 0 ? <a href={gameUrl(lang, slug, g.round)}>{g.round}</a> : g.round}{isTiebreak(g) && <span class="sr-tag"> ({t(lang, 'match.tiebreak').toLowerCase()})</span>}</td>
+                  <td>{playerOf(d, g.white)?.short ?? g.white}</td>
+                  <td>{playerOf(d, g.black)?.short ?? g.black}</td>
+                  <td><span class="result-pill">{g.kind === 'forfeit' ? t(lang, 'match.forfeit') : g.result.replace('1/2-1/2', '½–½')}</span></td>
+                  <td class="num">{g.eco ?? ''}</td>
+                  <td class="num">{Math.ceil(g.plies / 2)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
+    {gallery.length > 0 && (
+      <section class="section">
+        <h2 class="section-title">{t(lang, 'match.photos')}</h2>
+        <Gallery client:visible {lang} photos={gallery} />
+      </section>
+    )}
+
+    {videos.length > 0 && (
+      <section class="section">
+        <h2 class="section-title">{t(lang, 'match.videos')}</h2>
+        <VideoList client:visible {lang} {videos} />
+      </section>
+    )}
+
+    {d.facts.length > 0 && (
+      <section class="section">
+        <h2 class="section-title">{t(lang, 'match.facts')}</h2>
+        <ul class="fact-list">{d.facts.map((f) => <li>{pick(f.text, lang)} <a href={f.source.url} target="_blank" rel="noopener">{f.source.label}</a></li>)}</ul>
+      </section>
+    )}
+
+    <section class="section">
+      <h2 class="section-title">{t(lang, 'match.sources')}</h2>
+      <ul class="credits-list">{d.sources.map((s) => <li><a href={s.url} target="_blank" rel="noopener">{s.label}</a></li>)}</ul>
+    </section>
+  </div>
+</BaseLayout>

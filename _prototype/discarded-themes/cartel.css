@@ -1,0 +1,67 @@
+/* Cartel: Swiss tournament poster. Black, white, one signal yellow, giant numerals, hard edges. */
+[data-style='cartel'] {
+  --bg: #f4f4f1;
+  --surface: #ffffff;
+  --surface-2: #e6e6e1;
+  --ink: #000000;
+  --ink-2: #262626;
+  --ink-3: #5e5e5e;
+  --line: #000000;
+  --accent: #ffc400;
+  --accent-ink: #000000;
+  --sq-l: #ffffff;
+  --sq-d: #bfbfb8;
+  --hl: rgba(255, 196, 0, 0.6);
+  --arrow: rgba(0, 0, 0, 0.75);
+  --series-a: #1f3fbf;
+  --series-b: #a36f00;
+  --graph-white: #ffffff;
+  --graph-black: #000000;
+  --warn: #5e5e5e;
+  --bad: #b85c00;
+  --worst: #d1001f;
+  --font-display: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  --font-data: 'Inter Tight', 'Helvetica Neue', Arial, sans-serif;
+  --radius: 0px;
+  --radius-sm: 0px;
+  --photo-filter: grayscale(1) contrast(1.35);
+  --stone: #d9d9d3;
+  --stone-shadow: #a8a8a1;
+  color-scheme: light;
+}
+[data-style='cartel'] body { font-size: 16px; }
+[data-style='cartel'] .site-head { border-bottom: 4px solid var(--ink); }
+[data-style='cartel'] .wordmark { font-weight: 800; letter-spacing: -0.04em; }
+[data-style='cartel'] .section-title,
+[data-style='cartel'] .slide-name,
+[data-style='cartel'] .rush-title,
+[data-style='cartel'] .teaser-title { font-weight: 800; letter-spacing: -0.035em; }
+[data-style='cartel'] .duel-score { font-weight: 800; letter-spacing: -0.06em; font-size: clamp(5rem, 15vw, 11rem); }
+[data-style='cartel'] .duel-dash { color: var(--ink); }
+[data-style='cartel'] .tl-year { font-weight: 800; font-size: 2.2rem; letter-spacing: -0.04em; }
+[data-style='cartel'] .board,
+[data-style='cartel'] .evalbar { border-width: 3px; }
+[data-style='cartel'] .slide-name { font-size: clamp(2.8rem, 8vw, 6rem); line-height: 0.88; }
+[data-style='cartel'] .slide-reign { color: var(--ink); background: var(--accent); align-self: flex-start; padding: 2px 8px; font-weight: 700; }
+[data-style='cartel'] .slide-photo,
+[data-style='cartel'] .duel-photo { border: 3px solid var(--ink); }
+[data-style='cartel'] .hero-arrow { border-radius: 0; border: 3px solid var(--ink); background: var(--accent); }
+[data-style='cartel'] .dots { border-top: 4px solid var(--ink); }
+[data-style='cartel'] .dot { font-weight: 700; }
+[data-style='cartel'] .dot[aria-current] { background: var(--accent); border-bottom-color: var(--ink); padding-inline: 6px; }
+[data-style='cartel'] .tl-card { border-width: 2px; }
+[data-style='cartel'] .tl-card.has-page { background: var(--accent); box-shadow: none; }
+[data-style='cartel'] .tl-line { color: var(--ink); font-weight: 700; }
+[data-style='cartel'] .duel-verdict { font-weight: 700; }
+[data-style='cartel'] .game-cell { border-width: 2px; }
+[data-style='cartel'] .game-cell.is-b { color: #ffffff; }
+[data-style='cartel'] .game-cell.is-a { color: #ffffff; }
+[data-style='cartel'] .engine,
+[data-style='cartel'] .move-list,
+[data-style='cartel'] .teaser { border-width: 2px; }
+[data-style='cartel'] .move[aria-current] { background: var(--accent); color: var(--ink); }
+[data-style='cartel'] .fact-list li { border-top-width: 6px; font-weight: 500; }
+[data-style='cartel'] .teaser { background: var(--accent); }
+[data-style='cartel'] .teaser-text p { color: var(--ink); }
+[data-style='cartel'] .teaser-cta { color: var(--ink); font-weight: 800; }

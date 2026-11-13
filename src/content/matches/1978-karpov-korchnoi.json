@@ -1,0 +1,517 @@
+{
+  "year": 1978,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "korchnoi",
+      "name": "Viktor Korchnoi",
+      "short": "Korchnoi",
+      "country": {
+        "es": "Apátrida (desertó de la URSS en 1976)",
+        "en": "Stateless (defected from the USSR in 1976)"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "karpov",
+  "score": {
+    "korchnoi": 15.5,
+    "karpov": 16.5
+  },
+  "site": {
+    "es": "Baguio, Filipinas",
+    "en": "Baguio, Philippines"
+  },
+  "dates": {
+    "start": "1978-07-18",
+    "end": "1978-10-18"
+  },
+  "summary": {
+    "es": "Viktor Korchnoi, que había desertado de la URSS, desafió a Anatoly Karpov en Baguio, Filipinas, en un match al primero que ganara seis partidas, sin contar las tablas. Karpov llegó a ir 5–2, pero Korchnoi ganó tres de las cuatro partidas siguientes e igualó 5–5; Karpov ganó la partida 32 y retuvo el título. El match se recuerda tanto por sus incidentes fuera del tablero como por el ajedrez.",
+    "en": "Viktor Korchnoi, who had defected from the USSR, challenged Anatoly Karpov in Baguio, Philippines, in a match to the first player to win six games, draws not counting. Karpov led 5–2, but Korchnoi won three of the next four games to level at 5–5; Karpov won game 32 and kept his title. The match is remembered as much for its off-board incidents as for its chess."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D58",
+      "plies": 36,
+      "pgnRef": "WorldChamp1978.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C82",
+      "plies": 57,
+      "pgnRef": "WorldChamp1978.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E42",
+      "plies": 60,
+      "pgnRef": "WorldChamp1978.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C82",
+      "plies": 37,
+      "pgnRef": "WorldChamp1978.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E42",
+      "plies": 247,
+      "pgnRef": "WorldChamp1978.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "A29",
+      "plies": 45,
+      "pgnRef": "WorldChamp1978.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E47",
+      "plies": 83,
+      "pgnRef": "WorldChamp1978.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1-0",
+      "eco": "C80",
+      "plies": 55,
+      "pgnRef": "WorldChamp1978.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D37",
+      "plies": 82,
+      "pgnRef": "WorldChamp1978.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C80",
+      "plies": 87,
+      "pgnRef": "WorldChamp1978.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "B20",
+      "plies": 100,
+      "pgnRef": "WorldChamp1978.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C81",
+      "plies": 88,
+      "pgnRef": "WorldChamp1978.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "0-1",
+      "eco": "D53",
+      "plies": 122,
+      "pgnRef": "WorldChamp1978.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1-0",
+      "eco": "C82",
+      "plies": 99,
+      "pgnRef": "WorldChamp1978.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E05",
+      "plies": 49,
+      "pgnRef": "WorldChamp1978.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C08",
+      "plies": 84,
+      "pgnRef": "WorldChamp1978.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "0-1",
+      "eco": "E47",
+      "plies": 78,
+      "pgnRef": "WorldChamp1978.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "B08",
+      "plies": 128,
+      "pgnRef": "WorldChamp1978.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E06",
+      "plies": 77,
+      "pgnRef": "WorldChamp1978.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "B15",
+      "plies": 126,
+      "pgnRef": "WorldChamp1978.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "D37",
+      "plies": 119,
+      "pgnRef": "WorldChamp1978.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C08",
+      "plies": 128,
+      "pgnRef": "WorldChamp1978.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D37",
+      "plies": 83,
+      "pgnRef": "WorldChamp1978.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "C83",
+      "plies": 90,
+      "pgnRef": "WorldChamp1978.pgn#23"
+    },
+    {
+      "round": 25,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "A22",
+      "plies": 160,
+      "pgnRef": "WorldChamp1978.pgn#24"
+    },
+    {
+      "round": 26,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "A21",
+      "plies": 54,
+      "pgnRef": "WorldChamp1978.pgn#25"
+    },
+    {
+      "round": 27,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "0-1",
+      "eco": "A29",
+      "plies": 81,
+      "pgnRef": "WorldChamp1978.pgn#26"
+    },
+    {
+      "round": 28,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "0-1",
+      "eco": "C82",
+      "plies": 122,
+      "pgnRef": "WorldChamp1978.pgn#27"
+    },
+    {
+      "round": 29,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "A19",
+      "plies": 157,
+      "pgnRef": "WorldChamp1978.pgn#28"
+    },
+    {
+      "round": 30,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1/2-1/2",
+      "eco": "A34",
+      "plies": 82,
+      "pgnRef": "WorldChamp1978.pgn#29"
+    },
+    {
+      "round": 31,
+      "kind": "classical",
+      "white": "korchnoi",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "D36",
+      "plies": 141,
+      "pgnRef": "WorldChamp1978.pgn#30"
+    },
+    {
+      "round": 32,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "korchnoi",
+      "result": "1-0",
+      "eco": "A43",
+      "plies": 82,
+      "pgnRef": "WorldChamp1978.pgn#31"
+    }
+  ],
+  "featuredRounds": [
+    5,
+    32
+  ],
+  "moments": [
+    {
+      "id": "ahogado",
+      "title": {
+        "es": "El primer ahogado",
+        "en": "The first stalemate"
+      },
+      "text": {
+        "es": "La quinta partida duró 124 jugadas y dos aplazamientos, y terminó con el rey de Karpov ahogado. Fue la primera partida de un campeonato del mundo terminada en ahogado. Korchnoi dijo que, si no podía ganarle, al menos le daba el gusto de ahogarlo.",
+        "en": "Game five lasted 124 moves and two adjournments and ended with Karpov's king stalemated. It was the first world championship game to end in stalemate. Korchnoi said that since he could not beat him, he would at least have the pleasure of stalemating him."
+      },
+      "round": 5,
+      "ply": 247
+    },
+    {
+      "id": "pastel-de-la-victoria",
+      "title": {
+        "es": "Un pastel por cada victoria",
+        "en": "A cake for every win"
+      },
+      "text": {
+        "es": "En la partida 17, Korchnoi construyó una posición ganadora, pero en apuros de tiempo cometió errores y cayó en una red de mate. Karpov celebraba cada victoria con un pastel decorado con la posición final.",
+        "en": "In game 17 Korchnoi built a winning position, but in time trouble he made mistakes and walked into a mating net. Karpov celebrated every win with a cake decorated with the final position."
+      },
+      "round": 17,
+      "ply": 78
+    },
+    {
+      "id": "remontada-de-korchnoi",
+      "title": {
+        "es": "La remontada de Korchnoi",
+        "en": "Korchnoi's comeback"
+      },
+      "text": {
+        "es": "Con 2–5 en contra y a una derrota del final, Korchnoi ganó las partidas 28, 29 y 31 y empató el match 5–5. La 28 fue la única partida que Karpov perdió con blancas en todo el match.",
+        "en": "Trailing 2–5 and one loss from the end, Korchnoi won games 28, 29 and 31 to level the match at 5–5. Game 28 was the only game Karpov lost with White in the whole match."
+      },
+      "round": 31
+    },
+    {
+      "id": "la-sexta",
+      "title": {
+        "es": "La sexta victoria",
+        "en": "The sixth win"
+      },
+      "text": {
+        "es": "Karpov ganó la partida 32, llegó a seis victorias y retuvo el título por 6–5, con 21 tablas.",
+        "en": "Karpov won game 32, reached six wins and kept the title 6–5, with 21 draws."
+      },
+      "round": 32
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Cuando el equipo de Karpov le mandó un yogur de arándanos durante una partida sin que él lo pidiera, el equipo de Korchnoi protestó: decían que podía ser un mensaje en clave.",
+        "en": "When Karpov's team sent him a blueberry yogurt during a game without his asking for one, Korchnoi's team protested that it might be a coded message."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1978",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1978"
+      }
+    },
+    {
+      "text": {
+        "es": "En el equipo de Karpov estaba el psicólogo Vladimir Zukhar, que se sentaba en primera fila; Korchnoi se quejó de que intentaba hipnotizarlo.",
+        "en": "Karpov's team included the psychologist Vladimir Zukhar, who sat in the front row; Korchnoi complained that he was trying to hypnotise him."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1978",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1978"
+      }
+    },
+    {
+      "text": {
+        "es": "El match empezó con siete tablas seguidas, un récord para el inicio de un campeonato del mundo.",
+        "en": "The match began with seven straight draws, a record start for a world championship."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1978",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1978"
+      }
+    },
+    {
+      "text": {
+        "es": "Un tifón dejó sin luz la sala de juego antes de la partida 16, pero la electricidad volvió a tiempo y la partida se jugó en la fecha prevista.",
+        "en": "A typhoon knocked out power in the playing hall before game 16, but it was restored in time and the game went ahead as scheduled."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1978",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1978"
+      }
+    }
+  ],
+  "photos": [
+    "karpov-1979",
+    "korchnoi-1976",
+    "karpov-kavalek-1979",
+    "korchnoi-1981-meran"
+  ],
+  "videos": [
+    {
+      "youtubeId": "ZH1UzXl7YNE",
+      "kind": "archival",
+      "title": {
+        "es": "Noticiero de 1978: inicio del match en Baguio",
+        "en": "1978 newsreel: the Baguio match begins"
+      },
+      "channel": "AP Archive",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "Zi3C6_gv72s",
+      "kind": "archival",
+      "title": {
+        "es": "Noticiero de 1978: la última partida en Baguio",
+        "en": "1978 newsreel: the final game in Baguio"
+      },
+      "channel": "AP Archive",
+      "round": 32,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "ikVKrqYTuJU",
+      "kind": "recap",
+      "title": {
+        "es": "El caótico campeonato mundial de 1978",
+        "en": "The chaotic 1978 world championship"
+      },
+      "channel": "GothamChess",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1978",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1978"
+    },
+    {
+      "label": "Mark Weeks: 1978 Karpov - Korchnoi",
+      "url": "https://www.mark-weeks.com/chess/7678$wix.htm"
+    }
+  ]
+}

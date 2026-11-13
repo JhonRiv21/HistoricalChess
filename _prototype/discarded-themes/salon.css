@@ -1,0 +1,70 @@
+/* Salón: the 1920s–30s tournament hall of Capablanca and Alekhine. Night navy, brass, wood board,
+   sepia photos and symmetric framed compositions. */
+[data-style='salon'] {
+  --bg: #11151e;
+  --surface: #181d29;
+  --surface-2: #222838;
+  --ink: #ede4d3;
+  --ink-2: #cdc1aa;
+  --ink-3: #958b78;
+  --line: #3b3629;
+  --accent: #c8a55a;
+  --accent-ink: #11151e;
+  --sq-l: #f0d9b5;
+  --sq-d: #b58863;
+  --hl: rgba(205, 210, 106, 0.5);
+  --arrow: rgba(25, 70, 140, 0.8);
+  --series-a: #a8823a;
+  --series-b: #5f8fd0;
+  --graph-white: #ede4d3;
+  --graph-black: #0b0e15;
+  --warn: #d8c06a;
+  --bad: #e39552;
+  --worst: #ef6f6f;
+  --font-display: 'Italiana', 'Didot', Georgia, serif;
+  --font-body: 'Spectral', Georgia, serif;
+  --font-data: 'Josefin Sans', 'Futura', 'Century Gothic', sans-serif;
+  --radius: 0px;
+  --radius-sm: 2px;
+  --photo-filter: grayscale(1) sepia(0.45) contrast(1.05) brightness(0.95);
+  --stone: #6f6656;
+  --stone-shadow: #2c2a26;
+  color-scheme: dark;
+}
+[data-style='salon'] .site-head { justify-content: center; flex-direction: column; align-items: center; border-bottom: 0; }
+[data-style='salon'] .site-head::after { content: ''; width: min(420px, 80%); height: 7px; border-top: 1px solid var(--accent); border-bottom: 1px solid var(--accent); }
+[data-style='salon'] .wordmark { font-size: 2.4rem; letter-spacing: 0.12em; }
+[data-style='salon'] .site-nav { letter-spacing: 0.08em; }
+[data-style='salon'] .section-title,
+[data-style='salon'] .slide-name,
+[data-style='salon'] .rush-title,
+[data-style='salon'] .teaser-title,
+[data-style='salon'] .duel-name { font-weight: 400; letter-spacing: 0.02em; }
+[data-style='salon'] .section-title { text-align: center; }
+[data-style='salon'] .section-head { align-items: center; text-align: center; }
+[data-style='salon'] .lede { margin-inline: auto; text-align: center; }
+[data-style='salon'] .duel-score { font-weight: 400; color: var(--accent); }
+[data-style='salon'] .duel-dash { color: var(--ink-3); }
+[data-style='salon'] .tl-year { color: var(--accent); }
+
+/* Deco frame: a photo inside a double brass rule. */
+[data-style='salon'] .slide-photo,
+[data-style='salon'] .duel-photo,
+[data-style='salon'] .gallery-open { outline: 1px solid var(--accent); outline-offset: 6px; margin: 8px; width: calc(100% - 16px); }
+[data-style='salon'] .slide-text { align-items: center; text-align: center; }
+[data-style='salon'] .slide-reign { letter-spacing: 0.1em; }
+[data-style='salon'] .hero-cta { align-self: center; letter-spacing: 0.06em; }
+[data-style='salon'] .dots { justify-content: center; border-top: 1px solid var(--accent); }
+[data-style='salon'] .hero-arrow { background: transparent; border-color: var(--accent); color: var(--accent); }
+[data-style='salon'] .board { border: 10px solid #5b3b22; box-shadow: 0 0 0 1px var(--accent); }
+[data-style='salon'] .evalbar { border-color: var(--accent); }
+[data-style='salon'] .tl-card { border-color: var(--line); }
+[data-style='salon'] .engine,
+[data-style='salon'] .move-list,
+[data-style='salon'] .teaser { border-color: var(--accent); }
+[data-style='salon'] .move[aria-current] { background: var(--accent); color: var(--accent-ink); }
+[data-style='salon'] .fact-list li { border-top: 1px solid var(--accent); }
+[data-style='salon'] .duel-verdict { background: transparent; color: var(--accent); border: 1px solid var(--accent); letter-spacing: 0.08em; }
+[data-style='salon'] .face-stone img { mix-blend-mode: luminosity; }
+[data-style='salon'] .face-name { color: var(--ink); }
+[data-style='salon'] .chart-tip { background: var(--accent); color: var(--accent-ink); }

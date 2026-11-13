@@ -1,0 +1,111 @@
+/* Panel tokens. Four modes: dark (default), dark high contrast, light, light high contrast.
+   The site sets data-mode / data-contrast / data-board on <html> from the accessibility panel.
+   Every pair below was checked against WCAG 2.2 (text 4.5:1, UI and board squares 3:1). */
+:root {
+  --bg: #0d1411;
+  --surface: #141f1a;
+  --surface-2: #1c2b24;
+  --ink: #e3ede7;
+  --ink-2: #b8cabf;
+  --ink-3: #8aa396;
+  --line: #26372e;
+  --line-strong: #55735f;
+  --accent: #6fd49b;
+  --accent-ink: #0d1411;
+  --sq-l: #eeeed2;
+  --sq-d: #6b8a4e;
+  --hl: rgba(246, 236, 110, 0.5);
+  --arrow: rgba(20, 120, 75, 0.9);
+  --series-a: #4a96d4;
+  --series-b: #d0782f;
+  --graph-white: #dfe9e3;
+  --graph-black: #0a100d;
+  --warn: #e7c75e;
+  --bad: #f0954a;
+  --worst: #ff7b7b;
+  --scrim: rgba(13, 20, 17, 0.88);
+  --photo-filter: grayscale(1) contrast(1.08) brightness(0.94);
+
+  --font-display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, Menlo, monospace;
+  --text-scale: 1;
+  --leading: 1.6;
+  --tracking: 0;
+  --radius: 14px;
+  --radius-sm: 8px;
+  color-scheme: dark;
+}
+
+:root[data-contrast='high'] {
+  --bg: #000000;
+  --surface: #0a0f0c;
+  --surface-2: #141c18;
+  --ink: #ffffff;
+  --ink-2: #e8f2ec;
+  --ink-3: #c9d8cf;
+  --line: #6f8f7e;
+  --line-strong: #c9e6d6;
+  --accent: #8ff0b8;
+  --sq-l: #ffffff;
+  --sq-d: #557341;
+  --graph-white: #ffffff;
+  --graph-black: #000000;
+  --warn: #ffe08a;
+  --bad: #ffb070;
+  --worst: #ff9a9a;
+  --scrim: rgba(0, 0, 0, 0.92);
+  --photo-filter: grayscale(1) contrast(1.15);
+}
+
+:root[data-mode='light'] {
+  --bg: #f3f6f4;
+  --surface: #ffffff;
+  --surface-2: #e6eee9;
+  --ink: #0f1d17;
+  --ink-2: #34493f;
+  --ink-3: #52685d;
+  --line: #d3ded8;
+  --line-strong: #7a9486;
+  --accent: #1b7a4b;
+  --accent-ink: #ffffff;
+  --hl: rgba(230, 200, 40, 0.45);
+  --arrow: rgba(21, 110, 70, 0.85);
+  --series-a: #1f6fb2;
+  --series-b: #b8571a;
+  --graph-white: #ffffff;
+  --graph-black: #1f2d27;
+  --warn: #8a6d00;
+  --bad: #b35400;
+  --worst: #c62828;
+  --scrim: rgba(243, 246, 244, 0.9);
+  --photo-filter: grayscale(1) contrast(1.05);
+  color-scheme: light;
+}
+
+:root[data-mode='light'][data-contrast='high'] {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #eef2f0;
+  --ink: #000000;
+  --ink-2: #111111;
+  --ink-3: #2c3a33;
+  --line: #5c7468;
+  --line-strong: #1f2d27;
+  --accent: #00582f;
+  --sq-l: #ffffff;
+  --sq-d: #557341;
+  --series-a: #165fa6;
+  --series-b: #8f3d00;
+  --graph-black: #000000;
+  --warn: #5c4800;
+  --bad: #8a3a00;
+  --worst: #a00000;
+  --scrim: rgba(255, 255, 255, 0.94);
+}
+
+/* Blue board for red-green color deficiency; separation relies on lightness, not hue. */
+:root[data-board='blue'] { --sq-l: #dee3e6; --sq-d: #62808f; }
+:root[data-board='blue'][data-contrast='high'] { --sq-l: #ffffff; --sq-d: #4f6b7c; }
+
+:root[data-spacing='wide'] { --leading: 1.85; --tracking: 0.02em; }

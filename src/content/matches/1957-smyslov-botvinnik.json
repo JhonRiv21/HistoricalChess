@@ -1,0 +1,394 @@
+{
+  "year": 1957,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "botvinnik",
+      "name": "Mikhail Botvinnik",
+      "short": "Botvinnik",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "smyslov",
+      "name": "Vasily Smyslov",
+      "short": "Smyslov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "smyslov",
+  "score": {
+    "botvinnik": 9.5,
+    "smyslov": 12.5
+  },
+  "site": {
+    "es": "Moscú, URSS",
+    "en": "Moscow, Soviet Union"
+  },
+  "dates": {
+    "start": "1957-03-05",
+    "end": "1957-04-27"
+  },
+  "summary": {
+    "es": "Smyslov volvió a ganar el torneo de candidatos, en Ámsterdam 1956, y tuvo una nueva oportunidad contra Botvinnik tres años después del empate de 1954. Esta vez ganó con autoridad, 12½–9½, con seis victorias contra tres, y se convirtió en el séptimo campeón del mundo. Su reinado duró solo un año, porque las reglas de entonces le daban a Botvinnik derecho a revancha.",
+    "en": "Smyslov won the Candidates tournament again, in Amsterdam 1956, and got another chance against Botvinnik three years after their 1954 tie. This time he won convincingly, 12½–9½, with six wins to three, and became the seventh world champion. His reign lasted only a year, because the rules of the time gave Botvinnik the right to a rematch."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "0-1",
+      "eco": "A36",
+      "plies": 81,
+      "pgnRef": "WorldChamp1957.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B66",
+      "plies": 90,
+      "pgnRef": "WorldChamp1957.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "E66",
+      "plies": 81,
+      "pgnRef": "WorldChamp1957.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "B66",
+      "plies": 81,
+      "pgnRef": "WorldChamp1957.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "E62",
+      "plies": 107,
+      "pgnRef": "WorldChamp1957.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "D98",
+      "plies": 55,
+      "pgnRef": "WorldChamp1957.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "E45",
+      "plies": 46,
+      "pgnRef": "WorldChamp1957.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "B66",
+      "plies": 81,
+      "pgnRef": "WorldChamp1957.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "E62",
+      "plies": 76,
+      "pgnRef": "WorldChamp1957.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "C98",
+      "plies": 94,
+      "pgnRef": "WorldChamp1957.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "D79",
+      "plies": 46,
+      "pgnRef": "WorldChamp1957.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "A42",
+      "plies": 86,
+      "pgnRef": "WorldChamp1957.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "E45",
+      "plies": 81,
+      "pgnRef": "WorldChamp1957.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "C18",
+      "plies": 91,
+      "pgnRef": "WorldChamp1957.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "E45",
+      "plies": 112,
+      "pgnRef": "WorldChamp1957.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "C98",
+      "plies": 110,
+      "pgnRef": "WorldChamp1957.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "0-1",
+      "eco": "D73",
+      "plies": 138,
+      "pgnRef": "WorldChamp1957.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "C15",
+      "plies": 123,
+      "pgnRef": "WorldChamp1957.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "A36",
+      "plies": 30,
+      "pgnRef": "WorldChamp1957.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "C18",
+      "plies": 83,
+      "pgnRef": "WorldChamp1957.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "D79",
+      "plies": 26,
+      "pgnRef": "WorldChamp1957.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "C11",
+      "plies": 21,
+      "pgnRef": "WorldChamp1957.pgn#21"
+    }
+  ],
+  "featuredRounds": [
+    1,
+    20
+  ],
+  "moments": [
+    {
+      "id": "golpe-de-entrada",
+      "title": {
+        "es": "Golpe de entrada",
+        "en": "An opening blow"
+      },
+      "text": {
+        "es": "Smyslov ganó la primera partida con las piezas negras y empezó el match adelante.",
+        "en": "Smyslov won the first game with the black pieces and started the match in front."
+      },
+      "round": 1
+    },
+    {
+      "id": "botvinnik-reacciona",
+      "title": {
+        "es": "Botvinnik reacciona",
+        "en": "Botvinnik hits back"
+      },
+      "text": {
+        "es": "El campeón ganó las partidas 4 y 5 y se puso 3–2, pero Smyslov ganó la 6 y la 8 y recuperó el mando.",
+        "en": "The champion won games 4 and 5 to lead 3–2, but Smyslov won games 6 and 8 and took control again."
+      },
+      "round": 5
+    },
+    {
+      "id": "la-corona-en-tablas",
+      "title": {
+        "es": "La corona en unas tablas",
+        "en": "The crown in a draw"
+      },
+      "text": {
+        "es": "Tras ganar la partida 20, Smyslov necesitaba medio punto. Lo consiguió en la 22 con unas tablas en apenas 11 jugadas.",
+        "en": "After winning game 20, Smyslov needed half a point. He got it in game 22 with a draw in just 11 moves."
+      },
+      "round": 22
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Fue el segundo match por el título entre los dos, tras el 12–12 de 1954.",
+        "en": "It was the second title match between the pair, after their 12–12 tie in 1954."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1957",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1957"
+      }
+    },
+    {
+      "text": {
+        "es": "En el torneo de candidatos de 1956, Paul Keres perdió en la penúltima ronda una posición ganadora contra Miroslav Filip, y eso le dio a Smyslov un punto de ventaja.",
+        "en": "In the 1956 Candidates tournament, Paul Keres lost a winning position against Miroslav Filip in the penultimate round, which gave Smyslov a full-point lead."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1957",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1957"
+      }
+    },
+    {
+      "text": {
+        "es": "Smyslov preparó el match con los entrenadores Vladimir Makogonov y Vladimir Simagin.",
+        "en": "Smyslov prepared for the match with trainers Vladimir Makogonov and Vladimir Simagin."
+      },
+      "source": {
+        "label": "Wikipedia: Vasily Smyslov",
+        "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+      }
+    },
+    {
+      "text": {
+        "es": "Años después Smyslov escribió que no tenía motivos para quejarse de su destino: había cumplido su sueño de ser el séptimo campeón del mundo.",
+        "en": "Years later Smyslov wrote that he had no reason to complain of his fate: he had fulfilled his dream of becoming the seventh world champion."
+      },
+      "source": {
+        "label": "Wikipedia: Vasily Smyslov",
+        "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+      }
+    }
+  ],
+  "photos": [
+    "botvinnik-smyslov-1957",
+    "smyslov-1956",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "videos": [
+    {
+      "youtubeId": "5lm6pdQ-Nxo",
+      "kind": "archival",
+      "title": {
+        "es": "Noticiero de 1957: Smyslov, campeón del mundo",
+        "en": "1957 newsreel: Smyslov, world champion"
+      },
+      "channel": "British Pathé",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "yDYVvNMqh_M",
+      "kind": "recap",
+      "title": {
+        "es": "Botvinnik contra Smyslov, 1957",
+        "en": "Botvinnik vs. Smyslov, 1957"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1957",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1957"
+    },
+    {
+      "label": "Mark Weeks: 1957 Smyslov - Botvinnik",
+      "url": "https://www.mark-weeks.com/chess/55571wix.htm"
+    },
+    {
+      "label": "Wikipedia: Vasily Smyslov",
+      "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+    }
+  ]
+}

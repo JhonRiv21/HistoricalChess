@@ -1,0 +1,822 @@
+{
+  "year": 2007,
+  "kind": "tournament",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "kramnik",
+      "name": "Vladimir Kramnik",
+      "short": "Kramnik",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "short": "Anand",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "svidler",
+      "name": "Peter Svidler",
+      "short": "Svidler",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "morozevich",
+      "name": "Alexander Morozevich",
+      "short": "Morozevich",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "aronian",
+      "name": "Levon Aronian",
+      "short": "Aronian",
+      "country": {
+        "es": "Armenia",
+        "en": "Armenia"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "gelfand",
+      "name": "Boris Gelfand",
+      "short": "Gelfand",
+      "country": {
+        "es": "Israel",
+        "en": "Israel"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "grischuk",
+      "name": "Alexander Grischuk",
+      "short": "Grischuk",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "contender"
+    },
+    {
+      "id": "leko",
+      "name": "Peter Leko",
+      "short": "Leko",
+      "country": {
+        "es": "Hungría",
+        "en": "Hungary"
+      },
+      "role": "contender"
+    }
+  ],
+  "winner": "anand",
+  "score": {
+    "kramnik": 8,
+    "svidler": 6.5,
+    "morozevich": 6,
+    "aronian": 6,
+    "anand": 9,
+    "gelfand": 8,
+    "grischuk": 5.5,
+    "leko": 7
+  },
+  "site": {
+    "es": "Ciudad de México, México",
+    "en": "Mexico City, Mexico"
+  },
+  "dates": {
+    "start": "2007-09-13",
+    "end": "2007-09-29"
+  },
+  "summary": {
+    "es": "Aunque el título ya estaba reunificado, el Campeonato de 2007 se decidió con un torneo de ocho jugadores a doble vuelta en Ciudad de México, con el campeón Kramnik entre los participantes. Viswanathan Anand terminó invicto con 9/14, un punto por delante de Kramnik y Gelfand, y se convirtió en campeón mundial indiscutido. Kramnik aceptó el formato aunque prefería un match, y obtuvo el derecho a una revancha en 2008.",
+    "en": "Although the title had already been reunified, the 2007 Championship was decided by an eight-player double round-robin in Mexico City, with champion Kramnik among the field. Viswanathan Anand finished unbeaten on 9/14, a point ahead of Kramnik and Gelfand, and became undisputed world champion. Kramnik accepted the format though he preferred a match, and earned the right to a rematch in 2008."
+  },
+  "note": {
+    "es": "Kramnik llegaba como campeón del mundo, pero en un torneo el papel de «campeón» de esta ficha corresponde al ganador. El número de «ronda» de cada partida es su orden en el archivo (cuatro partidas por ronda del torneo).",
+    "en": "Kramnik came in as world champion, but in a tournament the \"champion\" role on this page goes to the winner. Each game's \"round\" number is its order in the file (four games per tournament round)."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2007-09-13",
+      "eco": "D43",
+      "plies": 45,
+      "pgnRef": "WorldChamp2007.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "aronian",
+      "result": "1/2-1/2",
+      "date": "2007-09-13",
+      "eco": "E12",
+      "plies": 50,
+      "pgnRef": "WorldChamp2007.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "anand",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2007-09-13",
+      "eco": "C42",
+      "plies": 44,
+      "pgnRef": "WorldChamp2007.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "grischuk",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2007-09-13",
+      "eco": "C88",
+      "plies": 55,
+      "pgnRef": "WorldChamp2007.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2007-09-14",
+      "eco": "C89",
+      "plies": 85,
+      "pgnRef": "WorldChamp2007.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "grischuk",
+      "result": "1/2-1/2",
+      "date": "2007-09-14",
+      "eco": "E15",
+      "plies": 45,
+      "pgnRef": "WorldChamp2007.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "aronian",
+      "black": "anand",
+      "result": "0-1",
+      "date": "2007-09-14",
+      "eco": "D43",
+      "plies": 82,
+      "pgnRef": "WorldChamp2007.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "morozevich",
+      "result": "1-0",
+      "date": "2007-09-14",
+      "eco": "E04",
+      "plies": 53,
+      "pgnRef": "WorldChamp2007.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "svidler",
+      "result": "1-0",
+      "date": "2007-09-15",
+      "eco": "C45",
+      "plies": 73,
+      "pgnRef": "WorldChamp2007.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2007-09-15",
+      "eco": "C42",
+      "plies": 130,
+      "pgnRef": "WorldChamp2007.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "grischuk",
+      "black": "aronian",
+      "result": "1/2-1/2",
+      "date": "2007-09-15",
+      "eco": "C88",
+      "plies": 61,
+      "pgnRef": "WorldChamp2007.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "leko",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2007-09-15",
+      "eco": "C42",
+      "plies": 200,
+      "pgnRef": "WorldChamp2007.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "grischuk",
+      "result": "1/2-1/2",
+      "date": "2007-09-16",
+      "eco": "E06",
+      "plies": 120,
+      "pgnRef": "WorldChamp2007.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2007-09-16",
+      "eco": "D47",
+      "plies": 121,
+      "pgnRef": "WorldChamp2007.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2007-09-16",
+      "eco": "C42",
+      "plies": 48,
+      "pgnRef": "WorldChamp2007.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "aronian",
+      "black": "leko",
+      "result": "1-0",
+      "date": "2007-09-16",
+      "eco": "A33",
+      "plies": 89,
+      "pgnRef": "WorldChamp2007.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "anand",
+      "black": "svidler",
+      "result": "1-0",
+      "date": "2007-09-18",
+      "eco": "C89",
+      "plies": 77,
+      "pgnRef": "WorldChamp2007.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "grischuk",
+      "black": "morozevich",
+      "result": "1-0",
+      "date": "2007-09-18",
+      "eco": "D38",
+      "plies": 81,
+      "pgnRef": "WorldChamp2007.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "leko",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2007-09-18",
+      "eco": "C24",
+      "plies": 48,
+      "pgnRef": "WorldChamp2007.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "aronian",
+      "result": "1-0",
+      "date": "2007-09-18",
+      "eco": "E00",
+      "plies": 95,
+      "pgnRef": "WorldChamp2007.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "grischuk",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2007-09-19",
+      "eco": "D43",
+      "plies": 81,
+      "pgnRef": "WorldChamp2007.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "leko",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2007-09-19",
+      "eco": "C78",
+      "plies": 42,
+      "pgnRef": "WorldChamp2007.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "aronian",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2007-09-19",
+      "eco": "E06",
+      "plies": 43,
+      "pgnRef": "WorldChamp2007.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "morozevich",
+      "result": "1-0",
+      "date": "2007-09-19",
+      "eco": "E17",
+      "plies": 99,
+      "pgnRef": "WorldChamp2007.pgn#23"
+    },
+    {
+      "round": 25,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2007-09-20",
+      "eco": "C45",
+      "plies": 120,
+      "pgnRef": "WorldChamp2007.pgn#24"
+    },
+    {
+      "round": 26,
+      "kind": "classical",
+      "white": "anand",
+      "black": "grischuk",
+      "result": "1-0",
+      "date": "2007-09-20",
+      "eco": "C88",
+      "plies": 99,
+      "pgnRef": "WorldChamp2007.pgn#25"
+    },
+    {
+      "round": 27,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "aronian",
+      "result": "1/2-1/2",
+      "date": "2007-09-20",
+      "eco": "C69",
+      "plies": 40,
+      "pgnRef": "WorldChamp2007.pgn#26"
+    },
+    {
+      "round": 28,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2007-09-20",
+      "eco": "D43",
+      "plies": 80,
+      "pgnRef": "WorldChamp2007.pgn#27"
+    },
+    {
+      "round": 29,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2007-09-21",
+      "eco": "C42",
+      "plies": 58,
+      "pgnRef": "WorldChamp2007.pgn#28"
+    },
+    {
+      "round": 30,
+      "kind": "classical",
+      "white": "aronian",
+      "black": "morozevich",
+      "result": "1/2-1/2",
+      "date": "2007-09-21",
+      "eco": "E17",
+      "plies": 138,
+      "pgnRef": "WorldChamp2007.pgn#29"
+    },
+    {
+      "round": 31,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2007-09-21",
+      "eco": "E06",
+      "plies": 39,
+      "pgnRef": "WorldChamp2007.pgn#30"
+    },
+    {
+      "round": 32,
+      "kind": "classical",
+      "white": "leko",
+      "black": "grischuk",
+      "result": "1-0",
+      "date": "2007-09-21",
+      "eco": "C88",
+      "plies": 119,
+      "pgnRef": "WorldChamp2007.pgn#31"
+    },
+    {
+      "round": 33,
+      "kind": "classical",
+      "white": "leko",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2007-09-23",
+      "eco": "B90",
+      "plies": 57,
+      "pgnRef": "WorldChamp2007.pgn#32"
+    },
+    {
+      "round": 34,
+      "kind": "classical",
+      "white": "grischuk",
+      "black": "gelfand",
+      "result": "1-0",
+      "date": "2007-09-23",
+      "eco": "E21",
+      "plies": 121,
+      "pgnRef": "WorldChamp2007.pgn#33"
+    },
+    {
+      "round": 35,
+      "kind": "classical",
+      "white": "anand",
+      "black": "aronian",
+      "result": "1/2-1/2",
+      "date": "2007-09-23",
+      "eco": "C89",
+      "plies": 41,
+      "pgnRef": "WorldChamp2007.pgn#34"
+    },
+    {
+      "round": 36,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "kramnik",
+      "result": "1-0",
+      "date": "2007-09-23",
+      "eco": "A34",
+      "plies": 95,
+      "pgnRef": "WorldChamp2007.pgn#35"
+    },
+    {
+      "round": 37,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "morozevich",
+      "result": "1/2-1/2",
+      "date": "2007-09-24",
+      "eco": "B17",
+      "plies": 88,
+      "pgnRef": "WorldChamp2007.pgn#36"
+    },
+    {
+      "round": 38,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2007-09-24",
+      "eco": "D43",
+      "plies": 81,
+      "pgnRef": "WorldChamp2007.pgn#37"
+    },
+    {
+      "round": 39,
+      "kind": "classical",
+      "white": "aronian",
+      "black": "grischuk",
+      "result": "1-0",
+      "date": "2007-09-24",
+      "eco": "D30",
+      "plies": 83,
+      "pgnRef": "WorldChamp2007.pgn#38"
+    },
+    {
+      "round": 40,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2007-09-24",
+      "eco": "E06",
+      "plies": 47,
+      "pgnRef": "WorldChamp2007.pgn#39"
+    },
+    {
+      "round": 41,
+      "kind": "classical",
+      "white": "grischuk",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2007-09-25",
+      "eco": "C43",
+      "plies": 25,
+      "pgnRef": "WorldChamp2007.pgn#40"
+    },
+    {
+      "round": 42,
+      "kind": "classical",
+      "white": "anand",
+      "black": "morozevich",
+      "result": "1-0",
+      "date": "2007-09-25",
+      "eco": "B90",
+      "plies": 111,
+      "pgnRef": "WorldChamp2007.pgn#41"
+    },
+    {
+      "round": 43,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2007-09-25",
+      "eco": "A15",
+      "plies": 43,
+      "pgnRef": "WorldChamp2007.pgn#42"
+    },
+    {
+      "round": 44,
+      "kind": "classical",
+      "white": "leko",
+      "black": "aronian",
+      "result": "1/2-1/2",
+      "date": "2007-09-25",
+      "eco": "E15",
+      "plies": 112,
+      "pgnRef": "WorldChamp2007.pgn#43"
+    },
+    {
+      "round": 45,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2007-09-27",
+      "eco": "C88",
+      "plies": 44,
+      "pgnRef": "WorldChamp2007.pgn#44"
+    },
+    {
+      "round": 46,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "grischuk",
+      "result": "1-0",
+      "date": "2007-09-27",
+      "eco": "A28",
+      "plies": 83,
+      "pgnRef": "WorldChamp2007.pgn#45"
+    },
+    {
+      "round": 47,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "leko",
+      "result": "1-0",
+      "date": "2007-09-27",
+      "eco": "E06",
+      "plies": 77,
+      "pgnRef": "WorldChamp2007.pgn#46"
+    },
+    {
+      "round": 48,
+      "kind": "classical",
+      "white": "aronian",
+      "black": "gelfand",
+      "result": "0-1",
+      "date": "2007-09-27",
+      "eco": "D43",
+      "plies": 80,
+      "pgnRef": "WorldChamp2007.pgn#47"
+    },
+    {
+      "round": 49,
+      "kind": "classical",
+      "white": "gelfand",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2007-09-28",
+      "eco": "D47",
+      "plies": 51,
+      "pgnRef": "WorldChamp2007.pgn#48"
+    },
+    {
+      "round": 50,
+      "kind": "classical",
+      "white": "grischuk",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2007-09-28",
+      "eco": "D43",
+      "plies": 146,
+      "pgnRef": "WorldChamp2007.pgn#49"
+    },
+    {
+      "round": 51,
+      "kind": "classical",
+      "white": "aronian",
+      "black": "svidler",
+      "result": "1/2-1/2",
+      "date": "2007-09-28",
+      "eco": "A29",
+      "plies": 91,
+      "pgnRef": "WorldChamp2007.pgn#50"
+    },
+    {
+      "round": 52,
+      "kind": "classical",
+      "white": "leko",
+      "black": "morozevich",
+      "result": "1-0",
+      "date": "2007-09-28",
+      "eco": "B67",
+      "plies": 65,
+      "pgnRef": "WorldChamp2007.pgn#51"
+    },
+    {
+      "round": 53,
+      "kind": "classical",
+      "white": "svidler",
+      "black": "grischuk",
+      "result": "1-0",
+      "date": "2007-09-29",
+      "eco": "B90",
+      "plies": 83,
+      "pgnRef": "WorldChamp2007.pgn#52"
+    },
+    {
+      "round": 54,
+      "kind": "classical",
+      "white": "anand",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2007-09-29",
+      "eco": "C89",
+      "plies": 39,
+      "pgnRef": "WorldChamp2007.pgn#53"
+    },
+    {
+      "round": 55,
+      "kind": "classical",
+      "white": "morozevich",
+      "black": "gelfand",
+      "result": "1/2-1/2",
+      "date": "2007-09-29",
+      "eco": "C42",
+      "plies": 90,
+      "pgnRef": "WorldChamp2007.pgn#54"
+    },
+    {
+      "round": 56,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "aronian",
+      "result": "1-0",
+      "date": "2007-09-29",
+      "eco": "E15",
+      "plies": 69,
+      "pgnRef": "WorldChamp2007.pgn#55"
+    }
+  ],
+  "featuredRounds": [
+    7,
+    54
+  ],
+  "moments": [
+    {
+      "id": "primera-victoria",
+      "round": 7,
+      "title": {
+        "es": "La primera victoria de Anand",
+        "en": "Anand's first win"
+      },
+      "text": {
+        "es": "En la segunda ronda, Anand le ganó con negras a Levon Aronian, el ganador de la Copa del Mundo de 2005.",
+        "en": "In round two Anand beat Levon Aronian, the 2005 World Cup winner, with Black."
+      }
+    },
+    {
+      "id": "cierre",
+      "round": 54,
+      "title": {
+        "es": "Un cierre tranquilo",
+        "en": "A calm finish"
+      },
+      "text": {
+        "es": "Anand empató su última partida contra Peter Leko y terminó invicto, un punto por delante de Kramnik y Gelfand.",
+        "en": "Anand drew his last game against Peter Leko and finished unbeaten, a point ahead of Kramnik and Gelfand."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El torneo estaba organizado cuando se acordó el match de 2006; por eso se estableció que Kramnik ocuparía el lugar de Topalov si ganaba en Elistá.",
+        "en": "The tournament was already organized when the 2006 match was agreed, so it was set that Kramnik would take Topalov's place if he won in Elista."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2007"
+      }
+    },
+    {
+      "text": {
+        "es": "Anand ganó sin perder una sola partida: cuatro victorias y diez tablas.",
+        "en": "Anand won without losing a single game: four wins and ten draws."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2007"
+      }
+    },
+    {
+      "text": {
+        "es": "En junio de 2007, Kramnik confirmó que reconocía el torneo como Campeonato del Mundo, aunque dijo que prefería que el título se decidiera en un match.",
+        "en": "In June 2007 Kramnik confirmed he recognized the tournament as the World Championship, while saying he preferred the title to be decided in a match."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2007"
+      }
+    },
+    {
+      "text": {
+        "es": "Después de este torneo, la FIDE volvió a decidir el título con matches entre el campeón y un retador, empezando en 2008.",
+        "en": "After this tournament FIDE went back to deciding the title in matches between the champion and a challenger, starting in 2008."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2007"
+      }
+    }
+  ],
+  "photos": [
+    "anand-2007",
+    "kramnik-2006",
+    "gelfand-2013",
+    "leko-2008"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2007"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/a5a7$wix.htm"
+    }
+  ]
+}

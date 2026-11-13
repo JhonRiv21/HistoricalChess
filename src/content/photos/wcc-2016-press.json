@@ -1,0 +1,20 @@
+{
+  "file": "wcc-2016-press.jpg",
+  "caption": {
+    "es": "Magnus Carlsen y Sergey Karjakin en la rueda de prensa tras la partida 12 del campeonato mundial de 2016.",
+    "en": "Magnus Carlsen and Sergey Karjakin at the press conference after game 12 of the 2016 world championship."
+  },
+  "alt": {
+    "es": "Carlsen y Karjakin sentados a una mesa de prensa con botellas de agua.",
+    "en": "Carlsen and Karjakin seated at a press table with water bottles."
+  },
+  "author": "Vladimir Barsky / ruchess.ru",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Chess_Championship_2016_Game_12_-_8.jpg",
+  "focus": "50% 55%",
+  "people": [
+    "carlsen",
+    "karjakin"
+  ],
+  "year": 2016
+}

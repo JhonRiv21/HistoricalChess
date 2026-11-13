@@ -1,0 +1,20 @@
+{
+  "file": "london-2018-start.jpg",
+  "caption": {
+    "es": "Magnus Carlsen y Fabiano Caruana al comienzo de la partida 9 del campeonato mundial de 2018 en Londres.",
+    "en": "Magnus Carlsen and Fabiano Caruana at the start of game 9 of the 2018 world championship in London."
+  },
+  "alt": {
+    "es": "Carlsen visto de espaldas frente a Caruana al otro lado del tablero.",
+    "en": "Carlsen seen from behind facing Caruana across the board."
+  },
+  "author": "Pablo Martínez Rodríguez",
+  "license": "CC BY-SA 4.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Match_Carlsen-Caruana,_London_2018_(2).jpg",
+  "focus": "50% 55%",
+  "people": [
+    "carlsen",
+    "caruana"
+  ],
+  "year": 2018
+}

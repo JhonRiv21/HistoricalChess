@@ -1,0 +1,314 @@
+{
+  "1886-steinitz-zukertort": [
+    "steinitz-zukertort-sternitzky",
+    "steinitz-1883",
+    "zukertort-portrait"
+  ],
+  "1889-steinitz-chigorin": [
+    "chigorin-ascharin-1892",
+    "steinitz-1883",
+    "steinitz-1896"
+  ],
+  "1890-steinitz-gunsberg": [
+    "gunsberg-dore",
+    "steinitz-1896",
+    "steinitz-1883"
+  ],
+  "1892-steinitz-chigorin": [
+    "chigorin-ascharin-1892",
+    "steinitz-1896",
+    "steinitz-1883"
+  ],
+  "1894-lasker-steinitz": [
+    "lasker-steinitz-1894-philadelphia",
+    "steinitz-1896",
+    "lasker-1908"
+  ],
+  "1896-lasker-steinitz": [
+    "lasker-steinitz-1894-philadelphia",
+    "steinitz-1896",
+    "lasker-1908"
+  ],
+  "1907-lasker-marshall": [
+    "lasker-1908",
+    "marshall-portrait",
+    "lasker-1909-eugene"
+  ],
+  "1908-lasker-tarrasch": [
+    "lasker-tarrasch-1908",
+    "tarrasch-1900",
+    "lasker-1909-eugene",
+    "lasker-1908"
+  ],
+  "1910-lasker-janowski": [
+    "lasker-1909-eugene",
+    "janowski-1896",
+    "lasker-1908"
+  ],
+  "1910-lasker-schlechter": [
+    "lasker-1909-eugene",
+    "schlechter-1896",
+    "lasker-1908"
+  ],
+  "1921-capablanca-lasker": [
+    "capablanca-1921-rol",
+    "lasker-1921-rol",
+    "capablanca-derujinsky-1922"
+  ],
+  "1927-alekhine-capablanca": [
+    "alekhine-capablanca-1927",
+    "capablanca-derujinsky-1922",
+    "alekhine-1924-bain",
+    "alekhine-colle-1925",
+    "capablanca-1921-rol"
+  ],
+  "1929-alekhine-bogoljubov": [
+    "san-remo-1930",
+    "euwe-bogoljubov-1928",
+    "alekhine-colle-1925",
+    "alekhine-1924-bain"
+  ],
+  "1934-alekhine-bogoljubov": [
+    "san-remo-1930",
+    "euwe-bogoljubov-1928",
+    "alekhine-1924-bain"
+  ],
+  "1935-euwe-alekhine": [
+    "alekhine-euwe-phoenix-1935",
+    "euwe-1935",
+    "alekhine-1924-bain",
+    "euwe-bogoljubov-1928"
+  ],
+  "1937-alekhine-euwe": [
+    "alekhine-euwe-1937",
+    "euwe-1935",
+    "alekhine-euwe-phoenix-1935",
+    "alekhine-1924-bain"
+  ],
+  "1948-botvinnik-tournament": [
+    "wcc-1948-hague-group",
+    "euwe-botvinnik-1948",
+    "keres-euwe-1948",
+    "reshevsky-hague-1948",
+    "reshevsky-1948"
+  ],
+  "1951-botvinnik-bronstein": [
+    "euwe-botvinnik-1948",
+    "bronstein-1954",
+    "bronstein-1956-candidates"
+  ],
+  "1954-botvinnik-smyslov": [
+    "smyslov-1954",
+    "euwe-botvinnik-1948",
+    "smyslov-1956"
+  ],
+  "1957-smyslov-botvinnik": [
+    "botvinnik-smyslov-1957",
+    "smyslov-1956",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "1958-botvinnik-smyslov": [
+    "botvinnik-smyslov-1957",
+    "smyslov-1956",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "1960-tal-botvinnik": [
+    "botvinnik-tal-1960",
+    "tal-1964",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "1961-botvinnik-tal": [
+    "botvinnik-tal-1960",
+    "tal-1964",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "1963-petrosian-botvinnik": [
+    "petrosian-1962",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "1966-petrosian-spassky": [
+    "petrosian-1962",
+    "spassky-larsen-1970"
+  ],
+  "1969-spassky-petrosian": [
+    "spassky-larsen-1970",
+    "petrosian-1973",
+    "petrosian-1973-ibm",
+    "spassky-1973"
+  ],
+  "1972-fischer-spassky": [
+    "fischer-euwe-1972",
+    "fischer-1972",
+    "spassky-larsen-1970",
+    "fischer-1971",
+    "spassky-1973"
+  ],
+  "1975-karpov-forfeit": [
+    "fischer-1972",
+    "karpov-1979",
+    "fischer-1971",
+    "karpov-kavalek-1979"
+  ],
+  "1978-karpov-korchnoi": [
+    "karpov-1979",
+    "korchnoi-1976",
+    "karpov-kavalek-1979",
+    "korchnoi-1981-meran"
+  ],
+  "1981-karpov-korchnoi": [
+    "karpov-korchnoi-1981-meran",
+    "korchnoi-1981-meran",
+    "korchnoi-1982",
+    "karpov-1979"
+  ],
+  "1984-karpov-kasparov": [
+    "kasparov-1985",
+    "karpov-1986-interpolis",
+    "karpov-1979"
+  ],
+  "1985-kasparov-karpov": [
+    "kasparov-1985",
+    "karpov-1986-interpolis",
+    "kasparov-timman-karpov-1988"
+  ],
+  "1986-kasparov-karpov": [
+    "kasparov-karpov-1988",
+    "kasparov-1985",
+    "karpov-1986-interpolis"
+  ],
+  "1987-kasparov-karpov": [
+    "kasparov-karpov-1988",
+    "kasparov-1988-optiebeurs",
+    "karpov-korchnoi-1987",
+    "kasparov-timman-karpov-1988"
+  ],
+  "1990-kasparov-karpov": [
+    "kasparov-karpov-1988",
+    "kasparov-karpov-1988-handshake",
+    "kasparov-1988-optiebeurs",
+    "karpov-1993",
+    "kasparov-1993"
+  ],
+  "1993-karpov-timman": [
+    "karpov-1993",
+    "timman-1989",
+    "short-timman-1989",
+    "kasparov-timman-karpov-1988"
+  ],
+  "1993-kasparov-short": [
+    "kasparov-1993",
+    "short-timman-1989",
+    "short-1986"
+  ],
+  "1995-kasparov-anand": [
+    "kasparov-anand-1995",
+    "anand-1992",
+    "kasparov-1993"
+  ],
+  "1996-karpov-kamsky": [
+    "karpov-1993",
+    "kamsky-2006"
+  ],
+  "1998-fide-knockout": [
+    "karpov-1993",
+    "anand-1992"
+  ],
+  "2000-kramnik-kasparov": [
+    "kasparov-kramnik-2001",
+    "anand-kasparov-2000",
+    "kasparov-linares-2005"
+  ],
+  "2004-kramnik-leko": [
+    "kramnik-anand-2004",
+    "leko-topalov-2002",
+    "leko-2008",
+    "kramnik-2006"
+  ],
+  "2005-topalov-tournament": [
+    "topalov-2005",
+    "anand-2005",
+    "polgar-2008",
+    "adams-2008",
+    "leko-topalov-2002"
+  ],
+  "2006-kramnik-topalov": [
+    "topalov-2005",
+    "kramnik-2006",
+    "topalov-2007",
+    "kramnik-anand-2004"
+  ],
+  "2007-anand-tournament": [
+    "anand-2007",
+    "kramnik-2006",
+    "gelfand-2013",
+    "leko-2008"
+  ],
+  "2008-anand-kramnik": [
+    "anand-kramnik-2008",
+    "anand-2008",
+    "kramnik-2008"
+  ],
+  "2010-anand-topalov": [
+    "anand-2010",
+    "topalov-2008",
+    "topalov-2007",
+    "anand-2008"
+  ],
+  "2012-anand-gelfand": [
+    "gelfand-anand-2012",
+    "wcc-moscow-2012",
+    "anand-moscow-2012",
+    "putin-anand-gelfand-2012",
+    "gelfand-2013"
+  ],
+  "2013-carlsen-anand": [
+    "carlsen-tata-2013",
+    "anand-2013",
+    "carlsen-2012",
+    "carlsen-2012-bust"
+  ],
+  "2014-carlsen-anand": [
+    "sochi-2014-closing",
+    "sochi-2014-meeting",
+    "carlsen-tata-2013",
+    "anand-2013"
+  ],
+  "2016-carlsen-karjakin": [
+    "wcc-2016-tiebreak",
+    "wcc-2016-game12",
+    "wcc-2016-press",
+    "karjakin-2017",
+    "carlsen-2012"
+  ],
+  "2018-carlsen-caruana": [
+    "london-2018-match",
+    "london-2018-start",
+    "caruana-london-2018",
+    "carlsen-2012"
+  ],
+  "2021-carlsen-nepomniachtchi": [
+    "wcc-2021-game11",
+    "dubai-2021-sobyanin",
+    "wcc-2021-carlsen",
+    "wcc-2021-nepomniachtchi"
+  ],
+  "2023-ding-nepomniachtchi": [
+    "wcc-2023-game1",
+    "wcc-2023-tiebreak",
+    "wcc-2023-ding",
+    "wcc-2023-game2",
+    "wcc-2021-nepomniachtchi"
+  ],
+  "2024-gukesh-ding": [
+    "ding-gukesh-2023",
+    "gukesh-2024",
+    "ding-2024",
+    "wcc-2023-ding"
+  ],
+  "2026-gukesh-sindarov": [
+    "gukesh-2025",
+    "sindarov-2026",
+    "sindarov-2024-budapest",
+    "gukesh-2024"
+  ]
+}

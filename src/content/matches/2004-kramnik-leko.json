@@ -1,0 +1,307 @@
+{
+  "year": 2004,
+  "kind": "match",
+  "era": "split",
+  "title": "classical",
+  "players": [
+    {
+      "id": "kramnik",
+      "name": "Vladimir Kramnik",
+      "short": "Kramnik",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "leko",
+      "name": "Peter Leko",
+      "short": "Leko",
+      "country": {
+        "es": "Hungría",
+        "en": "Hungary"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "kramnik",
+  "score": {
+    "kramnik": 7,
+    "leko": 7
+  },
+  "retainedOnTie": true,
+  "site": {
+    "es": "Brissago, Suiza",
+    "en": "Brissago, Switzerland"
+  },
+  "dates": {
+    "start": "2004-09-25",
+    "end": "2004-10-18"
+  },
+  "summary": {
+    "es": "Kramnik defendió el título clásico en Brissago (Suiza) ante el húngaro Peter Leko, en un match a 14 partidas. Leko ganó las partidas 5 y 8 y llegó a la última con un punto de ventaja, pero Kramnik ganó la partida 14 con blancas. El match terminó 7–7 y, según el reglamento, el empate le bastaba al campeón para retener el título.",
+    "en": "Kramnik defended the classical title in Brissago, Switzerland, against Hungary's Peter Leko in a 14-game match. Leko won games 5 and 8 and reached the final game a point ahead, but Kramnik won game 14 with White. The match ended 7–7, and under the rules a tie was enough for the champion to keep his title."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "leko",
+      "black": "kramnik",
+      "result": "0-1",
+      "date": "2004-09-25",
+      "eco": "C42",
+      "plies": 130,
+      "pgnRef": "WorldChamp2004.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2004-09-26",
+      "eco": "C88",
+      "plies": 35,
+      "pgnRef": "WorldChamp2004.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "leko",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2004-09-28",
+      "eco": "C42",
+      "plies": 46,
+      "pgnRef": "WorldChamp2004.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2004-09-30",
+      "eco": "C88",
+      "plies": 86,
+      "pgnRef": "WorldChamp2004.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "leko",
+      "black": "kramnik",
+      "result": "1-0",
+      "date": "2004-10-02",
+      "eco": "D37",
+      "plies": 137,
+      "pgnRef": "WorldChamp2004.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2004-10-03",
+      "eco": "C88",
+      "plies": 40,
+      "pgnRef": "WorldChamp2004.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "leko",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2004-10-05",
+      "eco": "D16",
+      "plies": 41,
+      "pgnRef": "WorldChamp2004.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "leko",
+      "result": "0-1",
+      "date": "2004-10-07",
+      "eco": "C89",
+      "plies": 64,
+      "pgnRef": "WorldChamp2004.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "leko",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2004-10-09",
+      "eco": "E15",
+      "plies": 32,
+      "pgnRef": "WorldChamp2004.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2004-10-10",
+      "eco": "C78",
+      "plies": 69,
+      "pgnRef": "WorldChamp2004.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "leko",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2004-10-12",
+      "eco": "E15",
+      "plies": 34,
+      "pgnRef": "WorldChamp2004.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "leko",
+      "result": "1/2-1/2",
+      "date": "2004-10-14",
+      "eco": "B19",
+      "plies": 68,
+      "pgnRef": "WorldChamp2004.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "leko",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2004-10-16",
+      "eco": "A73",
+      "plies": 129,
+      "pgnRef": "WorldChamp2004.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "leko",
+      "result": "1-0",
+      "date": "2004-10-18",
+      "eco": "B12",
+      "plies": 81,
+      "pgnRef": "WorldChamp2004.pgn#13"
+    }
+  ],
+  "featuredRounds": [
+    1,
+    8,
+    14
+  ],
+  "moments": [
+    {
+      "id": "sacrificio-dama",
+      "round": 1,
+      "title": {
+        "es": "Un sacrificio de dama para empezar",
+        "en": "A queen sacrifice to start"
+      },
+      "text": {
+        "es": "Con negras, Kramnik entregó su dama a cambio de torre y alfil, y superó a Leko en el final para ponerse adelante.",
+        "en": "With Black, Kramnik gave up his queen for rook and bishop and outplayed Leko in the ending to take the lead."
+      }
+    },
+    {
+      "id": "marshall",
+      "round": 8,
+      "title": {
+        "es": "Leko refuta la preparación",
+        "en": "Leko refutes the preparation"
+      },
+      "text": {
+        "es": "Con negras, en el Ataque Marshall, Leko entró en una línea preparada por el equipo de Kramnik, encontró la refutación frente al tablero y pasó a liderar el match.",
+        "en": "With Black in the Marshall Attack, Leko walked into a line prepared by Kramnik's team, found the refutation over the board and took the lead."
+      }
+    },
+    {
+      "id": "ganar-o-perder",
+      "round": 14,
+      "title": {
+        "es": "Ganar o perder el título",
+        "en": "Win or lose the title"
+      },
+      "text": {
+        "es": "Kramnik necesitaba ganar la última partida, y lo hizo: así empató el match y conservó la corona.",
+        "en": "Kramnik needed to win the final game, and he did: that tied the match and kept him the crown."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Según el «Acuerdo de Praga», el ganador de este match debía enfrentar al ganador de un match entre Kasparov y el campeón de la FIDE para unificar el título; esos otros matches nunca se jugaron.",
+        "en": "Under the \"Prague Agreement\", the winner of this match was to face the winner of a match between Kasparov and the FIDE champion to reunify the title; those other matches never took place."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2004"
+      }
+    },
+    {
+      "text": {
+        "es": "Leko se ganó el derecho a retar a Kramnik en el torneo de Dortmund de 2002, pero la falta de patrocinador retrasó el match hasta 2004.",
+        "en": "Leko earned the right to challenge Kramnik at Dortmund in 2002, but the lack of a sponsor delayed the match until 2004."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2004"
+      }
+    },
+    {
+      "text": {
+        "es": "En la partida 9, Kramnik tomó un medicamento que le había dado un médico por problemas de presión y sueño; luego ofreció tablas rápidas, no fue a la conferencia de prensa y acudió a un hospital.",
+        "en": "During game 9 Kramnik took a pill a doctor had given him for blood-pressure and sleep problems; he then offered a quick draw, skipped the press conference and went to a hospital."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2004"
+      }
+    }
+  ],
+  "photos": [
+    "kramnik-anand-2004",
+    "leko-topalov-2002",
+    "leko-2008",
+    "kramnik-2006"
+  ],
+  "videos": [
+    {
+      "youtubeId": "v26xeF4_eKk",
+      "kind": "recap",
+      "title": {
+        "es": "Kramnik analiza su partida 14 contra Leko, 2004",
+        "en": "Kramnik analyses game 14 against Leko, 2004"
+      },
+      "channel": "chess24.5",
+      "round": 14,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2004"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/a3a4dnix.htm"
+    }
+  ]
+}

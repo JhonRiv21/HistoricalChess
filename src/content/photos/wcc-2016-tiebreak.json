@@ -1,0 +1,20 @@
+{
+  "file": "wcc-2016-tiebreak.jpg",
+  "caption": {
+    "es": "Magnus Carlsen y Sergey Karjakin en el desempate del campeonato mundial de 2016 en Nueva York.",
+    "en": "Magnus Carlsen and Sergey Karjakin at the tie-break of the 2016 world championship in New York."
+  },
+  "alt": {
+    "es": "Carlsen y Karjakin ante el tablero con sus nombres y banderas sobre la mesa.",
+    "en": "Carlsen and Karjakin at the board with their names and flags on the table."
+  },
+  "author": "Vladimir Barsky / ruchess.ru",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Chess_Championship_2016_tie-break_-_6.jpg",
+  "focus": "55% 50%",
+  "people": [
+    "carlsen",
+    "karjakin"
+  ],
+  "year": 2016
+}

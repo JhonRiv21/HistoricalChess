@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import GameViewer from '../../../components/viewer/GameViewer.svelte';
+import { gameUrl, getMatches, matchUrl, playerOf, type Game, type Match } from '../../../lib/content';
+import { formatDate } from '../../../lib/format';
+import { analysisPath, hasAnalysis, resultLabel } from '../../../lib/match-view';
+import { LANGS, pick, t, type Lang } from '../../../i18n/ui';
+
+export async function getStaticPaths() {
+  const matches = await getMatches();
+  return LANGS.flatMap((lang) => matches.flatMap((match) => match.data.games
+    .filter((g) => g.plies > 0 && hasAnalysis(match.id, g.round))
+    .map((game) => ({ params: { lang, slug: match.id, round: String(game.round) }, props: { match, game } }))));
+}
+
+const { match, game } = Astro.props as { match: Match; game: Game };
+const lang = Astro.params.lang as Lang;
+const d = match.data;
+const white = playerOf(d, game.white);
+const black = playerOf(d, game.black);
+const label = `${t(lang, 'match.round')} ${game.round}`;
+const prev = d.games.filter((g) => g.round < game.round && g.plies > 0).at(-1);
+const next = d.games.find((g) => g.round > game.round && g.plies > 0);
+const description = `${white?.name} – ${black?.name}, ${label.toLowerCase()} ${d.year}: ${resultLabel(d, game, lang)}.`;
+---
+
+<BaseLayout lang={lang} title={`${white?.short}–${black?.short}, ${label.toLowerCase()}, ${d.year}`} {description} altPath={`/${lang === 'es' ? 'en' : 'es'}/${match.id}/${game.round}/`}>
+  <div class="view view-game">
+    <nav class="crumbs" aria-label="breadcrumb">
+      <a href={`/${lang}/`}>{t(lang, 'match.crumbs')}</a> / <a href={matchUrl(lang, match.id)}>{d.year}</a> / {label}
+    </nav>
+    <section class="section">
+      <div class="section-head">
+        <h1 class="section-title">{white?.name} – {black?.name}</h1>
+        <p class="section-sub">
+          {label}, {pick(d.site, lang)}{game.date && `, ${formatDate(game.date, lang)}`}. {resultLabel(d, game, lang)}{game.eco && ` (${game.eco})`}.
+          {game.note && ` ${pick(game.note, lang)}`}
+        </p>
+        <p class="section-sub">{t(lang, 'viewer.keys')}</p>
+      </div>
+      <GameViewer client:load src={analysisPath(match.id, game.round)} {lang}
+        white={white?.short ?? game.white} black={black?.short ?? game.black} resultText={resultLabel(d, game, lang)} />
+    </section>
+    <nav class="game-nav" aria-label={t(lang, 'match.games')}>
+      {prev ? <a class="btn" href={gameUrl(lang, match.id, prev.round)}>← {t(lang, 'match.round')} {prev.round}</a> : <span></span>}
+      <a class="btn" href={matchUrl(lang, match.id)}>{t(lang, 'match.games')}</a>
+      {next ? <a class="btn" href={gameUrl(lang, match.id, next.round)}>{t(lang, 'match.round')} {next.round} →</a> : <span></span>}
+    </nav>
+  </div>
+</BaseLayout>

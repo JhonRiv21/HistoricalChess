@@ -1,0 +1,399 @@
+{
+  "year": 1960,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "botvinnik",
+      "name": "Mikhail Botvinnik",
+      "short": "Botvinnik",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "tal",
+      "name": "Mikhail Tal",
+      "short": "Tal",
+      "country": {
+        "es": "URSS (Letonia)",
+        "en": "Soviet Union (Latvia)"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "tal",
+  "score": {
+    "tal": 12.5,
+    "botvinnik": 8.5
+  },
+  "site": {
+    "es": "Moscú, URSS",
+    "en": "Moscow, Soviet Union"
+  },
+  "dates": {
+    "start": "1960-03-15",
+    "end": "1960-05-07"
+  },
+  "summary": {
+    "es": "Mikhail Tal, el gran atacante de Riga, llegó como ganador del torneo de candidatos de 1959, pero Botvinnik era el favorito. Tal ganó la primera partida y no volvió a perder la delantera: terminó 12½–8½, cuatro puntos de diferencia. Su ajedrez de sacrificios y riesgo conquistó el título.",
+    "en": "Mikhail Tal, the great attacking player from Riga, arrived as winner of the 1959 Candidates tournament, but Botvinnik was the favourite. Tal won the first game and never lost the lead again, finishing 12½–8½, four points clear. His chess of sacrifice and risk won the title."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "C18",
+      "plies": 63,
+      "pgnRef": "WorldChamp1960.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1/2-1/2",
+      "eco": "A61",
+      "plies": 88,
+      "pgnRef": "WorldChamp1960.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B11",
+      "plies": 74,
+      "pgnRef": "WorldChamp1960.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1/2-1/2",
+      "eco": "E27",
+      "plies": 80,
+      "pgnRef": "WorldChamp1960.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B18",
+      "plies": 85,
+      "pgnRef": "WorldChamp1960.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "0-1",
+      "eco": "E69",
+      "plies": 92,
+      "pgnRef": "WorldChamp1960.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "B18",
+      "plies": 103,
+      "pgnRef": "WorldChamp1960.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1-0",
+      "eco": "A60",
+      "plies": 81,
+      "pgnRef": "WorldChamp1960.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "B18",
+      "plies": 116,
+      "pgnRef": "WorldChamp1960.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1/2-1/2",
+      "eco": "E89",
+      "plies": 119,
+      "pgnRef": "WorldChamp1960.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "D78",
+      "plies": 143,
+      "pgnRef": "WorldChamp1960.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1/2-1/2",
+      "eco": "D40",
+      "plies": 144,
+      "pgnRef": "WorldChamp1960.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "A30",
+      "plies": 31,
+      "pgnRef": "WorldChamp1960.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1/2-1/2",
+      "eco": "E24",
+      "plies": 44,
+      "pgnRef": "WorldChamp1960.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "B18",
+      "plies": 82,
+      "pgnRef": "WorldChamp1960.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1/2-1/2",
+      "eco": "E24",
+      "plies": 81,
+      "pgnRef": "WorldChamp1960.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "B18",
+      "plies": 81,
+      "pgnRef": "WorldChamp1960.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1/2-1/2",
+      "eco": "E24",
+      "plies": 152,
+      "pgnRef": "WorldChamp1960.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "A87",
+      "plies": 82,
+      "pgnRef": "WorldChamp1960.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "tal",
+      "result": "1/2-1/2",
+      "eco": "E24",
+      "plies": 54,
+      "pgnRef": "WorldChamp1960.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "tal",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "E19",
+      "plies": 34,
+      "pgnRef": "WorldChamp1960.pgn#20"
+    }
+  ],
+  "featuredRounds": [
+    6,
+    17
+  ],
+  "moments": [
+    {
+      "id": "tal-pega-primero",
+      "title": {
+        "es": "Tal pega primero",
+        "en": "Tal strikes first"
+      },
+      "text": {
+        "es": "Tal ganó la primera partida con blancas y ya no dejó de ir adelante en el marcador.",
+        "en": "Tal won the first game with White and was never behind or level again."
+      },
+      "round": 1
+    },
+    {
+      "id": "caballo-en-f4",
+      "title": {
+        "es": "El caballo de f4",
+        "en": "The knight on f4"
+      },
+      "text": {
+        "es": "En la sexta partida, Tal dejó un caballo en f4 a cambio de iniciativa, un sacrificio especulativo. El público se alborotó tanto que la partida se trasladó a una sala del fondo por el ruido. Tal la ganó.",
+        "en": "In game six Tal left a knight en prise on f4 in exchange for the initiative, a speculative sacrifice. The audience became so excited that the game was moved to a back room because of the noise. Tal won it."
+      },
+      "round": 6,
+      "ply": 42
+    },
+    {
+      "id": "la-memorable-f4",
+      "title": {
+        "es": "La «memorable» f4",
+        "en": "The \"memorable\" f4"
+      },
+      "text": {
+        "es": "La partida 17 fue una victoria de Tal en 41 jugadas. Tal calificó su 12.f4 de «memorable»: creía que desconcertaría a Botvinnik.",
+        "en": "Game 17 was a 41-move win for Tal. Tal described his 12.f4 as \"memorable\": he believed it would throw Botvinnik off."
+      },
+      "round": 17
+    },
+    {
+      "id": "campeon-con-tablas",
+      "title": {
+        "es": "Campeón con unas tablas",
+        "en": "Champion with a draw"
+      },
+      "text": {
+        "es": "Botvinnik abandonó la partida 19 sin reanudarla tras el aplazamiento. Dos tablas después, en la partida 21, Tal llegó a 12½ y fue el nuevo campeón.",
+        "en": "Botvinnik resigned game 19 without resuming it after adjournment. Two draws later, in game 21, Tal reached 12½ and was the new champion."
+      },
+      "round": 21
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "En el torneo de candidatos de 1959, Tal hizo 14½ puntos de 16 contra los cuatro últimos, incluidas cuatro victorias en cuatro partidas contra un Bobby Fischer de 16 años.",
+        "en": "In the 1959 Candidates tournament, Tal scored 14½ out of 16 against the bottom four, including four wins in four games against a 16-year-old Bobby Fischer."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1960",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1960"
+      }
+    },
+    {
+      "text": {
+        "es": "Botvinnik era favorito porque Tal había tenido resultados menos brillantes contra los mejores, incluidas tres derrotas ante Paul Keres en el torneo de candidatos.",
+        "en": "Botvinnik was the favourite because Tal's results against the very best were less impressive, including three losses to Paul Keres in the Candidates tournament."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1960",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1960"
+      }
+    },
+    {
+      "text": {
+        "es": "Tal ganó seis partidas, Botvinnik dos y hubo trece tablas.",
+        "en": "Tal won six games, Botvinnik two, and thirteen were drawn."
+      },
+      "source": {
+        "label": "Mark Weeks: 1960 Tal - Botvinnik",
+        "url": "https://www.mark-weeks.com/chess/58601wix.htm"
+      }
+    }
+  ],
+  "photos": [
+    "botvinnik-tal-1960",
+    "tal-1964",
+    "botvinnik-euwe-1962-schiphol"
+  ],
+  "videos": [
+    {
+      "youtubeId": "HtYn2MAT5v4",
+      "kind": "archival",
+      "title": {
+        "es": "Noticiero de 1960: Tal, campeón del mundo",
+        "en": "1960 newsreel: Tal, world champion"
+      },
+      "channel": "British Pathé",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "mzvAR2N39P8",
+      "kind": "recap",
+      "title": {
+        "es": "Tal contra Botvinnik, 1960: partida 6",
+        "en": "Tal vs. Botvinnik, 1960: game 6"
+      },
+      "channel": "agadmator's Chess Channel",
+      "round": 6,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "MFFpZGOeklk",
+      "kind": "recap",
+      "title": {
+        "es": "Botvinnik contra Tal, 1960: clase de Yasser Seirawan",
+        "en": "Botvinnik vs. Tal, 1960: lecture by Yasser Seirawan"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1960",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1960"
+    },
+    {
+      "label": "Mark Weeks: 1960 Tal - Botvinnik",
+      "url": "https://www.mark-weeks.com/chess/58601wix.htm"
+    },
+    {
+      "label": "Mark Weeks: 1960 Tal - Botvinnik Highlights",
+      "url": "https://www.mark-weeks.com/chess/60tb$$.htm"
+    }
+  ]
+}

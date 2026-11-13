@@ -1,0 +1,42 @@
+/* Revista: a 1970s chess magazine set in Didone, printed in black plus one red spot ink.
+   Photos are duotoned, the board is a printed diagram with hatched dark squares. */
+[data-style='revista'] .wordmark { font-style: italic; font-size: 2rem; }
+[data-style='revista'] .sq-d { fill: url(#hatch); }
+[data-style='revista'] .board { border-width: 2px; }
+[data-style='revista'] .section-title,
+[data-style='revista'] .slide-name,
+[data-style='revista'] .duel-score,
+[data-style='revista'] .rush-title { font-style: italic; font-weight: 500; }
+[data-style='revista'] .duel-score { font-weight: 400; }
+
+/* Duotone: grayscale photo multiplied over the spot red, plus a halftone screen. */
+[data-style='revista'] .slide-photo,
+[data-style='revista'] .duel-photo { background: var(--accent); }
+[data-style='revista'] .slide-photo img,
+[data-style='revista'] .duel-photo img { filter: grayscale(1) contrast(1.25) brightness(1.12); mix-blend-mode: multiply; }
+[data-style='revista'] .slide-photo::after,
+[data-style='revista'] .duel-photo::after,
+[data-style='revista'] .gallery-open::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(23, 23, 28, 0.22) 0.9px, transparent 1.3px);
+  background-size: 4px 4px;
+  pointer-events: none;
+}
+[data-style='revista'] .duel-photo,
+[data-style='revista'] .gallery-open { position: relative; }
+
+[data-style='revista'] .slide-text { border-left: 2px solid var(--ink); padding-left: 24px; }
+[data-style='revista'] .slide-line { font-style: italic; }
+[data-style='revista'] .tl-card { background: transparent; border: 0; border-top: 2px solid var(--ink); padding: 10px 2px 0; }
+[data-style='revista'] .tl-card.has-page { box-shadow: none; border-top: 6px solid var(--accent); }
+[data-style='revista'] .tl-year { font-style: italic; }
+[data-style='revista'] .engine,
+[data-style='revista'] .move-list { background: transparent; }
+[data-style='revista'] .engine { border: 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--ink); padding-inline: 0; }
+[data-style='revista'] .move-list { border: 0; border-bottom: 1px solid var(--ink); font-family: var(--font-body); }
+[data-style='revista'] .teaser { background: transparent; border: 0; border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); padding-inline: 0; }
+[data-style='revista'] .teaser-photos { position: relative; }
+[data-style='revista'] .duel-verdict { background: transparent; color: var(--accent); border-top: 1px solid var(--accent); border-bottom: 1px solid var(--accent); }
+[data-style='revista'] .rush-mountain { --stone: #c9c6bc; --stone-shadow: #a29e92; }

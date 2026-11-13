@@ -1,0 +1,19 @@
+{
+  "file": "kasparov-1993.jpg",
+  "caption": {
+    "es": "Retrato de Garry Kasparov a los 30 años, 1993.",
+    "en": "Portrait of Garry Kasparov at age 30, 1993."
+  },
+  "alt": {
+    "es": "Retrato en blanco y negro de Kasparov con chaqueta de cuero.",
+    "en": "Black-and-white close portrait of Kasparov in a leather jacket."
+  },
+  "author": "Owen Williams / S.M.S.I., Inc.",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kasparov-24.jpg",
+  "focus": "50% 40%",
+  "people": [
+    "kasparov"
+  ],
+  "year": 1993
+}

@@ -1,0 +1,412 @@
+{
+  "year": 1954,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "botvinnik",
+      "name": "Mikhail Botvinnik",
+      "short": "Botvinnik",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "smyslov",
+      "name": "Vasily Smyslov",
+      "short": "Smyslov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "botvinnik",
+  "score": {
+    "smyslov": 12,
+    "botvinnik": 12
+  },
+  "retainedOnTie": true,
+  "site": {
+    "es": "Moscú, URSS",
+    "en": "Moscow, Soviet Union"
+  },
+  "dates": {
+    "start": "1954-03-16",
+    "end": "1954-05-13"
+  },
+  "summary": {
+    "es": "Vasily Smyslov, ganador del torneo de candidatos de Zúrich 1953, desafió a Botvinnik en Moscú. Botvinnik arrancó con tres victorias en las cuatro primeras partidas, pero Smyslov se recuperó, ganó tres seguidas y llegó a la última partida empatado. El match terminó 12–12 y, por las reglas, el campeón conservó el título.",
+    "en": "Vasily Smyslov, winner of the 1953 Zurich Candidates tournament, challenged Botvinnik in Moscow. Botvinnik started with three wins in the first four games, but Smyslov recovered, won three in a row and reached the final game level. The match ended 12–12 and, under the rules, the champion kept his title."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "C17",
+      "plies": 116,
+      "pgnRef": "WorldChamp1954.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "E45",
+      "plies": 59,
+      "pgnRef": "WorldChamp1954.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "C17",
+      "plies": 81,
+      "pgnRef": "WorldChamp1954.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "D22",
+      "plies": 121,
+      "pgnRef": "WorldChamp1954.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "D44",
+      "plies": 81,
+      "pgnRef": "WorldChamp1954.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "D86",
+      "plies": 67,
+      "pgnRef": "WorldChamp1954.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "C15",
+      "plies": 99,
+      "pgnRef": "WorldChamp1954.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "D06",
+      "plies": 100,
+      "pgnRef": "WorldChamp1954.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "C17",
+      "plies": 49,
+      "pgnRef": "WorldChamp1954.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "0-1",
+      "eco": "D22",
+      "plies": 74,
+      "pgnRef": "WorldChamp1954.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "C73",
+      "plies": 82,
+      "pgnRef": "WorldChamp1954.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "D18",
+      "plies": 75,
+      "pgnRef": "WorldChamp1954.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "B24",
+      "plies": 82,
+      "pgnRef": "WorldChamp1954.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "0-1",
+      "eco": "E68",
+      "plies": 66,
+      "pgnRef": "WorldChamp1954.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "0-1",
+      "eco": "B25",
+      "plies": 72,
+      "pgnRef": "WorldChamp1954.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1-0",
+      "eco": "E61",
+      "plies": 89,
+      "pgnRef": "WorldChamp1954.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "A04",
+      "plies": 61,
+      "pgnRef": "WorldChamp1954.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "E61",
+      "plies": 115,
+      "pgnRef": "WorldChamp1954.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "C15",
+      "plies": 89,
+      "pgnRef": "WorldChamp1954.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "0-1",
+      "eco": "E61",
+      "plies": 144,
+      "pgnRef": "WorldChamp1954.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1/2-1/2",
+      "eco": "C15",
+      "plies": 79,
+      "pgnRef": "WorldChamp1954.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "D83",
+      "plies": 90,
+      "pgnRef": "WorldChamp1954.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "smyslov",
+      "black": "botvinnik",
+      "result": "1-0",
+      "eco": "A04",
+      "plies": 55,
+      "pgnRef": "WorldChamp1954.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "botvinnik",
+      "black": "smyslov",
+      "result": "1/2-1/2",
+      "eco": "E69",
+      "plies": 44,
+      "pgnRef": "WorldChamp1954.pgn#23"
+    }
+  ],
+  "featuredRounds": [
+    12,
+    23
+  ],
+  "moments": [
+    {
+      "id": "arranque-de-botvinnik",
+      "title": {
+        "es": "Arranque del campeón",
+        "en": "The champion's fast start"
+      },
+      "text": {
+        "es": "Botvinnik ganó las partidas 1, 2 y 4, aunque varias veces salió de la apertura con peor posición. Tras seis partidas iba 4½–1½.",
+        "en": "Botvinnik won games 1, 2 and 4, even though he often came out of the opening with the worse position. After six games he led 4½–1½."
+      },
+      "round": 4
+    },
+    {
+      "id": "tres-seguidas",
+      "title": {
+        "es": "Tres victorias seguidas",
+        "en": "Three wins in a row"
+      },
+      "text": {
+        "es": "Smyslov ganó la séptima partida y luego la 9, la 10 y la 11. Con eso se puso adelante por primera vez, 6–5.",
+        "en": "Smyslov won game seven and then games 9, 10 and 11. That put him ahead for the first time, 6–5."
+      },
+      "round": 11
+    },
+    {
+      "id": "partida-en-television",
+      "title": {
+        "es": "La partida que se vio por televisión",
+        "en": "The game on television"
+      },
+      "text": {
+        "es": "La partida 12 fue la primera de un campeonato del mundo transmitida por televisión. Botvinnik la ganó y volvió a igualar el marcador.",
+        "en": "Game 12 was the first world championship game ever broadcast on television. Botvinnik won it and levelled the score again."
+      },
+      "round": 12
+    },
+    {
+      "id": "tablas-final",
+      "title": {
+        "es": "Tablas en la última",
+        "en": "A draw in the last game"
+      },
+      "text": {
+        "es": "Smyslov ganó la partida 23 y llegó a la última empatado 11½–11½, pero necesitaba ganar. En la 24 ofreció tablas en la jugada 22, la partida más corta del match, y Botvinnik retuvo el título.",
+        "en": "Smyslov won game 23 and reached the last game level at 11½–11½, but he needed a win. In game 24 he offered a draw on move 22, the shortest game of the match, and Botvinnik kept his title."
+      },
+      "round": 24
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El match se inauguró el 16 de marzo en la Sala de Conciertos Chaikovski, ante unos 2000 espectadores.",
+        "en": "The match opened on 16 March at the Tchaikovsky Concert Hall, in front of some 2,000 spectators."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1954",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1954"
+      }
+    },
+    {
+      "text": {
+        "es": "El público era tan ruidoso que a mitad del match se instaló en la sala un cartel de «Silencio, por favor».",
+        "en": "The crowds were so noisy that a \"Silence, please\" sign was put up in the hall halfway through the match."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1954",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1954"
+      }
+    },
+    {
+      "text": {
+        "es": "El interés era tal que Harry Golombek, de British Chess Magazine, contó que la fila para conseguir entradas medía media milla, unos 800 metros.",
+        "en": "Interest was so high that Harry Golombek of British Chess Magazine reported the queue for tickets was half a mile long."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1954",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1954"
+      }
+    },
+    {
+      "text": {
+        "es": "Cada jugador ganó siete partidas y hubo diez tablas.",
+        "en": "Each player won seven games and there were ten draws."
+      },
+      "source": {
+        "label": "Mark Weeks: 1954 Botvinnik - Smyslov",
+        "url": "https://www.mark-weeks.com/chess/5254$wix.htm"
+      }
+    }
+  ],
+  "photos": [
+    "smyslov-1954",
+    "euwe-botvinnik-1948",
+    "smyslov-1956"
+  ],
+  "videos": [
+    {
+      "youtubeId": "xZOr5WZO5B4",
+      "kind": "recap",
+      "title": {
+        "es": "Un sacrificio de dama en el match de 1954",
+        "en": "A queen sacrifice at the 1954 match"
+      },
+      "channel": "Sam Copeland",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1954",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1954"
+    },
+    {
+      "label": "Mark Weeks: 1954 Botvinnik - Smyslov",
+      "url": "https://www.mark-weeks.com/chess/5254$wix.htm"
+    }
+  ]
+}

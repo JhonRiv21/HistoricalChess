@@ -1,0 +1,429 @@
+{
+  "year": 1990,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "kasparov",
+      "name": "Garry Kasparov",
+      "short": "Kasparov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "kasparov",
+  "score": {
+    "karpov": 11.5,
+    "kasparov": 12.5
+  },
+  "site": {
+    "es": "Nueva York (Estados Unidos) y Lyon (Francia)",
+    "en": "New York (United States) and Lyon (France)"
+  },
+  "dates": {
+    "start": "1990-10-08",
+    "end": "1990-12-30"
+  },
+  "summary": {
+    "es": "El quinto y último match por el título entre Kasparov y Karpov se repartió entre Nueva York y Lyon. Tras una primera mitad muy pareja, Kasparov ganó las partidas 16, 18 y 20 y aseguró el título con un 12–10 después de la 22. Ganó 12½–11½ y cerró una rivalidad de 144 partidas por el campeonato del mundo.",
+    "en": "The fifth and last title match between Kasparov and Karpov was split between New York and Lyon. After a very even first half, Kasparov won games 16, 18 and 20 and secured the title at 12–10 after game 22. He won 12½–11½, closing a rivalry of 144 world championship games."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "E81",
+      "plies": 60,
+      "pgnRef": "WorldChamp1990.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "C92",
+      "plies": 87,
+      "pgnRef": "WorldChamp1990.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "E92",
+      "plies": 105,
+      "pgnRef": "WorldChamp1990.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C92",
+      "plies": 80,
+      "pgnRef": "WorldChamp1990.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "E94",
+      "plies": 71,
+      "pgnRef": "WorldChamp1990.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C92",
+      "plies": 82,
+      "pgnRef": "WorldChamp1990.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "E94",
+      "plies": 87,
+      "pgnRef": "WorldChamp1990.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C92",
+      "plies": 167,
+      "pgnRef": "WorldChamp1990.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D85",
+      "plies": 67,
+      "pgnRef": "WorldChamp1990.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C43",
+      "plies": 35,
+      "pgnRef": "WorldChamp1990.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "E92",
+      "plies": 48,
+      "pgnRef": "WorldChamp1990.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C92",
+      "plies": 73,
+      "pgnRef": "WorldChamp1990.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D85",
+      "plies": 83,
+      "pgnRef": "WorldChamp1990.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C45",
+      "plies": 80,
+      "pgnRef": "WorldChamp1990.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D85",
+      "plies": 66,
+      "pgnRef": "WorldChamp1990.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "C45",
+      "plies": 203,
+      "pgnRef": "WorldChamp1990.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "D85",
+      "plies": 79,
+      "pgnRef": "WorldChamp1990.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "C92",
+      "plies": 113,
+      "pgnRef": "WorldChamp1990.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "E92",
+      "plies": 78,
+      "pgnRef": "WorldChamp1990.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "C92",
+      "plies": 81,
+      "pgnRef": "WorldChamp1990.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "E87",
+      "plies": 172,
+      "pgnRef": "WorldChamp1990.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C92",
+      "plies": 85,
+      "pgnRef": "WorldChamp1990.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "E87",
+      "plies": 57,
+      "pgnRef": "WorldChamp1990.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "A17",
+      "plies": 71,
+      "pgnRef": "WorldChamp1990.pgn#23"
+    }
+  ],
+  "featuredRounds": [
+    16,
+    20
+  ],
+  "moments": [
+    {
+      "id": "la-bandera-rusa",
+      "title": {
+        "es": "La bandera rusa",
+        "en": "The Russian flag"
+      },
+      "text": {
+        "es": "Aunque seguía siendo ciudadano soviético, Kasparov se negó a jugar bajo la bandera de la URSS y quiso usar la tricolor rusa, en apoyo a Boris Yeltsin. Karpov protestó.",
+        "en": "Although still a Soviet citizen, Kasparov refused to play under the USSR flag and wanted the Russian tricolour instead, in support of Boris Yeltsin. Karpov protested."
+      }
+    },
+    {
+      "id": "102-jugadas",
+      "title": {
+        "es": "Una partida de 102 jugadas",
+        "en": "A 102-move game"
+      },
+      "text": {
+        "es": "La partida 16 rompió una larga racha de tablas. Se aplazó dos veces; el equipo de Kasparov encontró la victoria antes de reanudarla y Karpov abandonó en la jugada 102.",
+        "en": "Game 16 broke a long run of draws. It was adjourned twice; Kasparov's team found the win before resumption and Karpov resigned on move 102."
+      },
+      "round": 16,
+      "ply": 203
+    },
+    {
+      "id": "ataque-espectacular",
+      "title": {
+        "es": "Un ataque espectacular",
+        "en": "A spectacular attack"
+      },
+      "text": {
+        "es": "En la partida 20, Kasparov sacrificó un peón y luego un alfil, y con todas sus piezas apuntando al rey de Karpov ganó con un ataque espectacular. Se puso 11–9.",
+        "en": "In game 20 Kasparov sacrificed a pawn and then a bishop, and with all his pieces aimed at Karpov's king he won with a spectacular attack. He led 11–9."
+      },
+      "round": 20
+    },
+    {
+      "id": "jaque-perpetuo",
+      "title": {
+        "es": "Un jaque perpetuo para el título",
+        "en": "Perpetual check for the title"
+      },
+      "text": {
+        "es": "En la partida 22, Kasparov forzó un jaque perpetuo y se aseguró la corona por otros tres años.",
+        "en": "In game 22 Kasparov forced perpetual check and made sure of the crown for another three years."
+      },
+      "round": 22
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Kasparov llegó al match con 2800 de Elo, un récord en ese momento.",
+        "en": "Kasparov came into the match rated 2800, a record at the time."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1990",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1990"
+      }
+    },
+    {
+      "text": {
+        "es": "Karpov propuso que, si el match terminaba 12–12, siguieran jugando hasta la primera partida decisiva; Kasparov no aceptó.",
+        "en": "Karpov proposed that, if the match ended 12–12, they play on until the first decisive game; Kasparov declined."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1990",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1990"
+      }
+    },
+    {
+      "text": {
+        "es": "En Nueva York se jugó en el Hudson Theater, de 750 butacas, y las jugadas se mostraban en un tablero electrónico de unos 4,5 metros.",
+        "en": "In New York it was played in the 750-seat Hudson Theater, with moves shown on a 15-foot electronic demonstration board."
+      },
+      "source": {
+        "label": "Mark Weeks: 1990 Kasparov - Karpov Highlights",
+        "url": "https://www.mark-weeks.com/chess/90kk$$.htm"
+      }
+    },
+    {
+      "text": {
+        "es": "La bolsa fue de 3 millones de dólares, con cinco octavos para el ganador.",
+        "en": "The prize fund was 3 million US dollars, with five-eighths going to the winner."
+      },
+      "source": {
+        "label": "Mark Weeks: 1990 Kasparov - Karpov Highlights",
+        "url": "https://www.mark-weeks.com/chess/90kk$$.htm"
+      }
+    }
+  ],
+  "photos": [
+    "kasparov-karpov-1988",
+    "kasparov-karpov-1988-handshake",
+    "kasparov-1988-optiebeurs",
+    "karpov-1993",
+    "kasparov-1993"
+  ],
+  "videos": [
+    {
+      "youtubeId": "4b_8Or7m4MQ",
+      "kind": "recap",
+      "title": {
+        "es": "Kasparov contra Karpov, 1990: partida 20",
+        "en": "Kasparov vs. Karpov, 1990: game 20"
+      },
+      "channel": "Saint Louis Chess Club",
+      "round": 20,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "IpUqswVTutE",
+      "kind": "documentary",
+      "title": {
+        "es": "Documental del match de Lyon, 1990 (subtitulado)",
+        "en": "Documentary on the 1990 Lyon match (Spanish subtitles)"
+      },
+      "channel": "keelasever",
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1990",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1990"
+    },
+    {
+      "label": "Mark Weeks: 1990 Kasparov - Karpov",
+      "url": "https://www.mark-weeks.com/chess/8890$wix.htm"
+    },
+    {
+      "label": "Mark Weeks: 1990 Kasparov - Karpov Highlights",
+      "url": "https://www.mark-weeks.com/chess/90kk$$.htm"
+    }
+  ]
+}

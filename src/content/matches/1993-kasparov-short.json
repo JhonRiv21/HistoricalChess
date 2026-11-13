@@ -1,0 +1,370 @@
+{
+  "year": 1993,
+  "kind": "match",
+  "era": "split",
+  "title": "pca",
+  "players": [
+    {
+      "id": "kasparov",
+      "name": "Garry Kasparov",
+      "short": "Kasparov",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "short",
+      "name": "Nigel Short",
+      "short": "Short",
+      "country": {
+        "es": "Inglaterra",
+        "en": "England"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "kasparov",
+  "score": {
+    "kasparov": 12.5,
+    "short": 7.5
+  },
+  "site": {
+    "es": "Londres, Inglaterra",
+    "en": "London, England"
+  },
+  "dates": {
+    "start": "1993-09-07",
+    "end": "1993-10-21"
+  },
+  "summary": {
+    "es": "Kasparov y su retador, Nigel Short, rompieron con la FIDE y jugaron el match en Londres bajo una organización nueva, la Asociación de Ajedrez Profesional (PCA). Kasparov ganó tres de las primeras cuatro partidas y se impuso 12½–7½ tras 20 de las 24 previstas. La FIDE respondió quitándole el título, y desde entonces hubo dos campeones mundiales rivales hasta 2006.",
+    "en": "Kasparov and his challenger, Nigel Short, broke away from FIDE and played their match in London under a new body, the Professional Chess Association (PCA). Kasparov won three of the first four games and took the match 12½–7½ after 20 of the 24 scheduled games. FIDE responded by stripping him of the title, and the chess world had two rival champions until 2006."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1-0",
+      "date": "1993-09-07",
+      "eco": "C88",
+      "plies": 78,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1993-09-09",
+      "eco": "B67",
+      "plies": 101,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1-0",
+      "date": "1993-09-11",
+      "eco": "C88",
+      "plies": 117,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "0-1",
+      "date": "1993-09-14",
+      "eco": "B97",
+      "plies": 80,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1/2-1/2",
+      "date": "1993-09-16",
+      "eco": "E35",
+      "plies": 35,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1993-09-18",
+      "eco": "B90",
+      "plies": 62,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1-0",
+      "date": "1993-09-21",
+      "eco": "C88",
+      "plies": 71,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1993-09-23",
+      "eco": "B90",
+      "plies": 82,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1-0",
+      "date": "1993-09-25",
+      "eco": "E35",
+      "plies": 103,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1993-09-28",
+      "eco": "B90",
+      "plies": 86,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1/2-1/2",
+      "date": "1993-09-30",
+      "eco": "C45",
+      "plies": 100,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1993-10-02",
+      "eco": "B90",
+      "plies": 80,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1/2-1/2",
+      "date": "1993-10-05",
+      "eco": "D19",
+      "plies": 67,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1993-10-07",
+      "eco": "B90",
+      "plies": 78,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1-0",
+      "date": "1993-10-09",
+      "eco": "D35",
+      "plies": 77,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "1-0",
+      "date": "1993-10-12",
+      "eco": "B87",
+      "plies": 75,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1/2-1/2",
+      "date": "1993-10-14",
+      "eco": "C45",
+      "plies": 81,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1993-10-16",
+      "eco": "B87",
+      "plies": 66,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "short",
+      "result": "1/2-1/2",
+      "date": "1993-10-19",
+      "eco": "C73",
+      "plies": 51,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "short",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1993-10-21",
+      "eco": "B87",
+      "plies": 71,
+      "pgnRef": "extra/Kasparov-Short-1993.pgn#19"
+    }
+  ],
+  "featuredRounds": [
+    1,
+    16
+  ],
+  "moments": [
+    {
+      "id": "arranque",
+      "round": 4,
+      "title": {
+        "es": "Un arranque fulminante",
+        "en": "A blistering start"
+      },
+      "text": {
+        "es": "Kasparov ganó las partidas 1, 3 y 4. Tras solo cuatro rondas mandaba 3½–½ y el match quedó prácticamente encaminado.",
+        "en": "Kasparov won games 1, 3 and 4. After only four rounds he led 3½–½, and the match was all but settled."
+      }
+    },
+    {
+      "id": "victoria-short",
+      "round": 16,
+      "title": {
+        "es": "La única victoria de Short",
+        "en": "Short's only win"
+      },
+      "text": {
+        "es": "En la partida 16, con blancas, Short por fin le ganó una partida al campeón. Fue su único triunfo en todo el match.",
+        "en": "In game 16, playing White, Short finally beat the champion. It was his only win of the whole match."
+      }
+    },
+    {
+      "id": "exhibiciones",
+      "title": {
+        "es": "Exhibiciones para llenar el calendario",
+        "en": "Exhibition games to fill the schedule"
+      },
+      "text": {
+        "es": "Como el match terminó antes de lo previsto, los dos jugadores llenaron los días que quedaban con siete partidas de exhibición. Kasparov también las ganó, 5–2.",
+        "en": "Because the match ended early, the two players filled the remaining days with seven exhibition games. Kasparov won those too, 5–2."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Kasparov y Short acusaron a la FIDE de corrupción y falta de profesionalismo, y fundaron la PCA para organizar el match por su cuenta.",
+        "en": "Kasparov and Short accused FIDE of corruption and a lack of professionalism, and founded the PCA to run the match themselves."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1993"
+      }
+    },
+    {
+      "text": {
+        "es": "El organizador, Raymond Keene, llevó el match a Londres; la FIDE lo había planeado en Mánchester.",
+        "en": "Organizer Raymond Keene brought the match to London; FIDE had planned to hold it in Manchester."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1993"
+      }
+    },
+    {
+      "text": {
+        "es": "El canal británico Channel 4 emitió unos 81 programas sobre el match, y Short llegó a aparecer en comerciales de cerveza en televisión.",
+        "en": "Britain's Channel 4 broadcast some 81 programmes on the match, and Short even appeared in TV beer commercials."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1993"
+      }
+    },
+    {
+      "text": {
+        "es": "En respuesta, la FIDE despojó a Kasparov del título y sacó a ambos jugadores de sus listas de rating.",
+        "en": "In response, FIDE stripped Kasparov of his title and removed both players from its rating lists."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1993"
+      }
+    }
+  ],
+  "photos": [
+    "kasparov-1993",
+    "short-timman-1989",
+    "short-1986"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1993"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/9193pwix.htm"
+    },
+    {
+      "label": "Lichess – Kasparov vs. Short 1993 (PGN)",
+      "url": "https://lichess.org/study/HdrEkPSF"
+    }
+  ]
+}

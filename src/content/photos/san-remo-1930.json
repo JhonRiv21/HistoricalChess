@@ -1,0 +1,20 @@
+{
+  "file": "san-remo-1930.jpg",
+  "caption": {
+    "es": "Participantes del torneo de San Remo 1930, entre ellos Bogoljubov y Alekhine.",
+    "en": "Participants of the San Remo 1930 tournament, including Bogoljubov and Alekhine."
+  },
+  "alt": {
+    "es": "Fotografía de grupo de hombres elegantes de pie sobre unas escaleras, con una leyenda impresa.",
+    "en": "Group photograph of well-dressed men standing on steps, printed with a caption."
+  },
+  "author": "Unknown author",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Remo_1930_Chess_Turnier.jpg",
+  "focus": "50% 45%",
+  "people": [
+    "alekhine",
+    "bogoljubov"
+  ],
+  "year": 1930
+}

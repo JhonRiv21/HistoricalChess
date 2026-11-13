@@ -1,0 +1,20 @@
+{
+  "file": "lasker-steinitz-1894-philadelphia.jpg",
+  "caption": {
+    "es": "Emanuel Lasker y Wilhelm Steinitz ante el tablero durante su match de 1894, en una fotografía rotulada Filadelfia.",
+    "en": "Emanuel Lasker and Wilhelm Steinitz at the board during their 1894 match, in a photograph labeled Philadelphia."
+  },
+  "alt": {
+    "es": "Dos hombres sentados a ambos lados de una mesa de ajedrez en una sala sencilla.",
+    "en": "Two men seated at either side of a chess table in a bare room."
+  },
+  "author": "Unknown author",
+  "license": "Public domain",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lasker_v._Steinitz,_Philadelphia_1894_-_DPLA_-_73af88bcf081f1869cb65ba48577e95a.jpg",
+  "focus": "50% 45%",
+  "people": [
+    "lasker",
+    "steinitz"
+  ],
+  "year": 1894
+}

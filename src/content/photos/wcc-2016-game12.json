@@ -1,0 +1,20 @@
+{
+  "file": "wcc-2016-game12.jpg",
+  "caption": {
+    "es": "Magnus Carlsen y Sergey Karjakin al inicio de la partida 12 del campeonato mundial de 2016 en Nueva York.",
+    "en": "Magnus Carlsen and Sergey Karjakin at the start of game 12 of the 2016 world championship in New York."
+  },
+  "alt": {
+    "es": "Karjakin saludando a una oficial mientras Carlsen espera ante el tablero.",
+    "en": "Karjakin shaking hands with an official while Carlsen waits at the board."
+  },
+  "author": "Vladimir Barsky / ruchess.ru",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Chess_Championship_2016_Game_12_-_2.jpg",
+  "focus": "55% 50%",
+  "people": [
+    "carlsen",
+    "karjakin"
+  ],
+  "year": 2016
+}

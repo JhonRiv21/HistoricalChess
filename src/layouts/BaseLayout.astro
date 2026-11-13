@@ -1,0 +1,86 @@
+---
+// Page shell: head, reading-preferences bootstrap, header with accessibility panel, footer.
+import '../styles/tokens.css';
+import '../styles/base.css';
+import '../styles/components.css';
+import '../styles/a11y-panel.css';
+import '../styles/site.css';
+import A11yPanel from '../components/A11yPanel.svelte';
+import { t, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description: string;
+  /** Same page in the other language, for the switch and hreflang. */
+  altPath: string;
+  image?: string;
+}
+
+const { lang, title, description, altPath, image } = Astro.props;
+const other: Lang = lang === 'es' ? 'en' : 'es';
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const alternate = new URL(altPath, Astro.site);
+const pageTitle = title === t(lang, 'site.name') ? title : `${title} | ${t(lang, 'site.name')}`;
+---
+
+<!doctype html>
+<html lang={lang} data-mode="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang={lang} href={canonical} />
+    <link rel="alternate" hreflang={other} href={alternate} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content={lang === 'es' ? 'es_419' : 'en_US'} />
+    {image && <meta property="og:image" content={new URL(image, Astro.site)} />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" />
+    <script is:inline>
+      // Apply saved reading preferences before first paint (same keys as src/lib/settings.svelte.ts).
+      try {
+        const s = JSON.parse(localStorage.getItem('historical-chess.reading') || '{}');
+        const root = document.documentElement;
+        const mode = s.mode === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : s.mode || 'dark';
+        root.dataset.mode = mode;
+        root.dataset.contrast = s.contrast || 'normal';
+        root.dataset.board = s.board || 'green';
+        root.dataset.spacing = s.spacing || 'normal';
+        root.dataset.motion = s.motion || 'normal';
+        if (s.scale) root.style.setProperty('--text-scale', String(s.scale));
+      } catch (error) {
+        console.warn('Reading preferences unavailable', error);
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{t(lang, 'skip')}</a>
+    <header class="site-head">
+      <a class="wordmark" href={`/${lang}/`}>{t(lang, 'site.name')}</a>
+      <div class="site-tools">
+        <nav class="site-nav" aria-label={t(lang, 'nav.championships')}>
+          <a href={`/${lang}/#timeline`}>{t(lang, 'nav.championships')}</a>
+          <a href={`/${lang}/${lang === 'es' ? 'sobre' : 'about'}/`}>{t(lang, 'nav.about')}</a>
+          <a class="lang-switch" href={altPath} hreflang={other} lang={other} aria-label={t(lang, 'nav.languageLabel')}>{t(lang, 'nav.language')}</a>
+        </nav>
+        <A11yPanel client:idle {lang} />
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-foot">
+      <p>{t(lang, 'footer.credits')}</p>
+      <nav aria-label={t(lang, 'nav.about')}>
+        <a href={`/${lang}/${lang === 'es' ? 'sobre' : 'about'}/`}>{t(lang, 'nav.about')}</a>
+      </nav>
+    </footer>
+  </body>
+</html>

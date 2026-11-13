@@ -1,0 +1,20 @@
+{
+  "file": "kasparov-karpov-1988-handshake.jpg",
+  "caption": {
+    "es": "Garry Kasparov y Anatoly Karpov dándose la mano antes de una partida en el torneo Optiebeurs en Ámsterdam, mayo de 1988.",
+    "en": "Garry Kasparov and Anatoly Karpov shaking hands before a game at the Optiebeurs tournament in Amsterdam, May 1988."
+  },
+  "alt": {
+    "es": "Dos jugadores dándose la mano sobre una mesa en un gran salón.",
+    "en": "Two players shaking hands across a table in a large hall."
+  },
+  "author": "Rob Bogaerts for Anefo (Nationaal Archief)",
+  "license": "CC0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schaakvierkamp_Optiebeurs_Amsterdam_Kasparov_tegen_Karpov_(links),_Bestanddeelnr_934-2551.jpg",
+  "focus": "50% 50%",
+  "people": [
+    "kasparov",
+    "karpov"
+  ],
+  "year": 1988
+}

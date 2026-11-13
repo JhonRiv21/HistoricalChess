@@ -1,0 +1,439 @@
+{
+  "year": 1985,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "kasparov",
+      "name": "Garry Kasparov",
+      "short": "Kasparov",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "kasparov",
+  "score": {
+    "kasparov": 13,
+    "karpov": 11
+  },
+  "site": {
+    "es": "Sala de Conciertos Chaikovski, Moscú, URSS",
+    "en": "Tchaikovsky Concert Hall, Moscow, Soviet Union"
+  },
+  "dates": {
+    "start": "1985-09-03",
+    "end": "1985-11-09"
+  },
+  "summary": {
+    "es": "Siete meses después del match suspendido, Karpov y Kasparov empezaron de cero, esta vez a 24 partidas y con el título para el campeón en caso de empate. Kasparov ganó la primera, Karpov se puso adelante y Kasparov tomó el control con una obra maestra con negras en la partida 16. Ganó 13–11 en la última partida y, con 22 años, se convirtió en el campeón más joven de la historia hasta entonces.",
+    "en": "Seven months after the aborted match, Karpov and Kasparov started from scratch, this time over 24 games with the champion keeping the title on a tie. Kasparov won the first game, Karpov went ahead, and Kasparov took control with a masterpiece as Black in game 16. He won 13–11 in the final game and, at 22, became the youngest champion in history up to then."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "E20",
+      "plies": 83,
+      "pgnRef": "WorldChamp1985.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "B85",
+      "plies": 129,
+      "pgnRef": "WorldChamp1985.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D55",
+      "plies": 40,
+      "pgnRef": "WorldChamp1985.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "D55",
+      "plies": 125,
+      "pgnRef": "WorldChamp1985.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "0-1",
+      "eco": "C92",
+      "plies": 82,
+      "pgnRef": "WorldChamp1985.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D55",
+      "plies": 54,
+      "pgnRef": "WorldChamp1985.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E32",
+      "plies": 62,
+      "pgnRef": "WorldChamp1985.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D58",
+      "plies": 98,
+      "pgnRef": "WorldChamp1985.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C92",
+      "plies": 105,
+      "pgnRef": "WorldChamp1985.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "B85",
+      "plies": 73,
+      "pgnRef": "WorldChamp1985.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "E21",
+      "plies": 49,
+      "pgnRef": "WorldChamp1985.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "B44",
+      "plies": 36,
+      "pgnRef": "WorldChamp1985.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E20",
+      "plies": 48,
+      "pgnRef": "WorldChamp1985.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "B54",
+      "plies": 64,
+      "pgnRef": "WorldChamp1985.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "C42",
+      "plies": 44,
+      "pgnRef": "WorldChamp1985.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "0-1",
+      "eco": "B44",
+      "plies": 80,
+      "pgnRef": "WorldChamp1985.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "E20",
+      "plies": 57,
+      "pgnRef": "WorldChamp1985.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "B85",
+      "plies": 45,
+      "pgnRef": "WorldChamp1985.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1-0",
+      "eco": "E21",
+      "plies": 83,
+      "pgnRef": "WorldChamp1985.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "eco": "D35",
+      "plies": 170,
+      "pgnRef": "WorldChamp1985.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D31",
+      "plies": 88,
+      "pgnRef": "WorldChamp1985.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "1-0",
+      "eco": "D35",
+      "plies": 83,
+      "pgnRef": "WorldChamp1985.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "eco": "D55",
+      "plies": 81,
+      "pgnRef": "WorldChamp1985.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kasparov",
+      "result": "0-1",
+      "eco": "B85",
+      "plies": 84,
+      "pgnRef": "WorldChamp1985.pgn#23"
+    }
+  ],
+  "featuredRounds": [
+    16,
+    24
+  ],
+  "moments": [
+    {
+      "id": "karpov-aturdido",
+      "title": {
+        "es": "Karpov «aturdido»",
+        "en": "Karpov \"stunned\""
+      },
+      "text": {
+        "es": "Según Kasparov, su apertura en la primera partida «aturdió» a Karpov, que tardó 50 minutos en hacer sus cinco primeras jugadas. Kasparov ganó en 42 jugadas.",
+        "en": "According to Kasparov, his opening in game one \"stunned\" Karpov, who took 50 minutes over his first five moves. Kasparov won in 42 moves."
+      },
+      "round": 1
+    },
+    {
+      "id": "vuelta-de-karpov",
+      "title": {
+        "es": "Karpov da el golpe",
+        "en": "Karpov hits back"
+      },
+      "text": {
+        "es": "Karpov ganó las partidas 4 y 5 y pasó de ir un punto abajo a ir un punto arriba en solo tres días.",
+        "en": "Karpov won games 4 and 5, going from a point down to a point up in just three days."
+      },
+      "round": 5
+    },
+    {
+      "id": "caballo-en-d3",
+      "title": {
+        "es": "El caballo de d3",
+        "en": "The knight on d3"
+      },
+      "text": {
+        "es": "En la partida 16, Kasparov clavó un caballo en d3, en el corazón de la posición blanca, y allí lo dejó hasta la jugada 34, cuando Karpov entregó la dama para eliminarlo. Kasparov ganó con negras y se puso adelante.",
+        "en": "In game 16 Kasparov planted a knight on d3, deep in White's position, and left it there until move 34, when Karpov gave up his queen to remove it. Kasparov won with Black and took the lead."
+      },
+      "round": 16,
+      "ply": 32
+    },
+    {
+      "id": "la-ultima-partida",
+      "title": {
+        "es": "Todo en la última",
+        "en": "All on the last game"
+      },
+      "text": {
+        "es": "Karpov llegó a la partida 24 obligado a ganar con blancas para retener el título y atacó al rey de Kasparov. Kasparov sacrificó dos peones para contraatacar, Karpov se equivocó en la jugada 36 y abandonó poco después.",
+        "en": "Karpov reached game 24 needing to win with White to keep the title, and attacked Kasparov's king. Kasparov gave up two pawns to counterattack, Karpov erred on move 36 and resigned shortly after."
+      },
+      "round": 24
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Kasparov prefería jugar en Leningrado y hubo ofertas de Londres y Marsella, pero la FIDE eligió la Sala de Conciertos Chaikovski de Moscú.",
+        "en": "Kasparov's preferred venue was Leningrad and there were bids from London and Marseille, but FIDE chose Moscow's Tchaikovsky Concert Hall."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1985",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1985"
+      }
+    },
+    {
+      "text": {
+        "es": "Los lectores de Chess Informant eligieron la partida 16 como la mejor de los primeros 64 números de la revista.",
+        "en": "Chess Informant readers voted game 16 the best game of the first 64 issues."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1985",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1985"
+      }
+    },
+    {
+      "text": {
+        "es": "Al empezar el match, Karpov tenía 2720 de Elo y Kasparov 2700; Karpov, de 34 años, era 12 años mayor.",
+        "en": "At the start of the match Karpov was rated 2720 and Kasparov 2700; Karpov, at 34, was 12 years older."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1985",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1985"
+      }
+    },
+    {
+      "text": {
+        "es": "Como Karpov iba adelante cuando se suspendió el match de 1984, se le concedió el derecho a una revancha automática si perdía.",
+        "en": "Because Karpov had been leading when the 1984 match was stopped, he was granted an automatic rematch if he lost."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1985",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1985"
+      }
+    }
+  ],
+  "photos": [
+    "kasparov-1985",
+    "karpov-1986-interpolis",
+    "kasparov-timman-karpov-1988"
+  ],
+  "videos": [
+    {
+      "youtubeId": "_FNhqKtDtLw",
+      "kind": "recap",
+      "title": {
+        "es": "El pulpo original: Karpov-Kasparov, partida 16 (1985)",
+        "en": "The original octopus: Karpov-Kasparov, game 16 (1985)"
+      },
+      "channel": "PowerPlayChess",
+      "round": 16,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "fxmoMWX4sCM",
+      "kind": "documentary",
+      "title": {
+        "es": "Documental: Kasparov se corona campeón del mundo (1985)",
+        "en": "Documentary: Kasparov becomes world champion (1985)"
+      },
+      "channel": "Chess Romantic",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "eBRc3ulA7Io",
+      "kind": "recap",
+      "title": {
+        "es": "Campeonato del mundo de 1985: clase de Ben Finegold",
+        "en": "1985 world championship: lecture by Ben Finegold"
+      },
+      "channel": "GMBenjaminFinegold",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1985",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1985"
+    },
+    {
+      "label": "Mark Weeks: 1985 Kasparov - Karpov",
+      "url": "https://www.mark-weeks.com/chess/82842wix.htm"
+    },
+    {
+      "label": "Mark Weeks: 1985 Kasparov - Karpov Highlights",
+      "url": "https://www.mark-weeks.com/chess/85kk$$.htm"
+    }
+  ]
+}

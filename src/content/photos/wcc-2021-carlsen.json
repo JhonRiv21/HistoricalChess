@@ -1,0 +1,19 @@
+{
+  "file": "wcc-2021-carlsen.jpg",
+  "caption": {
+    "es": "Magnus Carlsen en la partida 7 del campeonato mundial de 2021 en Dubái, 4 de diciembre de 2021.",
+    "en": "Magnus Carlsen in game 7 of the 2021 world championship in Dubai, 4 December 2021."
+  },
+  "alt": {
+    "es": "Carlsen con barba mirando el tablero, con la bandera noruega al frente.",
+    "en": "Carlsen with a beard looking at the board, with the Norwegian flag in front."
+  },
+  "author": "Eteri Kublashvili / ruchess.ru",
+  "license": "CC BY-SA 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Chess_Championship_2021,_game_07,_Magnus_Carlsen.jpg",
+  "focus": "55% 45%",
+  "people": [
+    "carlsen"
+  ],
+  "year": 2021
+}

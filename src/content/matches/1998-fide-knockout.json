@@ -1,0 +1,154 @@
+{
+  "year": 1998,
+  "kind": "knockout",
+  "era": "split",
+  "title": "fide",
+  "players": [
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "short": "Anand",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "karpov",
+  "score": {
+    "karpov": 3,
+    "anand": 3
+  },
+  "tiebreak": {
+    "karpov": 2,
+    "anand": 0
+  },
+  "site": {
+    "es": "Groninga (Países Bajos) y Lausana (Suiza)",
+    "en": "Groningen (Netherlands) and Lausanne (Switzerland)"
+  },
+  "dates": {
+    "start": "1997-12-09",
+    "end": "1998-01-09"
+  },
+  "summary": {
+    "es": "En 1997 la FIDE cambió por completo su campeonato: un torneo por eliminación directa en Groninga, con casi cien jugadores y minimatches cortos, cuyo ganador enfrentaría al campeón. Anand ganó el torneo y, apenas tres días después, jugó en Lausana contra Karpov, que entraba directo a la final. Empataron 3–3 en partidas lentas y Karpov ganó las dos rápidas para retener el título de la FIDE.",
+    "en": "In 1997 FIDE completely changed its championship: a knockout event in Groningen with nearly a hundred players and short mini-matches, whose winner would face the champion. Anand won the event and, just three days later, played Karpov in Lausanne, who had been seeded straight into the final. They drew 3–3 in classical games, and Karpov won both rapid games to keep the FIDE title."
+  },
+  "note": {
+    "es": "Entre 1998 y 2004 la FIDE coronó a sus campeones con torneos por eliminación directa: Karpov (1998, que retuvo el título en la final ante Anand), Khalifman (1999), Anand (2000), Ponomariov (2002) y Kasimdzhanov (2004). En paralelo, el linaje clásico del título siguió con matches: Kasparov–Kramnik (2000) y Kramnik–Leko (2004). Este sitio cubre en detalle los matches de ese linaje; esta ficha resume el sistema de la FIDE y no incluye partidas.",
+    "en": "From 1998 to 2004 FIDE crowned its champions through knockout events: Karpov (1998, who kept the title in the final against Anand), Khalifman (1999), Anand (2000), Ponomariov (2002) and Kasimdzhanov (2004). Meanwhile the classical line of the title carried on through matches: Kasparov–Kramnik (2000) and Kramnik–Leko (2004). This site covers the lineage matches in detail; this entry sums up the FIDE system and includes no games."
+  },
+  "games": [],
+  "featuredRounds": [],
+  "moments": [
+    {
+      "id": "groninga",
+      "title": {
+        "es": "Anand gana en Groninga",
+        "en": "Anand wins in Groningen"
+      },
+      "text": {
+        "es": "Anand superó todas las rondas del torneo por eliminación y venció a Michael Adams en la última, lo que le dio el derecho a enfrentar a Karpov.",
+        "en": "Anand came through every knockout round and beat Michael Adams in the last one, earning the right to face Karpov."
+      }
+    },
+    {
+      "id": "lausana",
+      "title": {
+        "es": "Desempate en Lausana",
+        "en": "Playoff in Lausanne"
+      },
+      "text": {
+        "es": "El match final de seis partidas terminó 3–3. El 9 de enero de 1998 se jugaron dos partidas rápidas y Karpov ganó ambas.",
+        "en": "The six-game final ended 3–3. Two rapid games were played on 9 January 1998, and Karpov won both."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "La idea original era sembrar a Karpov y a Kasparov en las semifinales para unificar el título, pero Kasparov rechazó la invitación y Karpov pasó directo a la final.",
+        "en": "The original plan was to seed Karpov and Kasparov into the semifinals to reunify the title, but Kasparov declined and Karpov was seeded straight into the final."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1998"
+      }
+    },
+    {
+      "text": {
+        "es": "Vladímir Kramnik se negó a jugar en protesta porque la final contra Karpov se jugaría justo después del torneo.",
+        "en": "Vladimir Kramnik refused to play, protesting that the final against Karpov came right after the tournament."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1998"
+      }
+    },
+    {
+      "text": {
+        "es": "El calendario fue muy criticado: Anand tuvo que enfrentar a un Karpov descansado solo tres días después de un torneo agotador.",
+        "en": "The schedule drew heavy criticism: Anand had to face a well-rested Karpov just three days after an exhausting tournament."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1998"
+      }
+    },
+    {
+      "text": {
+        "es": "El formato por eliminación ya se había usado en torneos como Tilburg (1992–94), pero nunca para decidir un título mundial.",
+        "en": "The knockout format had been used before, in events such as Tilburg 1992–94, but never to decide a world title."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1998"
+      }
+    },
+    {
+      "text": {
+        "es": "Alexander Khalifman, ganador en 1999, era el número 44 del ranking mundial cuando se coronó.",
+        "en": "Alexander Khalifman, the 1999 winner, was ranked 44th in the world when he took the title."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championships_(1998–2004)"
+      }
+    }
+  ],
+  "photos": [
+    "karpov-1993",
+    "anand-1992"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1998"
+    },
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championships_(1998–2004)"
+    },
+    {
+      "label": "Mark Weeks – Groningen 1997",
+      "url": "https://www.mark-weeks.com/chess/9798$cix.htm"
+    },
+    {
+      "label": "Mark Weeks – Karpov–Anand 1998",
+      "url": "https://www.mark-weeks.com/chess/9798$wix.htm"
+    }
+  ]
+}

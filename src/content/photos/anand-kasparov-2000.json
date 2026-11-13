@@ -1,0 +1,20 @@
+{
+  "file": "anand-kasparov-2000.jpg",
+  "caption": {
+    "es": "Viswanathan Anand y Garry Kasparov en el Chess Classic de Fráncfort, 24 de junio de 2000.",
+    "en": "Viswanathan Anand and Garry Kasparov at the Chess Classic in Frankfurt, 24 June 2000."
+  },
+  "alt": {
+    "es": "Anand y Kasparov, ambos con la cabeza apoyada en la mano, con sus nombres sobre la mesa.",
+    "en": "Anand and Kasparov, both resting their heads on their hands, with their names on the table."
+  },
+  "author": "GFHund",
+  "license": "CC BY 3.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anand-Kasparov_2000-06-24_Frankfurt.jpg",
+  "focus": "50% 40%",
+  "people": [
+    "anand",
+    "kasparov"
+  ],
+  "year": 2000
+}

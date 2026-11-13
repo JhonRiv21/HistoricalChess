@@ -1,0 +1,459 @@
+{
+  "year": 1937,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "euwe",
+      "name": "Max Euwe",
+      "short": "Euwe",
+      "country": {
+        "es": "Países Bajos",
+        "en": "Netherlands"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "alekhine",
+      "name": "Alexander Alekhine",
+      "short": "Alekhine",
+      "country": {
+        "es": "Rusia / Francia",
+        "en": "Russia / France"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "alekhine",
+  "score": {
+    "euwe": 9.5,
+    "alekhine": 15.5
+  },
+  "retainedOnTie": true,
+  "site": {
+    "es": "Países Bajos",
+    "en": "Netherlands"
+  },
+  "dates": {
+    "start": "1937-10-05",
+    "end": "1937-12-04"
+  },
+  "summary": {
+    "es": "Alekhine ejerció su derecho a la revancha y volvió a enfrentar a Euwe en Países Bajos. Euwe empezó mejor, pero Alekhine sumó 4½ puntos en cinco partidas, resistió la reacción del campeón y cerró con otra racha igual para ganar 15½ a 9½ y recuperar el título. Fue el último campeonato del mundo antes de la Segunda Guerra Mundial.",
+    "en": "Alekhine used his right to a rematch and faced Euwe again in the Netherlands. Euwe started better, but Alekhine scored 4½ points in five games, withstood the champion's fightback and closed with another such run to win 15½–9½ and regain the title. It was the last world championship before the Second World War."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1937-10-05",
+      "eco": "D17",
+      "plies": 99,
+      "pgnRef": "WorldChamp1937.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1937-10-07",
+      "eco": "D17",
+      "plies": 81,
+      "pgnRef": "WorldChamp1937.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1937-10-10",
+      "eco": "D46",
+      "plies": 120,
+      "pgnRef": "WorldChamp1937.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1937-10-12",
+      "eco": "D17",
+      "plies": 53,
+      "pgnRef": "WorldChamp1937.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1937-10-14",
+      "eco": "D28",
+      "plies": 81,
+      "pgnRef": "WorldChamp1937.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1937-10-16",
+      "eco": "D10",
+      "plies": 45,
+      "pgnRef": "WorldChamp1937.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1937-10-19",
+      "eco": "D18",
+      "plies": 68,
+      "pgnRef": "WorldChamp1937.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1937-10-21",
+      "eco": "E34",
+      "plies": 51,
+      "pgnRef": "WorldChamp1937.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1937-10-24",
+      "eco": "D18",
+      "plies": 81,
+      "pgnRef": "WorldChamp1937.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1937-10-26",
+      "eco": "E34",
+      "plies": 79,
+      "pgnRef": "WorldChamp1937.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1937-10-30",
+      "eco": "D17",
+      "plies": 60,
+      "pgnRef": "WorldChamp1937.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1937-11-01",
+      "eco": "E34",
+      "plies": 51,
+      "pgnRef": "WorldChamp1937.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1937-11-03",
+      "eco": "D18",
+      "plies": 135,
+      "pgnRef": "WorldChamp1937.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1937-11-06",
+      "eco": "E02",
+      "plies": 103,
+      "pgnRef": "WorldChamp1937.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1937-11-09",
+      "eco": "D19",
+      "plies": 123,
+      "pgnRef": "WorldChamp1937.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1937-11-11",
+      "eco": "E02",
+      "plies": 129,
+      "pgnRef": "WorldChamp1937.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1-0",
+      "date": "1937-11-14",
+      "eco": "D19",
+      "plies": 81,
+      "pgnRef": "WorldChamp1937.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1937-11-16",
+      "eco": "D41",
+      "plies": 101,
+      "pgnRef": "WorldChamp1937.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1937-11-20",
+      "eco": "E21",
+      "plies": 97,
+      "pgnRef": "WorldChamp1937.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1/2-1/2",
+      "date": "1937-11-23",
+      "eco": "E34",
+      "plies": 81,
+      "pgnRef": "WorldChamp1937.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1937-11-25",
+      "eco": "E18",
+      "plies": 64,
+      "pgnRef": "WorldChamp1937.pgn#20"
+    },
+    {
+      "round": 22,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1937-11-27",
+      "eco": "A09",
+      "plies": 123,
+      "pgnRef": "WorldChamp1937.pgn#21"
+    },
+    {
+      "round": 23,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "1/2-1/2",
+      "date": "1937-11-30",
+      "eco": "E17",
+      "plies": 100,
+      "pgnRef": "WorldChamp1937.pgn#22"
+    },
+    {
+      "round": 24,
+      "kind": "classical",
+      "white": "alekhine",
+      "black": "euwe",
+      "result": "1-0",
+      "date": "1937-12-02",
+      "eco": "D41",
+      "plies": 81,
+      "pgnRef": "WorldChamp1937.pgn#23"
+    },
+    {
+      "round": 25,
+      "kind": "classical",
+      "white": "euwe",
+      "black": "alekhine",
+      "result": "0-1",
+      "date": "1937-12-04",
+      "eco": "E46",
+      "plies": 86,
+      "pgnRef": "WorldChamp1937.pgn#24"
+    }
+  ],
+  "featuredRounds": [
+    25,
+    10
+  ],
+  "moments": [
+    {
+      "id": "euwe-arranca",
+      "title": {
+        "es": "Euwe arranca mejor",
+        "en": "Euwe starts stronger"
+      },
+      "text": {
+        "es": "Euwe ganó la primera y la quinta partida y, tras cinco juegos, iba un punto arriba.",
+        "en": "Euwe won games 1 and 5 and, after five games, was a point ahead."
+      },
+      "round": 5
+    },
+    {
+      "id": "racha-de-alekhine",
+      "title": {
+        "es": "La racha de Alekhine",
+        "en": "Alekhine's surge"
+      },
+      "text": {
+        "es": "Entre las partidas 6 y 10, Alekhine sumó 4½ de 5 puntos y tomó una ventaja de tres puntos.",
+        "en": "Between games 6 and 10, Alekhine scored 4½ out of 5 and took a three-point lead."
+      },
+      "round": 10
+    },
+    {
+      "id": "titulo-recuperado",
+      "title": {
+        "es": "El título vuelve a Alekhine",
+        "en": "The title returns to Alekhine"
+      },
+      "text": {
+        "es": "Euwe recortó la diferencia a dos puntos, pero desde la partida 21 Alekhine ganó cuatro de las últimas cinco y con la victoria en la 25 recuperó la corona.",
+        "en": "Euwe cut the gap to two points, but from game 21 Alekhine won four of the last five, and his win in game 25 brought back the crown."
+      },
+      "round": 25
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El contrato de 1935 le daba a Alekhine el derecho a una revancha si perdía el título, y él lo usó.",
+        "en": "The 1935 contract gave Alekhine the right to a rematch if he lost the title, and he used it."
+      },
+      "source": {
+        "label": "Wikipedia (neerlandés)",
+        "url": "https://nl.wikipedia.org/wiki/Wereldkampioenschap_schaken_1937"
+      }
+    },
+    {
+      "text": {
+        "es": "Fue el último campeonato del mundo en que el campeón controlaba el título y fijaba las condiciones. Tras la muerte de Alekhine en 1946, la FIDE tomó el control.",
+        "en": "It was the last world championship in which the champion controlled the title and set the conditions. After Alekhine's death in 1946, FIDE took over."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1937"
+      }
+    },
+    {
+      "text": {
+        "es": "Para preparar la revancha, Alekhine dejó el alcohol, aunque más tarde volvió a beber.",
+        "en": "To prepare for the rematch, Alekhine gave up alcohol, although he later started drinking again."
+      },
+      "source": {
+        "label": "Wikipedia (Max Euwe)",
+        "url": "https://en.wikipedia.org/wiki/Max_Euwe"
+      }
+    },
+    {
+      "text": {
+        "es": "Euwe perdió cuatro de las últimas cinco partidas.",
+        "en": "Euwe lost four of the last five games."
+      },
+      "source": {
+        "label": "Wikipedia (Max Euwe)",
+        "url": "https://en.wikipedia.org/wiki/Max_Euwe"
+      }
+    },
+    {
+      "text": {
+        "es": "Las partidas de Ámsterdam se jugaron en el hotel Krasnapolsky.",
+        "en": "The Amsterdam games were played at the Krasnapolsky hotel."
+      },
+      "source": {
+        "label": "Wikipedia (neerlandés)",
+        "url": "https://nl.wikipedia.org/wiki/Wereldkampioenschap_schaken_1937"
+      }
+    }
+  ],
+  "photos": [
+    "alekhine-euwe-1937",
+    "euwe-1935",
+    "alekhine-euwe-phoenix-1935",
+    "alekhine-1924-bain"
+  ],
+  "videos": [
+    {
+      "youtubeId": "77qpQRND4Ec",
+      "kind": "recap",
+      "title": {
+        "es": "Alekhine contra Euwe, 1937: partida 16",
+        "en": "Alekhine vs. Euwe, 1937: game 16"
+      },
+      "channel": "PowerPlayChess",
+      "round": 16,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1937"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/37ae$wix.htm"
+    },
+    {
+      "label": "Wikipedia (neerlandés)",
+      "url": "https://nl.wikipedia.org/wiki/Wereldkampioenschap_schaken_1937"
+    },
+    {
+      "label": "Wikipedia (Max Euwe)",
+      "url": "https://en.wikipedia.org/wiki/Max_Euwe"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1937-wch.html"
+    }
+  ]
+}

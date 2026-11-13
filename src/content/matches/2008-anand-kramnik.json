@@ -1,0 +1,283 @@
+{
+  "year": 2008,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "short": "Anand",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "kramnik",
+      "name": "Vladimir Kramnik",
+      "short": "Kramnik",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "anand",
+  "score": {
+    "anand": 6.5,
+    "kramnik": 4.5
+  },
+  "site": {
+    "es": "Bonn, Alemania",
+    "en": "Bonn, Germany"
+  },
+  "dates": {
+    "start": "2008-10-14",
+    "end": "2008-10-29"
+  },
+  "summary": {
+    "es": "Anand defendió en Bonn (Alemania) el título que había ganado en 2007, ahora en un match ante Kramnik, que tenía derecho a revancha. Anand sorprendió con su preparación en la Semieslava y ganó tres de las primeras seis partidas. Kramnik solo pudo ganar la décima, y Anand retuvo el título 6½–4½ tras 11 de las 12 partidas previstas.",
+    "en": "Anand defended in Bonn, Germany, the title he had won in 2007, this time in a match against Kramnik, who was entitled to a rematch. Anand surprised him with his Semi-Slav preparation and won three of the first six games. Kramnik could only win game ten, and Anand kept the title 6½–4½ after 11 of the 12 scheduled games."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2008-10-14",
+      "eco": "D14",
+      "plies": 64,
+      "pgnRef": "WorldChamp2008.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2008-10-15",
+      "eco": "E25",
+      "plies": 64,
+      "pgnRef": "WorldChamp2008.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "anand",
+      "result": "0-1",
+      "date": "2008-10-17",
+      "eco": "D49",
+      "plies": 82,
+      "pgnRef": "WorldChamp2008.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2008-10-18",
+      "eco": "D37",
+      "plies": 58,
+      "pgnRef": "WorldChamp2008.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "anand",
+      "result": "0-1",
+      "date": "2008-10-20",
+      "eco": "D49",
+      "plies": 70,
+      "pgnRef": "WorldChamp2008.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kramnik",
+      "result": "1-0",
+      "date": "2008-10-21",
+      "eco": "E34",
+      "plies": 93,
+      "pgnRef": "WorldChamp2008.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2008-10-23",
+      "eco": "D19",
+      "plies": 72,
+      "pgnRef": "WorldChamp2008.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2008-10-24",
+      "eco": "D39",
+      "plies": 78,
+      "pgnRef": "WorldChamp2008.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2008-10-26",
+      "eco": "D43",
+      "plies": 90,
+      "pgnRef": "WorldChamp2008.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "kramnik",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2008-10-27",
+      "eco": "E21",
+      "plies": 57,
+      "pgnRef": "WorldChamp2008.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kramnik",
+      "result": "1/2-1/2",
+      "date": "2008-10-29",
+      "eco": "B96",
+      "plies": 48,
+      "pgnRef": "WorldChamp2008.pgn#10"
+    }
+  ],
+  "featuredRounds": [
+    3,
+    5,
+    10
+  ],
+  "moments": [
+    {
+      "id": "meran",
+      "round": 3,
+      "ply": 34,
+      "title": {
+        "es": "Una idea preparada en casa",
+        "en": "A home-prepared idea"
+      },
+      "text": {
+        "es": "Con negras, en la variante Merano de la Semieslava, Anand jugó la idea nueva 17…Tg4 y sacrificó dos peones para lanzar un ataque feroz. Contó después que buena parte la había preparado su segundo, Rustam Kasimdzhanov.",
+        "en": "With Black in the Meran Variation of the Semi-Slav, Anand played the new idea 17...Rg4 and gave up two pawns for a fierce attack. He later said much of it had been prepared by his second, Rustam Kasimdzhanov."
+      }
+    },
+    {
+      "id": "repeticion",
+      "round": 5,
+      "ply": 57,
+      "title": {
+        "es": "La misma línea, otra victoria",
+        "en": "Same line, another win"
+      },
+      "text": {
+        "es": "Anand repitió la línea afilada de la partida 3 y esquivó la preparación de Kramnik. Hacia la jugada 28 estaba algo mejor, y Kramnik cometió un error grave con 29.Cxd4 que le costó material y la partida.",
+        "en": "Anand repeated the sharp line from game 3 and sidestepped Kramnik's preparation. By move 28 he was slightly better, and Kramnik blundered with 29.Nxd4, losing material and the game."
+      }
+    },
+    {
+      "id": "kramnik-gana",
+      "round": 10,
+      "title": {
+        "es": "La única victoria de Kramnik",
+        "en": "Kramnik's only win"
+      },
+      "text": {
+        "es": "Abajo por tres puntos, Kramnik ganó con blancas la décima partida, su único triunfo del match.",
+        "en": "Three points down, Kramnik won game ten with White, his only win of the match."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El match se jugó en la Sala de Arte y Exposiciones de la República Federal de Alemania, en Bonn.",
+        "en": "The match was held at the Art and Exhibition Hall of the Federal Republic of Germany in Bonn."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2008"
+      }
+    },
+    {
+      "text": {
+        "es": "Después del match, Anand contó que Magnus Carlsen también lo había ayudado en su preparación.",
+        "en": "After the match Anand revealed that Magnus Carlsen had also helped him prepare."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2008"
+      }
+    },
+    {
+      "text": {
+        "es": "La partida 11 fue la única del match que empezó con 1.e4.",
+        "en": "Game 11 was the only game of the match that opened with 1.e4."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2008"
+      }
+    },
+    {
+      "text": {
+        "es": "Kramnik tenía derecho a este match tras perder el título en el torneo de 2007, como había anunciado la FIDE ese mismo año.",
+        "en": "Kramnik was entitled to this match after losing the title in the 2007 tournament, as FIDE had announced that year."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2008"
+      }
+    }
+  ],
+  "photos": [
+    "anand-kramnik-2008",
+    "anand-2008",
+    "kramnik-2008"
+  ],
+  "videos": [
+    {
+      "youtubeId": "xSXXoOxmV58",
+      "kind": "recap",
+      "title": {
+        "es": "Anand contra Kramnik, 2008: clase de Eric Hansen",
+        "en": "Anand vs. Kramnik, 2008: lecture by Eric Hansen"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2008"
+    },
+    {
+      "label": "Mark Weeks – Matches 2008-09",
+      "url": "https://www.mark-weeks.com/chess/a7a8$cix.htm"
+    }
+  ]
+}

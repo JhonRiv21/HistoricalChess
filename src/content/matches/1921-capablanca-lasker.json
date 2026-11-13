@@ -1,0 +1,355 @@
+{
+  "year": 1921,
+  "kind": "match",
+  "era": "classic",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "lasker",
+      "name": "Emanuel Lasker",
+      "short": "Lasker",
+      "country": {
+        "es": "Alemania",
+        "en": "Germany"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "capablanca",
+      "name": "José Raúl Capablanca",
+      "short": "Capablanca",
+      "country": {
+        "es": "Cuba",
+        "en": "Cuba"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "capablanca",
+  "score": {
+    "capablanca": 9,
+    "lasker": 5
+  },
+  "site": {
+    "es": "La Habana",
+    "en": "Havana"
+  },
+  "dates": {
+    "start": "1921-03-15",
+    "end": "1921-04-28"
+  },
+  "summary": {
+    "es": "Tras casi diez años de negociaciones, interrumpidas por la Primera Guerra Mundial, el cubano José Raúl Capablanca por fin enfrentó a Lasker en su Habana natal. Capablanca no perdió ninguna partida: ganó cuatro, hizo diez tablas y Lasker abandonó el match después de la partida 14. Así terminaron los 27 años de Lasker como campeón, el reinado más largo de la historia.",
+    "en": "After almost ten years of negotiations, interrupted by the First World War, Cuba's José Raúl Capablanca finally faced Lasker in his native Havana. Capablanca did not lose a game: he won four, drew ten, and Lasker resigned the match after game 14. That ended Lasker's 27 years as champion, the longest reign in history."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1921-03-15",
+      "eco": "D63",
+      "plies": 100,
+      "pgnRef": "WorldChamp1921.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1921-03-17",
+      "eco": "D37",
+      "plies": 81,
+      "pgnRef": "WorldChamp1921.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1921-03-19",
+      "eco": "C66",
+      "plies": 125,
+      "pgnRef": "WorldChamp1921.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1921-03-23",
+      "eco": "D61",
+      "plies": 59,
+      "pgnRef": "WorldChamp1921.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "lasker",
+      "result": "1-0",
+      "date": "1921-03-29",
+      "eco": "D63",
+      "plies": 91,
+      "pgnRef": "WorldChamp1921.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1921-03-31",
+      "eco": "C66",
+      "plies": 86,
+      "pgnRef": "WorldChamp1921.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1921-04-02",
+      "eco": "D61",
+      "plies": 46,
+      "pgnRef": "WorldChamp1921.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1921-04-03",
+      "eco": "D12",
+      "plies": 60,
+      "pgnRef": "WorldChamp1921.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1921-04-06",
+      "eco": "D34",
+      "plies": 42,
+      "pgnRef": "WorldChamp1921.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "capablanca",
+      "result": "0-1",
+      "date": "1921-04-08",
+      "eco": "D61",
+      "plies": 136,
+      "pgnRef": "WorldChamp1921.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "lasker",
+      "result": "1-0",
+      "date": "1921-04-13",
+      "eco": "D64",
+      "plies": 95,
+      "pgnRef": "WorldChamp1921.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "capablanca",
+      "result": "1/2-1/2",
+      "date": "1921-04-16",
+      "eco": "C66",
+      "plies": 61,
+      "pgnRef": "WorldChamp1921.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "capablanca",
+      "black": "lasker",
+      "result": "1/2-1/2",
+      "date": "1921-04-19",
+      "eco": "D63",
+      "plies": 46,
+      "pgnRef": "WorldChamp1921.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "lasker",
+      "black": "capablanca",
+      "result": "0-1",
+      "date": "1921-04-20",
+      "eco": "C66",
+      "plies": 112,
+      "pgnRef": "WorldChamp1921.pgn#13"
+    }
+  ],
+  "featuredRounds": [
+    5,
+    10
+  ],
+  "moments": [
+    {
+      "id": "error-terrible",
+      "title": {
+        "es": "«Un error terrible»",
+        "en": "\"A terrible mistake\""
+      },
+      "text": {
+        "es": "Tras cuatro tablas, Lasker tenía una posición de tablas en la quinta partida, pero, cansado, jugó 45...Rf8?? y perdió una pieza. Luego escribió: «Un error terrible. Tenía un cuarto de hora para pensar, pero fui incapaz de hacerlo».",
+        "en": "After four draws, Lasker had a drawn position in game 5 but, tired, played 45...Kf8?? and lost a piece. He later wrote: \"A terrible mistake. I had a quarter hour for thinking but I was incapable of doing so.\""
+      },
+      "round": 5,
+      "ply": 90
+    },
+    {
+      "id": "final-superior",
+      "title": {
+        "es": "La técnica de Capablanca",
+        "en": "Capablanca's technique"
+      },
+      "text": {
+        "es": "En la décima partida, Lasker jugó con blancas una posición con un peón de dama aislado, pero no consiguió actividad, y Capablanca llegó a un final superior que ganó sin problemas.",
+        "en": "In game 10, Lasker as White played a position with an isolated queen's pawn but failed to generate activity, and Capablanca reached a superior ending that he duly won."
+      },
+      "round": 10
+    },
+    {
+      "id": "lasker-abandona",
+      "title": {
+        "es": "Lasker abandona el match",
+        "en": "Lasker resigns the match"
+      },
+      "text": {
+        "es": "Después de perder la partida 14, Lasker abandonó el match. Capablanca se convirtió en el tercer campeón del mundo sin haber perdido una sola partida.",
+        "en": "After losing game 14, Lasker resigned the match. Capablanca became the third world champion without losing a single game."
+      },
+      "round": 14
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "En 1920, Lasker renunció al título en una disputa sobre las condiciones y nombró a Capablanca como su sucesor. La prensa de ajedrez de la época no aceptó que pudiera elegir heredero, y Lasker terminó jugando el match.",
+        "en": "In 1920 Lasker resigned the title in a dispute over conditions and named Capablanca as his successor. The chess press of the time did not accept that he could choose an heir, and Lasker ended up playing the match."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1921"
+      }
+    },
+    {
+      "text": {
+        "es": "Aficionados de La Habana reunieron 20.000 dólares para financiar el match con la condición de que se jugara allí.",
+        "en": "Enthusiasts in Havana raised $20,000 to fund the match on condition that it be played there."
+      },
+      "source": {
+        "label": "Wikipedia (Emanuel Lasker)",
+        "url": "https://en.wikipedia.org/wiki/Emanuel_Lasker"
+      }
+    },
+    {
+      "text": {
+        "es": "El match era a 24 partidas: ganaba el primero en llegar a 12½ puntos u ocho victorias. Como Lasker había aceptado jugar como retador, un 12 a 12 le daba el título a Capablanca.",
+        "en": "The match was set for 24 games: the first to 12½ points or eight wins would be champion. Because Lasker had agreed to play as challenger, a 12–12 tie would have given Capablanca the title."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1921"
+      }
+    },
+    {
+      "text": {
+        "es": "Ossip Bernstein contó que Lasker no se preparó en absoluto: no descansó, no estudió las partidas de Capablanca ni sus aperturas. Bernstein lo llamó «pura locura».",
+        "en": "Ossip Bernstein recalled that Lasker did not prepare at all: no rest, no study of Capablanca's games or of openings. Bernstein called it \"pure madness\"."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1921"
+      }
+    },
+    {
+      "text": {
+        "es": "En 1911 Capablanca ya había desafiado a Lasker, pero discutieron por las condiciones y no se hablaron hasta 1914.",
+        "en": "Capablanca had already challenged Lasker in 1911, but they quarrelled over the conditions and were not on speaking terms until 1914."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1921"
+      }
+    }
+  ],
+  "photos": [
+    "capablanca-1921-rol",
+    "lasker-1921-rol",
+    "capablanca-derujinsky-1922"
+  ],
+  "videos": [
+    {
+      "youtubeId": "6ZGmJklWhso",
+      "kind": "recap",
+      "title": {
+        "es": "Lasker contra Capablanca, 1921: clase de Yasser Seirawan",
+        "en": "Lasker vs. Capablanca, 1921: lecture by Yasser Seirawan"
+      },
+      "channel": "Saint Louis Chess Club",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "1xJ9H0iGECM",
+      "kind": "recap",
+      "title": {
+        "es": "La partida 10 del match de La Habana, 1921",
+        "en": "Game 10 of the 1921 Havana match"
+      },
+      "channel": "agadmator's Chess Channel",
+      "round": 10,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "ZZwWUg85glY",
+      "kind": "recap",
+      "title": {
+        "es": "Capablanca, tercer campeón del mundo (1921)",
+        "en": "Capablanca becomes the third world champion (1921)"
+      },
+      "channel": "Partidas Inmortales de Ajedrez",
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1921"
+    },
+    {
+      "label": "Mark Weeks",
+      "url": "https://www.mark-weeks.com/chess/21cl$wix.htm"
+    },
+    {
+      "label": "OlimpBase",
+      "url": "https://www.olimpbase.org/ind-wcc/wc1921-wch.html"
+    },
+    {
+      "label": "Wikipedia (Emanuel Lasker)",
+      "url": "https://en.wikipedia.org/wiki/Emanuel_Lasker"
+    }
+  ]
+}

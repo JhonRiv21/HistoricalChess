@@ -1,0 +1,287 @@
+{
+  "year": 2014,
+  "kind": "match",
+  "era": "unified",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "carlsen",
+      "name": "Magnus Carlsen",
+      "short": "Carlsen",
+      "country": {
+        "es": "Noruega",
+        "en": "Norway"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "short": "Anand",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "carlsen",
+  "score": {
+    "carlsen": 6.5,
+    "anand": 4.5
+  },
+  "site": {
+    "es": "Sochi, Rusia",
+    "en": "Sochi, Russia"
+  },
+  "dates": {
+    "start": "2014-11-08",
+    "end": "2014-11-23"
+  },
+  "summary": {
+    "es": "Un año después de perder el título, Anand ganó el Torneo de Candidatos y volvió a enfrentar a Carlsen, esta vez en Sochi (Rusia). Anand jugó mucho mejor que en 2013 y empató el match en la tercera partida, pero Carlsen ganó la sexta y la undécima. Carlsen retuvo el título 6½–4½ tras 11 de las 12 partidas.",
+    "en": "A year after losing the title, Anand won the Candidates and faced Carlsen again, this time in Sochi, Russia. Anand played much better than in 2013 and levelled the match in game three, but Carlsen won games six and eleven. Carlsen kept the title 6½–4½ after 11 of the 12 games."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2014-11-08",
+      "eco": "D85",
+      "plies": 95,
+      "pgnRef": "WorldChamp2014.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2014-11-09",
+      "eco": "C65",
+      "plies": 69,
+      "pgnRef": "WorldChamp2014.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "1-0",
+      "date": "2014-11-11",
+      "eco": "D37",
+      "plies": 67,
+      "pgnRef": "WorldChamp2014.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2014-11-12",
+      "eco": "B40",
+      "plies": 94,
+      "pgnRef": "WorldChamp2014.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2014-11-14",
+      "eco": "E15",
+      "plies": 78,
+      "pgnRef": "WorldChamp2014.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2014-11-15",
+      "eco": "B41",
+      "plies": 75,
+      "pgnRef": "WorldChamp2014.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2014-11-17",
+      "eco": "C67",
+      "plies": 243,
+      "pgnRef": "WorldChamp2014.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2014-11-18",
+      "eco": "D37",
+      "plies": 81,
+      "pgnRef": "WorldChamp2014.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "2014-11-20",
+      "eco": "C67",
+      "plies": 39,
+      "pgnRef": "WorldChamp2014.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "anand",
+      "black": "carlsen",
+      "result": "1/2-1/2",
+      "date": "2014-11-21",
+      "eco": "D97",
+      "plies": 63,
+      "pgnRef": "WorldChamp2014.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "carlsen",
+      "black": "anand",
+      "result": "1-0",
+      "date": "2014-11-23",
+      "eco": "C67",
+      "plies": 89,
+      "pgnRef": "WorldChamp2014.pgn#10"
+    }
+  ],
+  "featuredRounds": [
+    3,
+    6,
+    11
+  ],
+  "moments": [
+    {
+      "id": "anand-iguala",
+      "round": 3,
+      "title": {
+        "es": "La revancha de la preparación",
+        "en": "Preparation pays off"
+      },
+      "text": {
+        "es": "En un Gambito de Dama, Anand mejoró una partida anterior entre Aronian y Adams y obtuvo una ventaja clara. Carlsen, con seis minutos en el reloj, se equivocó con 28…Aa5 y Anand empató el match.",
+        "en": "In a Queen's Gambit Declined, Anand improved on an earlier Aronian–Adams game and got a clear advantage. Carlsen, down to six minutes, erred with 28...Ba5, and Anand levelled the match."
+      }
+    },
+    {
+      "id": "doble-error",
+      "round": 6,
+      "ply": 52,
+      "title": {
+        "es": "Un doble error",
+        "en": "A double blunder"
+      },
+      "text": {
+        "es": "Carlsen jugó 26.Rd2, un error que Anand podía castigar con 26…Cxe5. Anand no lo vio, respondió rápido con 26…a4 y Carlsen ya no dio otra oportunidad.",
+        "en": "Carlsen played 26.Kd2, a blunder Anand could have punished with 26...Nxe5. Anand missed it, quickly replied 26...a4, and Carlsen gave him no further chances."
+      }
+    },
+    {
+      "id": "sacrificio",
+      "round": 11,
+      "ply": 54,
+      "title": {
+        "es": "Un riesgo que no salió",
+        "en": "A gamble that didn't pay off"
+      },
+      "text": {
+        "es": "Anand sacrificó una calidad con 27…Tb4 para buscar juego activo. Él mismo admitió después que fue un riesgo injustificado; Carlsen ganó la partida y el match.",
+        "en": "Anand gave up the exchange with 27...Rb4 in search of active play. He later admitted it was an unjustified risk; Carlsen won the game and the match."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "La victoria de Anand en la partida 3 fue su único triunfo sobre Carlsen en los dos matches por el título que jugaron.",
+        "en": "Anand's win in game 3 was his only victory over Carlsen across their two title matches."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2014"
+      }
+    },
+    {
+      "text": {
+        "es": "La séptima partida duró 122 jugadas, una de las más largas en la historia de los mundiales.",
+        "en": "Game seven lasted 122 moves, one of the longest in World Championship history."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2014"
+      }
+    },
+    {
+      "text": {
+        "es": "La FIDE no recibió ninguna candidatura antes del plazo del 30 de abril de 2014; en junio se anunció que el match sería en Sochi.",
+        "en": "FIDE received no bids by the 30 April 2014 deadline; in June it was announced that the match would be held in Sochi."
+      },
+      "source": {
+        "label": "Mark Weeks – World Chess Championship",
+        "url": "https://www.mark-weeks.com/chess/b2b4$wix.htm"
+      }
+    }
+  ],
+  "photos": [
+    "sochi-2014-closing",
+    "sochi-2014-meeting",
+    "carlsen-tata-2013",
+    "anand-2013"
+  ],
+  "videos": [
+    {
+      "youtubeId": "qj-T-7_WLKg",
+      "kind": "recap",
+      "title": {
+        "es": "Carlsen contra Anand, 2014: partida 6",
+        "en": "Carlsen vs. Anand, 2014: game 6"
+      },
+      "channel": "PowerPlayChess",
+      "round": 6,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "jaMMntON1tU",
+      "kind": "recap",
+      "title": {
+        "es": "Carlsen contra Anand, 2014: partida 5",
+        "en": "Carlsen vs. Anand, 2014: game 5"
+      },
+      "channel": "Chess.com",
+      "round": 5,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2014"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/b2b4$wix.htm"
+    }
+  ]
+}

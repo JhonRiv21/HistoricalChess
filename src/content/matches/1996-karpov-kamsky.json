@@ -1,0 +1,349 @@
+{
+  "year": 1996,
+  "kind": "match",
+  "era": "split",
+  "title": "fide",
+  "players": [
+    {
+      "id": "karpov",
+      "name": "Anatoly Karpov",
+      "short": "Karpov",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "kamsky",
+      "name": "Gata Kamsky",
+      "short": "Kamsky",
+      "country": {
+        "es": "Estados Unidos",
+        "en": "United States"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "karpov",
+  "score": {
+    "karpov": 10.5,
+    "kamsky": 7.5
+  },
+  "site": {
+    "es": "Elistá, Rusia",
+    "en": "Elista, Russia"
+  },
+  "dates": {
+    "start": "1996-06-06",
+    "end": "1996-07-10"
+  },
+  "summary": {
+    "es": "Karpov defendió el título de la FIDE en Elistá (Rusia) ante Gata Kamsky, de 22 años, que llegó a la final tras eliminar a Anand y a Salov. Karpov ganó la primera partida y, aunque Kamsky empató al instante, el campeón tomó el control con cuatro victorias entre las partidas 4 y 9. Retuvo el título 10½–7½ tras 18 de las 20 partidas previstas.",
+    "en": "Karpov defended the FIDE title in Elista, Russia, against 22-year-old Gata Kamsky, who reached the final after knocking out Anand and Salov. Karpov won the first game and, although Kamsky hit back at once, the champion took control with four wins between games 4 and 9. He kept the title 10½–7½ after 18 of the 20 scheduled games."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kamsky",
+      "result": "1-0",
+      "date": "1996-06-06",
+      "eco": "D98",
+      "plies": 112,
+      "pgnRef": "FideChamp1996.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "kamsky",
+      "black": "karpov",
+      "result": "1-0",
+      "date": "1996-06-08",
+      "eco": "B14",
+      "plies": 129,
+      "pgnRef": "FideChamp1996.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kamsky",
+      "result": "1/2-1/2",
+      "date": "1996-06-10",
+      "eco": "E15",
+      "plies": 98,
+      "pgnRef": "FideChamp1996.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "kamsky",
+      "black": "karpov",
+      "result": "0-1",
+      "date": "1996-06-12",
+      "eco": "B14",
+      "plies": 90,
+      "pgnRef": "FideChamp1996.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kamsky",
+      "result": "1/2-1/2",
+      "date": "1996-06-14",
+      "eco": "D97",
+      "plies": 46,
+      "pgnRef": "FideChamp1996.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "kamsky",
+      "black": "karpov",
+      "result": "0-1",
+      "date": "1996-06-16",
+      "eco": "C43",
+      "plies": 58,
+      "pgnRef": "FideChamp1996.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kamsky",
+      "result": "1-0",
+      "date": "1996-06-18",
+      "eco": "E97",
+      "plies": 141,
+      "pgnRef": "FideChamp1996.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kamsky",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1996-06-20",
+      "eco": "B17",
+      "plies": 123,
+      "pgnRef": "FideChamp1996.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kamsky",
+      "result": "1-0",
+      "date": "1996-06-22",
+      "eco": "D97",
+      "plies": 81,
+      "pgnRef": "FideChamp1996.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "kamsky",
+      "black": "karpov",
+      "result": "1-0",
+      "date": "1996-06-24",
+      "eco": "E12",
+      "plies": 117,
+      "pgnRef": "FideChamp1996.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kamsky",
+      "result": "1/2-1/2",
+      "date": "1996-06-26",
+      "eco": "D45",
+      "plies": 132,
+      "pgnRef": "FideChamp1996.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "kamsky",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1996-06-28",
+      "eco": "B17",
+      "plies": 107,
+      "pgnRef": "FideChamp1996.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kamsky",
+      "result": "1/2-1/2",
+      "date": "1996-06-30",
+      "eco": "E15",
+      "plies": 179,
+      "pgnRef": "FideChamp1996.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "kamsky",
+      "black": "karpov",
+      "result": "0-1",
+      "date": "1996-07-02",
+      "eco": "E48",
+      "plies": 122,
+      "pgnRef": "FideChamp1996.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kamsky",
+      "result": "1/2-1/2",
+      "date": "1996-07-04",
+      "eco": "A70",
+      "plies": 84,
+      "pgnRef": "FideChamp1996.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "kamsky",
+      "black": "karpov",
+      "result": "1-0",
+      "date": "1996-07-06",
+      "eco": "E15",
+      "plies": 97,
+      "pgnRef": "FideChamp1996.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "karpov",
+      "black": "kamsky",
+      "result": "1/2-1/2",
+      "date": "1996-07-08",
+      "eco": "A13",
+      "plies": 119,
+      "pgnRef": "FideChamp1996.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "kamsky",
+      "black": "karpov",
+      "result": "1/2-1/2",
+      "date": "1996-07-10",
+      "eco": "E15",
+      "plies": 160,
+      "pgnRef": "FideChamp1996.pgn#17"
+    }
+  ],
+  "featuredRounds": [
+    1,
+    2,
+    7
+  ],
+  "moments": [
+    {
+      "id": "primera-sangre",
+      "round": 1,
+      "title": {
+        "es": "Primera sangre para el campeón",
+        "en": "First blood to the champion"
+      },
+      "text": {
+        "es": "Karpov ganó la primera partida con blancas.",
+        "en": "Karpov won the first game with White."
+      }
+    },
+    {
+      "id": "kamsky-responde",
+      "round": 2,
+      "title": {
+        "es": "Kamsky responde",
+        "en": "Kamsky hits back"
+      },
+      "text": {
+        "es": "Dos días después, Kamsky ganó con blancas y empató el marcador 1–1.",
+        "en": "Two days later Kamsky won with White and levelled the score at 1–1."
+      }
+    },
+    {
+      "id": "ventaja",
+      "round": 7,
+      "title": {
+        "es": "Karpov se escapa",
+        "en": "Karpov pulls away"
+      },
+      "text": {
+        "es": "Con victorias en las partidas 4, 6 y 7, Karpov se puso 5–2 y ya no perdió el control del match.",
+        "en": "With wins in games 4, 6 and 7, Karpov went 5–2 up and never lost control of the match again."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "Fue el primer campeonato de la FIDE tras la división de 1993; Kasparov y Short no participaron en ese ciclo.",
+        "en": "It was the first FIDE championship after the 1993 split; Kasparov and Short did not take part in that cycle."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1996"
+      }
+    },
+    {
+      "text": {
+        "es": "A diferencia de los ciclos anteriores, el campeón no pasó directo al match final: Karpov entró en la tercera ronda del torneo de candidatos.",
+        "en": "Unlike earlier cycles, the champion did not go straight to the final match: Karpov joined the Candidates event in its third round."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1996"
+      }
+    },
+    {
+      "text": {
+        "es": "Karpov tenía 45 años y Kamsky 22.",
+        "en": "Karpov was 45 and Kamsky 22."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1996"
+      }
+    },
+    {
+      "text": {
+        "es": "En el camino a la final, Kamsky eliminó a Viswanathan Anand y a Valeri Salov.",
+        "en": "On his way to the final, Kamsky knocked out Viswanathan Anand and Valery Salov."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1996"
+      }
+    }
+  ],
+  "photos": [
+    "karpov-1993",
+    "kamsky-2006"
+  ],
+  "videos": [],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/FIDE_World_Chess_Championship_1996"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/9496fwix.htm"
+    },
+    {
+      "label": "Lichess – Karpov vs. Kamsky 1996 (PGN)",
+      "url": "https://lichess.org/study/2aidcLzT"
+    }
+  ]
+}

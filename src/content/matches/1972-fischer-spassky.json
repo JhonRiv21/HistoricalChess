@@ -1,0 +1,423 @@
+{
+  "year": 1972,
+  "kind": "match",
+  "era": "fide",
+  "title": "undisputed",
+  "players": [
+    {
+      "id": "spassky",
+      "name": "Boris Spassky",
+      "short": "Spassky",
+      "country": {
+        "es": "URSS",
+        "en": "Soviet Union"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "fischer",
+      "name": "Bobby Fischer",
+      "short": "Fischer",
+      "country": {
+        "es": "Estados Unidos",
+        "en": "United States"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "fischer",
+  "score": {
+    "spassky": 8.5,
+    "fischer": 12.5
+  },
+  "site": {
+    "es": "Laugardalshöll, Reikiavik, Islandia",
+    "en": "Laugardalshöll, Reykjavík, Iceland"
+  },
+  "dates": {
+    "start": "1972-07-11",
+    "end": "1972-09-01"
+  },
+  "summary": {
+    "es": "En plena Guerra Fría, el estadounidense Bobby Fischer desafió al campeón soviético Boris Spassky en Reikiavik, en el llamado «Match del Siglo». Fischer perdió la primera partida y no se presentó a la segunda, pero después ganó siete partidas y se impuso 12½–8½. Así terminó con 24 años de dominio soviético del título.",
+    "en": "At the height of the Cold War, American Bobby Fischer challenged Soviet champion Boris Spassky in Reykjavík, in what was called the \"Match of the Century\". Fischer lost the first game and did not show up for the second, but then won seven games and prevailed 12½–8½. It ended 24 years of Soviet control of the title."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "1-0",
+      "eco": "E56",
+      "plies": 111,
+      "pgnRef": "WorldChamp1972.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "forfeit",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "0-1",
+      "plies": 0,
+      "pgnRef": "WorldChamp1972.pgn#1",
+      "note": {
+        "es": "Fischer no se presentó a jugar en protesta por las cámaras de filmación y perdió por incomparecencia. El PGN de origen trae una jugada de relleno, pero no se movió ninguna pieza.",
+        "en": "Fischer did not turn up, in protest against the film cameras, and lost by forfeit. The source PGN carries a filler move, but no piece was ever moved."
+      }
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "0-1",
+      "eco": "A77",
+      "plies": 82,
+      "pgnRef": "WorldChamp1972.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "B88",
+      "plies": 89,
+      "pgnRef": "WorldChamp1972.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "0-1",
+      "eco": "E41",
+      "plies": 54,
+      "pgnRef": "WorldChamp1972.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "1-0",
+      "eco": "D59",
+      "plies": 81,
+      "pgnRef": "WorldChamp1972.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "1/2-1/2",
+      "eco": "B97",
+      "plies": 97,
+      "pgnRef": "WorldChamp1972.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "1-0",
+      "eco": "A39",
+      "plies": 73,
+      "pgnRef": "WorldChamp1972.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "1/2-1/2",
+      "eco": "D41",
+      "plies": 58,
+      "pgnRef": "WorldChamp1972.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "1-0",
+      "eco": "C95",
+      "plies": 111,
+      "pgnRef": "WorldChamp1972.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "1-0",
+      "eco": "B97",
+      "plies": 61,
+      "pgnRef": "WorldChamp1972.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "D66",
+      "plies": 110,
+      "pgnRef": "WorldChamp1972.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "0-1",
+      "eco": "B04",
+      "plies": 148,
+      "pgnRef": "WorldChamp1972.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "D37",
+      "plies": 80,
+      "pgnRef": "WorldChamp1972.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "1/2-1/2",
+      "eco": "B99",
+      "plies": 86,
+      "pgnRef": "WorldChamp1972.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "C69",
+      "plies": 120,
+      "pgnRef": "WorldChamp1972.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "1/2-1/2",
+      "eco": "B09",
+      "plies": 89,
+      "pgnRef": "WorldChamp1972.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "B69",
+      "plies": 94,
+      "pgnRef": "WorldChamp1972.pgn#17"
+    },
+    {
+      "round": 19,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "1/2-1/2",
+      "eco": "B05",
+      "plies": 80,
+      "pgnRef": "WorldChamp1972.pgn#18"
+    },
+    {
+      "round": 20,
+      "kind": "classical",
+      "white": "fischer",
+      "black": "spassky",
+      "result": "1/2-1/2",
+      "eco": "B68",
+      "plies": 108,
+      "pgnRef": "WorldChamp1972.pgn#19"
+    },
+    {
+      "round": 21,
+      "kind": "classical",
+      "white": "spassky",
+      "black": "fischer",
+      "result": "0-1",
+      "eco": "B46",
+      "plies": 81,
+      "pgnRef": "WorldChamp1972.pgn#20"
+    }
+  ],
+  "featuredRounds": [
+    3,
+    6,
+    13
+  ],
+  "moments": [
+    {
+      "id": "alfil-en-h2",
+      "title": {
+        "es": "El alfil de h2",
+        "en": "The bishop on h2"
+      },
+      "text": {
+        "es": "En una posición tranquila que iba a tablas, Fischer capturó en h2 con su alfil, una jugada que pocos considerarían. El alfil quedó atrapado, Fischer terminó abandonando y Spassky se puso 1–0.",
+        "en": "In a quiet position heading for a draw, Fischer took on h2 with his bishop, a move few players would consider. The bishop was trapped, Fischer eventually resigned and Spassky led 1–0."
+      },
+      "round": 1,
+      "ply": 58
+    },
+    {
+      "id": "la-silla-vacia",
+      "title": {
+        "es": "La silla vacía",
+        "en": "The empty chair"
+      },
+      "text": {
+        "es": "Fischer exigió retirar todas las cámaras y no se presentó a la segunda partida. Una hora después de la hora de inicio, el árbitro Lothar Schmid detuvo el reloj y le dio la partida perdida: Spassky iba 2–0 y muchos creyeron que el match había terminado.",
+        "en": "Fischer demanded that all cameras be removed and did not appear for game two. An hour after the start time, arbiter Lothar Schmid stopped the clock and declared the game lost: Spassky led 2–0 and many thought the match was over."
+      },
+      "round": 2
+    },
+    {
+      "id": "la-sala-del-fondo",
+      "title": {
+        "es": "La partida de la sala del fondo",
+        "en": "The back-room game"
+      },
+      "text": {
+        "es": "Spassky aceptó jugar la tercera partida en una pequeña sala detrás del escenario, lejos del público y de las cámaras. Allí, tras la sorprendente 11...Nh5, Fischer le ganó por primera vez en su vida, y el match cambió de rumbo.",
+        "en": "Spassky agreed to play game three in a small room backstage, away from spectators and cameras. There, after the surprising 11...Nh5, Fischer beat him for the first time in his life, and the match turned."
+      },
+      "round": 3,
+      "ply": 22
+    },
+    {
+      "id": "aplauso-de-spassky",
+      "title": {
+        "es": "El aplauso de Spassky",
+        "en": "Spassky's applause"
+      },
+      "text": {
+        "es": "En la sexta partida, Fischer abrió con 1.c4 y jugó el Gambito de Dama, algo muy raro en él, de forma impecable, con 20.e4 como jugada clave. Al terminar, Spassky se unió al público para aplaudir la victoria de su rival, y Fischer lo llamó «un verdadero deportista».",
+        "en": "In game six Fischer opened 1.c4 and played the Queen's Gambit, very unusual for him, flawlessly, with 20.e4 as the key move. When it ended, Spassky joined the audience in applauding his opponent's win, and Fischer called him \"a true sportsman\"."
+      },
+      "round": 6,
+      "ply": 39
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "En la lista de julio de 1972, Fischer tenía 2785 puntos Elo, un récord de 125 puntos por encima de Spassky (2660). Aun así, nunca le había ganado: en cinco partidas previas había hecho dos tablas y perdido tres.",
+        "en": "On the July 1972 rating list Fischer stood at 2785, a record 125 points above Spassky (2660). Yet he had never beaten him: in five previous games he had drawn two and lost three."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1972",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972"
+      }
+    },
+    {
+      "text": {
+        "es": "Fischer aceptó jugar después de que el banquero británico Jim Slater duplicara la bolsa de 125 000 dólares y de una llamada de Henry Kissinger.",
+        "en": "Fischer agreed to play after British banker Jim Slater doubled the $125,000 prize fund and after a phone call from Henry Kissinger."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1972",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972"
+      }
+    },
+    {
+      "text": {
+        "es": "En el camino al match, Fischer venció a Mark Taimanov y a Bent Larsen por 6–0, algo que nunca se había visto en un match de candidatos.",
+        "en": "On the way to the match, Fischer beat Mark Taimanov and Bent Larsen 6–0, something never before seen in a Candidates match."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1972",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972"
+      }
+    },
+    {
+      "text": {
+        "es": "La partida 21 se aplazó y no se reanudó: el 1 de septiembre, Spassky abandonó por teléfono y Fischer fue campeón.",
+        "en": "Game 21 was adjourned and never resumed: on 1 September Spassky resigned by telephone and Fischer was champion."
+      },
+      "source": {
+        "label": "Wikipedia: World Chess Championship 1972",
+        "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972"
+      }
+    },
+    {
+      "text": {
+        "es": "Como campeón del mundo, Fischer no jugó ni una sola competencia: desapareció del ajedrez durante 20 años, hasta su revancha con Spassky en 1992.",
+        "en": "As world champion, Fischer did not play a single competition: he vanished from chess for 20 years, until his 1992 rematch with Spassky."
+      },
+      "source": {
+        "label": "Mark Weeks: 1972 Fischer - Spassky",
+        "url": "https://www.mark-weeks.com/chess/7072$wix.htm"
+      }
+    }
+  ],
+  "photos": [
+    "fischer-euwe-1972",
+    "fischer-1972",
+    "spassky-larsen-1970",
+    "fischer-1971",
+    "spassky-1973"
+  ],
+  "videos": [
+    {
+      "youtubeId": "o-bUPCvigKg",
+      "kind": "archival",
+      "title": {
+        "es": "Noticiero de 1972: sexta partida Spassky-Fischer",
+        "en": "1972 newsreel: Spassky and Fischer, game 6"
+      },
+      "channel": "AP Archive",
+      "round": 6,
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "XzlObDyzcyU",
+      "kind": "documentary",
+      "title": {
+        "es": "BBC 1972: Fischer, «esta cosita entre Spassky y yo»",
+        "en": "BBC 1972: Fischer, \"This little thing with me and Spassky\""
+      },
+      "channel": "BBC Archive",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "ESTn81FmZSM",
+      "kind": "documentary",
+      "title": {
+        "es": "La guerra del ajedrez: Spassky contra Fischer (La Noche Temática)",
+        "en": "The chess war: Spassky vs. Fischer (La Noche Temática)"
+      },
+      "channel": "Javier Caracciolo",
+      "language": "es",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: World Chess Championship 1972",
+      "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972"
+    },
+    {
+      "label": "Mark Weeks: 1972 Fischer - Spassky",
+      "url": "https://www.mark-weeks.com/chess/7072$wix.htm"
+    }
+  ]
+}

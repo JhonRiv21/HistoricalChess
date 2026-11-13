@@ -1,0 +1,385 @@
+{
+  "year": 1995,
+  "kind": "match",
+  "era": "split",
+  "title": "pca",
+  "players": [
+    {
+      "id": "kasparov",
+      "name": "Garry Kasparov",
+      "short": "Kasparov",
+      "country": {
+        "es": "Rusia",
+        "en": "Russia"
+      },
+      "role": "champion"
+    },
+    {
+      "id": "anand",
+      "name": "Viswanathan Anand",
+      "short": "Anand",
+      "country": {
+        "es": "India",
+        "en": "India"
+      },
+      "role": "challenger"
+    }
+  ],
+  "winner": "kasparov",
+  "score": {
+    "kasparov": 10.5,
+    "anand": 7.5
+  },
+  "site": {
+    "es": "World Trade Center, Nueva York",
+    "en": "World Trade Center, New York"
+  },
+  "dates": {
+    "start": "1995-09-11",
+    "end": "1995-10-10"
+  },
+  "summary": {
+    "es": "Kasparov defendió su título de la PCA ante Viswanathan Anand en el piso 107 de la Torre Sur del World Trade Center, en Nueva York. Las primeras ocho partidas terminaron en tablas y Anand golpeó primero en la novena, pero Kasparov respondió con cuatro victorias en cinco partidas. Ganó 10½–7½ tras 18 de las 20 partidas previstas.",
+    "en": "Kasparov defended his PCA title against Viswanathan Anand on the 107th floor of the South Tower of the World Trade Center in New York. The first eight games were drawn and Anand struck first in game nine, but Kasparov replied with four wins in five games. He won 10½–7½ after 18 of the 20 scheduled games."
+  },
+  "games": [
+    {
+      "round": 1,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1995-09-11",
+      "eco": "B84",
+      "plies": 54,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#0"
+    },
+    {
+      "round": 2,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "1995-09-12",
+      "eco": "E34",
+      "plies": 58,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#1"
+    },
+    {
+      "round": 3,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1995-09-14",
+      "eco": "B84",
+      "plies": 72,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#2"
+    },
+    {
+      "round": 4,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "1995-09-15",
+      "eco": "A17",
+      "plies": 41,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#3"
+    },
+    {
+      "round": 5,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1995-09-18",
+      "eco": "B84",
+      "plies": 54,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#4"
+    },
+    {
+      "round": 6,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "1995-09-19",
+      "eco": "C80",
+      "plies": 55,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#5"
+    },
+    {
+      "round": 7,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1995-09-21",
+      "eco": "B84",
+      "plies": 50,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#6"
+    },
+    {
+      "round": 8,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "1995-09-22",
+      "eco": "C45",
+      "plies": 44,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#7"
+    },
+    {
+      "round": 9,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasparov",
+      "result": "1-0",
+      "date": "1995-09-25",
+      "eco": "B84",
+      "plies": 69,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#8"
+    },
+    {
+      "round": 10,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "anand",
+      "result": "1-0",
+      "date": "1995-09-26",
+      "eco": "C80",
+      "plies": 75,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#9"
+    },
+    {
+      "round": 11,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasparov",
+      "result": "0-1",
+      "date": "1995-09-28",
+      "eco": "B78",
+      "plies": 62,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#10"
+    },
+    {
+      "round": 12,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "1995-09-29",
+      "eco": "C78",
+      "plies": 86,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#11"
+    },
+    {
+      "round": 13,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasparov",
+      "result": "0-1",
+      "date": "1995-10-02",
+      "eco": "B77",
+      "plies": 50,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#12"
+    },
+    {
+      "round": 14,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "anand",
+      "result": "1-0",
+      "date": "1995-10-03",
+      "eco": "B01",
+      "plies": 81,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#13"
+    },
+    {
+      "round": 15,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1995-10-05",
+      "eco": "B76",
+      "plies": 32,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#14"
+    },
+    {
+      "round": 16,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "1995-10-06",
+      "eco": "B84",
+      "plies": 39,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#15"
+    },
+    {
+      "round": 17,
+      "kind": "classical",
+      "white": "anand",
+      "black": "kasparov",
+      "result": "1/2-1/2",
+      "date": "1995-10-09",
+      "eco": "B77",
+      "plies": 125,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#16"
+    },
+    {
+      "round": 18,
+      "kind": "classical",
+      "white": "kasparov",
+      "black": "anand",
+      "result": "1/2-1/2",
+      "date": "1995-10-10",
+      "eco": "B84",
+      "plies": 23,
+      "pgnRef": "extra/Kasparov-Anand-1995.pgn#17"
+    }
+  ],
+  "featuredRounds": [
+    9,
+    10,
+    11
+  ],
+  "moments": [
+    {
+      "id": "anand-golpea",
+      "round": 9,
+      "title": {
+        "es": "Anand golpea primero",
+        "en": "Anand strikes first"
+      },
+      "text": {
+        "es": "Tras ocho tablas seguidas, Anand, con blancas, rompió la defensa siciliana Scheveningen de Kasparov y se puso adelante.",
+        "en": "After eight straight draws, Anand, with White, broke through Kasparov's Sicilian Scheveningen and took the lead."
+      }
+    },
+    {
+      "id": "respuesta",
+      "round": 10,
+      "title": {
+        "es": "La respuesta inmediata",
+        "en": "The immediate reply"
+      },
+      "text": {
+        "es": "Al día siguiente, Kasparov empató el marcador con una novedad en la Apertura Española, variante abierta.",
+        "en": "The next day Kasparov levelled the score with a new idea in the Open Variation of the Ruy Lopez."
+      }
+    },
+    {
+      "id": "dragon",
+      "round": 11,
+      "title": {
+        "es": "La sorpresa del Dragón",
+        "en": "The Dragon surprise"
+      },
+      "text": {
+        "es": "Kasparov sorprendió a Anand con el Dragón siciliano, una defensa que entonces casi nadie usaba en la élite. Anand pasó por alto una combinación relativamente sencilla y perdió; muchos ven aquí el punto de quiebre del match.",
+        "en": "Kasparov surprised Anand with the Sicilian Dragon, a defence hardly anyone played at the top level back then. Anand missed a fairly simple combination and lost; many see this as the turning point of the match."
+      }
+    },
+    {
+      "id": "decidido",
+      "round": 14,
+      "title": {
+        "es": "Match decidido",
+        "en": "Match decided"
+      },
+      "text": {
+        "es": "Con su victoria en la partida 14, Kasparov se puso 8½–5½. Las cuatro partidas restantes fueron tablas.",
+        "en": "With his win in game 14 Kasparov led 8½–5½. The last four games were all drawn."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "text": {
+        "es": "El match se jugó en el piso 107 de la Torre Sur del World Trade Center de Nueva York.",
+        "en": "The match was played on the 107th floor of the South Tower of the World Trade Center in New York."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_1995"
+      }
+    },
+    {
+      "text": {
+        "es": "Las ocho tablas con que empezó el match fueron un récord para un Campeonato del Mundo hasta el Carlsen–Caruana de 2018.",
+        "en": "The eight draws that opened the match were a World Championship record until Carlsen–Caruana in 2018."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_1995"
+      }
+    },
+    {
+      "text": {
+        "es": "Fue el único ciclo de campeonato completo que llegó a organizar la PCA.",
+        "en": "It was the only full championship cycle the PCA ever ran."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_1995"
+      }
+    },
+    {
+      "text": {
+        "es": "Kasparov ganó la partida 13 de nuevo contra el Dragón: Anand volvió a jugar mal ante esa defensa y quedó dos puntos abajo.",
+        "en": "Kasparov won game 13 against the Dragon again: Anand once more played poorly against it and fell two points behind."
+      },
+      "source": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_1995"
+      }
+    }
+  ],
+  "photos": [
+    "kasparov-anand-1995",
+    "anand-1992",
+    "kasparov-1993"
+  ],
+  "videos": [
+    {
+      "youtubeId": "-EuFOM0s4MI",
+      "kind": "recap",
+      "title": {
+        "es": "La partida jugada en el World Trade Center, 1995",
+        "en": "The game played at the World Trade Center, 1995"
+      },
+      "channel": "GMHikaru",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    },
+    {
+      "youtubeId": "c4uoNz3AzEA",
+      "kind": "archival",
+      "title": {
+        "es": "Emisión del match Anand-Kasparov en el World Trade Center, 1995",
+        "en": "Broadcast of the Anand-Kasparov match at the World Trade Center, 1995"
+      },
+      "channel": "Rob Clark",
+      "language": "en",
+      "checkedAt": "2026-11-13"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_1995"
+    },
+    {
+      "label": "Mark Weeks – World Chess Championship",
+      "url": "https://www.mark-weeks.com/chess/9496pwix.htm"
+    },
+    {
+      "label": "Lichess – Kasparov vs. Anand 1995 (PGN)",
+      "url": "https://lichess.org/study/HpQRsYHb"
+    }
+  ]
+}
