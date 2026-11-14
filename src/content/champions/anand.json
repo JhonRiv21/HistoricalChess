@@ -1,0 +1,181 @@
+{
+  "order": 15,
+  "name": "Viswanathan Anand",
+  "short": "Anand",
+  "country": {
+    "es": "India",
+    "en": "India"
+  },
+  "born": "1969-12-11",
+  "reign": {
+    "es": "2007–2013",
+    "en": "2007–2013"
+  },
+  "matches": [
+    "2007-anand-tournament",
+    "2008-anand-kramnik",
+    "2010-anand-topalov",
+    "2012-anand-gelfand"
+  ],
+  "photo": "anand-2010",
+  "bio": {
+    "es": "Viswanathan «Vishy» Anand nació en Mayiladuthurai, en el estado indio de Tamil Nadu, en 1969, y en 1988 se convirtió en el primer gran maestro de la India. De niño lo llamaban «el chico relámpago» por lo rápido que jugaba. En 2000 ganó el campeonato mundial de la FIDE y en 2007 se coronó campeón indiscutido en el torneo de Ciudad de México. Defendió el título ante Vladimir Kramnik, Veselin Topalov y Boris Gelfand, y lo perdió ante Magnus Carlsen en 2013.",
+    "en": "Viswanathan \"Vishy\" Anand was born in Mayiladuthurai, in the Indian state of Tamil Nadu, in 1969, and in 1988 he became India's first grandmaster. As a boy he was nicknamed the \"Lightning Kid\" for how fast he played. In 2000 he won the FIDE world championship, and in 2007 he became undisputed champion at the Mexico City tournament. He defended the title against Vladimir Kramnik, Veselin Topalov and Boris Gelfand, and lost it to Magnus Carlsen in 2013."
+  },
+  "style": {
+    "es": "Un jugador universal de cálculo veloz y gran intuición, considerado a menudo el mejor de la historia en ajedrez rápido.",
+    "en": "A universal player with lightning-fast calculation and sharp intuition, often considered the greatest rapid player of all time."
+  },
+  "games": [
+    {
+      "id": "anand-lautier-1997",
+      "title": {
+        "es": "La combinación de Biel",
+        "en": "The Biel combination"
+      },
+      "white": "Viswanathan Anand",
+      "black": "Joël Lautier",
+      "event": {
+        "es": "Biel 1997",
+        "en": "Biel 1997"
+      },
+      "site": {
+        "es": "Biel, Suiza",
+        "en": "Biel, Switzerland"
+      },
+      "date": "1997",
+      "result": "1-0",
+      "eco": "B01",
+      "plies": 49,
+      "pgnRef": "memorial/anand.pgn#0",
+      "story": {
+        "es": "En la primera ronda del torneo de Biel, Anand puso una trampa al alfil negro de g2 con la tranquila 15.f3 y luego remató con dos golpes: 20.h6 y 21.Bg6, que dejaron al rey negro sin defensa. Lautier abandonó en la jugada 25. Anand contó que era una combinación de la que se sentía muy orgulloso, y terminó ganando el torneo medio punto por delante de Karpov.",
+        "en": "In the first round at Biel, Anand set a trap for Black's bishop on g2 with the quiet 15.f3 and then finished with two blows: 20.h6 and 21.Bg6, which left the black king with no defence. Lautier resigned on move 25. Anand said it was a combination he was very proud of, and he went on to win the tournament half a point ahead of Karpov."
+      },
+      "keyPly": 41,
+      "keyMove": "Bg6",
+      "sources": [
+        {
+          "label": "Chess.com – Anand's Most Spectacular Move? Anand vs. Lautier, 1997",
+          "url": "https://www.chess.com/blog/SamCopeland/best-chess-games-anands-most-spectacular-move-anand-vs-lautier-1997"
+        },
+        {
+          "label": "New in Chess – Anand: Move by Move (excerpt)",
+          "url": "https://www.newinchess.com/media/wysiwyg/product_pdf/7460.pdf"
+        }
+      ]
+    },
+    {
+      "id": "kramnik-anand-2008",
+      "title": {
+        "es": "La sorpresa de Bonn",
+        "en": "The Bonn surprise"
+      },
+      "white": "Vladimir Kramnik",
+      "black": "Viswanathan Anand",
+      "event": {
+        "es": "Campeonato del Mundo 2008, partida 3",
+        "en": "World Championship 2008, game 3"
+      },
+      "site": {
+        "es": "Bonn, Alemania",
+        "en": "Bonn, Germany"
+      },
+      "date": "2008-10-17",
+      "result": "0-1",
+      "eco": "D49",
+      "plies": 82,
+      "pgnRef": "memorial/anand.pgn#1",
+      "story": {
+        "es": "Con negras, en la Variante Merano de la Semieslava, Anand jugó la novedad 17...Rg4 y entregó dos peones a cambio de un ataque feroz. Contó después que buena parte de la idea la había preparado su segundo, Rustam Kasimdzhanov. Fue su primera victoria del match, que terminó ganando 6½–4½.",
+        "en": "With Black, in the Meran Variation of the Semi-Slav, Anand played the new move 17...Rg4 and gave up two pawns for a fierce attack. He later said much of the idea had been prepared by his second, Rustam Kasimdzhanov. It was his first win of the match, which he went on to take 6½–4½."
+      },
+      "keyPly": 34,
+      "keyMove": "Rg4",
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 2008",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2008"
+        }
+      ]
+    },
+    {
+      "id": "topalov-anand-2010",
+      "title": {
+        "es": "El título en la última partida",
+        "en": "The title in the last game"
+      },
+      "white": "Veselin Topalov",
+      "black": "Viswanathan Anand",
+      "event": {
+        "es": "Campeonato del Mundo 2010, partida 12",
+        "en": "World Championship 2010, game 12"
+      },
+      "site": {
+        "es": "Sofía, Bulgaria",
+        "en": "Sofia, Bulgaria"
+      },
+      "date": "2010-05-11",
+      "result": "0-1",
+      "eco": "D56",
+      "plies": 112,
+      "pgnRef": "memorial/anand.pgn#2",
+      "story": {
+        "es": "El match llegó empatado a la última partida, en la casa del retador. Topalov quiso evitar el desempate rápido y buscó complicaciones, pero Anand respondió con 30...f5 y se quedó con la iniciativa. Fue la única victoria con negras de todo el match y le dio a Anand la defensa del título por 6½–5½.",
+        "en": "The match went into the final game level, on the challenger's home turf. Topalov wanted to avoid a rapid playoff and went for complications, but Anand answered with 30...f5 and seized the initiative. It was the only win with Black in the whole match and gave Anand a 6½–5½ title defence."
+      },
+      "keyPly": 60,
+      "keyMove": "f5",
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 2010",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2010"
+        }
+      ]
+    },
+    {
+      "id": "aronian-anand-2013",
+      "title": {
+        "es": "La Inmortal de Anand",
+        "en": "Anand's Immortal"
+      },
+      "white": "Levon Aronian",
+      "black": "Viswanathan Anand",
+      "event": {
+        "es": "Tata Steel Masters 2013",
+        "en": "Tata Steel Masters 2013"
+      },
+      "site": {
+        "es": "Wijk aan Zee, Países Bajos",
+        "en": "Wijk aan Zee, Netherlands"
+      },
+      "date": "2013-01-15",
+      "result": "0-1",
+      "eco": "D47",
+      "plies": 46,
+      "pgnRef": "memorial/anand.pgn#3",
+      "story": {
+        "es": "Aronian le ofreció a Anand ganar un peón y, en lugar de tomarlo, Anand entregó el suyo de h7 con 12...c5 y desató una serie de sacrificios contra el rey blanco. La partida duró solo 23 jugadas. El personal de Chess.com la ubicó como la tercera mejor partida de todos los tiempos, detrás de la Inmortal de Kasparov y de la Partida de la Ópera.",
+        "en": "Aronian offered Anand a pawn and, instead of taking it, Anand gave up his own h7-pawn with 12...c5 and unleashed a series of sacrifices against the white king. The game lasted just 23 moves. Chess.com staff ranked it the third-best game of all time, behind Kasparov's Immortal and the Opera Game."
+      },
+      "keyPly": 24,
+      "keyMove": "c5",
+      "sources": [
+        {
+          "label": "Wikipedia – Aronian vs. Anand, Wijk aan Zee 2013",
+          "url": "https://en.wikipedia.org/wiki/Aronian_vs._Anand,_Wijk_aan_Zee_2013"
+        },
+        {
+          "label": "Chess.com – The Top 10 Chess Games Of The 2010s",
+          "url": "https://chess.com/blog/SamCopeland/the-top-10-chess-games-of-the-2010s-and-honorable-mentions"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia – Viswanathan Anand",
+      "url": "https://en.wikipedia.org/wiki/Viswanathan_Anand"
+    }
+  ]
+}

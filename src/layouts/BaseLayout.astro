@@ -7,6 +7,7 @@ import '../styles/a11y-panel.css';
 import '../styles/site.css';
 import A11yPanel from '../components/A11yPanel.svelte';
 import { t, type Lang } from '../i18n/ui';
+import { CONTACT_EMAIL } from '../data/site';
 
 interface Props {
   lang: Lang;
@@ -22,6 +23,8 @@ const other: Lang = lang === 'es' ? 'en' : 'es';
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const alternate = new URL(altPath, Astro.site);
 const pageTitle = title === t(lang, 'site.name') ? title : `${title} | ${t(lang, 'site.name')}`;
+const umamiId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID;
+const paths = { es: lang === 'es' ? Astro.url.pathname : altPath, en: lang === 'en' ? Astro.url.pathname : altPath };
 ---
 
 <!doctype html>
@@ -43,6 +46,9 @@ const pageTitle = title === t(lang, 'site.name') ? title : `${title} | ${t(lang,
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" />
+    {import.meta.env.PROD && umamiId && (
+      <script is:inline defer src="https://cloud.umami.is/script.js" data-website-id={umamiId} data-do-not-track="true"></script>
+    )}
     <script is:inline>
       // Apply saved reading preferences before first paint (same keys as src/lib/settings.svelte.ts).
       try {
@@ -67,20 +73,35 @@ const pageTitle = title === t(lang, 'site.name') ? title : `${title} | ${t(lang,
       <div class="site-tools">
         <nav class="site-nav" aria-label={t(lang, 'nav.championships')}>
           <a href={`/${lang}/#timeline`}>{t(lang, 'nav.championships')}</a>
-          <a href={`/${lang}/${lang === 'es' ? 'sobre' : 'about'}/`}>{t(lang, 'nav.about')}</a>
-          <a class="lang-switch" href={altPath} hreflang={other} lang={other} aria-label={t(lang, 'nav.languageLabel')}>{t(lang, 'nav.language')}</a>
+          <a href={lang === 'es' ? '/es/campeones/' : '/en/champions/'}>{t(lang, 'nav.champions')}</a>
+        </nav>
+        <nav class="lang-pill" aria-label="Idioma / Language">
+          <a href={paths.es} hreflang="es" lang="es" data-lang="es" data-umami-event="language" data-umami-event-to="es" aria-current={lang === 'es' ? 'page' : undefined}>
+            <span aria-hidden="true">ES</span><span class="visually-hidden">Español</span>
+          </a>
+          <a href={paths.en} hreflang="en" lang="en" data-lang="en" data-umami-event="language" data-umami-event-to="en" aria-current={lang === 'en' ? 'page' : undefined}>
+            <span aria-hidden="true">EN</span><span class="visually-hidden">English</span>
+          </a>
         </nav>
         <A11yPanel client:idle {lang} />
       </div>
     </header>
+    <script is:inline>
+      // Remember the chosen language so the site root opens in it next time.
+      document.querySelectorAll('.lang-pill a').forEach((link) => link.addEventListener('click', () => {
+        try { localStorage.setItem('historical-chess.lang', link.dataset.lang); } catch (error) { console.warn('Language preference not saved', error); }
+      }));
+    </script>
     <main id="main">
       <slot />
     </main>
     <footer class="site-foot">
-      <p>{t(lang, 'footer.credits')}</p>
-      <nav aria-label={t(lang, 'nav.about')}>
+      <nav class="foot-links" aria-label={t(lang, 'footer.label')}>
         <a href={`/${lang}/${lang === 'es' ? 'sobre' : 'about'}/`}>{t(lang, 'nav.about')}</a>
+        <a href={`mailto:${CONTACT_EMAIL}`} data-umami-event="contact">{CONTACT_EMAIL}</a>
       </nav>
+      <p>{t(lang, 'footer.author')}</p>
+      <p>{t(lang, 'footer.credits')}</p>
     </footer>
   </body>
 </html>

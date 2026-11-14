@@ -12,7 +12,8 @@ export interface PgnGame {
 }
 
 export function readPgnFile(file: string): PgnGame[] {
-  const path = file.startsWith('extra/') ? join(PGN_DIR, file) : join(PGN_DIR, 'raw', file);
+  // "extra/x.pgn" or "memorial/x.pgn" live under data/pgn; bare names are pgnmentor files in data/pgn/raw.
+  const path = file.includes('/') ? join(PGN_DIR, file) : join(PGN_DIR, 'raw', file);
   const text = readFileSync(path, 'latin1').replace(/\r\n/g, '\n');
   return text
     .split(/\n(?=\[Event )/)

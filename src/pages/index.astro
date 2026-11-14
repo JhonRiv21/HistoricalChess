@@ -1,3 +1,27 @@
 ---
-return Astro.redirect('/es/');
+// Site root: opens the reader's language (saved choice, then browser language), Spanish by default.
 ---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Historical Chess</title>
+    <link rel="alternate" hreflang="es" href="/es/" />
+    <link rel="alternate" hreflang="en" href="/en/" />
+    <script is:inline>
+      let lang = 'es';
+      try {
+        lang = localStorage.getItem('historical-chess.lang') || (navigator.language.toLowerCase().startsWith('es') ? 'es' : 'en');
+      } catch (error) {
+        lang = navigator.language.toLowerCase().startsWith('es') ? 'es' : 'en';
+      }
+      location.replace(`/${lang === 'en' ? 'en' : 'es'}/`);
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=/es/" /></noscript>
+  </head>
+  <body>
+    <p><a href="/es/">Español</a> · <a href="/en/">English</a></p>
+  </body>
+</html>

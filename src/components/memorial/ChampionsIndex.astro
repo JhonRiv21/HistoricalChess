@@ -1,0 +1,38 @@
+---
+// Memorial index: every lineal champion as a card, in title order.
+import { Picture } from 'astro:assets';
+import { getEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { championUrl, championsUrl, getChampions } from '../../lib/champions';
+import { photoAsset } from '../../lib/content';
+import { pick, t, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const other: Lang = lang === 'es' ? 'en' : 'es';
+const champions = await Promise.all((await getChampions()).map(async (c) => ({ champion: c, photo: await getEntry(c.data.photo) })));
+---
+
+<BaseLayout {lang} title={t(lang, 'memorial.title')} description={t(lang, 'memorial.lede')} altPath={championsUrl(other)}>
+  <div class="view">
+    <section class="section">
+      <h1 class="section-title">{t(lang, 'memorial.title')}</h1>
+      <p class="lede">{t(lang, 'memorial.lede')}</p>
+      <ol class="champion-grid">
+        {champions.map(({ champion: c, photo }) => (
+          <li>
+            <a class="champion-card" href={championUrl(lang, c.id)}>
+              <div class="champion-photo">
+                {photo && <Picture src={photoAsset(photo.data.file)} formats={['avif', 'webp']} widths={[240, 420]} sizes="(max-width: 600px) 45vw, 220px" alt="" style={`object-position:${photo.data.focus}`} />}
+              </div>
+              <span class="champion-order">{c.data.order}</span>
+              <strong class="champion-name">{c.data.name}</strong>
+              <span class="champion-reign">{pick(c.data.reign, lang)}</span>
+              <span class="champion-country">{pick(c.data.country, lang)}</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  </div>
+</BaseLayout>

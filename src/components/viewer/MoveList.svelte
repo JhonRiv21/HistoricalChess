@@ -1,7 +1,8 @@
 <script lang="ts">
-  // Game score with annotation glyphs (?!, ?, ??) computed from the engine.
-  import { glyphOf, type AnalyzedMove, type Annotation } from '../../lib/evaluation';
+  // Game score with annotation glyphs (!!, !, ?!, ?, ??) computed from the engine.
+  import { glyphOf, isMarked, type AnalyzedMove, type Annotation } from '../../lib/evaluation';
   import { sanParts, type Notation } from '../../lib/format';
+  import { reducedMotion } from '../../lib/settings.svelte';
   import { t, type Lang } from '../../i18n/ui';
 
   interface Props {
@@ -17,11 +18,16 @@
   let list: HTMLOListElement;
   const rows = $derived(Array.from({ length: Math.ceil(moves.length / 2) }, (_, r) => [r * 2 + 1, r * 2 + 2].filter((p) => p <= moves.length)));
 
+  // Keep the current move in view inside the list (never scrolls the page). Reading `ply` makes the
+  // effect re-run on every move; Svelte runs it after the DOM has the new aria-current.
   $effect(() => {
-    const active = list?.querySelector<HTMLElement>('[aria-current="true"]');
-    if (!active) { if (list) list.scrollTop = 0; return; }
-    const top = active.offsetTop;
-    if (top < list.scrollTop || top > list.scrollTop + list.clientHeight - 40) list.scrollTop = top - list.clientHeight / 2;
+    if (!list) return;
+    const current = ply;
+    const active = list.querySelector<HTMLElement>('[aria-current="true"]');
+    const behavior = reducedMotion() ? 'instant' : 'smooth';
+    if (!active || current === 0) { list.scrollTo({ top: 0, behavior }); return; }
+    const top = active.offsetTop - list.clientHeight / 2 + active.offsetHeight / 2;
+    list.scrollTo({ top: Math.max(0, top), behavior });
   });
 </script>
 
@@ -31,12 +37,13 @@
       <span class="move-num">{r + 1}.</span>
       {#each pair as p (p)}
         {@const klass = annotations[p - 1]?.klass}
+        {@const marked = klass && isMarked(klass)}
         {@const parts = sanParts(moves[p - 1]!.san, notation, lang)}
-        <button type="button" class={`move${klass ? ` is-${klass}` : ''}`} aria-current={p === ply ? 'true' : undefined} onclick={() => onselect(p)}>
+        <button type="button" class={`move${marked ? ` is-${klass}` : ''}`} aria-current={p === ply ? 'true' : undefined} onclick={() => onselect(p)}>
           <span class="san">
             {#if parts.piece}<span class="fig" role="img" aria-label={parts.piece.name}>{parts.piece.glyph}</span>{/if}{parts.rest}
           </span>
-          {#if klass}<span class="glyph" aria-label={t(lang, `class.${klass}`)}>{glyphOf(klass)}</span>{/if}
+          {#if marked}<span class="glyph" aria-label={t(lang, `class.${klass}`)}>{glyphOf(klass)}</span>{/if}
         </button>
       {/each}
     </li>

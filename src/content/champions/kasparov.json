@@ -1,0 +1,219 @@
+{
+  "order": 13,
+  "name": "Garry Kasparov",
+  "short": "Kasparov",
+  "country": {
+    "es": "URSS / Rusia",
+    "en": "Soviet Union / Russia"
+  },
+  "born": "1963-04-13",
+  "reign": {
+    "es": "1985–2000",
+    "en": "1985–2000"
+  },
+  "matches": [
+    "1985-kasparov-karpov",
+    "1986-kasparov-karpov",
+    "1987-kasparov-karpov",
+    "1990-kasparov-karpov",
+    "1993-kasparov-short",
+    "1995-kasparov-anand"
+  ],
+  "photo": "kasparov-1993",
+  "bio": {
+    "es": "Garry Kasparov nació en Bakú, en la Azerbaiyán soviética, en 1963. En 1985 le ganó el título a Anatoly Karpov y, con 22 años, se convirtió en el campeón mundial indiscutido más joven, un récord que duró hasta 2024. En 1993 rompió con la FIDE y fundó una organización rival, la PCA, con la que defendió el título clásico hasta perderlo ante Vladimir Kramnik en 2000. Fue el número uno del ranking mundial durante 255 meses, un récord, y en 1999 alcanzó un rating de 2851. Se retiró de la competición en 2005.",
+    "en": "Garry Kasparov was born in Baku, in Soviet Azerbaijan, in 1963. In 1985 he took the title from Anatoly Karpov and, at 22, became the youngest undisputed world champion, a record that stood until 2024. In 1993 he broke with FIDE and founded a rival body, the PCA, under which he defended the classical title until he lost it to Vladimir Kramnik in 2000. He was world number one for a record 255 months and reached a rating of 2851 in 1999. He retired from competitive chess in 2005."
+  },
+  "style": {
+    "es": "Un jugador de iniciativa y ataque, que llegaba a cada partida con una preparación de aperturas muy profunda y buscaba la complicación.",
+    "en": "An attacking player who lived on the initiative, came to every game with very deep opening preparation and went looking for complications."
+  },
+  "games": [
+    {
+      "id": "kasparov-portisch-1983",
+      "title": {
+        "es": "El doble sacrificio de alfil",
+        "en": "The double bishop sacrifice"
+      },
+      "white": "Garry Kasparov",
+      "black": "Lajos Portisch",
+      "event": {
+        "es": "Niksic 1983",
+        "en": "Niksic 1983"
+      },
+      "site": {
+        "es": "Nikšić, Yugoslavia",
+        "en": "Nikšić, Yugoslavia"
+      },
+      "date": "1983",
+      "result": "1-0",
+      "eco": "E12",
+      "plies": 69,
+      "pgnRef": "memorial/kasparov.pgn#0",
+      "story": {
+        "es": "Con 20 años, Kasparov mejoró una jugada de la teoría con 15.c4 y abrió el centro contra uno de los grandes de la época. Sacrificó un alfil en h7 y, dos jugadas después, el otro en g7, dejando al rey negro sin defensa. Portisch abandonó en la jugada 35 y Kasparov ganó el torneo con 11 de 14 puntos.",
+        "en": "At 20, Kasparov improved on a book move with 15.c4 and blew open the centre against one of the giants of the era. He gave up one bishop on h7 and, two moves later, the other on g7, leaving the black king with no shelter. Portisch resigned on move 35, and Kasparov won the tournament with 11 points out of 14."
+      },
+      "keyPly": 41,
+      "keyMove": "Bxg7",
+      "sources": [
+        {
+          "label": "The Christian Science Monitor (1983)",
+          "url": "https://www.csmonitor.com/1983/1031/103108.html"
+        },
+        {
+          "label": "Chess.com – The Top 10 Chess Games Of The 1980s",
+          "url": "https://www.chess.com/blog/SamCopeland/the-top-10-chess-games-of-the-1980s-and-90-honorable-mentions"
+        }
+      ]
+    },
+    {
+      "id": "karpov-kasparov-1985-16",
+      "title": {
+        "es": "El pulpo de d3",
+        "en": "The octopus on d3"
+      },
+      "white": "Anatoly Karpov",
+      "black": "Garry Kasparov",
+      "event": {
+        "es": "Campeonato del Mundo 1985, partida 16",
+        "en": "World Championship 1985, game 16"
+      },
+      "site": {
+        "es": "Moscú, URSS",
+        "en": "Moscow, Soviet Union"
+      },
+      "date": "1985",
+      "result": "0-1",
+      "eco": "B44",
+      "plies": 80,
+      "pgnRef": "memorial/kasparov.pgn#1",
+      "story": {
+        "es": "Con negras, Kasparov entregó un peón en la apertura y clavó un caballo en d3, en pleno campo blanco, que paralizó la posición de Karpov durante casi veinte jugadas. Karpov terminó dando su dama para quitárselo de encima. Los lectores del Chess Informant la eligieron la mejor partida de sus primeros 64 números, y con ella Kasparov se puso por delante en el match.",
+        "en": "With Black, Kasparov gave up a pawn in the opening and planted a knight on d3, deep in White's camp, where it paralysed Karpov's position for almost twenty moves. Karpov ended up giving his queen to get rid of it. Chess Informant readers voted it the best game of the first 64 issues, and it gave Kasparov the lead in the match."
+      },
+      "keyPly": 32,
+      "keyMove": "Nd3",
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 1985",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1985"
+        },
+        {
+          "label": "Chess.com – The Top 10 Chess Games Of The 1980s",
+          "url": "https://www.chess.com/blog/SamCopeland/the-top-10-chess-games-of-the-1980s-and-90-honorable-mentions"
+        }
+      ]
+    },
+    {
+      "id": "karpov-kasparov-1985-24",
+      "title": {
+        "es": "La partida de la corona",
+        "en": "The game for the crown"
+      },
+      "white": "Anatoly Karpov",
+      "black": "Garry Kasparov",
+      "event": {
+        "es": "Campeonato del Mundo 1985, partida 24",
+        "en": "World Championship 1985, game 24"
+      },
+      "site": {
+        "es": "Moscú, URSS",
+        "en": "Moscow, Soviet Union"
+      },
+      "date": "1985-11-09",
+      "result": "0-1",
+      "eco": "B85",
+      "plies": 84,
+      "pgnRef": "memorial/kasparov.pgn#2",
+      "story": {
+        "es": "Karpov llegó a la última partida obligado a ganar con blancas para conservar el título y se lanzó al ataque contra el rey negro. Kasparov entregó dos peones para contraatacar, Karpov se equivocó en la jugada 36 y abandonó en la 42. Así Kasparov ganó 13–11 y, con 22 años, se convirtió en campeón del mundo.",
+        "en": "Karpov reached the final game needing to win with White to keep the title, and threw everything at the black king. Kasparov gave up two pawns to counterattack, Karpov went wrong on move 36 and resigned on move 42. Kasparov won the match 13–11 and became world champion at 22."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 1985",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1985"
+        }
+      ]
+    },
+    {
+      "id": "kasparov-topalov-1999",
+      "title": {
+        "es": "La Inmortal de Kasparov",
+        "en": "Kasparov's Immortal"
+      },
+      "white": "Garry Kasparov",
+      "black": "Veselin Topalov",
+      "event": {
+        "es": "Hoogovens 1999",
+        "en": "Hoogovens 1999"
+      },
+      "site": {
+        "es": "Wijk aan Zee, Países Bajos",
+        "en": "Wijk aan Zee, Netherlands"
+      },
+      "date": "1999-01-20",
+      "result": "1-0",
+      "eco": "B07",
+      "plies": 87,
+      "pgnRef": "memorial/kasparov.pgn#3",
+      "story": {
+        "es": "Con 24.Rxd4 Kasparov regaló una torre y empezó una cacería que arrastró al rey negro desde a7 hasta d1, en la otra punta del tablero. Topalov aceptó el sacrificio y luego dijo que tomar esa torre había sido un suicidio. Chess.com la puso en el primer lugar de su lista de las mejores partidas de la historia.",
+        "en": "With 24.Rxd4 Kasparov gave away a rook and started a hunt that dragged the black king from a7 all the way to d1, on the far side of the board. Topalov accepted the sacrifice and later called taking that rook suicide. Chess.com placed it first in its list of the greatest games ever played."
+      },
+      "keyPly": 47,
+      "keyMove": "Rxd4",
+      "sources": [
+        {
+          "label": "Wikipedia – Kasparov's Immortal",
+          "url": "https://en.wikipedia.org/wiki/Kasparov%27s_Immortal"
+        },
+        {
+          "label": "Chess.com – The Top 10 Chess Games Of The 1990s",
+          "url": "https://www.chess.com/blog/SamCopeland/the-top-10-chess-games-of-the-1990s-and-100-honorable-mentions"
+        }
+      ]
+    },
+    {
+      "id": "kasparov-world-1999",
+      "title": {
+        "es": "Kasparov contra el Mundo",
+        "en": "Kasparov versus the World"
+      },
+      "white": "Garry Kasparov",
+      "black": "The World",
+      "event": {
+        "es": "Kasparov contra el Mundo",
+        "en": "Kasparov versus the World"
+      },
+      "site": {
+        "es": "Internet (MSN)",
+        "en": "Internet (MSN)"
+      },
+      "date": "1999",
+      "result": "1-0",
+      "eco": "B52",
+      "plies": 123,
+      "pgnRef": "memorial/kasparov.pgn#4",
+      "story": {
+        "es": "Durante cuatro meses, más de 50.000 personas de más de 75 países votaron por internet cada jugada de las negras, guiadas por cuatro analistas. En la jugada 10 el equipo del Mundo estrenó 10...Qe6, una novedad encontrada por Irina Krush que llevó la partida a terreno desconocido. Kasparov ganó en 62 jugadas y la llamó la partida más grande de la historia del ajedrez.",
+        "en": "For four months, more than 50,000 people from over 75 countries voted online on every Black move, guided by four analysts. On move 10 the World Team played 10...Qe6, a novelty found by Irina Krush that took the game into the unknown. Kasparov won in 62 moves and called it the greatest game in the history of chess."
+      },
+      "keyPly": 20,
+      "keyMove": "Qe6",
+      "sources": [
+        {
+          "label": "Wikipedia – Kasparov versus the World",
+          "url": "https://en.wikipedia.org/wiki/Kasparov_versus_the_World"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia – Garry Kasparov",
+      "url": "https://en.wikipedia.org/wiki/Garry_Kasparov"
+    }
+  ]
+}

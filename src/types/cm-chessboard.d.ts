@@ -16,7 +16,7 @@ declare module 'cm-chessboard/src/Chessboard.js' {
     constructor(context: HTMLElement, props?: ChessboardProps);
     setPosition(fen: string, animated?: boolean): Promise<void>;
     destroy(): void;
-    addMarker(type: unknown, square: string): void;
+    addMarker(type: { class: string; slice: string }, square: string): void;
     removeMarkers(type?: unknown, square?: string): void;
     addArrow(type: unknown, from: string, to: string): void;
     removeArrows(type?: unknown, from?: string, to?: string): void;

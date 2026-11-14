@@ -1,0 +1,236 @@
+{
+  "order": 1,
+  "name": "Wilhelm Steinitz",
+  "short": "Steinitz",
+  "country": {
+    "es": "Austria / Estados Unidos",
+    "en": "Austria / United States"
+  },
+  "born": "1836-05-14",
+  "died": "1900-08-12",
+  "reign": {
+    "es": "1886–1894",
+    "en": "1886–1894"
+  },
+  "matches": [
+    "1886-steinitz-zukertort",
+    "1889-steinitz-chigorin",
+    "1890-steinitz-gunsberg",
+    "1892-steinitz-chigorin"
+  ],
+  "photo": "steinitz-1883",
+  "bio": {
+    "es": "Wilhelm Steinitz nació en Praga en 1836 y en 1886 se convirtió en el primer campeón mundial oficial al vencer a Johannes Zukertort. De joven jugaba al estilo romántico de su época, lleno de ataques y sacrificios, pero desde el torneo de Viena de 1873 defendió un juego basado en principios: estructura de peones, espacio y pequeñas ventajas acumuladas. Esas ideas son la base del ajedrez moderno. Se nacionalizó estadounidense en 1888, defendió el título varias veces y lo perdió ante Emanuel Lasker en 1894. Murió en Nueva York en 1900, en la pobreza.",
+    "en": "Wilhelm Steinitz was born in Prague in 1836 and in 1886 became the first official world champion by beating Johannes Zukertort. As a young man he played in the romantic style of his day, full of attacks and sacrifices, but from the Vienna tournament of 1873 onward he championed a game built on principles: pawn structure, space and small advantages added up over time. Those ideas are the foundation of modern chess. He became a US citizen in 1888, defended the title several times and lost it to Emanuel Lasker in 1894. He died in New York in 1900, a poor man."
+  },
+  "style": {
+    "es": "El primer gran teórico del juego: buscaba posiciones claras, cuidaba la estructura de peones y sumaba pequeñas ventajas antes de lanzarse al ataque.",
+    "en": "The game's first great theorist: he looked for clear positions, cared for his pawn structure and piled up small advantages before going on the attack."
+  },
+  "games": [
+    {
+      "id": "steinitz-mongredien-1862",
+      "title": {
+        "es": "El premio de brillantez de Londres 1862",
+        "en": "The London 1862 brilliancy prize"
+      },
+      "white": "Wilhelm Steinitz",
+      "black": "Augustus Mongredien",
+      "event": {
+        "es": "Londres 1862",
+        "en": "London 1862"
+      },
+      "site": {
+        "es": "Londres",
+        "en": "London"
+      },
+      "date": "1862",
+      "result": "1-0",
+      "eco": "B01",
+      "plies": 57,
+      "pgnRef": "memorial/steinitz.pgn#0",
+      "story": {
+        "es": "Steinitz terminó sexto en el torneo de Londres de 1862, pero esta victoria recibió el premio a la partida más brillante. En la jugada 16 entregó una torre en h7 para romper la protección del rey negro, y la persecución que siguió terminó en mate en la jugada 29. Es el Steinitz joven, todavía fiel al ataque romántico que él mismo dejaría atrás años después.",
+        "en": "Steinitz finished sixth at the London tournament of 1862, but this win took the prize for the most brilliant game. On move 16 he gave up a rook on h7 to tear open the black king's shelter, and the chase that followed ended in mate on move 29. This is the young Steinitz, still loyal to the romantic attack he would later leave behind."
+      },
+      "keyPly": 31,
+      "keyMove": "Rxh7",
+      "sources": [
+        {
+          "label": "Wikipedia: Wilhelm Steinitz",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Steinitz"
+        },
+        {
+          "label": "Wikipedia: London 1862 chess tournament",
+          "url": "https://en.wikipedia.org/wiki/London_1862_chess_tournament"
+        },
+        {
+          "label": "Wikipedia: List of chess games",
+          "url": "https://en.wikipedia.org/wiki/List_of_chess_games"
+        }
+      ]
+    },
+    {
+      "id": "anderssen-steinitz-1866",
+      "title": {
+        "es": "La 13.ª partida del match contra Anderssen",
+        "en": "Game 13 of the Anderssen match"
+      },
+      "white": "Adolf Anderssen",
+      "black": "Wilhelm Steinitz",
+      "event": {
+        "es": "Match Anderssen–Steinitz",
+        "en": "Anderssen–Steinitz match"
+      },
+      "site": {
+        "es": "Londres",
+        "en": "London"
+      },
+      "date": "1866",
+      "result": "0-1",
+      "eco": "C65",
+      "plies": 86,
+      "pgnRef": "memorial/steinitz.pgn#1",
+      "story": {
+        "es": "En 1866, en Londres, Steinitz derrotó a Adolf Anderssen en un match que en la práctica fue un duelo por el título mundial, y más tarde contó su reinado desde entonces. En esta partida, con negras, avanzó los peones del flanco de rey y llevó sus piezas detrás de ellos hasta derrumbar la posición blanca. Emanuel Lasker vio en este ataque, preparado con calma, un anticipo del juego posicional que Steinitz defendería después, y Raymond Keene lo comparó con la moderna defensa India de Rey.",
+        "en": "In London in 1866 Steinitz beat Adolf Anderssen in a match that was, to all intents and purposes, a world title fight, and he later dated his reign from it. In this game, with Black, he pushed his kingside pawns and brought his pieces up behind them until White's position collapsed. Emanuel Lasker saw this patiently prepared attack as a forerunner of the positional play Steinitz would later champion, and Raymond Keene likened it to the modern King's Indian Defence."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Wilhelm Steinitz",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Steinitz"
+        },
+        {
+          "label": "Raymond Keene, The Spectator: London pride (2012)",
+          "url": "https://spectator.com/article/london-pride-6-december-2012/"
+        }
+      ]
+    },
+    {
+      "id": "zukertort-steinitz-1886",
+      "title": {
+        "es": "La novena partida del primer Mundial",
+        "en": "Game 9 of the first World Championship"
+      },
+      "white": "Johannes Zukertort",
+      "black": "Wilhelm Steinitz",
+      "event": {
+        "es": "Campeonato del Mundo 1886",
+        "en": "World Championship 1886"
+      },
+      "site": {
+        "es": "San Luis",
+        "en": "St. Louis"
+      },
+      "date": "1886-02-10",
+      "result": "0-1",
+      "eco": "D26",
+      "plies": 76,
+      "pgnRef": "memorial/steinitz.pgn#2",
+      "story": {
+        "es": "Esta partida, jugada en San Luis, muestra las ideas de Steinitz en pleno duelo por el título. Con negras, cambió sus peones centrales para dejar a Zukertort con dos peones colgantes y débiles en el flanco de dama, y los presionó sin descanso. Cuando Zukertort intentó liberarse por la fuerza, Steinitz respondió con un contraataque decisivo. El match terminó con su victoria y con el primer campeón mundial oficial.",
+        "en": "Played in St. Louis, this game shows Steinitz's ideas in the middle of a title fight. With Black, he traded off his central pawns to leave Zukertort with two weak hanging pawns on the queenside, and kept up the pressure on them. When Zukertort tried to fight his way out, Steinitz answered with a decisive counterattack. The match ended with his victory and with the first official world champion."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Wilhelm Steinitz",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Steinitz"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1886",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1886"
+        }
+      ]
+    },
+    {
+      "id": "steinitz-chigorin-1892",
+      "title": {
+        "es": "La cuarta partida de La Habana 1892",
+        "en": "Game 4 in Havana, 1892"
+      },
+      "white": "Wilhelm Steinitz",
+      "black": "Mikhail Chigorin",
+      "event": {
+        "es": "Campeonato del Mundo 1892",
+        "en": "World Championship 1892"
+      },
+      "site": {
+        "es": "La Habana",
+        "en": "Havana"
+      },
+      "date": "1892-01-07",
+      "result": "1-0",
+      "eco": "C65",
+      "plies": 55,
+      "pgnRef": "memorial/steinitz.pgn#3",
+      "story": {
+        "es": "En la revancha contra Mikhail Chigorin, Steinitz preparó el ataque con calma: avanzó el peón de la columna h para abrirla y se enrocó largo para apoyarlo. En la jugada 24 sacrificó la torre en h7, y la persecución del rey negro llevó a Chigorin a abandonar cuatro jugadas después, con el mate a la vista. Es un ejemplo claro de cómo la preparación posicional abre la puerta a un ataque rápido.",
+        "en": "In the rematch with Mikhail Chigorin, Steinitz prepared the attack calmly: he pushed his h-pawn to open the file and castled queenside to back it up. On move 24 he sacrificed the rook on h7, and the hunt for the black king made Chigorin resign four moves later, with mate in sight. It is a clear example of positional preparation opening the door to a swift attack."
+      },
+      "keyPly": 47,
+      "keyMove": "Rxh7+",
+      "sources": [
+        {
+          "label": "Wikipedia: Wilhelm Steinitz",
+          "url": "https://en.wikipedia.org/wiki/Wilhelm_Steinitz"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1892",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1892"
+        },
+        {
+          "label": "Exeter Chess Club: Lessons from Steinitz",
+          "url": "https://www.exeterchessclub.org.uk/content/lessons-steinitz"
+        }
+      ]
+    },
+    {
+      "id": "steinitz-von-bardeleben-1895",
+      "title": {
+        "es": "La inmortal de Steinitz",
+        "en": "Steinitz's Immortal"
+      },
+      "white": "Wilhelm Steinitz",
+      "black": "Curt von Bardeleben",
+      "event": {
+        "es": "Hastings 1895",
+        "en": "Hastings 1895"
+      },
+      "site": {
+        "es": "Hastings",
+        "en": "Hastings"
+      },
+      "date": "1895-08-17",
+      "result": "1-0",
+      "eco": "C54",
+      "plies": 49,
+      "pgnRef": "memorial/steinitz.pgn#4",
+      "story": {
+        "es": "A los 59 años, en el torneo de Hastings, Steinitz sacrificó una torre en e7 y siguió dando jaques con ella al rey negro, que no podía capturarla sin perder la partida. Von Bardeleben no abandonó: salió de la sala y dejó que se le acabara el tiempo. La partida ganó el primer premio de brillantez del torneo, y Capablanca la llamó «una de las últimas obras maestras que nos dejó el Gran Anciano».",
+        "en": "At 59, at the Hastings tournament, Steinitz sacrificed a rook on e7 and kept checking the black king with it, since taking it would lose the game. Von Bardeleben did not resign: he walked out of the room and let his time run out. The game won the tournament's first brilliancy prize, and Capablanca called it \"one of the last masterpieces handed to us by the Grand Old Man.\""
+      },
+      "keyPly": 43,
+      "keyMove": "Rxe7+",
+      "sources": [
+        {
+          "label": "Wikipedia: Hastings 1895 chess tournament",
+          "url": "https://en.wikipedia.org/wiki/Hastings_1895_chess_tournament"
+        },
+        {
+          "label": "Edward Winter: Steinitz v von Bardeleben",
+          "url": "https://www.chesshistory.com/winter/extra/steinitzvonbardeleben.html"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Wilhelm Steinitz",
+      "url": "https://en.wikipedia.org/wiki/Wilhelm_Steinitz"
+    },
+    {
+      "label": "PGN Mentor: Steinitz",
+      "url": "https://www.pgnmentor.com/players/Steinitz.zip"
+    }
+  ]
+}

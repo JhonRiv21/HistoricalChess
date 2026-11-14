@@ -1,0 +1,235 @@
+{
+  "order": 6,
+  "name": "Mikhail Botvinnik",
+  "short": "Botvinnik",
+  "country": {
+    "es": "URSS",
+    "en": "Soviet Union"
+  },
+  "born": "1911-08-17",
+  "died": "1995-05-05",
+  "reign": {
+    "es": "1948–1957, 1958–1960 y 1961–1963",
+    "en": "1948–1957, 1958–1960 and 1961–1963"
+  },
+  "matches": [
+    "1948-botvinnik-tournament",
+    "1951-botvinnik-bronstein",
+    "1954-botvinnik-smyslov",
+    "1958-botvinnik-smyslov",
+    "1961-botvinnik-tal"
+  ],
+  "photo": "botvinnik-1963-amsterdam",
+  "bio": {
+    "es": "Mikhail Botvinnik nació en 1911 en Kuokkala, entonces parte del Gran Ducado de Finlandia y hoy Repino, cerca de San Petersburgo. Ingeniero electricista, fue también pionero del ajedrez por computadora. En 1948 ganó el torneo que repartió el título vacante tras la muerte de Alekhine. Lo perdió ante Smyslov en 1957 y ante Tal en 1960, y las dos veces lo recuperó en la revancha del año siguiente, hasta cederlo definitivamente ante Tigran Petrosian en 1963. Murió en Moscú en 1995.",
+    "en": "Mikhail Botvinnik was born in 1911 in Kuokkala, then part of the Grand Duchy of Finland and now Repino, near St. Petersburg. An electrical engineer, he was also a pioneer of computer chess. In 1948 he won the tournament held for the title left vacant by Alekhine's death. He lost it to Smyslov in 1957 and to Tal in 1960, and both times won it back in the rematch the following year, until he gave it up for good to Tigran Petrosian in 1963. He died in Moscow in 1995."
+  },
+  "style": {
+    "es": "Un estratega metódico que buscaba posiciones tensas, con opciones para ambos lados; Petrosian lo comparó con «una aplanadora que arrasa con todo lo que encuentra a su paso».",
+    "en": "A methodical strategist who sought tense positions with chances for both sides; Petrosian compared him to \"a bulldozer, which sweeps away everything in its path.\""
+  },
+  "games": [
+    {
+      "id": "botvinnik-chekhover-1935",
+      "title": {
+        "es": "La combinación de 22 jugadas",
+        "en": "The 22-move combination"
+      },
+      "white": "Mikhail Botvinnik",
+      "black": "Vitaly Chekhover",
+      "event": {
+        "es": "Moscú 1935",
+        "en": "Moscow 1935"
+      },
+      "site": {
+        "es": "Moscú",
+        "en": "Moscow"
+      },
+      "date": "1935",
+      "result": "1-0",
+      "eco": "A13",
+      "plies": 85,
+      "pgnRef": "memorial/botvinnik.pgn#0",
+      "story": {
+        "es": "En el torneo de Moscú 1935, Botvinnik sacrificó un caballo en g5 y desató una combinación que terminó en mate veintidós jugadas después, con el rey negro arrastrado hasta b2. Irving Chernev la llamó «la combinación más larga jamás vista en una partida de maestros». Botvinnik recordaba que la partida impresionó tanto que algunos «especialistas» aseguraron que estaba preparada de antemano.",
+        "en": "At the Moscow 1935 tournament, Botvinnik sacrificed a knight on g5 and set off a combination that ended in mate twenty-two moves later, with the black king dragged all the way to b2. Irving Chernev called it \"the longest combination ever seen in master play.\" Botvinnik recalled that the game made such an impression that some \"specialists\" claimed it had been prepared beforehand."
+      },
+      "keyPly": 43,
+      "keyMove": "Ng5",
+      "sources": [
+        {
+          "label": "Edward Winter: Mikhail Botvinnik (1911–95)",
+          "url": "https://www.chesshistory.com/winter/extra/botvinnik.html"
+        },
+        {
+          "label": "Wikipedia: Mikhail Botvinnik",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Botvinnik"
+        }
+      ]
+    },
+    {
+      "id": "botvinnik-capablanca-1938",
+      "title": {
+        "es": "Botvinnik contra Capablanca, AVRO 1938",
+        "en": "Botvinnik vs Capablanca, AVRO 1938"
+      },
+      "white": "Mikhail Botvinnik",
+      "black": "José Raúl Capablanca",
+      "event": {
+        "es": "AVRO 1938",
+        "en": "AVRO 1938"
+      },
+      "site": {
+        "es": "Róterdam",
+        "en": "Rotterdam"
+      },
+      "date": "1938-11-22",
+      "result": "1-0",
+      "eco": "E49",
+      "plies": 81,
+      "pgnRef": "memorial/botvinnik.pgn#1",
+      "story": {
+        "es": "En el torneo AVRO, frente al excampeón Capablanca, Botvinnik jugó la que Garry Kasparov llamó «la partida de su vida». Con 30.Aa3 desvió la dama negra, que bloqueaba su peón pasado, y luego entregó también el caballo para avanzar ese peón, mientras su rey escapaba de los jaques hasta h5. Botvinnik admitió más tarde que no había podido calcularlo todo hasta el final y que lo resolvió en dos etapas.",
+        "en": "At the AVRO tournament, against former champion Capablanca, Botvinnik played what Garry Kasparov called \"the game of his life.\" With 30.Ba3 he lured away the black queen that was blockading his passed pawn, then gave up his knight too to push that pawn, while his king escaped the checks by walking to h5. Botvinnik later admitted he could not calculate it all to the end and worked it out in two stages."
+      },
+      "keyPly": 59,
+      "keyMove": "Ba3",
+      "sources": [
+        {
+          "label": "Wikipedia: Botvinnik versus Capablanca, AVRO 1938",
+          "url": "https://en.wikipedia.org/wiki/Botvinnik_versus_Capablanca,_AVRO_1938"
+        },
+        {
+          "label": "Edward Winter: Mikhail Botvinnik (1911–95)",
+          "url": "https://www.chesshistory.com/winter/extra/botvinnik.html"
+        }
+      ]
+    },
+    {
+      "id": "keres-botvinnik-1941",
+      "title": {
+        "es": "Keres contra Botvinnik, Campeonato Absoluto de 1941",
+        "en": "Keres vs Botvinnik, 1941 Absolute Championship"
+      },
+      "white": "Paul Keres",
+      "black": "Mikhail Botvinnik",
+      "event": {
+        "es": "Campeonato Absoluto de la URSS 1941",
+        "en": "USSR Absolute Championship 1941"
+      },
+      "site": {
+        "es": "Leningrado",
+        "en": "Leningrad"
+      },
+      "date": "1941-03",
+      "result": "0-1",
+      "eco": "E35",
+      "plies": 44,
+      "pgnRef": "memorial/botvinnik.pgn#2",
+      "story": {
+        "es": "En 1941 la URSS reunió a sus seis mejores jugadores en un «campeonato absoluto», jugado en Leningrado y Moscú, para decidir quién sería su candidato frente a Alekhine. Con negras contra Paul Keres, Botvinnik aprovechó el arriesgado enroque largo de su rival, tomó ventaja en desarrollo y lo derrotó en solo 22 jugadas. Ganó el torneo por delante del propio Keres.",
+        "en": "In 1941 the Soviet Union gathered its top six players in an \"absolute championship,\" played in Leningrad and Moscow, to settle who would challenge Alekhine. With Black against Paul Keres, Botvinnik punished his opponent's risky queenside castling, took a lead in development and beat him in just 22 moves. He won the tournament ahead of Keres himself."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Mikhail Botvinnik",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Botvinnik"
+        },
+        {
+          "label": "Wikipedia: 1941 in chess",
+          "url": "https://en.wikipedia.org/wiki/1941_in_chess"
+        }
+      ]
+    },
+    {
+      "id": "denker-botvinnik-1945",
+      "title": {
+        "es": "El sistema Botvinnik en el match por radio",
+        "en": "The Botvinnik System in the radio match"
+      },
+      "white": "Arnold Denker",
+      "black": "Mikhail Botvinnik",
+      "event": {
+        "es": "Match por radio Estados Unidos–URSS 1945",
+        "en": "USA–USSR radio match 1945"
+      },
+      "site": {
+        "es": "Por radio, entre Nueva York y Moscú",
+        "en": "By radio, between New York and Moscow"
+      },
+      "date": "1945-09",
+      "result": "0-1",
+      "eco": "D44",
+      "plies": 50,
+      "pgnRef": "memorial/botvinnik.pgn#3",
+      "story": {
+        "es": "En septiembre de 1945, Estados Unidos y la URSS jugaron un match por radio, y Botvinnik enfrentó en el primer tablero al campeón estadounidense Arnold Denker. Con la variante de la defensa Semieslava que hoy lleva su nombre, desarmó la posición blanca y remató con un sacrificio de torre en h2. La URSS ganó el match por 15½ a 4½.",
+        "en": "In September 1945 the United States and the Soviet Union played a match by radio, and Botvinnik met US champion Arnold Denker on board one. With the Semi-Slav line that now bears his name, he took White's position apart and finished with a rook sacrifice on h2. The Soviet Union won the match 15½–4½."
+      },
+      "keyPly": 44,
+      "keyMove": "Rxh2+",
+      "sources": [
+        {
+          "label": "Wikipedia: Mikhail Botvinnik",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Botvinnik"
+        },
+        {
+          "label": "Wikipedia: US vs. USSR radio chess match 1945",
+          "url": "https://en.wikipedia.org/wiki/US_vs._USSR_radio_chess_match_1945"
+        },
+        {
+          "label": "Bill Wall: USA vs. USSR Radio Match, 1945",
+          "url": "https://billwallchess.blogspot.com/2020/11/usa-vs-ussr-radio-match-1945.html"
+        }
+      ]
+    },
+    {
+      "id": "botvinnik-portisch-1968",
+      "title": {
+        "es": "Fuegos artificiales en Montecarlo",
+        "en": "Fireworks in Monte Carlo"
+      },
+      "white": "Mikhail Botvinnik",
+      "black": "Lajos Portisch",
+      "event": {
+        "es": "Montecarlo 1968",
+        "en": "Monte Carlo 1968"
+      },
+      "site": {
+        "es": "Montecarlo (Mónaco)",
+        "en": "Monte Carlo (Monaco)"
+      },
+      "date": "1968",
+      "result": "1-0",
+      "eco": "A29",
+      "plies": 51,
+      "pgnRef": "memorial/botvinnik.pgn#4",
+      "story": {
+        "es": "Cinco años después de perder el título, Botvinnik le ganó al húngaro Lajos Portisch con una cadena de sacrificios. Primero entregó la calidad en la columna c con 17.T1xc6; después dejó que le capturaran una torre en b7 y sacrificó un alfil para dejar al rey negro sin refugio. Portisch abandonó en la jugada 26.",
+        "en": "Five years after losing the title, Botvinnik beat Hungary's Lajos Portisch with a chain of sacrifices. First he gave up the exchange on the c-file with 17.R1xc6; then he let a rook be taken on b7 and sacrificed a bishop to leave the black king with no shelter. Portisch resigned on move 26."
+      },
+      "keyPly": 33,
+      "keyMove": "R1xc6",
+      "sources": [
+        {
+          "label": "Wikipedia: Mikhail Botvinnik",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Botvinnik"
+        },
+        {
+          "label": "The Washington Times: Marking the centenary of a cerebral champ",
+          "url": "https://m.washingtontimes.com/news/2011/aug/23/sands-marking-the-centenary-of-a-cerebral-champ/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Mikhail Botvinnik",
+      "url": "https://en.wikipedia.org/wiki/Mikhail_Botvinnik"
+    },
+    {
+      "label": "PGN Mentor: Botvinnik",
+      "url": "https://www.pgnmentor.com/players/Botvinnik.zip"
+    }
+  ]
+}

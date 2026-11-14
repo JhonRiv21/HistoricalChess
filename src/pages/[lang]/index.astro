@@ -5,6 +5,7 @@ import HeroLineup from '../../components/HeroLineup.svelte';
 import Timeline from '../../components/Timeline.astro';
 import { FEATURED } from '../../data/featured';
 import { getMatches, matchUrl, playerOf } from '../../lib/content';
+import { championUrl, championsUrl } from '../../lib/champions';
 import { responsive } from '../../lib/images';
 import { LANGS, pick, t, type Lang } from '../../i18n/ui';
 
@@ -30,13 +31,14 @@ const champions = await Promise.all(FEATURED.map(async (f) => {
     image: { ...(await responsive(photo.data.file, [360, 640, 960])), focus: photo.data.focus },
     href: matchUrl(lang, match.id),
     cta: `${t(lang, 'hero.openMatch')} ${match.data.year}`,
+    memorialHref: championUrl(lang, f.id),
   };
 }));
 ---
 
 <BaseLayout lang={lang} title={t(lang, 'site.name')} description={t(lang, 'site.tagline')} altPath={`/${lang === 'es' ? 'en' : 'es'}/`}>
   <div class="view view-home">
-    <HeroLineup client:load {lang} {champions} />
+    <HeroLineup client:load {lang} {champions} memorialHref={championsUrl(lang)} />
     <section class="section intro" id="timeline">
       <h1 class="section-title">{t(lang, 'home.title')}</h1>
       <p class="lede">{t(lang, 'home.lede')}</p>

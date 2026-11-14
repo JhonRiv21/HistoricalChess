@@ -1,0 +1,17 @@
+{
+  "file": "carlsen-portrait.jpg",
+  "caption": {
+    "es": "Magnus Carlsen frente al tablero en enero de 2023.",
+    "en": "Magnus Carlsen at the board in January 2023."
+  },
+  "alt": {
+    "es": "Magnus Carlsen, con la mano apoyada en la mejilla, mira el tablero.",
+    "en": "Magnus Carlsen, resting his cheek on his hand, looks at the board."
+  },
+  "author": "Frans Peeters",
+  "license": "CC BY-SA 2.0",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnus_Carlsen_in_2023_(52638550128).jpg",
+  "year": 2023,
+  "focus": "45% 30%",
+  "people": ["carlsen"]
+}

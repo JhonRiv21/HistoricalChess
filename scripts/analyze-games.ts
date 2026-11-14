@@ -8,11 +8,16 @@ import { dirname, join } from 'node:path';
 import { cpus } from 'node:os';
 import { Chess } from 'chess.js';
 import { readPgnFile, replay } from './lib/pgn.ts';
+import { materialOffered } from './lib/sacrifice.ts';
 
 const ROOT = join(import.meta.dirname, '..');
 const MATCHES = join(ROOT, 'src/content/matches');
 const OUT = join(ROOT, 'public/data/games');
+const CHAMPIONS = join(ROOT, 'src/content/champions');
+const MEMORIAL_OUT = join(ROOT, 'public/data/memorial');
 const ENGINE_VERSION = 'Stockfish 17.1 lite';
+// v2 adds the second-best line (to spot only-moves) and material offered per move (to spot sacrifices).
+const ANALYSIS_VERSION = 2;
 
 const args = process.argv.slice(2);
 const flag = (name: string, fallback: number) => {
@@ -57,22 +62,27 @@ class Engine {
 
   async init() {
     await this.send('uci', 'uciok');
-    await this.send('setoption name Hash value 64\nisready', 'readyok');
+    await this.send('setoption name Hash value 64\nsetoption name MultiPV value 2\nisready', 'readyok');
   }
 
   /** Returns the evaluation from White's point of view plus the best move in UCI. */
   async evaluate(fen: string) {
     await this.send(`position fen ${fen}\nisready`, 'readyok');
     const out = await this.send(`go depth ${DEPTH}`, 'bestmove');
-    const last = out.split('\n').filter((l) => l.startsWith('info depth') && l.includes(' score ')).at(-1) ?? '';
+    const lines = out.split('\n').filter((l) => l.startsWith('info depth') && l.includes(' score '));
     const sign = fen.split(' ')[1] === 'w' ? 1 : -1;
-    const cp = last.match(/score cp (-?\d+)/);
-    const mate = last.match(/score mate (-?\d+)/);
+    const score = (pv: number) => {
+      const line = lines.filter((l) => l.includes(` multipv ${pv} `)).at(-1) ?? (pv === 1 ? lines.at(-1) ?? '' : '');
+      const cp = line.match(/score cp (-?\d+)/);
+      const mate = line.match(/score mate (-?\d+)/);
+      return { ...(cp ? { cp: sign * Number(cp[1]) } : {}), ...(mate ? { mate: sign * Number(mate[1]) } : {}) };
+    };
     const best = out.match(/bestmove (\S+)/)?.[1];
+    const alt = score(2);
     return {
-      ...(cp ? { cp: sign * Number(cp[1]) } : {}),
-      ...(mate ? { mate: sign * Number(mate[1]) } : {}),
+      ...score(1),
       ...(best && best !== '(none)' ? { best } : {}),
+      ...(Object.keys(alt).length ? { alt } : {}),
     };
   }
 
@@ -80,10 +90,9 @@ class Engine {
 }
 
 /** Deletes analyses whose game was renumbered, re-sourced or removed, so they get redone. */
-function reconcile(slug: string, games: { round: number; pgnRef?: string; plies: number }[]) {
-  const dir = join(OUT, slug);
+function reconcile(dir: string, expected: Map<string, string | undefined>) {
   if (!existsSync(dir)) return;
-  const expected = new Map(games.filter((g) => g.pgnRef && g.plies > 0).map((g) => [`${g.round}.json`, g.pgnRef]));
+  const slug = dir.split('/').at(-1);
   for (const file of readdirSync(dir)) {
     const stored = JSON.parse(readFileSync(join(dir, file), 'utf8')).pgnRef;
     if (expected.get(file) !== stored) {
@@ -93,6 +102,8 @@ function reconcile(slug: string, games: { round: number; pgnRef?: string; plies:
   }
 }
 
+const isOutdated = (out: string) => !existsSync(out) || JSON.parse(readFileSync(out, 'utf8')).version !== ANALYSIS_VERSION;
+
 function collectJobs(): Job[] {
   const jobs: Job[] = [];
   for (const file of readdirSync(MATCHES).filter((f) => f.endsWith('.json'))) {
@@ -100,10 +111,21 @@ function collectJobs(): Job[] {
     if (onlySlugs.size && !onlySlugs.has(slug)) continue;
     const doc = JSON.parse(readFileSync(join(MATCHES, file), 'utf8'));
     const games = doc.games as { round: number; pgnRef?: string; plies: number }[];
-    reconcile(slug, games);
+    reconcile(join(OUT, slug), new Map(games.filter((g) => g.pgnRef && g.plies > 0).map((g) => [`${g.round}.json`, g.pgnRef])));
     for (const g of games) {
       const out = join(OUT, slug, `${g.round}.json`);
-      if (g.pgnRef && g.plies > 0 && !existsSync(out)) jobs.push({ slug, round: g.round, pgnRef: g.pgnRef, out });
+      if (g.pgnRef && g.plies > 0 && isOutdated(out)) jobs.push({ slug, round: g.round, pgnRef: g.pgnRef, out });
+    }
+  }
+  // Memorial games: one file per champion, games keyed by their id.
+  for (const file of existsSync(CHAMPIONS) ? readdirSync(CHAMPIONS).filter((f) => f.endsWith('.json')) : []) {
+    const id = file.replace(/\.json$/, '');
+    if (onlySlugs.size && !onlySlugs.has(id)) continue;
+    const games = JSON.parse(readFileSync(join(CHAMPIONS, file), 'utf8')).games as { id: string; pgnRef: string }[];
+    reconcile(join(MEMORIAL_OUT, id), new Map(games.map((g) => [`${g.id}.json`, g.pgnRef])));
+    for (const g of games) {
+      const out = join(MEMORIAL_OUT, id, `${g.id}.json`);
+      if (isOutdated(out)) jobs.push({ slug: id, round: 0, pgnRef: g.pgnRef, out });
     }
   }
   return jobs;
@@ -117,6 +139,7 @@ async function analyze(engine: Engine, job: Job) {
   await engine.send('ucinewgame\nisready', 'readyok');
   const board = new Chess();
   const positions = [];
+  const sacrifices = new Map<number, number>();
   for (let i = 0; i <= history.length; i++) {
     const fen = board.fen();
     const evaluation = board.isGameOver() ? {} : await engine.evaluate(fen);
@@ -127,14 +150,19 @@ async function analyze(engine: Engine, job: Job) {
     }
     positions.push({ fen, ...evaluation, ...(bestSan ? { bestSan } : {}) });
     const move = history[i];
-    if (move) board.move(move.san);
+    if (move) {
+      board.move(move.san);
+      const offered = materialOffered(fen, board, move.color, move.captured);
+      if (offered >= 2) sacrifices.set(i, offered);
+    }
   }
   mkdirSync(dirname(job.out), { recursive: true });
   writeFileSync(job.out, JSON.stringify({
+    version: ANALYSIS_VERSION,
     pgnRef: job.pgnRef,
     engine: ENGINE_VERSION,
     depth: DEPTH,
-    moves: history.map((m) => ({ san: m.san, from: m.from, to: m.to })),
+    moves: history.map((m, i) => ({ san: m.san, from: m.from, to: m.to, ...(sacrifices.has(i) ? { offered: sacrifices.get(i) } : {}) })),
     positions,
   }));
 }

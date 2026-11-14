@@ -1,5 +1,6 @@
 <script lang="ts">
   // YouTube videos behind a click-to-load poster: the player (and its cookies) loads only when the reader presses play.
+  import { track } from '../lib/analytics';
   import { t, type Lang } from '../i18n/ui';
 
   export interface VideoItem { youtubeId: string; title: string; channel: string; kindLabel: string; language: string }
@@ -20,7 +21,7 @@
             referrerpolicy="strict-origin-when-cross-origin"
           ></iframe>
         {:else}
-          <button type="button" class="video-poster" aria-label={`${t(lang, 'video.play')}: ${video.title}`} onclick={() => (playing[video.youtubeId] = true)}>
+          <button type="button" class="video-poster" aria-label={`${t(lang, 'video.play')}: ${video.title}`} onclick={() => { playing[video.youtubeId] = true; track('video_play', { video: video.youtubeId, kind: video.kindLabel }); }}>
             <img src={`https://i.ytimg.com/vi/${video.youtubeId}/hqdefault.jpg`} alt="" loading="lazy" decoding="async" />
             <span class="video-play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5l11 7-11 7z" /></svg></span>
           </button>

@@ -1,0 +1,39 @@
+---
+// One memorial game: its story and the viewer, starting from the opening with a jump to the key move.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import GameViewer from '../viewer/GameViewer.svelte';
+import { championUrl, championsUrl, hasMemorialAnalysis, memorialAnalysisPath, memorialGameUrl, resultText, type Champion, type MemorialGame } from '../../lib/champions';
+import { pick, t, type Lang } from '../../i18n/ui';
+
+interface Props { lang: Lang; champion: Champion; game: MemorialGame }
+const { lang, champion, game } = Astro.props;
+const other: Lang = lang === 'es' ? 'en' : 'es';
+const surname = (full: string) => full.split(' ').at(-1) ?? full;
+const playable = champion.data.games.filter((g) => hasMemorialAnalysis(champion.id, g.id));
+const index = playable.findIndex((g) => g.id === game.id);
+const prev = playable[index - 1];
+const next = playable[index + 1];
+---
+
+<BaseLayout {lang} title={`${pick(game.title, lang)}: ${game.white} – ${game.black}`} description={pick(game.story, lang)} altPath={memorialGameUrl(other, champion.id, game.id)}>
+  <div class="view view-game">
+    <nav class="crumbs" aria-label="breadcrumb">
+      <a href={championsUrl(lang)}>{t(lang, 'memorial.allChampions')}</a>{' / '}<a href={championUrl(lang, champion.id)}>{champion.data.short}</a>{' / '}{pick(game.title, lang)}
+    </nav>
+    <section class="section">
+      <div class="section-head">
+        <h1 class="section-title">{pick(game.title, lang)}</h1>
+        <p class="section-sub">{game.white} – {game.black}, {pick(game.event, lang)}, {pick(game.site, lang)}, {game.date.slice(0, 4)}. {resultText(game.result)}{game.eco && ` (${game.eco})`}.</p>
+        <p class="lede">{pick(game.story, lang)}</p>
+      </div>
+      <GameViewer client:load src={memorialAnalysisPath(champion.id, game.id)} {lang}
+        white={surname(game.white)} black={surname(game.black)} whiteName={game.white} blackName={game.black}
+        result={game.result} resultText={resultText(game.result)} keyPly={game.keyPly} />
+    </section>
+    <nav class="game-nav" aria-label={t(lang, 'memorial.bestGames')}>
+      {prev ? <a class="btn" href={memorialGameUrl(lang, champion.id, prev.id)}>← {pick(prev.title, lang)}</a> : <span></span>}
+      <a class="btn" href={championUrl(lang, champion.id)}>{champion.data.short}</a>
+      {next ? <a class="btn" href={memorialGameUrl(lang, champion.id, next.id)}>{pick(next.title, lang)} →</a> : <span></span>}
+    </nav>
+  </div>
+</BaseLayout>

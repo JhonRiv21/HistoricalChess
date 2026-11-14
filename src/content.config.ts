@@ -88,4 +88,42 @@ const photos = defineCollection({
   }),
 });
 
-export const collections = { matches, photos };
+// Memorial: each lineal world champion and the best games of their career, inside or outside title matches.
+const memorialGame = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/), // e.g. "byrne-fischer-1956"
+  title: localized, // the name the game is known by, e.g. "La partida del siglo"
+  white: z.string(), // full names as commonly written
+  black: z.string(),
+  event: localized,
+  site: localized,
+  date: z.string().regex(/^\d{4}(-\d{2}(-\d{2})?)?$/), // year, year-month or full date
+  result: z.enum(['1-0', '0-1', '1/2-1/2']),
+  eco: z.string().optional(),
+  plies: z.number().int().positive(),
+  pgnRef: z.string(), // "memorial/<champion>.pgn#<index>" in data/pgn
+  story: localized, // 2–4 sentences: why this game is remembered
+  keyPly: z.number().int().positive().optional(), // half-move of the famous moment, 1 = white's first move
+  keyMove: z.string().optional(), // SAN of that move, checked against the PGN
+  sources: z.array(source).min(1),
+});
+
+const champions = defineCollection({
+  loader: glob({ pattern: '*.json', base: './src/content/champions' }),
+  schema: z.object({
+    order: z.number().int().positive(), // 1 = Steinitz, the first champion
+    name: z.string(),
+    short: z.string(),
+    country: localized,
+    born: z.string().regex(/^\d{4}(-\d{2}-\d{2})?$/),
+    died: z.string().regex(/^\d{4}(-\d{2}-\d{2})?$/).optional(),
+    reign: localized, // e.g. "1972–1975"
+    matches: z.array(z.string()), // match slugs where they won or defended the title
+    photo: reference('photos'),
+    bio: localized, // 3–5 plain sentences
+    style: localized, // one sentence on how they played
+    games: z.array(memorialGame).min(3).max(6),
+    sources: z.array(source).min(1),
+  }),
+});
+
+export const collections = { matches, photos, champions };

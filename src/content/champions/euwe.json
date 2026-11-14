@@ -1,0 +1,195 @@
+{
+  "order": 5,
+  "name": "Max Euwe",
+  "short": "Euwe",
+  "country": {
+    "es": "Países Bajos",
+    "en": "Netherlands"
+  },
+  "born": "1901-05-20",
+  "died": "1981-11-26",
+  "reign": {
+    "es": "1935–1937",
+    "en": "1935–1937"
+  },
+  "matches": [
+    "1935-euwe-alekhine"
+  ],
+  "photo": "euwe-1935",
+  "bio": {
+    "es": "Max Euwe nació en 1901 en Watergraafsmeer, hoy parte de Ámsterdam. Fue profesor de matemáticas, se doctoró en 1926 y escribió más de 70 libros de ajedrez. En 1935 le ganó el título a Alexander Alekhine por 15½ a 14½, y lo perdió en la revancha de 1937. Entre 1970 y 1978 fue presidente de la FIDE. Murió en Ámsterdam en 1981.",
+    "en": "Max Euwe was born in 1901 in Watergraafsmeer, now part of Amsterdam. He was a mathematics teacher, earned his doctorate in 1926 and wrote more than 70 chess books. In 1935 he took the title from Alexander Alekhine by 15½–14½, and lost it in the 1937 rematch. From 1970 to 1978 he was president of FIDE. He died in Amsterdam in 1981."
+  },
+  "style": {
+    "es": "Lógico y gran conocedor de las aperturas: calculaba muy bien y se metía sin miedo en variantes muy complicadas cuando la lógica estaba de su lado.",
+    "en": "Logical and a deep opening expert: a fine calculator who walked confidently into very complex lines when he believed logic was on his side."
+  },
+  "games": [
+    {
+      "id": "euwe-reti-1920",
+      "title": {
+        "es": "La tercera partida contra Réti",
+        "en": "Game 3 against Réti"
+      },
+      "white": "Max Euwe",
+      "black": "Richard Réti",
+      "event": {
+        "es": "Match Euwe–Réti",
+        "en": "Euwe–Réti match"
+      },
+      "site": {
+        "es": "Ámsterdam",
+        "en": "Amsterdam"
+      },
+      "date": "1920",
+      "result": "1-0",
+      "eco": "B10",
+      "plies": 61,
+      "pgnRef": "memorial/euwe.pgn#0",
+      "story": {
+        "es": "En 1920 el joven Euwe jugó en Ámsterdam su primer match contra un rival de categoría mundial, el maestro hipermoderno Richard Réti. En la tercera partida lo venció con un juego que ChessBase describe como una excelente demostración del estilo hipermoderno. La partida terminó con un mate de alfil en d6.",
+        "en": "In 1920 the young Euwe played his first match against a world-class opponent, the hypermodern master Richard Réti, in Amsterdam. He won the third game in a way ChessBase calls a fine demonstration of hypermodern play. The game ended with a bishop mate on d6."
+      },
+      "keyPly": 61,
+      "keyMove": "Bd6#",
+      "sources": [
+        {
+          "label": "ChessBase: Remembering Max Euwe",
+          "url": "https://en.chessbase.com/newsroom/post/remembering-max-euwe-121-birth-anniversary"
+        }
+      ]
+    },
+    {
+      "id": "euwe-alekhine-1935",
+      "title": {
+        "es": "La perla de Zandvoort",
+        "en": "The Pearl of Zandvoort"
+      },
+      "white": "Max Euwe",
+      "black": "Alexander Alekhine",
+      "event": {
+        "es": "Campeonato del Mundo 1935",
+        "en": "World Championship 1935"
+      },
+      "site": {
+        "es": "Zandvoort (Países Bajos)",
+        "en": "Zandvoort (Netherlands)"
+      },
+      "date": "1935-12-03",
+      "result": "1-0",
+      "eco": "E18",
+      "plies": 93,
+      "pgnRef": "memorial/euwe.pgn#1",
+      "story": {
+        "es": "Es la partida más famosa del match de 1935 y se jugó en Zandvoort cuando quedaban cuatro partidas por disputar. Euwe hizo 19 de sus 47 jugadas con el mismo caballo, que fue desarmando la posición de Alekhine casilla por casilla. Con esta victoria se puso 14 a 12 en el marcador, y unas tablas en la última partida le dieron el título.",
+        "en": "It is the most famous game of the 1935 match and was played in Zandvoort with four games still to go. Euwe made 19 of his 47 moves with the same knight, which took Alekhine's position apart square by square. With this win he went 14–12 up, and a draw in the final game gave him the title."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: List of chess games",
+          "url": "https://en.wikipedia.org/wiki/List_of_chess_games"
+        },
+        {
+          "label": "ChessBase: Remembering Max Euwe",
+          "url": "https://en.chessbase.com/newsroom/post/remembering-max-euwe-121-birth-anniversary"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1935",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1935"
+        }
+      ]
+    },
+    {
+      "id": "geller-euwe-1953",
+      "title": {
+        "es": "El sacrificio de torre contra Geller",
+        "en": "The rook sacrifice against Geller"
+      },
+      "white": "Efim Geller",
+      "black": "Max Euwe",
+      "event": {
+        "es": "Torneo de Candidatos 1953",
+        "en": "Candidates Tournament 1953"
+      },
+      "site": {
+        "es": "Suiza",
+        "en": "Switzerland"
+      },
+      "date": "1953",
+      "result": "0-1",
+      "eco": "E28",
+      "plies": 52,
+      "pgnRef": "memorial/euwe.pgn#2",
+      "story": {
+        "es": "En el Torneo de Candidatos de 1953, que ChessBase describe como su torneo de despedida, Euwe enfrentó un ataque peligroso de Efim Geller, que entró con su dama en h7. Respondió con 22...Th8, un sacrificio de torre que desvió la dama blanca y abrió paso a su contraataque contra el rey blanco, que se quedó sin defensa. La partida ganó el primer premio de brillantez, aunque los análisis con motores encontraron después una continuación aún mejor para las negras.",
+        "en": "At the 1953 Candidates Tournament, which ChessBase describes as his farewell event, Euwe faced a dangerous attack from Efim Geller, whose queen broke through on h7. He answered with 22...Rh8, a rook sacrifice that lured the white queen away and opened the way for his counterattack on the white king, which was left defenceless. The game won the first brilliancy prize, although engine analysis later found an even better line for Black."
+      },
+      "keyPly": 44,
+      "keyMove": "Rh8",
+      "sources": [
+        {
+          "label": "Wikipedia: List of chess games",
+          "url": "https://en.wikipedia.org/wiki/List_of_chess_games"
+        },
+        {
+          "label": "ChessBase: Max Euwe, the Candidate's swan song",
+          "url": "https://en.chessbase.com/post/max-euwe-the-candidate-s-swan-song/457"
+        },
+        {
+          "label": "Tartajubow on Chess: Geller vs. Euwe, Zurich 1953",
+          "url": "https://tartajubow.blogspot.com/2016/01/geller-vs-euwe-zurich-1953.html"
+        }
+      ]
+    },
+    {
+      "id": "euwe-najdorf-1953",
+      "title": {
+        "es": "El sacrificio de torre contra Najdorf",
+        "en": "The rook sacrifice against Najdorf"
+      },
+      "white": "Max Euwe",
+      "black": "Miguel Najdorf",
+      "event": {
+        "es": "Torneo de Candidatos 1953",
+        "en": "Candidates Tournament 1953"
+      },
+      "site": {
+        "es": "Suiza",
+        "en": "Switzerland"
+      },
+      "date": "1953",
+      "result": "1-0",
+      "eco": "E61",
+      "plies": 73,
+      "pgnRef": "memorial/euwe.pgn#3",
+      "story": {
+        "es": "En el mismo Torneo de Candidatos, Euwe atacó con blancas a Miguel Najdorf y dejó que el alfil negro le capturara la torre de a1. A cambio, sus caballos y su dama se lanzaron contra el rey negro. ChessBase la llama la otra mitad del brillante torneo de Euwe en 1953: un ataque especulativo en el que se guio por intuición entre complicaciones enormes.",
+        "en": "In the same Candidates Tournament, Euwe attacked Miguel Najdorf with White and let the black bishop take his rook on a1. In return, his knights and queen went after the black king. ChessBase calls it the other half of Euwe's brilliant 1953 tournament: a speculative attack in which he steered by intuition through huge complications."
+      },
+      "sources": [
+        {
+          "label": "ChessBase: Remembering Max Euwe",
+          "url": "https://en.chessbase.com/newsroom/post/remembering-max-euwe-121-birth-anniversary"
+        },
+        {
+          "label": "ChessBase: Max Euwe, the Candidate's swan song",
+          "url": "https://en.chessbase.com/post/max-euwe-the-candidate-s-swan-song/457"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Max Euwe",
+      "url": "https://en.wikipedia.org/wiki/Max_Euwe"
+    },
+    {
+      "label": "ChessBase: Remembering Max Euwe",
+      "url": "https://en.chessbase.com/newsroom/post/remembering-max-euwe-121-birth-anniversary"
+    },
+    {
+      "label": "PGN Mentor: Euwe",
+      "url": "https://www.pgnmentor.com/players/Euwe.zip"
+    }
+  ]
+}

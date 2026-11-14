@@ -1,0 +1,9 @@
+---
+import MemorialGamePage from '../../../../components/memorial/MemorialGamePage.astro';
+import { memorialGamePaths, type Champion, type MemorialGame } from '../../../../lib/champions';
+
+export const getStaticPaths = memorialGamePaths;
+const { champion, game } = Astro.props as { champion: Champion; game: MemorialGame };
+---
+
+<MemorialGamePage lang="es" {champion} {game} />

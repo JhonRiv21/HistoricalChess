@@ -1,0 +1,196 @@
+{
+  "order": 4,
+  "name": "Alexander Alekhine",
+  "short": "Alekhine",
+  "country": {
+    "es": "Rusia / Francia",
+    "en": "Russia / France"
+  },
+  "born": "1892-10-31",
+  "died": "1946-03-24",
+  "reign": {
+    "es": "1927–1935 y 1937–1946",
+    "en": "1927–1935 and 1937–1946"
+  },
+  "matches": [
+    "1927-alekhine-capablanca",
+    "1929-alekhine-bogoljubov",
+    "1934-alekhine-bogoljubov",
+    "1937-alekhine-euwe"
+  ],
+  "photo": "alekhine-1924-bain",
+  "bio": {
+    "es": "Alexander Alekhine nació en Moscú en 1892. Dejó la Rusia soviética en 1921 y nunca volvió; se estableció en Francia, cuya nacionalidad obtuvo en 1927, el mismo año en que le ganó el título a Capablanca en Buenos Aires. Lo defendió dos veces ante Efim Bogoljubov, lo perdió ante Max Euwe en 1935 y lo recuperó en la revancha de 1937. Murió en Estoril, Portugal, en 1946, siendo todavía campeón del mundo.",
+    "en": "Alexander Alekhine was born in Moscow in 1892. He left Soviet Russia in 1921 and never returned; he settled in France, becoming a French citizen in 1927, the same year he took the title from Capablanca in Buenos Aires. He defended it twice against Efim Bogoljubov, lost it to Max Euwe in 1935 and won it back in the 1937 rematch. He died in Estoril, Portugal, in 1946, still world champion."
+  },
+  "style": {
+    "es": "Un atacante feroz e imaginativo que sabía complicar cualquier posición sin arriesgar de más; Edward Winter lo llamó «el genio supremo de la posición complicada».",
+    "en": "A fierce, imaginative attacker who could stir up complications without taking excessive risks; Edward Winter called him \"the supreme genius of the complicated position.\""
+  },
+  "games": [
+    {
+      "id": "bogoljubov-alekhine-1922",
+      "title": {
+        "es": "La obra maestra de Hastings 1922",
+        "en": "The Hastings 1922 masterpiece"
+      },
+      "white": "Efim Bogoljubov",
+      "black": "Alexander Alekhine",
+      "event": {
+        "es": "Hastings 1922",
+        "en": "Hastings 1922"
+      },
+      "site": {
+        "es": "Hastings (Inglaterra)",
+        "en": "Hastings (England)"
+      },
+      "date": "1922-09",
+      "result": "0-1",
+      "eco": "A90",
+      "plies": 106,
+      "pgnRef": "memorial/alekhine.pgn#0",
+      "story": {
+        "es": "Irving Chernev la llamó la mejor partida de ajedrez jamás jugada. Con 29...b4, Alekhine dejó que le capturaran la dama a cambio de llevar un peón hasta la coronación, y más adelante coronó otro. Bogoljubov abandonó en la jugada 53. Alekhine la consideró, junto con su victoria sobre Réti en 1925, una de las dos partidas de torneo más brillantes de su carrera.",
+        "en": "Irving Chernev called it the greatest game of chess ever played. With 29...b4, Alekhine let his queen be taken in return for running a pawn through to promotion, and later he promoted another one. Bogoljubov resigned on move 53. Alekhine counted it, along with his win over Réti in 1925, as one of the two most brilliant tournament games of his career."
+      },
+      "keyPly": 58,
+      "keyMove": "b4",
+      "sources": [
+        {
+          "label": "Wikipedia: List of chess games",
+          "url": "https://en.wikipedia.org/wiki/List_of_chess_games"
+        },
+        {
+          "label": "Edward Winter: Réti v Alekhine, Baden-Baden, 1925",
+          "url": "https://www.chesshistory.com/winter/extra/retialekhine.html"
+        },
+        {
+          "label": "AlekhineChess.com: Alekhine's most famous games",
+          "url": "https://alekhinechess.com/alekhine-best-games.html"
+        }
+      ]
+    },
+    {
+      "id": "reti-alekhine-1925",
+      "title": {
+        "es": "La combinación de Baden-Baden",
+        "en": "The Baden-Baden combination"
+      },
+      "white": "Richard Réti",
+      "black": "Alexander Alekhine",
+      "event": {
+        "es": "Baden-Baden 1925",
+        "en": "Baden-Baden 1925"
+      },
+      "site": {
+        "es": "Baden-Baden (Alemania)",
+        "en": "Baden-Baden (Germany)"
+      },
+      "date": "1925-04-25",
+      "result": "0-1",
+      "eco": "A00",
+      "plies": 84,
+      "pgnRef": "memorial/alekhine.pgn#1",
+      "story": {
+        "es": "Alekhine eligió esta partida como la mejor de su carrera. Con 26...Te3 instaló una torre en una casilla donde las blancas no podían capturarla sin perder, y desde allí desató una larga combinación con sus caballos y su torre. Según la descripción más difundida, Alekhine había previsto la posición final más de quince jugadas antes. Edward Winter documentó tres versiones de la partida, que solo difieren en unas repeticiones de jugadas.",
+        "en": "Alekhine picked this as the best game of his career. With 26...Re3 he planted a rook on a square where White could not take it without losing, and from there unleashed a long combination with his knights and rook. In the usual account, Alekhine had foreseen the final position more than fifteen moves ahead. Edward Winter documented three versions of the score, which differ only in a few repeated moves."
+      },
+      "keyPly": 52,
+      "keyMove": "Re3",
+      "sources": [
+        {
+          "label": "Edward Winter: Réti v Alekhine, Baden-Baden, 1925",
+          "url": "https://www.chesshistory.com/winter/extra/retialekhine.html"
+        },
+        {
+          "label": "Wikipedia: List of chess games",
+          "url": "https://en.wikipedia.org/wiki/List_of_chess_games"
+        }
+      ]
+    },
+    {
+      "id": "alekhine-capablanca-1927",
+      "title": {
+        "es": "La partida que coronó a Alekhine",
+        "en": "The game that crowned Alekhine"
+      },
+      "white": "Alexander Alekhine",
+      "black": "José Raúl Capablanca",
+      "event": {
+        "es": "Campeonato del Mundo 1927",
+        "en": "World Championship 1927"
+      },
+      "site": {
+        "es": "Buenos Aires",
+        "en": "Buenos Aires"
+      },
+      "date": "1927-11-26",
+      "result": "1-0",
+      "eco": "D51",
+      "plies": 163,
+      "pgnRef": "memorial/alekhine.pgn#2",
+      "story": {
+        "es": "La 34.ª partida decidió el match de Buenos Aires. Alekhine llegó al final de torres con un peón de más y lo convirtió con paciencia hasta la jugada 82. Era su sexta victoria, la que le daba el título en un match que, según Vladimir Kramnik, fue el primero en el que Capablanca no tuvo victorias fáciles.",
+        "en": "Game 34 settled the Buenos Aires match. Alekhine reached a rook endgame a pawn up and converted it patiently by move 82. It was his sixth win, the one that gave him the title in a match that, as Vladimir Kramnik noted, was the first contest in which Capablanca had no easy wins."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Alexander Alekhine",
+          "url": "https://en.wikipedia.org/wiki/Alexander_Alekhine"
+        },
+        {
+          "label": "AlekhineChess.com: Alekhine's most famous games",
+          "url": "https://alekhinechess.com/alekhine-best-games.html"
+        }
+      ]
+    },
+    {
+      "id": "alekhine-lasker-1934",
+      "title": {
+        "es": "La única victoria sobre Lasker",
+        "en": "His only win over Lasker"
+      },
+      "white": "Alexander Alekhine",
+      "black": "Emanuel Lasker",
+      "event": {
+        "es": "Zúrich 1934",
+        "en": "Zurich 1934"
+      },
+      "site": {
+        "es": "Zúrich",
+        "en": "Zurich"
+      },
+      "date": "1934-07-25",
+      "result": "1-0",
+      "eco": "D67",
+      "plies": 51,
+      "pgnRef": "memorial/alekhine.pgn#3",
+      "story": {
+        "es": "En el torneo de Zúrich 1934, Alekhine venció por única vez a Emanuel Lasker, que ya tenía 65 años. Lanzó sus piezas contra el rey negro y remató con 26.Dxg6, ofreciendo la dama: si las negras la capturaban, recibían mate. Lasker abandonó en el acto.",
+        "en": "At the Zurich 1934 tournament, Alekhine beat Emanuel Lasker, by then 65, for the only time. He threw his pieces at the black king and finished with 26.Qxg6, offering his queen: if Black took it, mate would follow. Lasker resigned on the spot."
+      },
+      "keyPly": 51,
+      "keyMove": "Qxg6",
+      "sources": [
+        {
+          "label": "Chess.com: Alekhine and Lasker",
+          "url": "https://www.chess.com/article/view/alekhine-and-lasker"
+        },
+        {
+          "label": "Wikipedia: Zurich 1934 chess tournament",
+          "url": "https://en.wikipedia.org/wiki/Zurich_1934_chess_tournament"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Alexander Alekhine",
+      "url": "https://en.wikipedia.org/wiki/Alexander_Alekhine"
+    },
+    {
+      "label": "PGN Mentor: Alekhine",
+      "url": "https://www.pgnmentor.com/players/Alekhine.zip"
+    }
+  ]
+}

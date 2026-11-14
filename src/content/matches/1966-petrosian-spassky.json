@@ -111,7 +111,11 @@
       "result": "0-1",
       "eco": "D03",
       "plies": 86,
-      "pgnRef": "WorldChamp1966.pgn#6"
+      "pgnRef": "WorldChamp1966.pgn#6",
+      "note": {
+        "es": "El PGN de origen invertía el orden de las jugadas 13 y 14 de las blancas (13.b4 … 14.Ag3). Se corrigió a 13.Ag3 g5 14.b4 según el libro de Petrosian; se llega a la misma posición.",
+        "en": "The source PGN swapped White’s 13th and 14th moves (13.b4 … 14.Bg3). Corrected to 13.Bg3 g5 14.b4 following Petrosian’s own book; the position reached is the same."
+      }
     },
     {
       "round": 8,

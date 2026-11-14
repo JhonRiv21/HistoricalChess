@@ -1,0 +1,239 @@
+{
+  "order": 12,
+  "name": "Anatoly Karpov",
+  "short": "Karpov",
+  "country": {
+    "es": "URSS",
+    "en": "Soviet Union"
+  },
+  "born": "1951-05-23",
+  "reign": {
+    "es": "1975–1985",
+    "en": "1975–1985"
+  },
+  "matches": [
+    "1975-karpov-forfeit",
+    "1978-karpov-korchnoi",
+    "1981-karpov-korchnoi",
+    "1993-karpov-timman",
+    "1996-karpov-kamsky",
+    "1998-fide-knockout"
+  ],
+  "photo": "karpov-1979",
+  "bio": {
+    "es": "Anatoly Karpov nació en Zlatoust, en los Urales, en 1951. Ganó el ciclo de Candidatos de 1974 y en 1975 fue proclamado campeón cuando Fischer se negó a defender el título; después lo defendió dos veces ante Viktor Korchnoi, en 1978 y 1981. Lo perdió ante Garry Kasparov en 1985, tras el larguísimo match interrumpido de 1984–85. Más tarde fue tres veces campeón de la FIDE (1993, 1996 y 1998) y ganó más de 160 torneos.",
+    "en": "Anatoly Karpov was born in Zlatoust, in the Urals, in 1951. He won the 1974 Candidates cycle and in 1975 was named champion when Fischer refused to defend the title; he then defended it twice against Viktor Korchnoi, in 1978 and 1981. He lost it to Garry Kasparov in 1985, after the marathon 1984–85 match was halted. He later became FIDE world champion three times (1993, 1996 and 1998) and won more than 160 tournaments."
+  },
+  "style": {
+    "es": "Lo llamaban «la boa constrictora»: posicional y sólido, corría pocos riesgos y castigaba sin piedad el menor error del rival.",
+    "en": "He was called \"the boa constrictor\": positional and solid, he took minimal risks and punished his opponent's slightest error without mercy."
+  },
+  "games": [
+    {
+      "id": "karpov-unzicker-1974",
+      "title": {
+        "es": "El abrazo de la boa",
+        "en": "The squeeze"
+      },
+      "white": "Anatoly Karpov",
+      "black": "Wolfgang Unzicker",
+      "event": {
+        "es": "Olimpiada de Ajedrez, final A, ronda 3",
+        "en": "Chess Olympiad, final A, round 3"
+      },
+      "site": {
+        "es": "Niza, Francia",
+        "en": "Nice, France"
+      },
+      "date": "1974-06",
+      "result": "1-0",
+      "eco": "C98",
+      "plies": 87,
+      "pgnRef": "memorial/karpov.pgn#0",
+      "story": {
+        "es": "En el primer tablero de la Olimpiada de Niza, Karpov jugó 24.Aa7, una jugada que a primera vista no parece nada especial: el alfil se mete en a7 y evita el cambio de torres por la columna a. A partir de ahí fue mejorando su posición poco a poco mientras Unzicker no podía hacer nada. Rafael Leitão la describe como quizá la jugada más famosa de Karpov.",
+        "en": "On top board at the Nice Olympiad, Karpov played 24.Ba7, a move that looks like nothing special at first glance: the bishop slips into a7 and prevents the exchange of rooks along the a-file. From then on he improved his position bit by bit while Unzicker was helpless. Rafael Leitão describes it as perhaps Karpov's most famous move."
+      },
+      "keyPly": 47,
+      "keyMove": "Ba7",
+      "sources": [
+        {
+          "label": "Wikipedia: Anatoly Karpov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Anatoly_Karpov"
+        },
+        {
+          "label": "ChessBase: Karpov Diem, happy 65th birthday Tolya",
+          "url": "https://en.chessbase.com/post/karpov-diem-happy-65th-birthday-tolya"
+        },
+        {
+          "label": "Rafael Leitão: Karpov x Unzicker",
+          "url": "https://rafaelleitao.com/karpov-x-unzicker"
+        }
+      ]
+    },
+    {
+      "id": "karpov-korchnoi-1974",
+      "title": {
+        "es": "El Dragón derribado",
+        "en": "The Dragon slain"
+      },
+      "white": "Anatoly Karpov",
+      "black": "Viktor Korchnoi",
+      "event": {
+        "es": "Final de Candidatos, partida 2",
+        "en": "Candidates Final, game 2"
+      },
+      "site": {
+        "es": "Moscú, URSS",
+        "en": "Moscow, Soviet Union"
+      },
+      "date": "1974",
+      "result": "1-0",
+      "eco": "B78",
+      "plies": 53,
+      "pgnRef": "memorial/karpov.pgn#1",
+      "story": {
+        "es": "La final de Candidatos de 1974 decidía quién desafiaría a Fischer. Contra la Variante del Dragón de la Siciliana, Karpov atacó por la columna h y, con la desviación 20.g5 y 21.Td5, ganó material. Esta victoria le dio una ventaja temprana en el match, que ganó para convertirse en el retador.",
+        "en": "The 1974 Candidates final decided who would challenge Fischer. Against the Dragon Sicilian, Karpov attacked down the h-file and, with the deflection 20.g5 and 21.Rd5, won material. The win gave him an early lead in the match, which he won to become the challenger."
+      },
+      "keyPly": 41,
+      "keyMove": "Rd5",
+      "sources": [
+        {
+          "label": "Wikipedia: Anatoly Karpov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Anatoly_Karpov"
+        },
+        {
+          "label": "ChessBase: Karpov Diem, happy 65th birthday Tolya",
+          "url": "https://en.chessbase.com/post/karpov-diem-happy-65th-birthday-tolya"
+        }
+      ]
+    },
+    {
+      "id": "karpov-sax-1983",
+      "title": {
+        "es": "El premio de belleza de Linares",
+        "en": "The Linares brilliancy prize"
+      },
+      "white": "Anatoly Karpov",
+      "black": "Gyula Sax",
+      "event": {
+        "es": "Linares, ronda 3",
+        "en": "Linares, round 3"
+      },
+      "site": {
+        "es": "Linares, España",
+        "en": "Linares, Spain"
+      },
+      "date": "1983-02",
+      "result": "1-0",
+      "eco": "B81",
+      "plies": 77,
+      "pgnRef": "memorial/karpov.pgn#2",
+      "story": {
+        "es": "El campeón famoso por no arriesgar sacrificó material para atacar al rey negro en una Siciliana, y veinte jugadas después remató con otro sacrificio espectacular. La partida ganó el primer premio de belleza del torneo de Linares de 1983.",
+        "en": "The champion known for avoiding risk gave up material to attack Black's king in a Sicilian, and twenty moves later finished with another spectacular sacrifice. The game won the first brilliancy prize of the 1983 Linares tournament."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Anatoly Karpov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Anatoly_Karpov"
+        },
+        {
+          "label": "Wikipedia: Linares International Chess Tournament",
+          "url": "https://en.wikipedia.org/wiki/Linares_International_Chess_Tournament"
+        }
+      ]
+    },
+    {
+      "id": "karpov-kasparov-1984",
+      "title": {
+        "es": "El caballo que no recapturó",
+        "en": "The knight that did not recapture"
+      },
+      "white": "Anatoly Karpov",
+      "black": "Garry Kasparov",
+      "event": {
+        "es": "Match por el Campeonato del Mundo, partida 9",
+        "en": "World Championship Match, game 9"
+      },
+      "site": {
+        "es": "Moscú, URSS",
+        "en": "Moscow, Soviet Union"
+      },
+      "date": "1984",
+      "result": "1-0",
+      "eco": "D34",
+      "plies": 139,
+      "pgnRef": "memorial/karpov.pgn#3",
+      "story": {
+        "es": "En el primer match contra Kasparov, Karpov ganó cuatro de las primeras nueve partidas. En esta, en lugar de recuperar el peón, jugó 47.Cg2 para activar a su rey y meterlo en la posición negra. Kasparov resistió hasta la jugada 70, pero no pudo salvar el final de caballo contra alfil.",
+        "en": "In the first match against Kasparov, Karpov won four of the first nine games. In this one, instead of taking back his pawn, he played 47.Ng2 to activate his king and march it into Black's position. Kasparov held out until move 70, but could not save the knight-against-bishop ending."
+      },
+      "keyPly": 93,
+      "keyMove": "Ng2",
+      "sources": [
+        {
+          "label": "Wikipedia: Anatoly Karpov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Anatoly_Karpov"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1984–1985",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1984%E2%80%931985"
+        }
+      ]
+    },
+    {
+      "id": "karpov-topalov-1994",
+      "title": {
+        "es": "La inmortal de Karpov",
+        "en": "Karpov's Immortal"
+      },
+      "white": "Anatoly Karpov",
+      "black": "Veselin Topalov",
+      "event": {
+        "es": "Linares, ronda 4",
+        "en": "Linares, round 4"
+      },
+      "site": {
+        "es": "Linares, España",
+        "en": "Linares, Spain"
+      },
+      "date": "1994",
+      "result": "1-0",
+      "eco": "A33",
+      "plies": 77,
+      "pgnRef": "memorial/karpov.pgn#4",
+      "story": {
+        "es": "Linares 1994 tenía el promedio de Elo más alto de la historia hasta entonces, y Karpov lo ganó invicto con 11 de 13. Contra Topalov lanzó sus torres sobre e6 y g6, con 20.Txe6 y 21.Txg6+, en una serie de sacrificios que destrozó el enroque negro. La partida se conoce como «la inmortal de Karpov».",
+        "en": "Linares 1994 had the highest average rating of any tournament until then, and Karpov won it unbeaten with 11 out of 13. Against Topalov he threw his rooks onto e6 and g6, with 20.Rxe6 and 21.Rxg6+, in a series of sacrifices that tore apart Black's kingside. The game is known as \"Karpov's Immortal\"."
+      },
+      "keyPly": 39,
+      "keyMove": "Rxe6",
+      "sources": [
+        {
+          "label": "Wikipedia: Anatoly Karpov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Anatoly_Karpov"
+        },
+        {
+          "label": "Wikipedia: Linares International Chess Tournament",
+          "url": "https://en.wikipedia.org/wiki/Linares_International_Chess_Tournament"
+        },
+        {
+          "label": "ChessBase: Karpov Diem, happy 65th birthday Tolya",
+          "url": "https://en.chessbase.com/post/karpov-diem-happy-65th-birthday-tolya"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Anatoly Karpov",
+      "url": "https://en.wikipedia.org/wiki/Anatoly_Karpov"
+    },
+    {
+      "label": "PGN Mentor: Karpov games",
+      "url": "https://www.pgnmentor.com/players/Karpov.zip"
+    }
+  ]
+}

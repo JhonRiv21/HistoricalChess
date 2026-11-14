@@ -1,0 +1,195 @@
+{
+  "order": 10,
+  "name": "Boris Spassky",
+  "short": "Spassky",
+  "country": {
+    "es": "URSS",
+    "en": "Soviet Union"
+  },
+  "born": "1937-01-30",
+  "died": "2025-02-27",
+  "reign": {
+    "es": "1969–1972",
+    "en": "1969–1972"
+  },
+  "matches": [
+    "1969-spassky-petrosian"
+  ],
+  "photo": "spassky-1973",
+  "bio": {
+    "es": "Boris Spassky nació en Leningrado en 1937. Perdió su primer match por el título ante Petrosian en 1966, pero lo derrotó en 1969 por 12½–10½ y se convirtió en el décimo campeón del mundo. En 1972 perdió la corona frente a Bobby Fischer en Reikiavik, en el match más famoso de la historia. Se mudó a Francia en 1976, perdió una revancha no oficial con Fischer en 1992 y regresó a Rusia en 2012; murió en Moscú en 2025.",
+    "en": "Boris Spassky was born in Leningrad in 1937. He lost his first title match to Petrosian in 1966, but beat him 12½–10½ in 1969 to become the tenth world champion. In 1972 he lost the crown to Bobby Fischer in Reykjavík, in the most famous match in history. He moved to France in 1976, lost an unofficial rematch with Fischer in 1992 and returned to Russia in 2012; he died in Moscow in 2025."
+  },
+  "style": {
+    "es": "Un jugador universal, cómodo en el ataque y en la defensa, cuya fuerza estaba más en el medio juego que en la preparación de aperturas.",
+    "en": "A universal player, at home in attack and defence alike, whose strength lay more in the middlegame than in opening preparation."
+  },
+  "games": [
+    {
+      "id": "spassky-bronstein-1960",
+      "title": {
+        "es": "La partida de «Desde Rusia con amor»",
+        "en": "The From Russia with Love game"
+      },
+      "white": "Boris Spassky",
+      "black": "David Bronstein",
+      "event": {
+        "es": "Campeonato de la URSS",
+        "en": "USSR Championship"
+      },
+      "site": {
+        "es": "Leningrado, URSS",
+        "en": "Leningrad, Soviet Union"
+      },
+      "date": "1960",
+      "result": "1-0",
+      "eco": "C36",
+      "plies": 45,
+      "pgnRef": "memorial/spassky.pgn#0",
+      "story": {
+        "es": "Con un Gambito de Rey, Spassky derrotó al excandidato al título con 15.Cd6, un sacrificio de caballo que abre la columna f contra el rey negro y que al final le cuesta también una torre. La combinación quedó tan célebre que la película de James Bond «Desde Rusia con amor» (1963) la reprodujo, con pequeños cambios, en su escena de ajedrez inicial.",
+        "en": "In a King's Gambit, Spassky beat the former title challenger with 15.Nd6, a knight sacrifice that opens the f-file against Black's king and in the end costs him a rook as well. The combination became so famous that the James Bond film From Russia with Love (1963) recreated it, with small changes, in its opening chess scene."
+      },
+      "keyPly": 29,
+      "keyMove": "Nd6",
+      "sources": [
+        {
+          "label": "Wikipedia: Boris Spassky (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Boris_Spassky"
+        },
+        {
+          "label": "Wikipedia: From Russia with Love (film)",
+          "url": "https://en.wikipedia.org/wiki/From_Russia_with_Love_(film)"
+        },
+        {
+          "label": "Chess.com: Boris Spassky's Dazzling King's Gambit (Sam Copeland)",
+          "url": "https://www.chess.com/blog/SamCopeland/boris-spasskys-dazzling-kings-gambit-best-of-the-60s-spassky-vs-bronstein-1960"
+        }
+      ]
+    },
+    {
+      "id": "spassky-fischer-1960",
+      "title": {
+        "es": "La derrota detrás de «A Bust to the King's Gambit»",
+        "en": "The loss behind \"A Bust to the King's Gambit\""
+      },
+      "white": "Boris Spassky",
+      "black": "Robert James Fischer",
+      "event": {
+        "es": "Mar del Plata, ronda 2",
+        "en": "Mar del Plata, round 2"
+      },
+      "site": {
+        "es": "Mar del Plata, Argentina",
+        "en": "Mar del Plata, Argentina"
+      },
+      "date": "1960",
+      "result": "1-0",
+      "eco": "C39",
+      "plies": 57,
+      "pgnRef": "memorial/spassky.pgn#1",
+      "story": {
+        "es": "Contra el joven Fischer, Spassky jugó el Gambito Kieseritzky, una línea del Gambito de Rey, y ganó en 29 jugadas. Tras esa derrota, Fischer se puso a buscar una nueva defensa y en 1961 publicó su famoso artículo «A Bust to the King's Gambit», donde afirmaba que la apertura pierde por fuerza. Nunca volvió a enfrentar el gambito en una partida de torneo.",
+        "en": "Against the young Fischer, Spassky played the Kieseritzky Gambit, a line of the King's Gambit, and won in 29 moves. After that loss Fischer set out to find a new defence and in 1961 published his famous article \"A Bust to the King's Gambit\", claiming the opening loses by force. He never faced the gambit again in a tournament game."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: King's Gambit, Fischer Defense",
+          "url": "https://en.wikipedia.org/wiki/King%27s_Gambit,_Fischer_Defense"
+        },
+        {
+          "label": "Wikipedia: King's Gambit",
+          "url": "https://en.wikipedia.org/wiki/King%27s_Gambit"
+        }
+      ]
+    },
+    {
+      "id": "spassky-petrosian-1969",
+      "title": {
+        "es": "El ataque que decidió el match de 1969",
+        "en": "The attack that decided the 1969 match"
+      },
+      "white": "Boris Spassky",
+      "black": "Tigran Petrosian",
+      "event": {
+        "es": "Match por el Campeonato del Mundo, partida 19",
+        "en": "World Championship Match, game 19"
+      },
+      "site": {
+        "es": "Moscú, URSS",
+        "en": "Moscow, Soviet Union"
+      },
+      "date": "1969",
+      "result": "1-0",
+      "eco": "B94",
+      "plies": 47,
+      "pgnRef": "memorial/spassky.pgn#2",
+      "story": {
+        "es": "Petrosian sorprendió eligiendo una Siciliana, y Spassky respondió con un ataque directo contra el rey negro. La partida muestra a Spassky en su punto más alto, con juego agresivo y combinaciones: tras 23.Dg6 y 24.Cg5, Petrosian abandonó. Fue una de las victorias clave que le dieron el título por 12½–10½.",
+        "en": "Petrosian chose a Sicilian, and Spassky answered with a direct attack on Black's king. The game shows Spassky at his height, with aggressive play and combinations: after 23.Qg6 and 24.Ng5, Petrosian resigned. It was one of the key wins that gave him the title 12½–10½."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Boris Spassky (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Boris_Spassky"
+        },
+        {
+          "label": "Chess.com: Clash of Champions, Spassky vs. Petrosian",
+          "url": "https://www.chess.com/article/clash-of-champions-spassky-vs-petrosian"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1969",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1969"
+        }
+      ]
+    },
+    {
+      "id": "larsen-spassky-1970",
+      "title": {
+        "es": "La torre de Belgrado",
+        "en": "The rook in Belgrade"
+      },
+      "white": "Bent Larsen",
+      "black": "Boris Spassky",
+      "event": {
+        "es": "URSS contra el Resto del Mundo, tablero 1, ronda 2",
+        "en": "USSR vs Rest of the World, board 1, round 2"
+      },
+      "site": {
+        "es": "Belgrado, Yugoslavia",
+        "en": "Belgrade, Yugoslavia"
+      },
+      "date": "1970",
+      "result": "0-1",
+      "eco": "A01",
+      "plies": 34,
+      "pgnRef": "memorial/spassky.pgn#3",
+      "story": {
+        "es": "En el «Match del Siglo» entre la URSS y el Resto del Mundo, Larsen ocupó el primer tablero después de que Fischer aceptara bajar al segundo. El campeón mundial lo castigó en solo 17 jugadas: con 14...Th1 entregó una torre para ganar tiempo y coronar su peón de g, y Larsen abandonó tras 17...gxf1=D+.",
+        "en": "In the \"Match of the Century\" between the USSR and the Rest of the World, Larsen took board one after Fischer agreed to step down to board two. The world champion punished him in just 17 moves: 14...Rh1 gave up a rook to gain time for his g-pawn to promote, and Larsen resigned after 17...gxf1=Q+."
+      },
+      "keyPly": 28,
+      "keyMove": "Rh1",
+      "sources": [
+        {
+          "label": "Wikipedia: Chess matches of Russia and the Soviet Union against the rest of the World",
+          "url": "https://en.wikipedia.org/wiki/Chess_matches_of_Russia_and_the_Soviet_Union_against_the_rest_of_the_World"
+        },
+        {
+          "label": "Wikipedia: Boris Spassky (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Boris_Spassky"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Boris Spassky",
+      "url": "https://en.wikipedia.org/wiki/Boris_Spassky"
+    },
+    {
+      "label": "PGN Mentor: Spassky games",
+      "url": "https://www.pgnmentor.com/players/Spassky.zip"
+    }
+  ]
+}

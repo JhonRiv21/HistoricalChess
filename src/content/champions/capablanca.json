@@ -1,0 +1,227 @@
+{
+  "order": 3,
+  "name": "José Raúl Capablanca",
+  "short": "Capablanca",
+  "country": {
+    "es": "Cuba",
+    "en": "Cuba"
+  },
+  "born": "1888-11-19",
+  "died": "1942-03-08",
+  "reign": {
+    "es": "1921–1927",
+    "en": "1921–1927"
+  },
+  "matches": [
+    "1921-capablanca-lasker"
+  ],
+  "photo": "capablanca-1921-rol",
+  "bio": {
+    "es": "José Raúl Capablanca nació en La Habana en 1888. En 1921 le ganó el título a Emanuel Lasker en su ciudad natal, con cuatro victorias, diez tablas y ninguna derrota. Lo perdió en 1927 ante Alexander Alekhine en Buenos Aires y nunca obtuvo la revancha. Su libro «Fundamentos del ajedrez» fue para Botvinnik el mejor libro de ajedrez jamás escrito. Murió en Nueva York en 1942, un día después de desplomarse en el Manhattan Chess Club.",
+    "en": "José Raúl Capablanca was born in Havana in 1888. In 1921 he took the title from Emanuel Lasker in his home city, with four wins, ten draws and no losses. He lost it to Alexander Alekhine in Buenos Aires in 1927 and never got a rematch. Botvinnik considered his book Chess Fundamentals the best chess book ever written. He died in New York in 1942, the day after collapsing at the Manhattan Chess Club."
+  },
+  "style": {
+    "es": "Claridad pura: prefería posiciones sencillas, tenía un juicio posicional excepcional y ganaba los finales con una técnica que parecía no costarle esfuerzo.",
+    "en": "Pure clarity: he preferred simple positions, had outstanding positional judgment and won endgames with a technique that seemed effortless."
+  },
+  "games": [
+    {
+      "id": "capablanca-bernstein-1911",
+      "title": {
+        "es": "El premio de brillantez de San Sebastián",
+        "en": "The San Sebastián brilliancy prize"
+      },
+      "white": "José Raúl Capablanca",
+      "black": "Ossip Bernstein",
+      "event": {
+        "es": "San Sebastián 1911",
+        "en": "San Sebastián 1911"
+      },
+      "site": {
+        "es": "San Sebastián (España)",
+        "en": "San Sebastián (Spain)"
+      },
+      "date": "1911-02",
+      "result": "1-0",
+      "eco": "C66",
+      "plies": 67,
+      "pgnRef": "memorial/capablanca.pgn#0",
+      "story": {
+        "es": "San Sebastián 1911 reunió a la élite mundial, y según una historia muy repetida, Ossip Bernstein y Aron Nimzowitsch se opusieron a la participación del joven cubano; ChessBase advierte que no hay pruebas de esa protesta. Lo cierto es que Capablanca venció a Bernstein en la primera ronda con una partida que recibió el premio a la mejor del torneo, 500 francos donados por el barón Rothschild. Capablanca terminó ganando el torneo.",
+        "en": "San Sebastián 1911 brought together the world's elite, and according to an often-repeated story Ossip Bernstein and Aron Nimzowitsch objected to the young Cuban's entry; ChessBase notes there is no evidence of that protest. What is certain is that Capablanca beat Bernstein in the first round with a game that won the prize for the best game of the tournament, 500 francs donated by Baron Rothschild. Capablanca went on to win the tournament."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: José Raúl Capablanca",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca"
+        },
+        {
+          "label": "ChessBase: 110 years ago, Capablanca wins in San Sebastián",
+          "url": "https://en.chessbase.com/post/110-years-ago-capablanca-wins-in-san-sebastian"
+        }
+      ]
+    },
+    {
+      "id": "capablanca-marshall-1918",
+      "title": {
+        "es": "El estreno del Ataque Marshall",
+        "en": "The debut of the Marshall Attack"
+      },
+      "white": "José Raúl Capablanca",
+      "black": "Frank James Marshall",
+      "event": {
+        "es": "Campeonato del Manhattan Chess Club",
+        "en": "Manhattan Chess Club Championship"
+      },
+      "site": {
+        "es": "Nueva York",
+        "en": "New York"
+      },
+      "date": "1918",
+      "result": "1-0",
+      "eco": "C89",
+      "plies": 71,
+      "pgnRef": "memorial/capablanca.pgn#1",
+      "story": {
+        "es": "En el Manhattan Chess Club, Frank Marshall sorprendió a Capablanca con 8...d5, un sacrificio de peón contra la Apertura Española que hoy lleva su nombre. Capablanca aceptó el peón, resistió el ataque con precisión y ganó. Suele decirse que Marshall guardó la idea en secreto durante años para usarla contra él, pero esa historia nunca se ha probado.",
+        "en": "At the Manhattan Chess Club, Frank Marshall surprised Capablanca with 8...d5, a pawn sacrifice against the Ruy Lopez that now bears his name. Capablanca took the pawn, defended accurately against the attack and won. It is often said that Marshall had kept the idea secret for years to use against him, but that story has never been proven."
+      },
+      "keyPly": 16,
+      "keyMove": "d5",
+      "sources": [
+        {
+          "label": "Wikipedia: Ruy Lopez, Marshall Attack",
+          "url": "https://en.wikipedia.org/wiki/Ruy_Lopez,_Marshall_Attack"
+        },
+        {
+          "label": "Wikipedia: José Raúl Capablanca",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca"
+        }
+      ]
+    },
+    {
+      "id": "lasker-capablanca-1921",
+      "title": {
+        "es": "La décima partida del Mundial de 1921",
+        "en": "Game 10 of the 1921 World Championship"
+      },
+      "white": "Emanuel Lasker",
+      "black": "José Raúl Capablanca",
+      "event": {
+        "es": "Campeonato del Mundo 1921",
+        "en": "World Championship 1921"
+      },
+      "site": {
+        "es": "La Habana",
+        "en": "Havana"
+      },
+      "date": "1921-04-08",
+      "result": "0-1",
+      "eco": "D61",
+      "plies": 136,
+      "pgnRef": "memorial/capablanca.pgn#2",
+      "story": {
+        "es": "En La Habana, Lasker jugó con blancas una posición con peón aislado de dama, pero no logró darle actividad. Capablanca simplificó hacia un final superior y lo ganó con su técnica de siempre. Fue su segunda victoria en un match que terminó sin derrotas para él y que lo convirtió en el tercer campeón mundial.",
+        "en": "In Havana, Lasker played a position with an isolated queen's pawn as White but could not bring it to life. Capablanca simplified into a superior endgame and won it with his usual technique. It was his second win in a match he finished without a loss, and that made him the third world champion."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: World Chess Championship 1921",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1921"
+        },
+        {
+          "label": "Wikipedia: José Raúl Capablanca",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca"
+        }
+      ]
+    },
+    {
+      "id": "capablanca-tartakower-1924",
+      "title": {
+        "es": "El final de torres de Nueva York 1924",
+        "en": "The New York 1924 rook endgame"
+      },
+      "white": "José Raúl Capablanca",
+      "black": "Savielly Tartakower",
+      "event": {
+        "es": "Nueva York 1924",
+        "en": "New York 1924"
+      },
+      "site": {
+        "es": "Nueva York",
+        "en": "New York"
+      },
+      "date": "1924",
+      "result": "1-0",
+      "eco": "A85",
+      "plies": 103,
+      "pgnRef": "memorial/capablanca.pgn#3",
+      "story": {
+        "es": "Es uno de los finales más admirados de la historia. Capablanca tomó la columna h, llevó su torre a la séptima fila y, con 35.Rg3, puso en marcha a su rey aunque eso le costara peones. El rey blanco llegó hasta f6 y, junto con la torre y un peón pasado, creó amenazas de mate que decidieron la partida.",
+        "en": "It is one of the most admired endgames in history. Capablanca took the h-file, put his rook on the seventh rank and, with 35.Kg3, set his king marching even though it cost him pawns. The white king reached f6 and, together with the rook and a passed pawn, created mating threats that decided the game."
+      },
+      "keyPly": 69,
+      "keyMove": "Kg3",
+      "sources": [
+        {
+          "label": "Wikipedia: José Raúl Capablanca",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca"
+        },
+        {
+          "label": "Chess.com: Capablanca wins greatest chess endgame ever?",
+          "url": "https://www.chess.com/blog/SamCopeland/capablanca-wins-greatest-chess-endgame-ever-best-of-the-20s-capablanca-vs-tartakower"
+        }
+      ]
+    },
+    {
+      "id": "capablanca-spielmann-1927",
+      "title": {
+        "es": "El premio de brillantez de Nueva York 1927",
+        "en": "The New York 1927 brilliancy prize"
+      },
+      "white": "José Raúl Capablanca",
+      "black": "Rudolf Spielmann",
+      "event": {
+        "es": "Nueva York 1927",
+        "en": "New York 1927"
+      },
+      "site": {
+        "es": "Nueva York",
+        "en": "New York"
+      },
+      "date": "1927",
+      "result": "1-0",
+      "eco": "D38",
+      "plies": 51,
+      "pgnRef": "memorial/capablanca.pgn#4",
+      "story": {
+        "es": "Capablanca ganó el torneo de Nueva York 1927 con dos puntos y medio de ventaja sobre Alekhine, su siguiente rival por el título. Contra Rudolf Spielmann, en un Gambito de Dama, ganó en 26 jugadas una partida de una elegancia que parece no costarle esfuerzo. Recibió el primer premio de brillantez del torneo.",
+        "en": "Capablanca won the New York 1927 tournament two and a half points ahead of Alekhine, his next title challenger. Against Rudolf Spielmann, in a Queen's Gambit, he won in 26 moves a game of seemingly effortless elegance. It earned the tournament's first brilliancy prize."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: New York 1927 chess tournament",
+          "url": "https://en.wikipedia.org/wiki/New_York_1927_chess_tournament"
+        },
+        {
+          "label": "Wikipedia: José Raúl Capablanca",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca"
+        },
+        {
+          "label": "The Spectator archive: Chess (16 May 1987)",
+          "url": "https://archive.spectator.co.uk/article/16th-may-1987/46/chess"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: José Raúl Capablanca",
+      "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Ra%C3%BAl_Capablanca"
+    },
+    {
+      "label": "PGN Mentor: Capablanca",
+      "url": "https://www.pgnmentor.com/players/Capablanca.zip"
+    }
+  ]
+}

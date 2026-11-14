@@ -1,0 +1,191 @@
+{
+  "order": 8,
+  "name": "Mikhail Tal",
+  "short": "Tal",
+  "country": {
+    "es": "URSS (Letonia)",
+    "en": "Soviet Union (Latvia)"
+  },
+  "born": "1936-11-09",
+  "died": "1992-06-28",
+  "reign": {
+    "es": "1960–1961",
+    "en": "1960–1961"
+  },
+  "matches": [
+    "1960-tal-botvinnik"
+  ],
+  "photo": "tal-1964",
+  "bio": {
+    "es": "Mikhail Tal nació en Riga en 1936 y fue conocido como «el Mago de Riga». Tras ganar el campeonato soviético, el Interzonal de 1958 y el Torneo de Candidatos de 1959, derrotó a Botvinnik en 1960 por 12½–8½ y, con 23 años, se convirtió en el campeón más joven hasta entonces. Perdió la revancha de 1961, ya afectado por problemas de riñón. Siguió entre la élite durante décadas y llegó a encadenar 95 partidas sin derrota entre 1973 y 1974.",
+    "en": "Mikhail Tal was born in Riga in 1936 and became known as \"the Magician from Riga\". After winning the Soviet championship, the 1958 Interzonal and the 1959 Candidates Tournament, he beat Botvinnik 12½–8½ in 1960 and, at 23, became the youngest champion up to that time. He lost the 1961 rematch, already troubled by kidney problems. He stayed among the elite for decades and once went 95 games without a loss between 1973 and 1974."
+  },
+  "style": {
+    "es": "Atacante y combinativo, improvisaba sacrificios audaces que convertían cada partida en un problema difícil de resolver ante el reloj.",
+    "en": "An attacking, combinative player who improvised bold sacrifices that turned each game into a problem hard to solve against the clock."
+  },
+  "games": [
+    {
+      "id": "spassky-tal-1958",
+      "title": {
+        "es": "La última ronda de Riga",
+        "en": "The last round in Riga"
+      },
+      "white": "Boris Spassky",
+      "black": "Mikhail Tal",
+      "event": {
+        "es": "Campeonato de la URSS, última ronda",
+        "en": "USSR Championship, final round"
+      },
+      "site": {
+        "es": "Riga, URSS",
+        "en": "Riga, Soviet Union"
+      },
+      "date": "1958",
+      "result": "0-1",
+      "eco": "E26",
+      "plies": 146,
+      "pgnRef": "memorial/tal.pgn#0",
+      "story": {
+        "es": "El campeonato soviético de 1958 también daba cuatro plazas para el Interzonal. En la última ronda, Spassky tuvo una posición fuerte contra Tal, pero se excedió buscando la victoria y perdió. Tal ganó el campeonato y Spassky quedó fuera del ciclo mundialista, mientras Tal seguía su camino hacia el título.",
+        "en": "The 1958 Soviet championship also handed out four places in the Interzonal. In the last round Spassky had a strong position against Tal, but pushed too hard for a win and lost. Tal won the championship and Spassky missed the world title cycle, while Tal went on toward the crown."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: World Chess Championship 1960 (1958 USSR Championship)",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1960"
+        },
+        {
+          "label": "Wikipedia: 1958 USSR Chess Championship",
+          "url": "https://en.wikipedia.org/wiki/1958_USSR_Chess_Championship"
+        },
+        {
+          "label": "Wikipedia: Mikhail Tal (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Tal"
+        }
+      ]
+    },
+    {
+      "id": "tal-smyslov-1959",
+      "title": {
+        "es": "Golpe al excampeón en 26 jugadas",
+        "en": "Beating the former champion in 26 moves"
+      },
+      "white": "Mikhail Tal",
+      "black": "Vasily Smyslov",
+      "event": {
+        "es": "Torneo de Candidatos, ronda 8",
+        "en": "Candidates Tournament, round 8"
+      },
+      "site": {
+        "es": "Yugoslavia",
+        "en": "Yugoslavia"
+      },
+      "date": "1959-09",
+      "result": "1-0",
+      "eco": "B10",
+      "plies": 51,
+      "pgnRef": "memorial/tal.pgn#1",
+      "story": {
+        "es": "Contra una Caro-Kann del excampeón mundial, Tal enrocó largo y buscó el rey negro de inmediato. Con 19.Dxf7 dejó que le capturaran la dama, pero la recuperó enseguida con 21.Cxf7+ y 22.Txa1, y Smyslov abandonó en la jugada 26. Tal ganó aquel Torneo de Candidatos y se convirtió en el retador de Botvinnik.",
+        "en": "Against the former world champion's Caro-Kann, Tal castled long and went straight for Black's king. With 19.Qxf7 he let his queen be captured, but won it straight back with 21.Nxf7+ and 22.Rxa1, and Smyslov resigned on move 26. Tal won that Candidates Tournament and became Botvinnik's challenger."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Mikhail Tal (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Mikhail_Tal"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1960 (1959 Candidates Tournament)",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1960"
+        }
+      ]
+    },
+    {
+      "id": "botvinnik-tal-1960",
+      "title": {
+        "es": "El caballo de la sexta partida",
+        "en": "The knight of game six"
+      },
+      "white": "Mikhail Botvinnik",
+      "black": "Mikhail Tal",
+      "event": {
+        "es": "Match por el Campeonato del Mundo, partida 6",
+        "en": "World Championship Match, game 6"
+      },
+      "site": {
+        "es": "Moscú, URSS",
+        "en": "Moscow, Soviet Union"
+      },
+      "date": "1960",
+      "result": "0-1",
+      "eco": "E69",
+      "plies": 92,
+      "pgnRef": "memorial/tal.pgn#2",
+      "story": {
+        "es": "Es una de las partidas más célebres del match de 1960. Con 21...Cf4, Tal sacrificó un caballo de forma especulativa y ganó en las complicaciones que siguieron. El público se emocionó tanto que la partida tuvo que trasladarse a una sala interior por el ruido.",
+        "en": "It is one of the most celebrated games of the 1960 match. With 21...Nf4, Tal sacrificed a knight speculatively and won in the complications that followed. The audience got so excited that the game had to be moved to a back room because of the noise."
+      },
+      "keyPly": 42,
+      "keyMove": "Nf4",
+      "sources": [
+        {
+          "label": "Wikipedia: World Chess Championship 1960 (game 6)",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1960"
+        },
+        {
+          "label": "Chess.com: Clash of Champions, Tal vs. Botvinnik (Bryan Smith)",
+          "url": "https://www.chess.com/article/view/clash-of-champions-tal---botvinnik"
+        }
+      ]
+    },
+    {
+      "id": "tal-larsen-1965",
+      "title": {
+        "es": "El caballo de Troya de Bled",
+        "en": "The wooden horse of Bled"
+      },
+      "white": "Mikhail Tal",
+      "black": "Bent Larsen",
+      "event": {
+        "es": "Semifinal de Candidatos, partida 10",
+        "en": "Candidates Semi-final, game 10"
+      },
+      "site": {
+        "es": "Bled, Yugoslavia",
+        "en": "Bled, Yugoslavia"
+      },
+      "date": "1965",
+      "result": "1-0",
+      "eco": "B82",
+      "plies": 73,
+      "pgnRef": "memorial/tal.pgn#3",
+      "story": {
+        "es": "La semifinal de Candidatos contra Larsen llegó empatada a la décima y última partida. Con 16.Cd5, Tal entregó un caballo en el centro en un sacrificio complejo y especulativo que se sigue analizando hasta hoy. Ganó la partida y el match por 5½–4½.",
+        "en": "The Candidates semi-final against Larsen came down to a tied tenth and last game. With 16.Nd5, Tal gave up a knight in the centre in a complex, speculative sacrifice that is still being analysed today. He won the game and the match 5½–4½."
+      },
+      "keyPly": 31,
+      "keyMove": "Nd5",
+      "sources": [
+        {
+          "label": "Wikipedia: Bent Larsen",
+          "url": "https://en.wikipedia.org/wiki/Bent_Larsen"
+        },
+        {
+          "label": "Chess.com: Tal-Larsen Candidates 1965, Deciding Game",
+          "url": "https://www.chess.com/article/view/tal-larsen-candidates-1965-deciding-game"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Mikhail Tal",
+      "url": "https://en.wikipedia.org/wiki/Mikhail_Tal"
+    },
+    {
+      "label": "PGN Mentor: Tal games",
+      "url": "https://www.pgnmentor.com/players/Tal.zip"
+    }
+  ]
+}

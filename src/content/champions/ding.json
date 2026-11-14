@@ -1,0 +1,178 @@
+{
+  "order": 17,
+  "name": "Ding Liren",
+  "short": "Ding",
+  "country": {
+    "es": "China",
+    "en": "China"
+  },
+  "born": "1992-10-24",
+  "reign": {
+    "es": "2023–2024",
+    "en": "2023–2024"
+  },
+  "matches": [
+    "2023-ding-nepomniachtchi"
+  ],
+  "photo": "ding-2024",
+  "bio": {
+    "es": "Ding Liren nació en Wenzhou, China, en 1992. Ganó el oro olímpico con su país en 2014 y 2018, y entre agosto de 2017 y noviembre de 2018 jugó 100 partidas lentas seguidas sin perder. En 2023 venció a Ian Nepomniachtchi en el desempate rápido de Astaná y se convirtió en el primer campeón mundial chino. Después habló abiertamente de su lucha contra la depresión, y en 2024 perdió el título ante Gukesh Dommaraju en la última partida del match.",
+    "en": "Ding Liren was born in Wenzhou, China, in 1992. He won Olympiad gold with his country in 2014 and 2018, and between August 2017 and November 2018 he played 100 classical games in a row without a loss. In 2023 he beat Ian Nepomniachtchi in the rapid tiebreak in Astana and became China's first world champion. He later spoke openly about his struggle with depression, and in 2024 he lost the title to Gukesh Dommaraju in the last game of the match."
+  },
+  "style": {
+    "es": "Un jugador sereno y sólido, capaz de cálculos audaces cuando la posición lo pide, como en su famosa inmortal de 2017.",
+    "en": "A calm, solid player capable of daring calculation when the position calls for it, as in his famous immortal of 2017."
+  },
+  "games": [
+    {
+      "id": "bai-ding-2017",
+      "title": {
+        "es": "La Inmortal de Ding",
+        "en": "Ding's Immortal"
+      },
+      "white": "Bai Jinshi",
+      "black": "Ding Liren",
+      "event": {
+        "es": "Campeonato de China por equipos 2017",
+        "en": "Chinese Team Championship 2017"
+      },
+      "site": {
+        "es": "China",
+        "en": "China"
+      },
+      "date": "2017-11-04",
+      "result": "0-1",
+      "eco": "E21",
+      "plies": 64,
+      "pgnRef": "memorial/ding.pgn#0",
+      "story": {
+        "es": "En la liga china por equipos, Ding entregó su dama en la jugada 15 y salió a cazar al rey blanco, que terminó arrastrado hasta g4. Magnus Carlsen comentó que no solo 20...Rd4 merecía los titulares, sino que todo lo que siguió fue preciso y hermoso. Ganó en 32 jugadas, y en redes la llamaron la partida del año.",
+        "en": "In the Chinese team league, Ding gave up his queen on move 15 and went hunting the white king, which ended up dragged all the way to g4. Magnus Carlsen said it was not only 20...Rd4 that deserved the headlines: the follow-up was also accurate and beautiful. Ding won in 32 moves, and people on social media called it the game of the year."
+      },
+      "keyPly": 40,
+      "keyMove": "Rd4",
+      "sources": [
+        {
+          "label": "ChessBase – Ding Liren Game of the Year?",
+          "url": "https://en.chessbase.com/post/ding-liren-plays-brilliancy"
+        },
+        {
+          "label": "Chess.com – Ding Liren's Immortal Game (Top 10 of the 2010s)",
+          "url": "https://www.chess.com/blog/SamCopeland/ding-lirens-immortal-game-top-10-of-the-2010s-bai-jinshi-vs-ding-liren-2017"
+        }
+      ]
+    },
+    {
+      "id": "ding-nakamura-2022",
+      "title": {
+        "es": "El boleto al mundial",
+        "en": "The ticket to the title match"
+      },
+      "white": "Ding Liren",
+      "black": "Hikaru Nakamura",
+      "event": {
+        "es": "Torneo de Candidatos de la FIDE 2022",
+        "en": "FIDE Candidates 2022"
+      },
+      "site": {
+        "es": "Madrid, España",
+        "en": "Madrid, Spain"
+      },
+      "date": "2022-07-04",
+      "result": "1-0",
+      "eco": "D40",
+      "plies": 115,
+      "pgnRef": "memorial/ding.pgn#1",
+      "story": {
+        "es": "En la última ronda del Torneo de Candidatos, Ding necesitaba ganar con blancas para quedarse con el segundo puesto. Con 19.Rdc1 mantuvo las torres en el tablero, aprovechó el error 35...Bd8 de Nakamura y ganó en 58 jugadas. Ese segundo lugar resultó decisivo: cuando Carlsen renunció a defender el título, Ding fue quien enfrentó a Nepomniachtchi por la corona.",
+        "en": "In the final round of the Candidates, Ding needed to win with White to take second place. With 19.Rdc1 he kept the rooks on the board, pounced on Nakamura's error 35...Bd8 and won in 58 moves. That second place turned out to be decisive: when Carlsen declined to defend the title, Ding was the one who played Nepomniachtchi for the crown."
+      },
+      "keyPly": 37,
+      "keyMove": "Rdc1",
+      "sources": [
+        {
+          "label": "Chess.com – 2022 FIDE Candidates Tournament, round 14",
+          "url": "https://www.chess.com/news/view/2022-fide-candidates-tournament-round-14"
+        },
+        {
+          "label": "Wikipedia – World Chess Championship 2023",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2023"
+        }
+      ]
+    },
+    {
+      "id": "ding-nepomniachtchi-2023-6",
+      "title": {
+        "es": "El mate de Astaná",
+        "en": "The Astana mating net"
+      },
+      "white": "Ding Liren",
+      "black": "Ian Nepomniachtchi",
+      "event": {
+        "es": "Campeonato del Mundo 2023, partida 6",
+        "en": "World Championship 2023, game 6"
+      },
+      "site": {
+        "es": "Astaná, Kazajistán",
+        "en": "Astana, Kazakhstan"
+      },
+      "date": "2023-04-16",
+      "result": "1-0",
+      "eco": "D02",
+      "plies": 87,
+      "pgnRef": "memorial/ding.pgn#2",
+      "story": {
+        "es": "Ding sacó el Sistema Londres, que nunca se había visto en un match por el título, y fue ganando terreno poco a poco. Al final tejió una red de mate y Nepomniachtchi abandonó tras 44.Qf7, ante la amenaza imparable de Qxg8+ y Rf8 mate. El gran maestro David Howell lo llamó uno de los finales más bellos en la historia de los mundiales, y Ding volvió a igualar el match 3–3.",
+        "en": "Ding brought out the London System, never before seen in a title match, and gained ground little by little. In the end he wove a mating net, and Nepomniachtchi resigned after 44.Qf7, facing the unstoppable threat of Qxg8+ and Rf8 mate. Grandmaster David Howell called it one of the most beautiful finishes in World Championship history, and Ding levelled the match at 3–3 once more."
+      },
+      "keyPly": 87,
+      "keyMove": "Qf7",
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 2023",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2023"
+        }
+      ]
+    },
+    {
+      "id": "nepomniachtchi-ding-2023-tiebreak",
+      "title": {
+        "es": "La autoclavada",
+        "en": "The self-pin"
+      },
+      "white": "Ian Nepomniachtchi",
+      "black": "Ding Liren",
+      "event": {
+        "es": "Campeonato del Mundo 2023, partida rápida de desempate 4",
+        "en": "World Championship 2023, rapid tiebreak game 4"
+      },
+      "site": {
+        "es": "Astaná, Kazajistán",
+        "en": "Astana, Kazakhstan"
+      },
+      "date": "2023-04-30",
+      "result": "0-1",
+      "eco": "C84",
+      "plies": 136,
+      "pgnRef": "memorial/ding.pgn#3",
+      "story": {
+        "es": "En la cuarta partida rápida del desempate, Ding pudo aceptar unas tablas por repetición, pero eligió seguir con 46...Rg6, clavando su propia torre contra su rey. Con los dos relojes casi sin tiempo, Nepomniachtchi se equivocó y Ding ganó la partida y el título. Carlsen lo felicitó con una frase: «Autoclavarse para la inmortalidad».",
+        "en": "In the fourth rapid tiebreak game, Ding could have accepted a draw by repetition, but chose to play on with 46...Rg6, pinning his own rook to his king. With both clocks almost out of time, Nepomniachtchi went wrong, and Ding won the game and the title. Carlsen congratulated him with one line: \"Self-pinning for immortality.\""
+      },
+      "keyPly": 92,
+      "keyMove": "Rg6",
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 2023",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2023"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia – Ding Liren",
+      "url": "https://en.wikipedia.org/wiki/Ding_Liren"
+    }
+  ]
+}

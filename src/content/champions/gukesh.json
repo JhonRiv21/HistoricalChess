@@ -1,0 +1,214 @@
+{
+  "order": 18,
+  "name": "Gukesh Dommaraju",
+  "short": "Gukesh",
+  "country": {
+    "es": "India",
+    "en": "India"
+  },
+  "born": "2006-05-29",
+  "reign": {
+    "es": "2024–",
+    "en": "2024–"
+  },
+  "matches": [
+    "2024-gukesh-ding"
+  ],
+  "photo": "gukesh-2024",
+  "bio": {
+    "es": "Gukesh Dommaraju nació en Chennai, India, en 2006, y fue gran maestro a los 12 años, 7 meses y 17 días. En la Olimpiada de Chennai de 2022 ganó la medalla de oro individual en el primer tablero, y en 2024 ganó el Torneo de Candidatos de Toronto con 9 de 14 puntos, el más joven de la historia en lograrlo. En diciembre de ese año venció a Ding Liren en Singapur y, con 18 años, se convirtió en el campeón mundial indiscutido más joven. Ese mismo 2024 llevó a la India al oro en la Olimpiada de Budapest, con 9 de 10 en el primer tablero.",
+    "en": "Gukesh Dommaraju was born in Chennai, India, in 2006, and became a grandmaster at 12 years, 7 months and 17 days. At the 2022 Chennai Olympiad he won individual gold on top board, and in 2024 he won the Toronto Candidates with 9 points out of 14, the youngest ever to do so. That December he beat Ding Liren in Singapore and, at 18, became the youngest undisputed world champion. Also in 2024 he led India to gold at the Budapest Olympiad, scoring 9 out of 10 on top board."
+  },
+  "style": {
+    "es": "Un jugador de contragolpe, que acepta posiciones tensas y destaca por calcular con precisión aun con poco tiempo en el reloj.",
+    "en": "A counterpunching player who accepts tense positions and stands out for calculating accurately even with little time on the clock."
+  },
+  "games": [
+    {
+      "id": "caruana-gukesh-2022",
+      "title": {
+        "es": "Ocho de ocho",
+        "en": "Eight out of eight"
+      },
+      "white": "Fabiano Caruana",
+      "black": "Gukesh Dommaraju",
+      "event": {
+        "es": "44.ª Olimpiada de Ajedrez",
+        "en": "44th Chess Olympiad"
+      },
+      "site": {
+        "es": "Chennai, India",
+        "en": "Chennai, India"
+      },
+      "date": "2022-08-06",
+      "result": "0-1",
+      "eco": "B31",
+      "plies": 90,
+      "pgnRef": "memorial/gukesh.pgn#0",
+      "story": {
+        "es": "Con 16 años y jugando en su ciudad, Gukesh venció con negras a Fabiano Caruana y llegó a 8 de 8 en la Olimpiada. Su equipo, India 2, derrotó 3–1 a Estados Unidos, el primer favorito. «¿Ocho de ocho? ¿Y contra Fabi Caruana con negras?», escribió asombrado el gran maestro Arturs Neiksans.",
+        "en": "At 16 and playing in his home city, Gukesh beat Fabiano Caruana with Black and reached 8 out of 8 at the Olympiad. His team, India 2, beat the top-seeded United States 3–1. \"Eight out of eight? Are you kidding me!? And you are doing this against Fabi Caruana with the black color?\" wrote an astonished Grandmaster Arturs Neiksans."
+      },
+      "sources": [
+        {
+          "label": "Chess.com – 2022 Chess Olympiad, round 8",
+          "url": "https://chess.com/news/view/2022-fide-chess-olympiad-round-8"
+        },
+        {
+          "label": "FIDE – Top-seeded USA bites the dust against the Indian teenagers",
+          "url": "https://chennai2022.fide.com/top-seeded-usa-bites-the-dust-against-the-indian-teenagers/"
+        }
+      ]
+    },
+    {
+      "id": "gukesh-firouzja-2024",
+      "title": {
+        "es": "La revancha en Toronto",
+        "en": "Revenge in Toronto"
+      },
+      "white": "Gukesh Dommaraju",
+      "black": "Alireza Firouzja",
+      "event": {
+        "es": "Torneo de Candidatos de la FIDE 2024",
+        "en": "FIDE Candidates 2024"
+      },
+      "site": {
+        "es": "Toronto, Canadá",
+        "en": "Toronto, Canada"
+      },
+      "date": "2024-04-20",
+      "result": "1-0",
+      "eco": "C65",
+      "plies": 125,
+      "pgnRef": "memorial/gukesh.pgn#1",
+      "story": {
+        "es": "Firouzja era el único que le había ganado a Gukesh en el Torneo de Candidatos. En la penúltima ronda, Gukesh contuvo su avance de peones, aprovechó el cambio de damas que Firouzja ofreció con 45...Qg6 —que según Gukesh acabó con cualquier esperanza de contrajuego— y ganó en 63 jugadas. Quedó como único líder y, tras empatar en la última ronda, ganó el torneo con 17 años.",
+        "en": "Firouzja was the only player who had beaten Gukesh at the Candidates. In the penultimate round, Gukesh held off his pawn storm, took the queen trade Firouzja offered with 45...Qg6, which Gukesh said gave away any hopes of counterplay, and won in 63 moves. He became sole leader and, after a draw in the final round, won the tournament at 17."
+      },
+      "keyPly": 90,
+      "keyMove": "Qg6",
+      "sources": [
+        {
+          "label": "Chess.com – 2024 FIDE Candidates Tournament, round 13",
+          "url": "https://www.chess.com/news/view/2024-fide-candidates-tournament-round-13"
+        },
+        {
+          "label": "Wikipedia – Gukesh Dommaraju",
+          "url": "https://en.wikipedia.org/wiki/Gukesh_Dommaraju"
+        }
+      ]
+    },
+    {
+      "id": "gukesh-ding-2024-3",
+      "title": {
+        "es": "La primera victoria en Singapur",
+        "en": "The first win in Singapore"
+      },
+      "white": "Gukesh Dommaraju",
+      "black": "Ding Liren",
+      "event": {
+        "es": "Campeonato del Mundo 2024, partida 3",
+        "en": "World Championship 2024, game 3"
+      },
+      "site": {
+        "es": "Singapur",
+        "en": "Singapore"
+      },
+      "date": "2024-11-27",
+      "result": "1-0",
+      "eco": "D02",
+      "plies": 74,
+      "pgnRef": "memorial/gukesh.pgn#2",
+      "story": {
+        "es": "Después de perder la primera partida del match, Gukesh eligió un Gambito de Dama Rehusado. Con 19.e4 volvió a encerrar al alfil negro y fue convirtiendo la ventaja con precisión. Ding perdió por tiempo al hacer su jugada 37, en una posición que ya estaba perdida, y el match quedó igualado.",
+        "en": "After losing the first game of the match, Gukesh chose a Queen's Gambit Declined. With 19.e4 he trapped the black bishop again and converted his advantage with precision. Ding lost on time while making his 37th move, in a position that was already lost, and the match was level."
+      },
+      "keyPly": 37,
+      "keyMove": "e4",
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 2024",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2024"
+        }
+      ]
+    },
+    {
+      "id": "ding-gukesh-2024-14",
+      "title": {
+        "es": "La corona en el último final",
+        "en": "The crown in the last ending"
+      },
+      "white": "Ding Liren",
+      "black": "Gukesh Dommaraju",
+      "event": {
+        "es": "Campeonato del Mundo 2024, partida 14",
+        "en": "World Championship 2024, game 14"
+      },
+      "site": {
+        "es": "Singapur",
+        "en": "Singapore"
+      },
+      "date": "2024-12-12",
+      "result": "0-1",
+      "eco": "A08",
+      "plies": 116,
+      "pgnRef": "memorial/gukesh.pgn#3",
+      "story": {
+        "es": "Con el match 6½–6½, la última partida lenta parecía rumbo a tablas y al desempate. En un final teóricamente igualado, Ding ofreció cambiar torres con 55.Rf2 mientras su alfil estaba encerrado en una esquina. Gukesh pasó a un final de peones ganador y, con 18 años, se convirtió en el campeón mundial indiscutido más joven de la historia.",
+        "en": "With the match at 6½–6½, the last classical game seemed headed for a draw and a tiebreak. In a theoretically drawn ending, Ding offered a rook trade with 55.Rf2 while his bishop was stuck in a corner. Gukesh went into a winning pawn ending and, at 18, became the youngest undisputed world champion in history."
+      },
+      "keyPly": 109,
+      "keyMove": "Rf2",
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 2024",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2024"
+        }
+      ]
+    },
+    {
+      "id": "gukesh-carlsen-2025",
+      "title": {
+        "es": "El golpe en la mesa",
+        "en": "The bang on the table"
+      },
+      "white": "Gukesh Dommaraju",
+      "black": "Magnus Carlsen",
+      "event": {
+        "es": "Norway Chess 2025",
+        "en": "Norway Chess 2025"
+      },
+      "site": {
+        "es": "Stavanger, Noruega",
+        "en": "Stavanger, Norway"
+      },
+      "date": "2025-06-01",
+      "result": "1-0",
+      "eco": "C65",
+      "plies": 123,
+      "pgnRef": "memorial/gukesh.pgn#4",
+      "story": {
+        "es": "Carlsen dominó la partida durante horas y tenía una posición ganadora, pero Gukesh se defendió jugada a jugada y llevó el duelo a un apuro de tiempo. Tras 44...f6, Carlsen empezó a perder el control y terminó dejando caer un caballo. Fue la primera victoria de Gukesh sobre Carlsen en partida lenta; Carlsen golpeó la mesa después de abandonar, y Gukesh admitió que «99 de cada 100 veces» habría perdido.",
+        "en": "Carlsen dominated the game for hours and had a winning position, but Gukesh defended move by move and dragged the fight into time trouble. After 44...f6, Carlsen began to lose control and ended up dropping a knight. It was Gukesh's first classical win over Carlsen; Carlsen banged the table after resigning, and Gukesh admitted that \"99 out of 100 times\" he would have lost."
+      },
+      "keyPly": 88,
+      "keyMove": "f6",
+      "sources": [
+        {
+          "label": "Chess.com – Gukesh Beats Carlsen From Losing Position",
+          "url": "https://www.chess.com/news/view/2025-norway-chess-round-6"
+        },
+        {
+          "label": "ChessBase – Gukesh capitalises on late errors, beats Carlsen",
+          "url": "https://en.chessbase.com/post/norway-chess-2025-6"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia – Gukesh Dommaraju",
+      "url": "https://en.wikipedia.org/wiki/Gukesh_Dommaraju"
+    }
+  ]
+}

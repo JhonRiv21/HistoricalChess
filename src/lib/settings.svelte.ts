@@ -2,6 +2,7 @@
 // Applied as attributes on <html> so CSS tokens do the rest; persisted per viewer.
 // The inline script in BaseLayout applies the same keys before first paint to avoid a flash.
 import type { Notation } from './format';
+import { track } from './analytics';
 
 export const STORAGE_KEY = 'historical-chess.reading';
 export const TEXT_SCALES = [0.875, 1, 1.125, 1.25, 1.375, 1.5] as const;
@@ -45,6 +46,7 @@ function apply() {
 
 export function updateSettings(patch: Partial<Settings>) {
   Object.assign(settings, patch);
+  for (const [setting, value] of Object.entries(patch)) track('reading_setting', { setting, value: String(value) });
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
   } catch (error) {

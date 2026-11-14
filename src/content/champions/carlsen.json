@@ -1,0 +1,180 @@
+{
+  "order": 16,
+  "name": "Magnus Carlsen",
+  "short": "Carlsen",
+  "country": {
+    "es": "Noruega",
+    "en": "Norway"
+  },
+  "born": "1990-11-30",
+  "reign": {
+    "es": "2013–2023",
+    "en": "2013–2023"
+  },
+  "matches": [
+    "2013-carlsen-anand",
+    "2014-carlsen-anand",
+    "2016-carlsen-karjakin",
+    "2018-carlsen-caruana",
+    "2021-carlsen-nepomniachtchi"
+  ],
+  "photo": "carlsen-portrait",
+  "bio": {
+    "es": "Magnus Carlsen nació en Tønsberg, Noruega, en 1990, y fue gran maestro a los 13 años. En 2013 le ganó el título a Viswanathan Anand y lo defendió cuatro veces: ante Anand en 2014, Sergey Karjakin en 2016, Fabiano Caruana en 2018 e Ian Nepomniachtchi en 2021. En mayo de 2014 alcanzó un rating de 2882, el más alto de la historia, y tiene el récord de 125 partidas lentas seguidas sin perder en la élite. En 2023 decidió no defender el título por falta de motivación.",
+    "en": "Magnus Carlsen was born in Tønsberg, Norway, in 1990, and became a grandmaster at 13. In 2013 he took the title from Viswanathan Anand and defended it four times: against Anand in 2014, Sergey Karjakin in 2016, Fabiano Caruana in 2018 and Ian Nepomniachtchi in 2021. In May 2014 he reached a rating of 2882, the highest ever, and he holds the record of 125 classical games in a row without a loss at the elite level. In 2023 he chose not to defend the title, citing a lack of motivation."
+  },
+  "style": {
+    "es": "Un jugador universal que gana posiciones que parecen iguales, exprimiendo ventajas mínimas en los finales hasta que el rival se quiebra.",
+    "en": "A universal player who wins positions that look equal, squeezing tiny edges in the endgame until the opponent cracks."
+  },
+  "games": [
+    {
+      "id": "carlsen-ernst-2004",
+      "title": {
+        "es": "El niño de 13 años",
+        "en": "The 13-year-old"
+      },
+      "white": "Magnus Carlsen",
+      "black": "Sipke Ernst",
+      "event": {
+        "es": "Corus 2004, grupo C",
+        "en": "Corus Group C 2004"
+      },
+      "site": {
+        "es": "Wijk aan Zee, Países Bajos",
+        "en": "Wijk aan Zee, Netherlands"
+      },
+      "date": "2004-01-24",
+      "result": "1-0",
+      "eco": "B19",
+      "plies": 57,
+      "pgnRef": "memorial/carlsen.pgn#0",
+      "story": {
+        "es": "Con 13 años, Carlsen sacrificó un caballo con 18.Ng6, luego un alfil en h6 y por último una torre con 22.Rxh6+, abriendo la columna h contra el rey negro. Siete jugadas después dio jaque mate con 29.Qd7. Es una de las partidas con las que el mundo conoció al futuro campeón.",
+        "en": "At 13, Carlsen sacrificed a knight with 18.Ng6, then a bishop on h6 and finally a rook with 22.Rxh6+, ripping open the h-file against the black king. Seven moves later he delivered mate with 29.Qd7. It is one of the games that first showed the world the future champion."
+      },
+      "keyPly": 43,
+      "keyMove": "Rxh6+",
+      "sources": [
+        {
+          "label": "ChessBase – Carlsen vs. Ernst, annotated by Lubomir Kavalek",
+          "url": "https://en.chessbase.com/news/2012/games/kavalek58allg0.htm"
+        },
+        {
+          "label": "Chess.com – Magnus Carlsen's Game Of The Century (Top 10 of the 2000s)",
+          "url": "https://www.chess.com/blog/SamCopeland/magnus-carlsens-game-of-the-century-top-10-of-the-2000s-carlsen-vs-ernst-2004"
+        }
+      ]
+    },
+    {
+      "id": "carlsen-karjakin-2013",
+      "title": {
+        "es": "Sacarle agua a las piedras",
+        "en": "Squeezing water from stones"
+      },
+      "white": "Magnus Carlsen",
+      "black": "Sergey Karjakin",
+      "event": {
+        "es": "Tata Steel Masters 2013",
+        "en": "Tata Steel Masters 2013"
+      },
+      "site": {
+        "es": "Wijk aan Zee, Países Bajos",
+        "en": "Wijk aan Zee, Netherlands"
+      },
+      "date": "2013-01-20",
+      "result": "1-0",
+      "eco": "A07",
+      "plies": 183,
+      "pgnRef": "memorial/carlsen.pgn#1",
+      "story": {
+        "es": "No hubo sacrificios ni golpes espectaculares: Carlsen tomó una posición tranquila y fue apretando, jugada tras jugada, durante 92 movimientos, hasta que Karjakin no pudo detener sus peones. Chess.com la eligió como la mejor partida de Carlsen de la década de 2010, un ejemplo perfecto de su estilo de desgaste. Ese mismo mes Carlsen ganó el torneo.",
+        "en": "There were no sacrifices or flashy blows: Carlsen took a quiet position and kept tightening the screw, move after move, for 92 moves, until Karjakin could no longer stop his pawns. Chess.com picked it as Carlsen's best game of the 2010s, a perfect example of his grinding style. Carlsen went on to win the tournament that month."
+      },
+      "sources": [
+        {
+          "label": "Chess.com – Magnus Carlsen's Perfect Chess Grind (Top 10 of the 2010s)",
+          "url": "https://www.chess.com/blog/SamCopeland/magnus-carlsens-perfect-chess-grind-top-10-of-the-2010s-carlsen-vs-karjakin-2013"
+        },
+        {
+          "label": "ChessBase – Carlsen clinches Wijk",
+          "url": "https://en.chessbase.com/newsroom/post/tata-r12-carlsen-anand-hou-win-carlsen-clinches-wijk"
+        }
+      ]
+    },
+    {
+      "id": "carlsen-karjakin-2016",
+      "title": {
+        "es": "El sacrificio de dama del cumpleaños",
+        "en": "The birthday queen sacrifice"
+      },
+      "white": "Magnus Carlsen",
+      "black": "Sergey Karjakin",
+      "event": {
+        "es": "Campeonato del Mundo 2016, partida rápida de desempate 4",
+        "en": "World Championship 2016, rapid tiebreak game 4"
+      },
+      "site": {
+        "es": "Nueva York, Estados Unidos",
+        "en": "New York, United States"
+      },
+      "date": "2016-11-30",
+      "result": "1-0",
+      "eco": "B54",
+      "plies": 99,
+      "pgnRef": "memorial/carlsen.pgn#2",
+      "story": {
+        "es": "El día en que cumplía 26 años, Carlsen definió el desempate rápido ante Karjakin. Su rival necesitaba ganar con negras y arriesgó; Carlsen cerró el match con 50.Qh6+, un sacrificio de dama que lleva al mate en la jugada siguiente. El gran maestro Lubomir Kavalek lo llamó la jugada final más brillante en la historia de los mundiales.",
+        "en": "On his 26th birthday, Carlsen decided the rapid tiebreak against Karjakin. His opponent needed to win with Black and took risks; Carlsen ended the match with 50.Qh6+, a queen sacrifice that leads to mate on the next move. Grandmaster Lubomir Kavalek called it the most brilliant final move in World Championship history."
+      },
+      "keyPly": 99,
+      "keyMove": "Qh6+",
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 2016",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2016"
+        }
+      ]
+    },
+    {
+      "id": "carlsen-nepomniachtchi-2021",
+      "title": {
+        "es": "La partida más larga de un mundial",
+        "en": "The longest World Championship game"
+      },
+      "white": "Magnus Carlsen",
+      "black": "Ian Nepomniachtchi",
+      "event": {
+        "es": "Campeonato del Mundo 2021, partida 6",
+        "en": "World Championship 2021, game 6"
+      },
+      "site": {
+        "es": "Dubái, Emiratos Árabes Unidos",
+        "en": "Dubai, United Arab Emirates"
+      },
+      "date": "2021-12-03",
+      "result": "1-0",
+      "eco": "D02",
+      "plies": 271,
+      "pgnRef": "memorial/carlsen.pgn#3",
+      "story": {
+        "es": "Tras cinco tablas, Carlsen y Nepomniachtchi jugaron 136 jugadas y 7 horas y 45 minutos, la partida más larga en la historia de los mundiales. Con 80.Rxf7+ Carlsen llevó el juego a un final muy incómodo para su rival, que acabó cediendo con 130...Qe6. Esa victoria rompió el match: Carlsen terminó con cuatro triunfos y ninguna derrota.",
+        "en": "After five draws, Carlsen and Nepomniachtchi played 136 moves over 7 hours and 45 minutes, the longest game in World Championship history. With 80.Rxf7+ Carlsen steered into an ending that was very unpleasant for his opponent, who finally cracked with 130...Qe6. That win broke the match open: Carlsen finished with four wins and no losses."
+      },
+      "keyPly": 159,
+      "keyMove": "Rxf7+",
+      "sources": [
+        {
+          "label": "Wikipedia – World Chess Championship 2021",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_2021"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia – Magnus Carlsen",
+      "url": "https://en.wikipedia.org/wiki/Magnus_Carlsen"
+    }
+  ]
+}

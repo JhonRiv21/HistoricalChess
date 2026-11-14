@@ -1,0 +1,233 @@
+{
+  "order": 7,
+  "name": "Vasily Smyslov",
+  "short": "Smyslov",
+  "country": {
+    "es": "URSS",
+    "en": "Soviet Union"
+  },
+  "born": "1921-03-24",
+  "died": "2010-03-27",
+  "reign": {
+    "es": "1957–1958",
+    "en": "1957–1958"
+  },
+  "matches": [
+    "1957-smyslov-botvinnik"
+  ],
+  "photo": "smyslov-1954",
+  "bio": {
+    "es": "Vasily Smyslov nació en Moscú en 1921 y fue el séptimo campeón del mundo. Jugó tres matches por el título contra Mikhail Botvinnik: empató el de 1954, ganó el de 1957 y perdió la revancha de 1958. Fue candidato al título en ocho ocasiones, la última en 1985, y siguió compitiendo con éxito pasados los sesenta años. Además del ajedrez, fue un barítono de buen nivel.",
+    "en": "Vasily Smyslov was born in Moscow in 1921 and became the seventh world champion. He played three title matches against Mikhail Botvinnik: he drew in 1954, won in 1957 and lost the 1958 rematch. He was a Candidate for the title eight times, the last in 1985, and kept competing successfully past the age of sixty. Besides chess, he was an accomplished baritone singer."
+  },
+  "style": {
+    "es": "Jugador posicional de gran precisión en los finales, que buscaba la armonía entre sus piezas sin renunciar a la táctica cuando la posición la pedía.",
+    "en": "A positional player with a precise touch in endgames, who looked for harmony among his pieces without shying away from tactics when the position called for them."
+  },
+  "games": [
+    {
+      "id": "keres-smyslov-1953",
+      "title": {
+        "es": "Defensa decisiva en Zúrich",
+        "en": "The decisive defence at Zurich"
+      },
+      "white": "Paul Keres",
+      "black": "Vasily Smyslov",
+      "event": {
+        "es": "Torneo de Candidatos",
+        "en": "Candidates Tournament"
+      },
+      "site": {
+        "es": "Zúrich, Suiza",
+        "en": "Zurich, Switzerland"
+      },
+      "date": "1953-10-13",
+      "result": "0-1",
+      "eco": "E14",
+      "plies": 56,
+      "pgnRef": "memorial/smyslov.pgn#0",
+      "story": {
+        "es": "En la ronda 24 del Torneo de Candidatos de Zúrich, Keres, uno de sus rivales directos, lanzó un ataque muy peligroso contra el rey negro. Smyslov lo rechazó y ganó, lo que lo dejó al mando del torneo. Terminó primero y se ganó el derecho a desafiar a Botvinnik en 1954.",
+        "en": "In round 24 of the Zurich Candidates Tournament, Keres, one of his direct rivals, launched a very dangerous attack on Black's king. Smyslov fought it off and won, which put him in the driver's seat. He finished first and earned the right to challenge Botvinnik in 1954."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Vasily Smyslov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+        },
+        {
+          "label": "Wikipedia: Candidates Tournament 1953",
+          "url": "https://en.wikipedia.org/wiki/Candidates_Tournament_1953"
+        },
+        {
+          "label": "Lichess study: Vassily Smyslov Best Games",
+          "url": "https://lichess.org/study/nsspObqZ"
+        }
+      ]
+    },
+    {
+      "id": "botvinnik-smyslov-1954",
+      "title": {
+        "es": "La preparación que cambió una variante",
+        "en": "The preparation that changed a variation"
+      },
+      "white": "Mikhail Botvinnik",
+      "black": "Vasily Smyslov",
+      "event": {
+        "es": "Match por el Campeonato del Mundo, partida 14",
+        "en": "World Championship Match, game 14"
+      },
+      "site": {
+        "es": "Moscú, URSS",
+        "en": "Moscow, Soviet Union"
+      },
+      "date": "1954-04-15",
+      "result": "0-1",
+      "eco": "E68",
+      "plies": 66,
+      "pgnRef": "memorial/smyslov.pgn#1",
+      "story": {
+        "es": "En la partida 14 del match de 1954, Smyslov llegó con una de las preparaciones caseras más profundas que se habían visto en una India de Rey. Desató una cadena de golpes tácticos que incluyó el sacrificio de su dama y ganó con negras. La partida cambió la teoría de esa variante; el match terminó 12–12 y Botvinnik conservó el título.",
+        "en": "In game 14 of the 1954 match, Smyslov arrived with one of the deepest home preparations seen in a King's Indian. He unleashed a chain of tactical blows that included giving up his queen and won with Black. The game changed the theory of that line; the match ended 12–12 and Botvinnik kept the title."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Vasily Smyslov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1954",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1954"
+        },
+        {
+          "label": "Lichess study: Vassily Smyslov Best Games",
+          "url": "https://lichess.org/study/nsspObqZ"
+        }
+      ]
+    },
+    {
+      "id": "smyslov-tal-1959",
+      "title": {
+        "es": "La lección al joven Tal",
+        "en": "A lesson for the young Tal"
+      },
+      "white": "Vasily Smyslov",
+      "black": "Mikhail Tal",
+      "event": {
+        "es": "Torneo de Candidatos, ronda 1",
+        "en": "Candidates Tournament, round 1"
+      },
+      "site": {
+        "es": "Bled, Yugoslavia",
+        "en": "Bled, Yugoslavia"
+      },
+      "date": "1959-09-07",
+      "result": "1-0",
+      "eco": "B92",
+      "plies": 129,
+      "pgnRef": "memorial/smyslov.pgn#2",
+      "story": {
+        "es": "Fue la primera vez que Smyslov y Tal se enfrentaron en un torneo, en la ronda inaugural del Torneo de Candidatos de 1959. El veterano le dio al joven astro una dura lección en una Siciliana Najdorf que se aplazó y terminó dos días después, en la jugada 65. Tal ganaría ese torneo de todos modos y sería campeón al año siguiente.",
+        "en": "It was the first time Smyslov and Tal met in a tournament, in the opening round of the 1959 Candidates Tournament. The veteran gave the young star a sharp lesson in a Najdorf Sicilian that was adjourned and finished two days later, on move 65. Tal still won that tournament and became champion the following year."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Vasily Smyslov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1960 (1959 Candidates Tournament)",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1960"
+        }
+      ]
+    },
+    {
+      "id": "fischer-smyslov-1959",
+      "title": {
+        "es": "Nuevas ideas contra el arma de Fischer",
+        "en": "New ideas against Fischer's weapon"
+      },
+      "white": "Robert James Fischer",
+      "black": "Vasily Smyslov",
+      "event": {
+        "es": "Torneo de Candidatos, ronda 21",
+        "en": "Candidates Tournament, round 21"
+      },
+      "site": {
+        "es": "Yugoslavia",
+        "en": "Yugoslavia"
+      },
+      "date": "1959-10",
+      "result": "0-1",
+      "eco": "B87",
+      "plies": 96,
+      "pgnRef": "memorial/smyslov.pgn#3",
+      "story": {
+        "es": "Con 16 años, Fischer había convertido el ataque Sozin contra la Siciliana en un arma temible. En este encuentro del Torneo de Candidatos de 1959, Smyslov le mostró algunas ideas nuevas en esa misma línea y ganó con negras tras 48 jugadas.",
+        "en": "At 16, Fischer had honed the Sozin attack against the Sicilian into a formidable weapon. In this meeting at the 1959 Candidates Tournament, Smyslov showed him a few new wrinkles in that very line and won with Black after 48 moves."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Vasily Smyslov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1960 (1959 Candidates Tournament)",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1960"
+        }
+      ]
+    },
+    {
+      "id": "smyslov-ribli-1983",
+      "title": {
+        "es": "El veterano de 62 años",
+        "en": "The 62-year-old veteran"
+      },
+      "white": "Vasily Smyslov",
+      "black": "Zoltan Ribli",
+      "event": {
+        "es": "Semifinal de Candidatos, partida 5",
+        "en": "Candidates Semi-final, game 5"
+      },
+      "site": {
+        "es": "Londres, Inglaterra",
+        "en": "London, England"
+      },
+      "date": "1983-11-30",
+      "result": "1-0",
+      "eco": "D42",
+      "plies": 81,
+      "pgnRef": "memorial/smyslov.pgn#4",
+      "story": {
+        "es": "A los 62 años, Smyslov volvió a la semifinal de Candidatos y ganó el match contra el húngaro Zoltan Ribli. Esta fue su mejor partida del duelo: con 22.Axh6 abrió un ataque lleno de sacrificios que culminó con 28.Txe6+. Con ese triunfo llegó a la final de Candidatos, donde lo esperaba Kasparov.",
+        "en": "At 62, Smyslov was back in a Candidates semi-final and won the match against Hungary's Zoltan Ribli. This was his finest game of the duel: 22.Bxh6 opened an attack full of sacrifices that ended with 28.Rxe6+. The win took him to the Candidates final, where Kasparov was waiting."
+      },
+      "keyPly": 43,
+      "keyMove": "Bxh6",
+      "sources": [
+        {
+          "label": "Wikipedia: Vasily Smyslov (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+        },
+        {
+          "label": "The Spectator (Raymond Keene), 10 December 1983",
+          "url": "https://archive.spectator.co.uk/article/10th-december-1983/39/chess"
+        },
+        {
+          "label": "Lichess study: Vassily Smyslov Best Games",
+          "url": "https://lichess.org/study/nsspObqZ"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Vasily Smyslov",
+      "url": "https://en.wikipedia.org/wiki/Vasily_Smyslov"
+    },
+    {
+      "label": "PGN Mentor: Smyslov games",
+      "url": "https://www.pgnmentor.com/players/Smyslov.zip"
+    }
+  ]
+}

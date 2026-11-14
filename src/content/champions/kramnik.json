@@ -1,0 +1,180 @@
+{
+  "order": 14,
+  "name": "Vladimir Kramnik",
+  "short": "Kramnik",
+  "country": {
+    "es": "Rusia",
+    "en": "Russia"
+  },
+  "born": "1975-06-25",
+  "reign": {
+    "es": "2000–2007",
+    "en": "2000–2007"
+  },
+  "matches": [
+    "2000-kramnik-kasparov",
+    "2004-kramnik-leko",
+    "2006-kramnik-topalov"
+  ],
+  "photo": "kramnik-2008",
+  "bio": {
+    "es": "Vladimir Kramnik nació en Tuapsé, a orillas del mar Negro, en 1975. Con 16 años ganó el oro en la Olimpiada de Manila de 1992 con ocho victorias y un empate. En 2000 le quitó el título clásico a Garry Kasparov en Londres sin perder una sola partida, lo retuvo ante Peter Leko en 2004 y en 2006 venció a Veselin Topalov en Elistá para reunificar la corona. Perdió el título en el torneo de México de 2007, ganado por Viswanathan Anand, y se retiró del ajedrez profesional en enero de 2019.",
+    "en": "Vladimir Kramnik was born in Tuapse, on the Black Sea coast, in 1975. At 16 he won gold at the 1992 Manila Olympiad with eight wins and one draw. In 2000 he took the classical title from Garry Kasparov in London without losing a single game, kept it against Peter Leko in 2004, and in 2006 beat Veselin Topalov in Elista to reunify the crown. He lost the title at the 2007 Mexico City tournament, won by Viswanathan Anand, and retired from professional chess in January 2019."
+  },
+  "style": {
+    "es": "Kasparov lo definió como pragmático y tenaz: un jugador muy sólido, famoso por su técnica en los finales y por convertir la Defensa Berlinesa en un muro.",
+    "en": "Kasparov called him pragmatic and tenacious: a very solid player, famous for his endgame technique and for turning the Berlin Defence into a wall."
+  },
+  "games": [
+    {
+      "id": "kasparov-kramnik-1996",
+      "title": {
+        "es": "Golpe a Kasparov en Dos Hermanas",
+        "en": "Striking Kasparov at Dos Hermanas"
+      },
+      "white": "Garry Kasparov",
+      "black": "Vladimir Kramnik",
+      "event": {
+        "es": "Dos Hermanas 1996",
+        "en": "Dos Hermanas 1996"
+      },
+      "site": {
+        "es": "Dos Hermanas, España",
+        "en": "Dos Hermanas, Spain"
+      },
+      "date": "1996",
+      "result": "0-1",
+      "eco": "D48",
+      "plies": 70,
+      "pgnRef": "memorial/kramnik.pgn#0",
+      "story": {
+        "es": "En una Semieslava Merano muy afilada, Kasparov intentó atrapar al rey negro en el centro. Kramnik respondió con 16...Ncxe4, un sacrificio de pieza que, según el análisis posterior, no era del todo correcto, pero Kasparov no encontró la mejor defensa. Su propio rey quedó a merced de las piezas negras y abandonó en la jugada 35. Chess.com la ubicó entre las diez mejores partidas de los años noventa.",
+        "en": "In a razor-sharp Meran Semi-Slav, Kasparov tried to catch the black king in the centre. Kramnik answered with 16...Ncxe4, a piece sacrifice that later analysis showed was not fully sound, but Kasparov missed the best defence. His own king ended up at the mercy of Black's pieces, and he resigned on move 35. Chess.com ranked it among the ten best games of the 1990s."
+      },
+      "keyPly": 32,
+      "keyMove": "Ncxe4",
+      "sources": [
+        {
+          "label": "Chess.com – Kramnik Crushes Kasparov (Top 10 of the 1990s)",
+          "url": "https://www.chess.com/blog/SamCopeland/kramnik-crushes-kasparov-top-10-of-the-1990s-kasparov-vs-kramnik-1996"
+        },
+        {
+          "label": "Lichess – Kasparov vs. Kramnik, Dos Hermanas 1996",
+          "url": "https://lichess.org/study/u6Lr8u2g/Gsu6YqSz"
+        }
+      ]
+    },
+    {
+      "id": "kramnik-kasparov-2000",
+      "title": {
+        "es": "La novedad contra la Grünfeld",
+        "en": "The novelty against the Grünfeld"
+      },
+      "white": "Vladimir Kramnik",
+      "black": "Garry Kasparov",
+      "event": {
+        "es": "Campeonato del Mundo clásico 2000, partida 2",
+        "en": "Classical World Championship 2000, game 2"
+      },
+      "site": {
+        "es": "Londres, Inglaterra",
+        "en": "London, England"
+      },
+      "date": "2000-10-10",
+      "result": "1-0",
+      "eco": "D85",
+      "plies": 79,
+      "pgnRef": "memorial/kramnik.pgn#1",
+      "story": {
+        "es": "En la segunda partida del match por el título, Kramnik estrenó una idea nueva contra la Defensa Grünfeld, la apertura favorita de Kasparov, que había descubierto un año antes entrenando con Boris Gelfand. Ganó en 40 jugadas, y Kasparov no volvió a jugar la Grünfeld en el resto del match. Fue el primer golpe de un duelo que Kramnik ganó 8½–6½ sin perder ninguna partida.",
+        "en": "In the second game of the title match, Kramnik unveiled a new idea against the Grünfeld Defence, Kasparov's favourite opening, which he had found a year earlier while training with Boris Gelfand. He won in 40 moves, and Kasparov did not play the Grünfeld again for the rest of the match. It was the first blow in a match Kramnik won 8½–6½ without losing a game."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia – Classical World Chess Championship 2000",
+          "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2000"
+        }
+      ]
+    },
+    {
+      "id": "kramnik-leko-2004",
+      "title": {
+        "es": "Ganar o perder la corona",
+        "en": "Win or lose the crown"
+      },
+      "white": "Vladimir Kramnik",
+      "black": "Peter Leko",
+      "event": {
+        "es": "Campeonato del Mundo clásico 2004, partida 14",
+        "en": "Classical World Championship 2004, game 14"
+      },
+      "site": {
+        "es": "Brissago, Suiza",
+        "en": "Brissago, Switzerland"
+      },
+      "date": "2004-10-18",
+      "result": "1-0",
+      "eco": "B12",
+      "plies": 81,
+      "pgnRef": "memorial/kramnik.pgn#2",
+      "story": {
+        "es": "Leko llegó a la última partida con un punto de ventaja: a Kramnik solo le servía ganar con blancas. Abrió con 1.e4, Leko eligió la Caro-Kann y Kramnik fue llevando la partida hacia un final que terminó ganando en 41 jugadas. El match quedó 7–7 y, como campeón, Kramnik conservó el título.",
+        "en": "Leko reached the final game a point ahead: only a win with White would do for Kramnik. He opened with 1.e4, Leko chose the Caro-Kann, and Kramnik steered the game into an ending he went on to win in 41 moves. The match finished 7–7 and, as the champion, Kramnik kept the title."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia – Classical World Chess Championship 2004",
+          "url": "https://en.wikipedia.org/wiki/Classical_World_Chess_Championship_2004"
+        },
+        {
+          "label": "Wikipedia – Vladimir Kramnik",
+          "url": "https://en.wikipedia.org/wiki/Vladimir_Kramnik"
+        }
+      ]
+    },
+    {
+      "id": "aronian-kramnik-2018",
+      "title": {
+        "es": "El ataque sin enrocar",
+        "en": "The attack without castling"
+      },
+      "white": "Levon Aronian",
+      "black": "Vladimir Kramnik",
+      "event": {
+        "es": "Torneo de Candidatos de la FIDE 2018",
+        "en": "FIDE Candidates 2018"
+      },
+      "site": {
+        "es": "Berlín, Alemania",
+        "en": "Berlin, Germany"
+      },
+      "date": "2018-03-12",
+      "result": "0-1",
+      "eco": "C65",
+      "plies": 54,
+      "pgnRef": "memorial/kramnik.pgn#3",
+      "story": {
+        "es": "En el Torneo de Candidatos de 2018, su último intento de volver al título, Kramnik dejó a su rey sin enrocar en la Defensa Berlinesa y usó la jugada h3 de las blancas como gancho para atacar con ...Rg8 y ...g5. Aronian quedó aplastado en 27 jugadas. Chess.com la eligió entre las diez mejores partidas de la década de 2010.",
+        "en": "At the 2018 Candidates, his last run at the title, Kramnik left his king uncastled in the Berlin Defence and used White's h3 as a hook to attack with ...Rg8 and ...g5. Aronian was crushed in 27 moves. Chess.com picked it among the ten best games of the 2010s."
+      },
+      "keyPly": 18,
+      "keyMove": "g5",
+      "sources": [
+        {
+          "label": "Chess.com – Kramnik's No Castling Attack (Top 10 of the 2010s)",
+          "url": "https://www.chess.com/blog/SamCopeland/vladmir-kramniks-no-castling-chess-attack-top-10-of-the-2010s-aronian-vs-kramnik-2018"
+        },
+        {
+          "label": "Lichess – Kramnik: sus mejores partidas",
+          "url": "https://lichess.org/study/u6Lr8u2g"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia – Vladimir Kramnik",
+      "url": "https://en.wikipedia.org/wiki/Vladimir_Kramnik"
+    }
+  ]
+}

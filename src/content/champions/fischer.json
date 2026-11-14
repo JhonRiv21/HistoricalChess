@@ -1,0 +1,231 @@
+{
+  "order": 11,
+  "name": "Bobby Fischer",
+  "short": "Fischer",
+  "country": {
+    "es": "Estados Unidos",
+    "en": "United States"
+  },
+  "born": "1943-03-09",
+  "died": "2008-01-17",
+  "reign": {
+    "es": "1972–1975",
+    "en": "1972–1975"
+  },
+  "matches": [
+    "1972-fischer-spassky"
+  ],
+  "photo": "fischer-1972",
+  "bio": {
+    "es": "Robert James Fischer nació en Chicago en 1943 y fue un niño prodigio: ganó el primero de sus ocho campeonatos de Estados Unidos con 14 años. En el camino al título de 1972 barrió 6–0 a Taimanov y a Larsen, venció a Petrosian y luego derrotó a Spassky en Reikiavik, en plena Guerra Fría. En 1975 se negó a defender la corona al no llegar a un acuerdo con la FIDE, y Karpov fue proclamado campeón sin jugar. Reapareció en 1992 para ganar una revancha no oficial a Spassky y pasó sus últimos años en Islandia, donde murió en 2008.",
+    "en": "Robert James Fischer was born in Chicago in 1943 and was a child prodigy: he won the first of his eight US championships at 14. On the way to the 1972 title he swept Taimanov and Larsen 6–0, beat Petrosian and then defeated Spassky in Reykjavík at the height of the Cold War. In 1975 he refused to defend the crown when no agreement could be reached with FIDE, and Karpov was named champion without playing. He reappeared in 1992 to win an unofficial rematch against Spassky and spent his last years in Iceland, where he died in 2008."
+  },
+  "style": {
+    "es": "Claro y enérgico, con un repertorio de aperturas estrecho pero muy trabajado (casi siempre 1.e4 con blancas y la Najdorf con negras) y una técnica de finales que hoy se estudia en los libros.",
+    "en": "Clear and energetic, with a narrow but deeply worked opening repertoire (almost always 1.e4 with White and the Najdorf with Black) and an endgame technique that is still studied in textbooks."
+  },
+  "games": [
+    {
+      "id": "byrne-fischer-1956",
+      "title": {
+        "es": "La partida del siglo",
+        "en": "The Game of the Century"
+      },
+      "white": "Donald Byrne",
+      "black": "Robert James Fischer",
+      "event": {
+        "es": "Memorial Rosenwald, ronda 8",
+        "en": "Rosenwald Memorial, round 8"
+      },
+      "site": {
+        "es": "Nueva York, Estados Unidos",
+        "en": "New York, United States"
+      },
+      "date": "1956-10-17",
+      "result": "0-1",
+      "eco": "D92",
+      "plies": 82,
+      "pgnRef": "memorial/fischer.pgn#0",
+      "story": {
+        "es": "Con 13 años, Fischer venció a Donald Byrne, uno de los mejores maestros de Estados Unidos, en el Club de Ajedrez Marshall de Nueva York. En lugar de salvar su dama, jugó 17...Ae6 y la entregó, recibiendo a cambio mucho más de lo que valía. Hans Kmoch la bautizó «la partida del siglo» en la revista Chess Review.",
+        "en": "At 13, Fischer beat Donald Byrne, one of the leading American masters, at the Marshall Chess Club in New York. Instead of saving his queen, he played 17...Be6 and gave it up, getting far more than enough in return. Hans Kmoch named it \"The Game of the Century\" in Chess Review."
+      },
+      "keyPly": 34,
+      "keyMove": "Be6",
+      "sources": [
+        {
+          "label": "Wikipedia: Game of the Century (chess)",
+          "url": "https://en.wikipedia.org/wiki/Game_of_the_Century_(chess)"
+        },
+        {
+          "label": "Chess Review, December 1956 (Hans Kmoch)",
+          "url": "http://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CR-ALL/CR1956/CR1956_12.pdf"
+        }
+      ]
+    },
+    {
+      "id": "byrne-fischer-1963",
+      "title": {
+        "es": "La miniatura del 11 de 11",
+        "en": "The miniature of the perfect 11–0"
+      },
+      "white": "Robert Byrne",
+      "black": "Robert James Fischer",
+      "event": {
+        "es": "Campeonato de Estados Unidos 1963/64",
+        "en": "US Championship 1963/64"
+      },
+      "site": {
+        "es": "Nueva York, Estados Unidos",
+        "en": "New York, United States"
+      },
+      "date": "1963",
+      "result": "0-1",
+      "eco": "D71",
+      "plies": 42,
+      "pgnRef": "memorial/fischer.pgn#1",
+      "story": {
+        "es": "En el campeonato de Estados Unidos de 1963/64, que Fischer ganó con un 11–0 único en la historia del torneo, derrotó a Robert Byrne en solo 21 jugadas. Desde una posición casi simétrica, su caballo se sacrificó en f2 con 15...Cxf2 y el rey blanco quedó a merced del ataque. Fue reconocida de inmediato como un clásico de todos los tiempos.",
+        "en": "In the 1963/64 US Championship, which Fischer won with an 11–0 score unique in the event's history, he beat Robert Byrne in only 21 moves. From an almost symmetrical position, his knight sacrificed itself on f2 with 15...Nxf2 and White's king was left at the mercy of the attack. It was immediately recognised as an all-time classic."
+      },
+      "keyPly": 30,
+      "keyMove": "Nxf2",
+      "sources": [
+        {
+          "label": "Wikipedia: Bobby Fischer (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Bobby_Fischer"
+        },
+        {
+          "label": "Chess.com: Bobby Fischer's Perfect US Championship Game (Sam Copeland)",
+          "url": "https://www.chess.com/blog/SamCopeland/bobby-fischers-perfect-us-championship-game-best-of-the-60s-byrne-vs-fischer-1963"
+        }
+      ]
+    },
+    {
+      "id": "fischer-taimanov-1971",
+      "title": {
+        "es": "El final de Fischer",
+        "en": "The Fischer ending"
+      },
+      "white": "Robert James Fischer",
+      "black": "Mark Taimanov",
+      "event": {
+        "es": "Cuartos de final de Candidatos, partida 4",
+        "en": "Candidates Quarter-final, game 4"
+      },
+      "site": {
+        "es": "Vancouver, Canadá",
+        "en": "Vancouver, Canada"
+      },
+      "date": "1971-05-25",
+      "result": "1-0",
+      "eco": "B47",
+      "plies": 141,
+      "pgnRef": "memorial/fischer.pgn#2",
+      "story": {
+        "es": "Fischer ganó este match de Candidatos por 6–0. En la cuarta partida, con paciencia y precisión, llevó su alfil contra el caballo de Taimanov, primero con torres en el tablero y después sin ellas, hasta convertir la ventaja en victoria. El final se volvió un clásico de los libros de enseñanza, y en 2020 un análisis publicado por ChessBase concluyó que la posición aplazada ya estaba ganada para Fischer.",
+        "en": "Fischer won this Candidates match 6–0. In game four, with patience and precision, he played his bishop against Taimanov's knight, first with rooks on the board and then without them, until the edge became a win. The ending became a staple of instructional books, and in 2020 an analysis published by ChessBase concluded that the adjourned position was already won for Fischer."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Bobby Fischer (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Bobby_Fischer"
+        },
+        {
+          "label": "ChessBase: Riddle solved, Fischer was winning (Karsten Müller)",
+          "url": "https://en.chessbase.com/post/riddle-solved-fischer-was-winning"
+        }
+      ]
+    },
+    {
+      "id": "fischer-petrosian-1971",
+      "title": {
+        "es": "El cambio de caballo de la séptima partida",
+        "en": "The knight trade of game seven"
+      },
+      "white": "Robert James Fischer",
+      "black": "Tigran Petrosian",
+      "event": {
+        "es": "Final de Candidatos, partida 7",
+        "en": "Candidates Final, game 7"
+      },
+      "site": {
+        "es": "Buenos Aires, Argentina",
+        "en": "Buenos Aires, Argentina"
+      },
+      "date": "1971",
+      "result": "1-0",
+      "eco": "B42",
+      "plies": 67,
+      "pgnRef": "memorial/fischer.pgn#3",
+      "story": {
+        "es": "Con 22.Cxd7+, Fischer cambió un caballo bien situado por un alfil en apariencia pasivo, una decisión que se volvió su jugada más famosa e instructiva y que todavía se cita como ejemplo. En 2020, un análisis con motores de Karsten Müller y lectores de ChessBase concluyó que 22.a4 ganaba, mientras que 22.Cxd7+ solo empataba con la mejor defensa. Petrosian abandonó en la jugada 34.",
+        "en": "With 22.Nxd7+, Fischer traded a well-placed knight for an apparently passive bishop, a decision that became perhaps his most famous and instructive move and is still cited as a model. In 2020, engine-assisted analysis by Karsten Müller and ChessBase readers concluded that 22.a4 wins, while 22.Nxd7+ only draws with correct defence. Petrosian resigned on move 34."
+      },
+      "keyPly": 43,
+      "keyMove": "Nxd7+",
+      "sources": [
+        {
+          "label": "Wikipedia: Bobby Fischer (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Bobby_Fischer"
+        },
+        {
+          "label": "ChessBase: Was Fischer's 22.Nxd7 winning? (Karsten Müller)",
+          "url": "https://en.chessbase.com/post/solution-of-the-endgame-riddle-was-fischer-s-22-nxd7-winning"
+        }
+      ]
+    },
+    {
+      "id": "fischer-spassky-1972",
+      "title": {
+        "es": "La sexta de Reikiavik",
+        "en": "Game six in Reykjavík"
+      },
+      "white": "Robert James Fischer",
+      "black": "Boris Spassky",
+      "event": {
+        "es": "Match por el Campeonato del Mundo, partida 6",
+        "en": "World Championship Match, game 6"
+      },
+      "site": {
+        "es": "Reikiavik, Islandia",
+        "en": "Reykjavík, Iceland"
+      },
+      "date": "1972-07-23",
+      "result": "1-0",
+      "eco": "D59",
+      "plies": 81,
+      "pgnRef": "memorial/fischer.pgn#4",
+      "story": {
+        "es": "Fischer, fiel de siempre a 1.e4, abrió con 1.c4 y llegó a un Gambito de Dama, que nunca había jugado en una partida seria. Lo jugó a la perfección: 20.e4 fue la jugada clave, que golpeó el centro negro y dejó a Spassky sin buenas opciones. Fischer la consideró su mejor partida del match, y Spassky se unió al público para aplaudirlo.",
+        "en": "Fischer, a lifelong 1.e4 player, opened with 1.c4 and reached a Queen's Gambit, which he had never played in a serious game. He played it to perfection: 20.e4 was the key move, striking at Black's centre and leaving Spassky with no good options. Fischer called it his best game of the match, and Spassky joined the audience in applauding his win."
+      },
+      "keyPly": 39,
+      "keyMove": "e4",
+      "sources": [
+        {
+          "label": "Wikipedia: World Chess Championship 1972 (game 6)",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1972"
+        },
+        {
+          "label": "Wikipedia: Boris Spassky",
+          "url": "https://en.wikipedia.org/wiki/Boris_Spassky"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Bobby Fischer",
+      "url": "https://en.wikipedia.org/wiki/Bobby_Fischer"
+    },
+    {
+      "label": "PGN Mentor: Fischer games",
+      "url": "https://www.pgnmentor.com/players/Fischer.zip"
+    },
+    {
+      "label": "ChessBase: Fischer-Petrosian 1971, 33...Nxf4 (Charles Sullivan's research)",
+      "url": "https://en.chessbase.com/post/historical-riddle-fischer-petrosian-game-7-1971/1"
+    }
+  ]
+}

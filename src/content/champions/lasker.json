@@ -1,0 +1,230 @@
+{
+  "order": 2,
+  "name": "Emanuel Lasker",
+  "short": "Lasker",
+  "country": {
+    "es": "Alemania",
+    "en": "Germany"
+  },
+  "born": "1868-12-24",
+  "died": "1941-01-11",
+  "reign": {
+    "es": "1894–1921",
+    "en": "1894–1921"
+  },
+  "matches": [
+    "1894-lasker-steinitz",
+    "1896-lasker-steinitz",
+    "1907-lasker-marshall",
+    "1908-lasker-tarrasch",
+    "1910-lasker-schlechter",
+    "1910-lasker-janowski"
+  ],
+  "photo": "lasker-1909-eugene",
+  "bio": {
+    "es": "Emanuel Lasker nació en 1868 en Berlinchen, Prusia, hoy Barlinek, en Polonia. En 1894 le quitó el título a Steinitz y lo conservó hasta 1921: 27 años, el reinado más largo de la historia. Lo defendió ante rivales como Marshall, Tarrasch, Schlechter y Janowski, y lo perdió ante Capablanca en La Habana. A los 65 años todavía jugaba torneos de élite, como Zúrich 1934. Murió en Nueva York en 1941.",
+    "en": "Emanuel Lasker was born in 1868 in Berlinchen, Prussia, now Barlinek in Poland. In 1894 he took the title from Steinitz and held it until 1921: 27 years, the longest reign in history. He defended it against rivals such as Marshall, Tarrasch, Schlechter and Janowski, and lost it to Capablanca in Havana. At 65 he was still playing elite tournaments such as Zurich 1934. He died in New York in 1941."
+  },
+  "style": {
+    "es": "Un luchador práctico, que defendía con sangre fría y contraatacaba antes de que una desventaja se volviera grave; como dijo Tarrasch, «Lasker a veces pierde una partida, pero nunca pierde la cabeza».",
+    "en": "A practical fighter who defended coolly and counterattacked before a disadvantage became serious; as Tarrasch put it, \"Lasker occasionally loses a game, but he never loses his head.\""
+  },
+  "games": [
+    {
+      "id": "lasker-bauer-1889",
+      "title": {
+        "es": "El doble sacrificio de alfiles",
+        "en": "The double bishop sacrifice"
+      },
+      "white": "Emanuel Lasker",
+      "black": "Johann Hermann Bauer",
+      "event": {
+        "es": "Amsterdam 1889",
+        "en": "Amsterdam 1889"
+      },
+      "site": {
+        "es": "Ámsterdam",
+        "en": "Amsterdam"
+      },
+      "date": "1889",
+      "result": "1-0",
+      "eco": "A03",
+      "plies": 75,
+      "pgnRef": "memorial/lasker.pgn#0",
+      "story": {
+        "es": "Lasker tenía 20 años y jugaba en Ámsterdam su primer gran torneo cerrado. Tras un error de Bauer en la jugada 13, entregó sus dos alfiles, en h7 y en g7, para destruir la protección del rey negro, y ganó material por la fuerza. Es el primer ejemplo famoso de ese doble sacrificio, que después se repitió en otras partidas célebres.",
+        "en": "Lasker was 20 and playing his first major closed tournament, in Amsterdam. After an error by Bauer on move 13, he gave up both bishops, on h7 and g7, to strip away the black king's cover, and won material by force. It is the first famous example of this double sacrifice, which later reappeared in other well-known games."
+      },
+      "keyPly": 29,
+      "keyMove": "Bxh7+",
+      "sources": [
+        {
+          "label": "Wikipedia: Lasker versus Bauer, Amsterdam, 1889",
+          "url": "https://en.wikipedia.org/wiki/Lasker_versus_Bauer,_Amsterdam,_1889"
+        }
+      ]
+    },
+    {
+      "id": "pillsbury-lasker-1896",
+      "title": {
+        "es": "Dos torres en a3",
+        "en": "Two rooks on a3"
+      },
+      "white": "Harry Nelson Pillsbury",
+      "black": "Emanuel Lasker",
+      "event": {
+        "es": "San Petersburgo 1895/96",
+        "en": "St. Petersburg 1895/96"
+      },
+      "site": {
+        "es": "San Petersburgo",
+        "en": "St. Petersburg"
+      },
+      "date": "1896",
+      "result": "0-1",
+      "eco": "D50",
+      "plies": 64,
+      "pgnRef": "memorial/lasker.pgn#1",
+      "story": {
+        "es": "En el torneo de San Petersburgo 1895/96, ante el estadounidense Harry Nelson Pillsbury, Lasker entregó una torre en c3 y en la jugada siguiente llevó la otra a a3, donde volvió a ofrecerla. Más tarde su segunda torre también cayó en esa misma casilla, y el rey blanco quedó tan expuesto que terminó recibiendo mate en la jugada 32. La partida ganó el premio de brillantez del torneo.",
+        "en": "At the St. Petersburg tournament of 1895/96, against the American Harry Nelson Pillsbury, Lasker gave up a rook on c3 and next move sent his other rook to a3, offering it again. Later his second rook was also given up on that same square, and the white king was left so exposed that it was mated on move 32. The game won the tournament's brilliancy prize."
+      },
+      "keyPly": 36,
+      "keyMove": "Ra3",
+      "sources": [
+        {
+          "label": "ChessBase: 50 games you should know, Pillsbury vs Lasker",
+          "url": "https://en.chessbase.com/newsroom/post/50-games-5-pillsbury-lasker-sankt-petersburg-1896"
+        },
+        {
+          "label": "Wikipedia: List of chess games",
+          "url": "https://en.wikipedia.org/wiki/List_of_chess_games"
+        }
+      ]
+    },
+    {
+      "id": "lasker-napier-1904",
+      "title": {
+        "es": "Lasker contra Napier, Cambridge Springs",
+        "en": "Lasker vs Napier, Cambridge Springs"
+      },
+      "white": "Emanuel Lasker",
+      "black": "William Ewart Napier",
+      "event": {
+        "es": "Cambridge Springs 1904",
+        "en": "Cambridge Springs 1904"
+      },
+      "site": {
+        "es": "Cambridge Springs (Estados Unidos)",
+        "en": "Cambridge Springs (United States)"
+      },
+      "date": "1904-04-28",
+      "result": "1-0",
+      "eco": "B72",
+      "plies": 69,
+      "pgnRef": "memorial/lasker.pgn#2",
+      "story": {
+        "es": "En la tercera ronda de Cambridge Springs, Lasker atacó con sus peones del flanco de rey y Napier respondió con un contraataque en el centro. Los dos encontraron recursos ingeniosos en una lucha llena de piezas amenazadas. Lasker salió de las complicaciones con ventaja, simplificó hacia un final ganado y lo convirtió con precisión.",
+        "en": "In round three at Cambridge Springs, Lasker attacked with his kingside pawns and Napier hit back in the centre. Both players found ingenious resources in a fight full of pieces under attack. Lasker came out of the complications with the advantage, simplified into a winning endgame and converted it precisely."
+      },
+      "sources": [
+        {
+          "label": "1904 Cambridge Springs Congress: round 3",
+          "url": "https://cs1904.com/round3.htm"
+        },
+        {
+          "label": "Wikipedia: List of chess games",
+          "url": "https://en.wikipedia.org/wiki/List_of_chess_games"
+        }
+      ]
+    },
+    {
+      "id": "lasker-capablanca-1914",
+      "title": {
+        "es": "La partida que decidió San Petersburgo 1914",
+        "en": "The game that decided St. Petersburg 1914"
+      },
+      "white": "Emanuel Lasker",
+      "black": "José Raúl Capablanca",
+      "event": {
+        "es": "San Petersburgo 1914",
+        "en": "St. Petersburg 1914"
+      },
+      "site": {
+        "es": "San Petersburgo",
+        "en": "St. Petersburg"
+      },
+      "date": "1914",
+      "result": "1-0",
+      "eco": "C68",
+      "plies": 83,
+      "pgnRef": "memorial/lasker.pgn#3",
+      "story": {
+        "es": "Capablanca llegó a la fase final de San Petersburgo 1914 como líder, y Lasker necesitaba ganarle para seguir en carrera. Eligió la variante del cambio de la Apertura Española, que Reuben Fine llamó «inofensiva pero psicológicamente potente», y con 12.f5 preparó la entrada de su caballo en e6. Capablanca no encontró la defensa, perdió también en la ronda siguiente y Lasker se llevó el torneo.",
+        "en": "Capablanca reached the final stage of St. Petersburg 1914 in the lead, and Lasker needed to beat him to stay in the race. He chose the Exchange Variation of the Ruy Lopez, which Reuben Fine called \"innocuous but psychologically potent,\" and with 12.f5 prepared to plant his knight on e6. Capablanca did not find the defence, lost again in the next round, and Lasker took the tournament."
+      },
+      "keyPly": 23,
+      "keyMove": "f5",
+      "sources": [
+        {
+          "label": "Wikipedia: Emanuel Lasker",
+          "url": "https://en.wikipedia.org/wiki/Emanuel_Lasker"
+        },
+        {
+          "label": "Wikipedia: List of chess games",
+          "url": "https://en.wikipedia.org/wiki/List_of_chess_games"
+        },
+        {
+          "label": "Chess Skill: Lasker–Capablanca, 1914",
+          "url": "https://chessskill.blogspot.com/2021/03/lasker-capablanca-1914.html"
+        }
+      ]
+    },
+    {
+      "id": "lasker-schlechter-1910",
+      "title": {
+        "es": "La última partida contra Schlechter",
+        "en": "The final game against Schlechter"
+      },
+      "white": "Emanuel Lasker",
+      "black": "Carl Schlechter",
+      "event": {
+        "es": "Campeonato del Mundo 1910",
+        "en": "World Championship 1910"
+      },
+      "site": {
+        "es": "Berlín",
+        "en": "Berlin"
+      },
+      "date": "1910-02-08",
+      "result": "1-0",
+      "eco": "D94",
+      "plies": 141,
+      "pgnRef": "memorial/lasker.pgn#4",
+      "story": {
+        "es": "Lasker llegó a la décima y última partida del match un punto abajo: necesitaba ganar para conservar el título. Schlechter jugó a ganar, consiguió una gran ventaja y dejó escapar una victoria clara en la jugada 35. Siguió arriesgando hasta perder, el match terminó empatado y Lasker siguió siendo campeón. La partida se jugó en Berlín a lo largo de tres días y terminó en la jugada 71.",
+        "en": "Lasker came to the tenth and final game of the match a point behind: he had to win to keep his title. Schlechter played for a win, built up a big advantage and let a clear win slip on move 35. He kept taking risks until he lost, the match ended level and Lasker remained champion. The game was played in Berlin over three days and ended on move 71."
+      },
+      "sources": [
+        {
+          "label": "Wikipedia: Emanuel Lasker",
+          "url": "https://en.wikipedia.org/wiki/Emanuel_Lasker"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1910 (Lasker–Schlechter)",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1910_(Lasker%E2%80%93Schlechter)"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Emanuel Lasker",
+      "url": "https://en.wikipedia.org/wiki/Emanuel_Lasker"
+    },
+    {
+      "label": "PGN Mentor: Lasker",
+      "url": "https://www.pgnmentor.com/players/Lasker.zip"
+    }
+  ]
+}

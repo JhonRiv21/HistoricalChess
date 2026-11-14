@@ -102,7 +102,8 @@ const tableGames = d.games;
         <GameViewer client:visible src={analysisPath(slug, featuredGame.round)} {lang}
           white={playerOf(d, featuredGame.white)?.short ?? featuredGame.white}
           black={playerOf(d, featuredGame.black)?.short ?? featuredGame.black}
-          resultText={resultLabel(d, featuredGame, lang)} />
+          whiteName={playerOf(d, featuredGame.white)?.name} blackName={playerOf(d, featuredGame.black)?.name}
+          result={featuredGame.result} resultText={resultLabel(d, featuredGame, lang)} />
       </section>
     )}
 

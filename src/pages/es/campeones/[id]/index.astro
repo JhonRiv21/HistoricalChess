@@ -1,0 +1,9 @@
+---
+import ChampionPage from '../../../../components/memorial/ChampionPage.astro';
+import { championPaths, type Champion } from '../../../../lib/champions';
+
+export const getStaticPaths = championPaths;
+const { champion } = Astro.props as { champion: Champion };
+---
+
+<ChampionPage lang="es" {champion} />

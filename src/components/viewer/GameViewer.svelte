@@ -8,16 +8,23 @@
   import { annotateGame, formatEval, glyphOf, playerAccuracy, whiteWinPercent, type AnalyzedGame } from '../../lib/evaluation';
   import { formatSan, moveNumber } from '../../lib/format';
   import { settings } from '../../lib/settings.svelte';
+  import { track } from '../../lib/analytics';
   import { t, type Lang } from '../../i18n/ui';
 
   interface Props {
     src: string; // URL of public/data/games/<slug>/<round>.json
     lang: Lang;
-    white: string;
+    white: string; // short names, used in the accuracy rows
     black: string;
+    whiteName?: string; // full names, shown on the plates above and below the board
+    blackName?: string;
+    result?: '1-0' | '0-1' | '1/2-1/2';
     resultText: string;
+    keyPly?: number; // famous moment: shows a jump button
   }
-  let { src, lang, white, black, resultText }: Props = $props();
+  let { src, lang, white, black, whiteName = white, blackName = black, result, resultText, keyPly }: Props = $props();
+  const points = (side: 'white' | 'black') =>
+    result === '1/2-1/2' ? '½' : (result === '1-0') === (side === 'white') ? '1' : '0';
 
   let game: AnalyzedGame | null = $state(null);
   let failed = $state(false);
@@ -34,14 +41,19 @@
       });
   });
 
-  const annotations = $derived(game ? annotateGame(game.positions) : []);
+  const annotations = $derived(game ? annotateGame(game.positions, game.moves, keyPly) : []);
   const accuracy = $derived(playerAccuracy(annotations));
   const last = $derived(game ? game.moves.length : 0);
   const position = $derived(game?.positions[ply]);
   const move = $derived(ply && game ? game.moves[ply - 1] : undefined);
-  const klass = $derived(ply ? annotations[ply - 1]?.klass ?? null : null);
+  const current = $derived(ply ? annotations[ply - 1] ?? null : null);
   const san = (s: string) => formatSan(s, settings.notation, lang);
-  const go = (next: number) => (ply = Math.max(0, Math.min(last, next)));
+  let engaged = false;
+  function go(next: number) {
+    ply = Math.max(0, Math.min(last, next));
+    // One event per game the first time the reader steps through it, not one per move (quota).
+    if (!engaged && ply > 0) { engaged = true; track('game_replay', { game: src }); }
+  }
 
   function onkey(event: KeyboardEvent) {
     const target = event.target as HTMLElement;
@@ -65,14 +77,30 @@
 {:else}
   <div class="viewer" class:engine-off={!engineOn}>
     <div class="viewer-board">
+      {#snippet plate(side: 'white' | 'black', name: string)}
+        <div class={`player-plate is-${side}`}>
+          <span class="piece-chip" aria-hidden="true"></span>
+          <span class="visually-hidden">{t(lang, side === 'white' ? 'match.white' : 'match.black')}:</span>
+          <span class="plate-name">{name}</span>
+          {#if result && ply === last}<span class="plate-result">{points(side)}</span>{/if}
+        </div>
+      {/snippet}
+      {@render plate('black', blackName)}
+      <div class="board-row">
       <div class="evalbar" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow={Math.round(whiteWinPercent(position))} aria-label={`${t(lang, 'eval.label')} ${formatEval(position)}`}>
         <div class="evalbar-white" style={`height:${whiteWinPercent(position)}%`}></div>
         <span class="evalbar-label" data-side={whiteWinPercent(position) >= 50 ? 'white' : 'black'}>{formatEval(position)}</span>
       </div>
-      <Board fen={position.fen} lastMove={move} bestMove={ply < last ? position.best : undefined} showArrow={engineOn} {lang} />
+      <Board fen={position.fen} lastMove={move} bestMove={ply < last ? position.best : undefined} showArrow={engineOn}
+        klass={engineOn ? current?.klass : null} klassLabel={current ? t(lang, `class.${current.klass}`) : ''} {lang} />
+      </div>
+      {@render plate('white', whiteName)}
     </div>
 
     <div class="viewer-controls">
+      {#if keyPly}
+        <button type="button" class="btn key-move" onclick={() => { go(keyPly); track('key_move', { game: src }); }}>{t(lang, 'memorial.keyMove')}: {moveNumber(keyPly)} {san(game.moves[keyPly - 1]?.san ?? '')}</button>
+      {/if}
       <div class="controls" role="group" aria-label={t(lang, 'viewer.nav')}>
         {#each [['first', 0, 'viewer.first'], ['prev', ply - 1, 'viewer.prev']] as const as [icon, target, label] (icon)}
           <button type="button" class="ctrl" aria-label={t(lang, label)} onclick={() => go(target)}><svg viewBox="0 0 24 24" aria-hidden="true"><path d={ICONS[icon]} /></svg></button>
@@ -85,7 +113,7 @@
     </div>
 
     <div class="viewer-side">
-      <button type="button" class="engine-toggle" role="switch" aria-checked={engineOn} onclick={() => (engineOn = !engineOn)}>
+      <button type="button" class="engine-toggle" role="switch" aria-checked={engineOn} onclick={() => { engineOn = !engineOn; track('engine_toggle', { on: engineOn }); }}>
         <span class="switch" aria-hidden="true"></span>{t(lang, 'viewer.engineToggle')}
       </button>
       <section class="engine" aria-label={t(lang, 'eval.label')}>
@@ -94,7 +122,13 @@
           <strong class="engine-eval">{formatEval(position)}</strong>
         </div>
         <span class="engine-best">{ply < last && position.bestSan ? `${t(lang, 'viewer.best')}: ${san(position.bestSan)}` : `${t(lang, 'viewer.end')}: ${resultText}`}</span>
-        <span class="engine-verdict" data-klass={klass ?? ''}>{klass && move ? `${san(move.san)} ${t(lang, 'viewer.was')} ${t(lang, `class.${klass}`).toLowerCase()} (${glyphOf(klass)})` : ''}</span>
+        <span class="engine-verdict">
+          {#if current && move}
+            {moveNumber(ply)} {san(move.san)}
+            <span class={`class-badge is-${current.klass}`}>{glyphOf(current.klass)} {t(lang, `class.${current.klass}`)}</span>
+            {#if current.famous}<span class="class-note">({t(lang, 'class.famous')})</span>{/if}
+          {/if}
+        </span>
         <div class="accuracy">
           <span class="acc-title">{t(lang, 'viewer.accuracy')}</span>
           {#each [[white, accuracy.white], [black, accuracy.black]] as const as [name, value] (name)}
@@ -109,9 +143,9 @@
       </section>
       <MoveList moves={game.moves} {annotations} {ply} notation={settings.notation} {lang} onselect={go} />
       <p class="glyph-legend">
-        <span><b class="is-inaccuracy">?!</b> {t(lang, 'class.inaccuracy').toLowerCase()}</span>
-        <span><b class="is-mistake">?</b> {t(lang, 'class.mistake').toLowerCase()}</span>
-        <span><b class="is-blunder">??</b> {t(lang, 'class.blunder').toLowerCase()}</span>
+        {#each ['brilliant', 'great', 'inaccuracy', 'mistake', 'blunder'] as const as k (k)}
+          <span><b class={`is-${k}`}>{glyphOf(k)}</b> {t(lang, `class.${k}`).toLowerCase()}</span>
+        {/each}
       </p>
     </div>
 

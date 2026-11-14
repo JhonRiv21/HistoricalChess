@@ -39,7 +39,8 @@ const description = `${white?.name} – ${black?.name}, ${label.toLowerCase()} $
         <p class="section-sub">{t(lang, 'viewer.keys')}</p>
       </div>
       <GameViewer client:load src={analysisPath(match.id, game.round)} {lang}
-        white={white?.short ?? game.white} black={black?.short ?? game.black} resultText={resultLabel(d, game, lang)} />
+        white={white?.short ?? game.white} black={black?.short ?? game.black}
+        whiteName={white?.name} blackName={black?.name} result={game.result} resultText={resultLabel(d, game, lang)} />
     </section>
     <nav class="game-nav" aria-label={t(lang, 'match.games')}>
       {prev ? <a class="btn" href={gameUrl(lang, match.id, prev.round)}>← {t(lang, 'match.round')} {prev.round}</a> : <span></span>}

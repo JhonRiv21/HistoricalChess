@@ -46,7 +46,7 @@ export const FEATURED: FeaturedChampion[] = [
     },
   },
   {
-    id: 'carlsen', photo: 'carlsen-2012-bust', reign: '2013–2023', matchSlug: '2013-carlsen-anand',
+    id: 'carlsen', photo: 'carlsen-portrait', reign: '2013–2023', matchSlug: '2013-carlsen-anand',
     line: {
       es: 'Defendió el título cuatro veces y en 2023 decidió no volver a jugarlo.',
       en: 'Defended the title four times, then chose not to play for it in 2023.',

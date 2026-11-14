@@ -1,0 +1,76 @@
+[Event "Moscow 1935"]
+[Site "Moscow"]
+[Date "1935.??.??"]
+[Round "16"]
+[White "Botvinnik, Mikhail"]
+[Black "Chekhover, Vitaly"]
+[Result "1-0"]
+[ECO "A13"]
+
+1. Nf3 d5 2. c4 e6 3. b3 Nf6 4. Bb2 Be7 5. e3 O-O 6. Be2 c6 7. O-O Nbd7 8. Nc3
+a6 9. Nd4 dxc4 10. bxc4 Nc5 11. f4 Qc7 12. Nf3 Rd8 13. Qc2 Ncd7 14. d4 c5 15.
+Ne5 b6 16. Bd3 cxd4 17. exd4 Bb7 18. Qe2 Nf8 19. Nd1 Ra7 20. Nf2 Qb8 21. Nh3 h6
+22. Ng5 hxg5 23. fxg5 N8d7 24. Nxf7 Kxf7 25. g6+ Kg8 26. Qxe6+ Kh8 27. Qh3+ Kg8
+28. Bf5 Nf8 29. Be6+ Nxe6 30. Qxe6+ Kh8 31. Qh3+ Kg8 32. Rxf6 Bxf6 33. Qh7+ Kf8
+34. Re1 Be5 35. Qh8+ Ke7 36. Qxg7+ Kd6 37. Qxe5+ Kd7 38. Qf5+ Kc6 39. d5+ Kc5
+40. Ba3+ Kxc4 41. Qe4+ Kc3 42. Bb4+ Kb2 43. Qb1# 1-0
+
+[Event "AVRO 1938"]
+[Site "Rotterdam"]
+[Date "1938.11.22"]
+[Round "11"]
+[White "Botvinnik, Mikhail"]
+[Black "Capablanca, Jose Raul"]
+[Result "1-0"]
+[ECO "E49"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 d5 5. a3 Bxc3+ 6. bxc3 c5 7. cxd5 exd5 8.
+Bd3 O-O 9. Ne2 b6 10. O-O Ba6 11. Bxa6 Nxa6 12. Bb2 Qd7 13. a4 Rfe8 14. Qd3 c4
+15. Qc2 Nb8 16. Rae1 Nc6 17. Ng3 Na5 18. f3 Nb3 19. e4 Qxa4 20. e5 Nd7 21. Qf2
+g6 22. f4 f5 23. exf6 Nxf6 24. f5 Rxe1 25. Rxe1 Re8 26. Re6 Rxe6 27. fxe6 Kg7
+28. Qf4 Qe8 29. Qe5 Qe7 30. Ba3 Qxa3 31. Nh5+ gxh5 32. Qg5+ Kf8 33. Qxf6+ Kg8
+34. e7 Qc1+ 35. Kf2 Qc2+ 36. Kg3 Qd3+ 37. Kh4 Qe4+ 38. Kxh5 Qe2+ 39. Kh4 Qe4+
+40. g4 Qe1+ 41. Kh5 1-0
+
+[Event "USSR Absolute Championship 1941"]
+[Site "Leningrad/Moscow"]
+[Date "1941.??.??"]
+[Round "?"]
+[White "Keres, Paul"]
+[Black "Botvinnik, Mikhail"]
+[Result "0-1"]
+[ECO "E35"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. Bg5 h6 7. Bh4 c5 8.
+O-O-O Bxc3 9. Qxc3 g5 10. Bg3 cxd4 11. Qxd4 Nc6 12. Qa4 Bf5 13. e3 Rc8 14. Bd3
+Qd7 15. Kb1 Bxd3+ 16. Rxd3 Qf5 17. e4 Nxe4 18. Ka1 O-O 19. Rd1 b5 20. Qxb5 Nd4
+21. Qd3 Nc2+ 22. Kb1 Nb4 0-1
+
+[Event "USA-USSR radio match 1945"]
+[Site "Radio"]
+[Date "1945.09.??"]
+[Round "1"]
+[White "Denker, Arnold"]
+[Black "Botvinnik, Mikhail"]
+[Result "0-1"]
+[ECO "D44"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. Nf3 Nf6 5. Bg5 dxc4 6. e4 b5 7. e5 h6 8. Bh4 g5
+9. Nxg5 hxg5 10. Bxg5 Nbd7 11. exf6 Bb7 12. Be2 Qb6 13. O-O O-O-O 14. a4 b4 15.
+Ne4 c5 16. Qb1 Qc7 17. Ng3 cxd4 18. Bxc4 Qc6 19. f3 d3 20. Qc1 Bc5+ 21. Kh1 Qd6
+22. Qf4 Rxh2+ 23. Kxh2 Rh8+ 24. Qh4 Rxh4+ 25. Bxh4 Qf4 0-1
+
+[Event "Monte Carlo 1968"]
+[Site "Monte Carlo"]
+[Date "1968.??.??"]
+[Round "7"]
+[White "Botvinnik, Mikhail"]
+[Black "Portisch, Lajos"]
+[Result "1-0"]
+[ECO "A29"]
+
+1. c4 e5 2. Nc3 Nf6 3. g3 d5 4. cxd5 Nxd5 5. Bg2 Be6 6. Nf3 Nc6 7. O-O Nb6 8. d3
+Be7 9. a3 a5 10. Be3 O-O 11. Na4 Nxa4 12. Qxa4 Bd5 13. Rfc1 Re8 14. Rc2 Bf8 15.
+Rac1 Nb8 16. Rxc7 Bc6 17. R1xc6 bxc6 18. Rxf7 h6 19. Rb7 Qc8 20. Qc4+ Kh8 21.
+Nh4 Qxb7 22. Ng6+ Kh7 23. Be4 Bd6 24. Nxe5+ g6 25. Bxg6+ Kg7 26. Bxh6+ 1-0
+

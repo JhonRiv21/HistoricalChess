@@ -26,7 +26,7 @@
   const y = (pct: number) => PAD.top + (1 - pct / 100) * innerH;
   const line = $derived(pcts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p).toFixed(1)}`).join(''));
   const area = $derived(`${line}L${x(pcts.length - 1)},${y(0)}L${x(0)},${y(0)}Z`);
-  const marks = $derived(annotations.flatMap((a, i) => (a.klass && a.klass !== 'inaccuracy' ? [{ ply: i + 1, klass: a.klass }] : [])));
+  const marks = $derived(annotations.flatMap((a, i) => (['brilliant', 'mistake', 'blunder'].includes(a.klass) ? [{ ply: i + 1, klass: a.klass }] : [])));
   const ticks = $derived([10, 20, 30, 40, 50, 60, 70, 80].filter((n) => n * 2 <= pcts.length));
 
   function plyAt(event: PointerEvent) {
@@ -39,8 +39,9 @@
     const position = positions[hover]!;
     if (hover === 0) return { lines: [t(lang, 'viewer.initial'), formatEval(position)], x: x(0), y: y(pcts[0]!) };
     const klass = annotations[hover - 1]?.klass;
+    const glyph = klass ? glyphOf(klass) : '';
     return {
-      lines: [`${moveNumber(hover)} ${moves[hover - 1]!.san}${klass ? ` ${glyphOf(klass)}` : ''}`, `${t(lang, 'eval.label')} ${formatEval(position)}`, ...(klass ? [t(lang, `class.${klass}`)] : [])],
+      lines: [`${moveNumber(hover)} ${moves[hover - 1]!.san}${glyph ? ` ${glyph}` : ''}`, `${t(lang, 'eval.label')} ${formatEval(position)}`, ...(klass ? [t(lang, `class.${klass}`)] : [])],
       x: x(hover),
       y: y(pcts[hover]!),
     };

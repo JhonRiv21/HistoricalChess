@@ -1,0 +1,188 @@
+{
+  "order": 9,
+  "name": "Tigran Petrosian",
+  "short": "Petrosian",
+  "country": {
+    "es": "URSS (Armenia)",
+    "en": "Soviet Union (Armenia)"
+  },
+  "born": "1929-06-17",
+  "died": "1984-08-13",
+  "reign": {
+    "es": "1963–1969",
+    "en": "1963–1969"
+  },
+  "matches": [
+    "1963-petrosian-botvinnik",
+    "1966-petrosian-spassky"
+  ],
+  "photo": "petrosian-1962",
+  "bio": {
+    "es": "Tigran Petrosian nació en Tiflis (hoy Tbilisi) en 1929 y fue un gran maestro soviético-armenio. Le ganó el título a Botvinnik en 1963, lo defendió ante Spassky en 1966 y lo perdió frente al mismo Spassky en 1969. Fue candidato al título en ocho ocasiones y campeón soviético cuatro veces. Se le atribuye haber popularizado el ajedrez en Armenia.",
+    "en": "Tigran Petrosian was born in Tiflis (now Tbilisi) in 1929 and was a Soviet-Armenian grandmaster. He took the title from Botvinnik in 1963, defended it against Spassky in 1966 and lost it to the same Spassky in 1969. He was a Candidate for the title eight times and Soviet champion four times. He is credited with popularizing chess in Armenia."
+  },
+  "style": {
+    "es": "Apodado «Tigran de Hierro», defendía con una solidez casi impenetrable, prevenía los planes rivales antes de que nacieran y sacrificaba la calidad por razones puramente posicionales.",
+    "en": "Nicknamed \"Iron Tigran\", he defended with almost impenetrable solidity, stopped his opponents' plans before they started and gave up the exchange for purely positional reasons."
+  },
+  "games": [
+    {
+      "id": "reshevsky-petrosian-1953",
+      "title": {
+        "es": "El sacrificio de calidad más famoso",
+        "en": "The most famous exchange sacrifice"
+      },
+      "white": "Samuel Reshevsky",
+      "black": "Tigran Petrosian",
+      "event": {
+        "es": "Torneo de Candidatos, ronda 2",
+        "en": "Candidates Tournament, round 2"
+      },
+      "site": {
+        "es": "Zúrich, Suiza",
+        "en": "Zurich, Switzerland"
+      },
+      "date": "1953-08-31",
+      "result": "1/2-1/2",
+      "eco": "E58",
+      "plies": 81,
+      "pgnRef": "memorial/petrosian.pgn#0",
+      "story": {
+        "es": "No es una victoria, pero quizá sea el ejemplo de sacrificio de calidad más famoso y más enseñado de la historia. Con 25...Te6, Petrosian entregó una torre por un alfil para llevar su caballo a la fuerte casilla d5 y cerrar las casillas blancas a su rival. Reshevsky devolvió la calidad en la jugada 30 y la partida terminó en tablas en la 41.",
+        "en": "It is not a win, but it may be the most famous and most often taught example of an exchange sacrifice. With 25...Re6, Petrosian gave up a rook for a bishop to bring his knight to the strong d5 square and shut his opponent out of the light squares. Reshevsky gave the exchange back on move 30 and the game was drawn on move 41."
+      },
+      "keyPly": 50,
+      "keyMove": "Re6",
+      "sources": [
+        {
+          "label": "Wikipedia: The exchange (chess)",
+          "url": "https://en.wikipedia.org/wiki/The_exchange_(chess)"
+        },
+        {
+          "label": "ChessBase: Iron Tigran, clash of the cavalries",
+          "url": "https://en.chessbase.com/post/iron-tigran-clash-of-the-cavalries"
+        }
+      ]
+    },
+    {
+      "id": "petrosian-pachman-1961",
+      "title": {
+        "es": "La dama que atrapó al rey",
+        "en": "The queen that trapped the king"
+      },
+      "white": "Tigran Petrosian",
+      "black": "Ludek Pachman",
+      "event": {
+        "es": "Bled, ronda 6",
+        "en": "Bled, round 6"
+      },
+      "site": {
+        "es": "Bled, Yugoslavia",
+        "en": "Bled, Yugoslavia"
+      },
+      "date": "1961",
+      "result": "1-0",
+      "eco": "A04",
+      "plies": 41,
+      "pgnRef": "memorial/petrosian.pgn#1",
+      "story": {
+        "es": "Petrosian era famoso por su prudencia, pero aquí firmó una combinación de problema. Con 19.Dxf6+ entregó la dama para sacar al rey negro de su refugio y, tras 20.Ae5+ y 21.Ag7, el rey quedó atrapado en una red de mate. Pachman abandonó de inmediato.",
+        "en": "Petrosian was famous for his caution, but here he produced a problem-like combination. With 19.Qxf6+ he gave up his queen to drag Black's king out of its shelter, and after 20.Be5+ and 21.Bg7 the king was caught in a mating net. Pachman resigned at once."
+      },
+      "keyPly": 37,
+      "keyMove": "Qxf6+",
+      "sources": [
+        {
+          "label": "Wikipedia: Tigran Petrosian (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Tigran_Petrosian"
+        }
+      ]
+    },
+    {
+      "id": "spassky-petrosian-1966",
+      "title": {
+        "es": "Avalancha de peones en la séptima",
+        "en": "Pawn avalanche in game seven"
+      },
+      "white": "Boris Spassky",
+      "black": "Tigran Petrosian",
+      "event": {
+        "es": "Match por el Campeonato del Mundo, partida 7",
+        "en": "World Championship Match, game 7"
+      },
+      "site": {
+        "es": "Moscú, URSS",
+        "en": "Moscow, Soviet Union"
+      },
+      "date": "1966",
+      "result": "0-1",
+      "eco": "D03",
+      "plies": 86,
+      "pgnRef": "memorial/petrosian.pgn#2",
+      "story": {
+        "es": "Con negras, el campeón lanzó un ataque peligroso contra el rey blanco a partir de un sacrificio de calidad: 24...Cxe5 dejó su torre de g4 a cambio de la iniciativa. Más tarde entregó también una pieza, y sus peones avanzaron hasta forzar el abandono tras la jugada 43.",
+        "en": "With Black, the champion launched a dangerous attack on White's king starting with an exchange sacrifice: 24...Nxe5 left his rook on g4 in return for the initiative. Later he gave up a piece as well, and his pawns rolled forward until White resigned after move 43."
+      },
+      "keyPly": 48,
+      "keyMove": "Nxe5",
+      "sources": [
+        {
+          "label": "Wikipedia: Tigran Petrosian (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Tigran_Petrosian"
+        },
+        {
+          "label": "Wikipedia: World Chess Championship 1966",
+          "url": "https://en.wikipedia.org/wiki/World_Chess_Championship_1966"
+        }
+      ]
+    },
+    {
+      "id": "petrosian-spassky-1966",
+      "title": {
+        "es": "Doble sacrificio de calidad",
+        "en": "The double exchange sacrifice"
+      },
+      "white": "Tigran Petrosian",
+      "black": "Boris Spassky",
+      "event": {
+        "es": "Match por el Campeonato del Mundo, partida 10",
+        "en": "World Championship Match, game 10"
+      },
+      "site": {
+        "es": "Moscú, URSS",
+        "en": "Moscow, Soviet Union"
+      },
+      "date": "1966",
+      "result": "1-0",
+      "eco": "E66",
+      "plies": 59,
+      "pgnRef": "memorial/petrosian.pgn#3",
+      "story": {
+        "es": "Petrosian entregó la calidad dos veces, con 21.Ce3 y 24.Txf4, y Spassky quedó indefenso pese a tener dos torres por piezas menores. El golpe final fue 30.Dh8+: tras 30...Rxh8 llega 31.Cxf7+, una horquilla que gana material y deja un final ganado. Petrosian retuvo el título por 12½–11½.",
+        "en": "Petrosian gave up the exchange twice, with 21.Ne3 and 24.Rxf4, and Spassky was helpless despite being two exchanges up. The final blow was 30.Qh8+: after 30...Kxh8 comes 31.Nxf7+, a fork that wins material and leaves a won endgame. Petrosian kept the title 12½–11½."
+      },
+      "keyPly": 59,
+      "keyMove": "Qh8+",
+      "sources": [
+        {
+          "label": "Wikipedia: The exchange (chess)",
+          "url": "https://en.wikipedia.org/wiki/The_exchange_(chess)"
+        },
+        {
+          "label": "Wikipedia: Tigran Petrosian (notable games)",
+          "url": "https://en.wikipedia.org/wiki/Tigran_Petrosian"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Tigran Petrosian",
+      "url": "https://en.wikipedia.org/wiki/Tigran_Petrosian"
+    },
+    {
+      "label": "PGN Mentor: Petrosian games",
+      "url": "https://www.pgnmentor.com/players/Petrosian.zip"
+    }
+  ]
+}

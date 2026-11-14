@@ -1,0 +1,55 @@
+[Event "USSR Championship"]
+[Site "Leningrad URS"]
+[Date "1960.??.??"]
+[Round "?"]
+[White "Spassky, Boris"]
+[Black "Bronstein, David"]
+[Result "1-0"]
+[ECO "C36"]
+
+1.e4 e5 2.f4 exf4 3.Nf3 d5 4.exd5 Bd6 5.Nc3 Ne7 6.d4 O-O 7.Bd3 Nd7 8.O-O h6
+9.Ne4 Nxd5 10.c4 Ne3 11.Bxe3 fxe3 12.c5 Be7 13.Bc2 Re8 14.Qd3 e2 15.Nd6 Nf8
+16.Nxf7 exf1=Q+ 17.Rxf1 Bf5 18.Qxf5 Qd7 19.Qf4 Bf6 20.N3e5 Qe7 21.Bb3 Bxe5
+22.Nxe5+ Kh7 23.Qe4+  1-0
+
+[Event "Mar del Plata"]
+[Site "Mar del Plata ARG"]
+[Date "1960.??.??"]
+[Round "2"]
+[White "Spassky, Boris"]
+[Black "Fischer, Robert James"]
+[Result "1-0"]
+[ECO "C39"]
+
+1.e4 e5 2.f4 exf4 3.Nf3 g5 4.h4 g4 5.Ne5 Nf6 6.d4 d6 7.Nd3 Nxe4 8.Bxf4 Bg7
+9.Nc3 Nxc3 10.bxc3 c5 11.Be2 cxd4 12.O-O Nc6 13.Bxg4 O-O 14.Bxc8 Rxc8 15.Qg4 f5
+16.Qg3 dxc3 17.Rae1 Kh8 18.Kh1 Rg8 19.Bxd6 Bf8 20.Be5+ Nxe5 21.Qxe5+ Rg7
+22.Rxf5 Qxh4+ 23.Kg1 Qg4 24.Rf2 Be7 25.Re4 Qg5 26.Qd4 Rf8 27.Re5 Rd8 28.Qe4 Qh4
+29.Rf4  1-0
+
+[Event "World Championship Match"]
+[Site "Moscow URS"]
+[Date "1969.??.??"]
+[Round "19"]
+[White "Spassky, Boris"]
+[Black "Petrosian, Tigran"]
+[Result "1-0"]
+[ECO "B94"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5 Nbd7 7.Bc4 Qa5 8.Qd2 h6
+9.Bxf6 Nxf6 10.O-O-O e6 11.Rhe1 Be7 12.f4 O-O 13.Bb3 Re8 14.Kb1 Bf8 15.g4 Nxg4
+16.Qg2 Nf6 17.Rg1 Bd7 18.f5 Kh8 19.Rdf1 Qd8 20.fxe6 fxe6 21.e5 dxe5 22.Ne4 Nh5
+23.Qg6 exd4 24.Ng5  1-0
+
+[Event "USSR vs Rest of the World"]
+[Site "Belgrade YUG"]
+[Date "1970.??.??"]
+[Round "2"]
+[White "Larsen, Bent"]
+[Black "Spassky, Boris"]
+[Result "0-1"]
+[ECO "A01"]
+
+1.b3 e5 2.Bb2 Nc6 3.c4 Nf6 4.Nf3 e4 5.Nd4 Bc5 6.Nxc6 dxc6 7.e3 Bf5 8.Qc2 Qe7
+9.Be2 O-O-O 10.f4 Ng4 11.g3 h5 12.h3 h4 13.hxg4 hxg3 14.Rg1 Rh1 15.Rxh1 g2
+16.Rf1 Qh4+ 17.Kd1 gxf1=Q+  0-1
