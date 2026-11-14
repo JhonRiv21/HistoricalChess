@@ -61,6 +61,12 @@ const ui = {
   'match.facts': { es: 'Para contar en la sobremesa', en: 'Worth retelling' },
   'match.sources': { es: 'Fuentes', en: 'Sources' },
   'match.tiebreak': { es: 'Desempate', en: 'Tiebreak' },
+  'match.rapidGame': { es: 'Rápida {n} de desempate', en: 'Rapid tiebreak game {n}' },
+  'match.tiebreakTitle': { es: 'Desempate en partidas rápidas', en: 'Rapid tiebreak' },
+  'match.tiebreakNote': {
+    es: 'Las partidas clásicas terminaron empatadas, así que el título se decidió en partidas rápidas, con mucho menos tiempo en el reloj.',
+    en: 'The classical games ended level, so the title was decided in rapid games, with far less time on the clock.',
+  },
   'match.draw': { es: 'Tablas', en: 'Draw' },
   'match.winsGame': { es: 'Gana', en: 'Win for' },
   'match.forfeit': { es: 'No presentado', en: 'Forfeit' },

@@ -3,7 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import GameViewer from '../../../components/viewer/GameViewer.svelte';
 import { gameUrl, getMatches, matchUrl, playerOf, type Game, type Match } from '../../../lib/content';
 import { formatDate } from '../../../lib/format';
-import { analysisPath, hasAnalysis, resultLabel } from '../../../lib/match-view';
+import { analysisPath, gameLabel, hasAnalysis, resultLabel } from '../../../lib/match-view';
 import { LANGS, pick, t, type Lang } from '../../../i18n/ui';
 
 export async function getStaticPaths() {
@@ -18,7 +18,7 @@ const lang = Astro.params.lang as Lang;
 const d = match.data;
 const white = playerOf(d, game.white);
 const black = playerOf(d, game.black);
-const label = `${t(lang, 'match.round')} ${game.round}`;
+const label = gameLabel(d, game, lang);
 const prev = d.games.filter((g) => g.round < game.round && g.plies > 0).at(-1);
 const next = d.games.find((g) => g.round > game.round && g.plies > 0);
 const description = `${white?.name} – ${black?.name}, ${label.toLowerCase()} ${d.year}: ${resultLabel(d, game, lang)}.`;
@@ -43,9 +43,9 @@ const description = `${white?.name} – ${black?.name}, ${label.toLowerCase()} $
         whiteName={white?.name} blackName={black?.name} result={game.result} resultText={resultLabel(d, game, lang)} />
     </section>
     <nav class="game-nav" aria-label={t(lang, 'match.games')}>
-      {prev ? <a class="btn" href={gameUrl(lang, match.id, prev.round)}>← {t(lang, 'match.round')} {prev.round}</a> : <span></span>}
+      {prev ? <a class="btn" href={gameUrl(lang, match.id, prev.round)}>← {gameLabel(d, prev, lang)}</a> : <span></span>}
       <a class="btn" href={matchUrl(lang, match.id)}>{t(lang, 'match.games')}</a>
-      {next ? <a class="btn" href={gameUrl(lang, match.id, next.round)}>{t(lang, 'match.round')} {next.round} →</a> : <span></span>}
+      {next ? <a class="btn" href={gameUrl(lang, match.id, next.round)}>{gameLabel(d, next, lang)} →</a> : <span></span>}
     </nav>
   </div>
 </BaseLayout>

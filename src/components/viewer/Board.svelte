@@ -23,8 +23,12 @@
   }
   let { fen, lastMove, bestMove, showArrow, klass = null, klassLabel = '', lang }: Props = $props();
 
-  const BADGE: Partial<Record<MoveClass, string>> = { brilliant: '!!', great: '!', best: '★', excellent: '✓', inaccuracy: '?!', mistake: '?', blunder: '??' };
-  const TINTED: MoveClass[] = ['brilliant', 'great', 'inaccuracy', 'mistake', 'blunder'];
+  // Text glyphs for annotation classes; best and excellent use drawn icons (star, thumbs up) like broadcast boards.
+  const GLYPH: Partial<Record<MoveClass, string>> = { brilliant: '!!', great: '!', inaccuracy: '?!', mistake: '?', blunder: '??' };
+  const ICON: Partial<Record<MoveClass, string>> = {
+    best: 'M12 3.2l2.6 5.6 6.1.7-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6-4.5-4.2 6.1-.7z',
+    excellent: 'M7.5 11v8.5H4.8V11zm2 8.5V11.4l3.2-6.1c.3-.6 1-.9 1.6-.6.8.3 1.1 1.2.8 2l-.9 3.3h4.2c1.1 0 1.9 1 1.7 2.1l-1.2 5.9c-.2.9-1 1.5-1.9 1.5z',
+  };
 
   let host: HTMLDivElement;
   let board: Chessboard | null = $state(null);
@@ -51,7 +55,7 @@
     current.setPosition(fen, !reducedMotion());
     current.removeMarkers();
     if (lastMove) {
-      const marker = klass && TINTED.includes(klass) ? { class: `marker-class-${klass}`, slice: 'markerSquare' } : MARKER_TYPE.square;
+      const marker = klass && klass !== 'good' ? { class: `marker-class-${klass}`, slice: 'markerSquare' } : MARKER_TYPE.square;
       current.addMarker(marker, lastMove.from);
       current.addMarker(marker, lastMove.to);
     }
@@ -61,16 +65,19 @@
 
   // Badge sits on the top-right corner of the destination square (board seen from White's side).
   const badge = $derived.by(() => {
-    if (!lastMove || !klass || !BADGE[klass]) return null;
+    if (!lastMove || !klass || (!GLYPH[klass] && !ICON[klass])) return null;
     const file = lastMove.to.charCodeAt(0) - 97;
     const rank = Number(lastMove.to[1]);
-    return { glyph: BADGE[klass]!, left: Math.min(96, (file + 1) * 12.5 - 3.2), top: Math.max(-1, (8 - rank) * 12.5 - 1.8) };
+    // Centered on the square's top-right corner, nudged inside on the board's right and top edges.
+    return { glyph: GLYPH[klass], icon: ICON[klass], left: Math.min(96.2, (file + 1) * 12.5 - 1.9), top: Math.max(0, (8 - rank) * 12.5 - 1.9) };
   });
 </script>
 
 <div class="board-wrap">
   <div class="board-host" class:is-loading={!board} bind:this={host}></div>
   {#if badge}
-    <span class={`board-badge is-${klass}`} style={`left:${badge.left}%;top:${badge.top}%`} role="img" aria-label={klassLabel}>{badge.glyph}</span>
+    <span class={`board-badge is-${klass}`} style={`left:${badge.left}%;top:${badge.top}%`} role="img" aria-label={klassLabel}>
+      {#if badge.icon}<svg viewBox="0 0 24 24" aria-hidden="true"><path d={badge.icon} /></svg>{:else}{badge.glyph}{/if}
+    </span>
   {/if}
 </div>

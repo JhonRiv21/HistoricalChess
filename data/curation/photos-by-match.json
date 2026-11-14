@@ -138,7 +138,6 @@
   ],
   "1972-fischer-spassky": [
     "fischer-euwe-1972",
-    "fischer-1972",
     "spassky-larsen-1970",
     "fischer-1971",
     "spassky-1973"
@@ -157,7 +156,6 @@
   ],
   "1981-karpov-korchnoi": [
     "karpov-korchnoi-1981-meran",
-    "korchnoi-1981-meran",
     "korchnoi-1982",
     "karpov-1979"
   ],
@@ -263,9 +261,7 @@
   ],
   "2013-carlsen-anand": [
     "carlsen-tata-2013",
-    "anand-2013",
-    "carlsen-2012",
-    "carlsen-2012-bust"
+    "anand-2013"
   ],
   "2014-carlsen-anand": [
     "sochi-2014-closing",
@@ -274,6 +270,7 @@
     "anand-2013"
   ],
   "2016-carlsen-karjakin": [
+    "ceremony-2016-carlsen",
     "wcc-2016-tiebreak",
     "wcc-2016-game12",
     "wcc-2016-press",
@@ -282,7 +279,6 @@
   ],
   "2018-carlsen-caruana": [
     "london-2018-match",
-    "london-2018-start",
     "caruana-london-2018",
     "carlsen-2012"
   ],

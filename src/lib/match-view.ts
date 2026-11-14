@@ -15,6 +15,17 @@ export function finalists(match: MatchData) {
   return a && b ? { a, b } : null;
 }
 
+/** "Partida 7" for classical games, "Rápida 2 de desempate" for tiebreak games (numbered on their own). */
+export function gameLabel(match: MatchData, game: Game, lang: Lang) {
+  if (!isTiebreak(game)) return `${t(lang, 'match.round')} ${game.round}`;
+  const index = match.games.filter(isTiebreak).findIndex((g) => g.round === game.round) + 1;
+  return t(lang, 'match.rapidGame').replace('{n}', String(index));
+}
+
+/** Short cell tag: the classical round number, or R1, R2… for rapid tiebreak games. */
+export const gameTag = (match: MatchData, game: Game) =>
+  isTiebreak(game) ? `R${match.games.filter(isTiebreak).findIndex((g) => g.round === game.round) + 1}` : String(game.round);
+
 export function resultLabel(match: MatchData, game: Game, lang: Lang) {
   if (game.kind === 'forfeit') {
     const loser = game.result === '1-0' ? game.black : game.white;
@@ -40,22 +51,29 @@ export function scoreRace(match: MatchData, slug: string, lang: Lang) {
   const tag = pair.a.short.charAt(0) === pair.b.short.charAt(0)
     ? (short: string) => short.slice(0, 3)
     : (short: string) => short.charAt(0);
-  const cells = counted.map((g) => {
+  const cell = (g: Game) => {
     const pa = pointsFor(g, pair.a.id);
     const side = g.result === '1/2-1/2' ? 'draw' : pa === 1 ? 'a' : 'b';
     return {
       round: g.round,
+      tag: gameTag(match, g),
       side: side as 'a' | 'b' | 'draw',
       text: side === 'draw' ? '½' : tag(side === 'a' ? pair.a.short : pair.b.short),
-      label: `${t(lang, 'match.round')} ${g.round}: ${resultLabel(match, g, lang)}${g.note ? `. ${pick(g.note, lang)}` : ''}`,
+      label: `${gameLabel(match, g, lang)}: ${resultLabel(match, g, lang)}${g.note ? `. ${pick(g.note, lang)}` : ''}`,
       note: Boolean(g.note) || g.kind === 'forfeit',
       href: g.plies > 0 ? gameUrl(lang, slug, g.round) : null,
     };
-  });
+  };
+  const cells = counted.map(cell);
+  const rapid = match.games.filter(isTiebreak);
+  const tiebreak = rapid.length && match.tiebreak
+    ? { score: `${half(match.tiebreak[pair.a.id] ?? 0)}–${half(match.tiebreak[pair.b.id] ?? 0)}`, cells: rapid.map(cell) }
+    : null;
   return {
     a: { name: pair.a.name, short: pair.a.short, points: points.a },
     b: { name: pair.b.name, short: pair.b.short, points: points.b },
     cells,
+    tiebreak,
   };
 }
 

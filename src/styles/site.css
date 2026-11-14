@@ -71,7 +71,6 @@
 .prose { display: flex; flex-direction: column; gap: 1rem; max-width: 70ch; }
 .prose h2 { font-family: var(--font-display); font-stretch: 112%; font-size: 1.5rem; margin-top: 1rem; }
 .credits-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem; color: var(--ink-2); }
-.sr-tag { color: var(--ink-2); font-family: var(--font-body); font-size: 0.8125rem; }
 
 /* Match header without two finalists (tournaments, forfeits, knockouts). */
 .duel.is-solo { grid-template-columns: minmax(0, 1fr); }
@@ -177,36 +176,58 @@
 .class-list dt b { font-family: var(--font-mono); color: var(--accent); }
 .class-list dd { margin: 0; color: var(--ink-2); }
 
-/* ---------- Move class on the board ---------- */
-.board-wrap { position: relative; container-type: inline-size; }
+/* ---------- Move class on the board ----------
+   Fixed colors, the ones chess players know from broadcast and review boards; they read the same in every theme. */
+.board-wrap {
+  position: relative;
+  container-type: inline-size;
+  --mc-brilliant: #1baca6;
+  --mc-great: #5c8bb0;
+  --mc-best: #81b64c;
+  --mc-excellent: #96bc4b;
+  --mc-inaccuracy: #f7c631;
+  --mc-mistake: #ffa459;
+  --mc-blunder: #fa412d;
+}
 .board-badge {
   position: absolute;
   z-index: 2;
-  width: 6.4%;
+  width: 3.8%;
   aspect-ratio: 1;
   display: grid;
   place-items: center;
   border-radius: 50%;
-  font-family: var(--font-mono);
-  font-weight: 700;
-  font-size: 3.1cqi;
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 2.65cqi;
   line-height: 1;
-  letter-spacing: -0.04em;
-  color: var(--accent-ink);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
+  letter-spacing: -0.08em;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
   pointer-events: none;
 }
-.board-badge.is-brilliant { background: var(--brilliant); }
-.board-badge.is-great { background: var(--great); }
-.board-badge.is-best { background: var(--best); }
-.board-badge.is-excellent { background: var(--best); opacity: 0.85; }
-.board-badge.is-inaccuracy { background: var(--warn); }
-.board-badge.is-mistake { background: var(--bad); }
-.board-badge.is-blunder { background: var(--worst); }
-.cm-chessboard.hc .markers .marker[class*='marker-class-'] { opacity: 0.55; }
-.cm-chessboard.hc .markers .marker.marker-class-brilliant { fill: var(--brilliant); }
-.cm-chessboard.hc .markers .marker.marker-class-great { fill: var(--great); }
-.cm-chessboard.hc .markers .marker.marker-class-inaccuracy { fill: var(--warn); }
-.cm-chessboard.hc .markers .marker.marker-class-mistake { fill: var(--bad); }
-.cm-chessboard.hc .markers .marker.marker-class-blunder { fill: var(--worst); }
+.board-badge svg { width: 84%; height: 84%; fill: #fff; filter: drop-shadow(0 1px 0.5px rgba(0, 0, 0, 0.3)); }
+.board-badge.is-brilliant { background: var(--mc-brilliant); }
+.board-badge.is-great { background: var(--mc-great); }
+.board-badge.is-best { background: var(--mc-best); }
+.board-badge.is-excellent { background: var(--mc-excellent); }
+.board-badge.is-inaccuracy { background: var(--mc-inaccuracy); }
+.board-badge.is-mistake { background: var(--mc-mistake); }
+.board-badge.is-blunder { background: var(--mc-blunder); }
+.cm-chessboard.hc .markers .marker[class*='marker-class-'] { opacity: 0.5; }
+.cm-chessboard.hc .markers .marker.marker-class-brilliant { fill: #1baca6; }
+.cm-chessboard.hc .markers .marker.marker-class-great { fill: #5c8bb0; }
+.cm-chessboard.hc .markers .marker.marker-class-best { fill: #81b64c; }
+.cm-chessboard.hc .markers .marker.marker-class-excellent { fill: #96bc4b; }
+.cm-chessboard.hc .markers .marker.marker-class-inaccuracy { fill: #f7c631; }
+.cm-chessboard.hc .markers .marker.marker-class-mistake { fill: #ffa459; }
+.cm-chessboard.hc .markers .marker.marker-class-blunder { fill: #fa412d; }
 .foot-links { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+
+/* ---------- Rapid tiebreak ---------- */
+.tiebreak-block { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.75rem; padding-top: 1rem; border-top: 1px dashed var(--line-strong); }
+.tiebreak-title { font-size: 1.05rem; font-weight: 600; display: flex; flex-wrap: wrap; gap: 0.4rem 0.8rem; align-items: baseline; }
+.tiebreak-score { font-family: var(--font-mono); color: var(--accent); }
+.tiebreak-note { font-size: 0.95rem; color: var(--ink-2); max-width: 70ch; }
+.games-table .tiebreak-row th { background: var(--surface-2); color: var(--ink); font-weight: 600; white-space: normal; }

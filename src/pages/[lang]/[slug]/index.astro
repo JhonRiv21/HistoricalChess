@@ -8,7 +8,7 @@ import VideoList from '../../../components/VideoList.svelte';
 import { gameUrl, getMatches, getPhotos, isTiebreak, photoAsset, playerOf, type Match } from '../../../lib/content';
 import { formatDate, half } from '../../../lib/format';
 import { galleryPhoto } from '../../../lib/images';
-import { analysisPath, finalists, hasAnalysis, resultLabel, scoreRace, standings, verdict } from '../../../lib/match-view';
+import { analysisPath, finalists, gameLabel, gameTag, hasAnalysis, resultLabel, scoreRace, standings, verdict } from '../../../lib/match-view';
 import { LANGS, pick, t, type Lang } from '../../../i18n/ui';
 
 export async function getStaticPaths() {
@@ -78,7 +78,7 @@ const tableGames = d.games;
     {race && (
       <section class="section">
         <h2 class="section-title">{t(lang, 'match.progress')}</h2>
-        <ScoreRace client:visible {lang} a={race.a} b={race.b} cells={race.cells} />
+        <ScoreRace client:visible {lang} a={race.a} b={race.b} cells={race.cells} tiebreak={race.tiebreak} />
       </section>
     )}
 
@@ -96,7 +96,7 @@ const tableGames = d.games;
     {featuredGame && (
       <section class="section" id="partida">
         <div class="section-head">
-          <h2 class="section-title">{t(lang, 'match.featured')}: {t(lang, 'match.round').toLowerCase()} {featuredGame.round}</h2>
+          <h2 class="section-title">{t(lang, 'match.featured')}: {gameLabel(d, featuredGame, lang).toLowerCase()}</h2>
           <p class="section-sub">{playerOf(d, featuredGame.white)?.short} – {playerOf(d, featuredGame.black)?.short}, {featuredGame.result.replace('1/2-1/2', '½–½')}. {t(lang, 'viewer.keys')}</p>
         </div>
         <GameViewer client:visible src={analysisPath(slug, featuredGame.round)} {lang}
@@ -116,7 +116,7 @@ const tableGames = d.games;
             return (
               <li class="moment">
                 {photo && <div class="moment-photo"><Picture src={photoAsset(photo.data.file)} formats={['avif', 'webp']} widths={[360, 640]} sizes="(max-width: 600px) 90vw, 30vw" alt={pick(photo.data.alt, lang)} style={`object-position:${photo.data.focus}`} /></div>}
-                {m.round && <a class="moment-round" href={gameUrl(lang, slug, m.round)}>{t(lang, 'match.round')} {m.round}</a>}
+                {m.round && (() => { const g = d.games.find((x) => x.round === m.round); return g && <a class="moment-round" href={gameUrl(lang, slug, m.round)}>{gameLabel(d, g, lang)}</a>; })()}
                 <h3 class="moment-title">{pick(m.title, lang)}</h3>
                 <p>{pick(m.text, lang)}</p>
               </li>
@@ -136,15 +136,20 @@ const tableGames = d.games;
               <th scope="col">{t(lang, 'match.result')}</th><th scope="col">{t(lang, 'match.opening')}</th><th scope="col" class="num">{t(lang, 'match.moves')}</th>
             </tr></thead>
             <tbody>
-              {tableGames.map((g) => (
+              {tableGames.map((g, i) => (
+                <>
+                {isTiebreak(g) && !isTiebreak(tableGames[i - 1] ?? g) && pair && (
+                  <tr class="tiebreak-row"><th scope="rowgroup" colspan="6">{t(lang, 'match.tiebreakTitle')}{d.tiebreak && `: ${pair.a.short} ${half(d.tiebreak[pair.a.id] ?? 0)}–${half(d.tiebreak[pair.b.id] ?? 0)} ${pair.b.short}`}</th></tr>
+                )}
                 <tr class:list={[{ 'is-tiebreak': isTiebreak(g) }]}>
-                  <td class="num">{g.plies > 0 ? <a href={gameUrl(lang, slug, g.round)}>{g.round}</a> : g.round}{isTiebreak(g) && <span class="sr-tag"> ({t(lang, 'match.tiebreak').toLowerCase()})</span>}</td>
+                  <td class="num">{g.plies > 0 ? <a href={gameUrl(lang, slug, g.round)} aria-label={gameLabel(d, g, lang)}>{gameTag(d, g)}</a> : gameTag(d, g)}</td>
                   <td>{playerOf(d, g.white)?.short ?? g.white}</td>
                   <td>{playerOf(d, g.black)?.short ?? g.black}</td>
                   <td><span class="result-pill">{g.kind === 'forfeit' ? t(lang, 'match.forfeit') : g.result.replace('1/2-1/2', '½–½')}</span></td>
                   <td class="num">{g.eco ?? ''}</td>
                   <td class="num">{Math.ceil(g.plies / 2)}</td>
                 </tr>
+                </>
               ))}
             </tbody>
           </table>

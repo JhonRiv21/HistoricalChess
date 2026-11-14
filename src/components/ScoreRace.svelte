@@ -4,14 +4,15 @@
   import { settings } from '../lib/settings.svelte';
   import { t, type Lang } from '../i18n/ui';
 
-  interface Cell { round: number; label: string; text: string; side: 'a' | 'b' | 'draw'; note: boolean; href: string | null }
+  interface Cell { round: number; tag: string; label: string; text: string; side: 'a' | 'b' | 'draw'; note: boolean; href: string | null }
   interface Props {
     lang: Lang;
     a: { name: string; short: string; points: number[] }; // cumulative, starting at 0
     b: { name: string; short: string; points: number[] };
     cells: Cell[];
+    tiebreak?: { score: string; cells: Cell[] } | null; // rapid games played after a level classical match
   }
-  let { lang, a, b, cells }: Props = $props();
+  let { lang, a, b, cells, tiebreak = null }: Props = $props();
 
   const HEIGHT = 200;
   let width = $state(0);
@@ -80,19 +81,29 @@
       </div>
     {/if}
   </div>
-  <ol class="game-strip" aria-label={t(lang, 'match.progress')}>
-    {#each cells as cell (cell.round)}
-      <li>
-        {#if cell.href}
-          <a class={`game-cell is-${cell.side}${cell.note ? ' has-note' : ''}`} href={cell.href} aria-label={cell.label}>
-            <span class="game-no">{cell.round}</span><span class="game-res">{cell.text}</span>
-          </a>
-        {:else}
-          <span class={`game-cell is-${cell.side}${cell.note ? ' has-note' : ''}`} role="img" aria-label={cell.label}>
-            <span class="game-no">{cell.round}</span><span class="game-res">{cell.text}</span>
-          </span>
-        {/if}
-      </li>
-    {/each}
-  </ol>
+  {#snippet strip(list: Cell[], label: string)}
+    <ol class="game-strip" aria-label={label}>
+      {#each list as cell (cell.round)}
+        <li>
+          {#if cell.href}
+            <a class={`game-cell is-${cell.side}${cell.note ? ' has-note' : ''}`} href={cell.href} aria-label={cell.label}>
+              <span class="game-no">{cell.tag}</span><span class="game-res">{cell.text}</span>
+            </a>
+          {:else}
+            <span class={`game-cell is-${cell.side}${cell.note ? ' has-note' : ''}`} role="img" aria-label={cell.label}>
+              <span class="game-no">{cell.tag}</span><span class="game-res">{cell.text}</span>
+            </span>
+          {/if}
+        </li>
+      {/each}
+    </ol>
+  {/snippet}
+  {@render strip(cells, t(lang, 'match.progress'))}
+  {#if tiebreak}
+    <div class="tiebreak-block">
+      <h3 class="tiebreak-title">{t(lang, 'match.tiebreakTitle')} <span class="tiebreak-score">{a.short} {tiebreak.score} {b.short}</span></h3>
+      <p class="tiebreak-note">{t(lang, 'match.tiebreakNote')}</p>
+      {@render strip(tiebreak.cells, t(lang, 'match.tiebreakTitle'))}
+    </div>
+  {/if}
 </div>
