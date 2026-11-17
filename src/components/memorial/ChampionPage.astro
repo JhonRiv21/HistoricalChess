@@ -20,7 +20,7 @@ const lifespan = d.died ? `${d.born.slice(0, 4)}–${d.died.slice(0, 4)}` : `${t
   <div class="view">
     <nav class="crumbs" aria-label="breadcrumb"><a href={championsUrl(lang)}>{t(lang, 'memorial.allChampions')}</a> / {d.short}</nav>
     <header class="champion-head">
-      <div class="champion-portrait">
+      <div class="champion-portrait" transition:name={`champion-${champion.id}`}>
         {photo && <Picture src={photoAsset(photo.data.file)} formats={['avif', 'webp']} widths={[360, 640]} sizes="(max-width: 820px) 90vw, 30vw" alt={pick(photo.data.alt, lang)} style={`object-position:${photo.data.focus}`} loading="eager" />}
       </div>
       <div class="champion-intro">

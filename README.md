@@ -39,12 +39,13 @@ npm run dev              # local site
 npm run build            # astro check + static build into dist/
 npm run data:skeleton    # create match JSON from the seed catalog and PGNs
 npm run data:analyze     # Stockfish analysis, incremental (-- --workers 8 --depth 18)
+npm run data:openings    # opening names per move, without running the engine again
 npm run data:validate    # placeholders, score consistency, cross references
 ```
 
 ### Credits
 
-Games: pgnmentor.com and Lichess studies. Photos: Wikimedia Commons (Nationaal Archief / Anefo, Agence Rol and others), each with its license on the About page. Pieces: Cburnett, CC BY-SA 3.0, via cm-chessboard. Analysis: Stockfish.
+Games: pgnmentor.com and Lichess studies. Photos: Wikimedia Commons (Nationaal Archief / Anefo, Agence Rol and others), each with its license on the About page. Pieces: Cburnett, CC BY-SA 3.0, via cm-chessboard. Analysis: Stockfish. Opening names: Lichess chess-openings (CC0), in `data/openings/`.
 
 ### Rights and contact
 
@@ -87,12 +88,13 @@ npm run dev              # sitio local
 npm run build            # astro check + build estático en dist/
 npm run data:skeleton    # crea los JSON de los matches desde el catálogo semilla y los PGN
 npm run data:analyze     # análisis con Stockfish, incremental (-- --workers 8 --depth 18)
+npm run data:openings    # nombres de apertura por jugada, sin volver a correr el motor
 npm run data:validate    # marcadores pendientes, coherencia del marcador, referencias cruzadas
 ```
 
 ### Créditos
 
-Partidas: pgnmentor.com y estudios de Lichess. Fotos: Wikimedia Commons (Nationaal Archief / Anefo, Agence Rol y otros), cada una con su licencia en la página «Sobre el sitio». Piezas: Cburnett, CC BY-SA 3.0, vía cm-chessboard. Análisis: Stockfish.
+Partidas: pgnmentor.com y estudios de Lichess. Fotos: Wikimedia Commons (Nationaal Archief / Anefo, Agence Rol y otros), cada una con su licencia en la página «Sobre el sitio». Piezas: Cburnett, CC BY-SA 3.0, vía cm-chessboard. Análisis: Stockfish. Nombres de aperturas: Lichess chess-openings (CC0), en `data/openings/`.
 
 ### Derechos y contacto
 

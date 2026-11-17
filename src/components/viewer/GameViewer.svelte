@@ -7,6 +7,7 @@
   import MoveList from './MoveList.svelte';
   import { annotateGame, formatEval, glyphOf, playerAccuracy, whiteWinPercent, type AnalyzedGame } from '../../lib/evaluation';
   import { formatSan, moveNumber } from '../../lib/format';
+  import { openingAt, openingName } from '../../lib/openings';
   import { settings } from '../../lib/settings.svelte';
   import { track } from '../../lib/analytics';
   import { t, type Lang } from '../../i18n/ui';
@@ -30,6 +31,7 @@
   let failed = $state(false);
   let ply = $state(0);
   let engineOn = $state(true);
+  let flipped = $state(false);
 
   onMount(() => {
     fetch(src)
@@ -48,6 +50,13 @@
   const move = $derived(ply && game ? game.moves[ply - 1] : undefined);
   const current = $derived(ply ? annotations[ply - 1] ?? null : null);
   const san = (s: string) => formatSan(s, settings.notation, lang);
+  const opening = $derived(game ? openingAt(game.openings ?? [], ply, { white: game.moves[0]?.san, black: game.moves[1]?.san }) : null);
+  // Opening names keep SAN moves ("1.e4"); figurine notation turns them into pieces like the move list.
+  const openingText = (name: string) => (name.startsWith('1.') ? name.replace(/^(1\.(?:\.\.)?)(.+)$/, (_, n, m) => n + san(m)) : openingName(name, lang));
+  function flip() {
+    flipped = !flipped;
+    track('board_flip', { game: src });
+  }
   let engaged = false;
   function go(next: number) {
     ply = Math.max(0, Math.min(last, next));
@@ -62,9 +71,12 @@
     if (event.key in map) {
       event.preventDefault();
       go(map[event.key]!);
+    } else if (event.key === 'f' && !event.metaKey && !event.ctrlKey && !event.altKey) {
+      flip();
     }
   }
 
+  const FLIP_ICON = 'M7 4v13m0 0l-3-3m3 3l3-3M17 20V7m0 0l-3 3m3-3l3 3';
   const ICONS = { first: 'M18 6v12M15 6l-7 6 7 6', prev: 'M15 6l-7 6 7 6', next: 'M9 6l7 6-7 6', last: 'M6 6v12M9 6l7 6-7 6' };
 </script>
 
@@ -85,16 +97,16 @@
           {#if result && ply === last}<span class="plate-result">{points(side)}</span>{/if}
         </div>
       {/snippet}
-      {@render plate('black', blackName)}
+      {@render plate(flipped ? 'white' : 'black', flipped ? whiteName : blackName)}
       <div class="board-row">
-      <div class="evalbar" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow={Math.round(whiteWinPercent(position))} aria-label={`${t(lang, 'eval.label')} ${formatEval(position)}`}>
+      <div class="evalbar" class:is-flipped={flipped} role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow={Math.round(whiteWinPercent(position))} aria-label={`${t(lang, 'eval.label')} ${formatEval(position)}`}>
         <div class="evalbar-white" style={`height:${whiteWinPercent(position)}%`}></div>
         <span class="evalbar-label" data-side={whiteWinPercent(position) >= 50 ? 'white' : 'black'}>{formatEval(position)}</span>
       </div>
       <Board fen={position.fen} lastMove={move} bestMove={ply < last ? position.best : undefined} showArrow={engineOn}
-        klass={engineOn ? current?.klass : null} klassLabel={current ? t(lang, `class.${current.klass}`) : ''} {lang} />
+        klass={engineOn ? current?.klass : null} klassLabel={current ? t(lang, `class.${current.klass}`) : ''} {lang} {flipped} />
       </div>
-      {@render plate('white', whiteName)}
+      {@render plate(flipped ? 'black' : 'white', flipped ? blackName : whiteName)}
     </div>
 
     <div class="viewer-controls">
@@ -113,9 +125,34 @@
     </div>
 
     <div class="viewer-side">
-      <button type="button" class="engine-toggle" role="switch" aria-checked={engineOn} onclick={() => { engineOn = !engineOn; track('engine_toggle', { on: engineOn }); }}>
-        <span class="switch" aria-hidden="true"></span>{t(lang, 'viewer.engineToggle')}
-      </button>
+      <div class="side-tools">
+        <button type="button" class="engine-toggle" role="switch" aria-checked={engineOn} onclick={() => { engineOn = !engineOn; track('engine_toggle', { on: engineOn }); }}>
+          <span class="switch" aria-hidden="true"></span>{t(lang, 'viewer.engineToggle')}
+        </button>
+        <button type="button" class="btn flip-btn" aria-pressed={flipped} aria-keyshortcuts="f" onclick={flip}>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d={FLIP_ICON} /></svg>{t(lang, 'viewer.flip')}
+        </button>
+      </div>
+      <section class="opening" aria-label={t(lang, 'opening.title')} aria-live="polite">
+        {#if opening}
+          <div class="opening-head">
+            <span class="opening-eco">{opening.eco}</span>
+            <strong class="opening-name">{openingText(opening.name)}</strong>
+          </div>
+          <dl class="opening-sides">
+            {#each [['white', opening.white], ['black', opening.black]] as const as [side, name] (side)}
+              {#if name}
+                <div class={`opening-side is-${side}`}>
+                  <dt><span class="piece-chip" aria-hidden="true"></span>{t(lang, side === 'white' ? 'match.white' : 'match.black')}</dt>
+                  <dd>{openingText(name)}</dd>
+                </div>
+              {/if}
+            {/each}
+          </dl>
+        {:else}
+          <p class="opening-empty">{t(lang, 'opening.start')}</p>
+        {/if}
+      </section>
       <section class="engine" aria-label={t(lang, 'eval.label')}>
         <div class="engine-head">
           <span class="engine-name">{game.engine}, {lang === 'es' ? 'profundidad' : 'depth'} {game.depth}</span>

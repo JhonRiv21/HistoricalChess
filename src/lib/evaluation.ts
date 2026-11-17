@@ -1,5 +1,6 @@
 // Engine math. Win probability and accuracy follow the published Lichess formulas; the move classes
 // follow common conventions (Lichess, Chess.com) with criteria stated on the About page.
+import type { OpeningMark } from './openings';
 export interface Evaluation { cp?: number; mate?: number }
 export interface AnalyzedPosition extends Evaluation { fen: string; best?: string; bestSan?: string; alt?: Evaluation }
 export interface AnalyzedMove { san: string; from: string; to: string; offered?: number }
@@ -10,6 +11,7 @@ export interface AnalyzedGame {
   depth: number;
   moves: AnalyzedMove[];
   positions: AnalyzedPosition[];
+  openings?: OpeningMark[];
 }
 
 export type MoveClass = 'brilliant' | 'great' | 'best' | 'excellent' | 'good' | 'inaccuracy' | 'mistake' | 'blunder';

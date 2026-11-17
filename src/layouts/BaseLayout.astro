@@ -8,6 +8,8 @@ import '../styles/site.css';
 import A11yPanel from '../components/A11yPanel.svelte';
 import { t, type Lang } from '../i18n/ui';
 import { CONTACT_EMAIL } from '../data/site';
+import { ClientRouter } from 'astro:transitions';
+import { pageTransition } from '../lib/transitions';
 
 interface Props {
   lang: Lang;
@@ -28,7 +30,7 @@ const paths = { es: lang === 'es' ? Astro.url.pathname : altPath, en: lang === '
 ---
 
 <!doctype html>
-<html lang={lang} data-mode="dark">
+<html lang={lang} data-mode="dark" transition:animate={pageTransition}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -51,6 +53,7 @@ const paths = { es: lang === 'es' ? Astro.url.pathname : altPath, en: lang === '
     )}
     <script is:inline>
       // Apply saved reading preferences before first paint (same keys as src/lib/settings.svelte.ts).
+      // The router replaces <html> attributes on each navigation, so they are carried over to the incoming page.
       try {
         const s = JSON.parse(localStorage.getItem('historical-chess.reading') || '{}');
         const root = document.documentElement;
@@ -64,11 +67,24 @@ const paths = { es: lang === 'es' ? Astro.url.pathname : altPath, en: lang === '
       } catch (error) {
         console.warn('Reading preferences unavailable', error);
       }
+      document.addEventListener('astro:before-swap', (event) => {
+        const current = document.documentElement;
+        const next = event.newDocument.documentElement;
+        for (const key of ['mode', 'contrast', 'board', 'spacing', 'motion']) next.dataset[key] = current.dataset[key];
+        next.style.cssText = current.style.cssText;
+      });
+      // Remember the chosen language so the site root opens in it next time.
+      document.addEventListener('click', (event) => {
+        const link = event.target instanceof Element && event.target.closest('.lang-pill a');
+        if (!link) return;
+        try { localStorage.setItem('historical-chess.lang', link.dataset.lang); } catch (error) { console.warn('Language preference not saved', error); }
+      });
     </script>
+    <ClientRouter fallback="animate" />
   </head>
   <body>
     <a class="skip-link" href="#main">{t(lang, 'skip')}</a>
-    <header class="site-head">
+    <header class="site-head" transition:name="site-head" transition:animate="none">
       <a class="wordmark" href={`/${lang}/`}>{t(lang, 'site.name')}</a>
       <div class="site-tools">
         <nav class="site-nav" aria-label={t(lang, 'nav.championships')}>
@@ -86,12 +102,6 @@ const paths = { es: lang === 'es' ? Astro.url.pathname : altPath, en: lang === '
         <A11yPanel client:idle {lang} />
       </div>
     </header>
-    <script is:inline>
-      // Remember the chosen language so the site root opens in it next time.
-      document.querySelectorAll('.lang-pill a').forEach((link) => link.addEventListener('click', () => {
-        try { localStorage.setItem('historical-chess.lang', link.dataset.lang); } catch (error) { console.warn('Language preference not saved', error); }
-      }));
-    </script>
     <main id="main">
       <slot />
     </main>

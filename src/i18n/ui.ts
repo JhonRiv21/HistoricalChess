@@ -88,6 +88,9 @@ const ui = {
   'viewer.last': { es: 'Ir al final', en: 'Go to end' },
   'viewer.start': { es: 'Inicio', en: 'Start' },
   'viewer.engineToggle': { es: 'Mostrar el análisis del motor', en: 'Show engine analysis' },
+  'viewer.flip': { es: 'Girar el tablero', en: 'Flip board' },
+  'opening.title': { es: 'Apertura', en: 'Opening' },
+  'opening.start': { es: 'Avanza unas jugadas y aquí aparece la apertura.', en: 'Play a few moves and the opening shows up here.' },
   'viewer.best': { es: 'Mejor jugada aquí', en: 'Best move here' },
   'viewer.end': { es: 'Fin de la partida', en: 'End of the game' },
   'viewer.accuracy': { es: 'Precisión en la partida', en: 'Accuracy in this game' },
@@ -141,8 +144,8 @@ const ui = {
     en: '© 2026 Jhon Rivero. All rights reserved, except the photos and the chess pieces, which keep their own licenses.',
   },
   'footer.credits': {
-    es: 'Partidas: pgnmentor.com y Lichess. Fotos: Wikimedia Commons (Nationaal Archief / Anefo y otros), con su licencia en cada imagen. Piezas: Cburnett, CC BY-SA 3.0. Análisis: Stockfish.',
-    en: 'Games: pgnmentor.com and Lichess. Photos: Wikimedia Commons (Nationaal Archief / Anefo and others), licensed as shown on each image. Pieces: Cburnett, CC BY-SA 3.0. Analysis: Stockfish.',
+    es: 'Partidas: pgnmentor.com y Lichess. Fotos: Wikimedia Commons (Nationaal Archief / Anefo y otros), con su licencia en cada imagen. Piezas: Cburnett, CC BY-SA 3.0. Análisis: Stockfish. Aperturas: Lichess.',
+    en: 'Games: pgnmentor.com and Lichess. Photos: Wikimedia Commons (Nationaal Archief / Anefo and others), licensed as shown on each image. Pieces: Cburnett, CC BY-SA 3.0. Analysis: Stockfish. Openings: Lichess.',
   },
 } satisfies Record<string, Localized>;
 

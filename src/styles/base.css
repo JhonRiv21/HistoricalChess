@@ -58,3 +58,11 @@ img { display: block; max-width: 100%; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
+
+/* Page changes (Astro router, see src/lib/transitions.ts). */
+@keyframes hc-page-out { to { opacity: 0; } }
+@keyframes hc-page-in { from { opacity: 0; transform: translateY(8px); } }
+::view-transition-group(*) { animation-duration: 320ms; animation-timing-function: cubic-bezier(0.2, 0.7, 0.2, 1); }
+:root[data-motion='reduced']::view-transition-group(*),
+:root[data-motion='reduced']::view-transition-old(*),
+:root[data-motion='reduced']::view-transition-new(*) { animation: none !important; }

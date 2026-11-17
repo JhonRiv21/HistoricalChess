@@ -11,6 +11,7 @@
     "check": "astro check",
     "data:skeleton": "tsx scripts/build-skeletons.ts",
     "data:analyze": "tsx scripts/analyze-games.ts",
+    "data:openings": "tsx scripts/annotate-openings.ts",
     "data:validate": "tsx scripts/validate-content.ts",
     "predev": "node scripts/copy-board-assets.mjs",
     "prebuild": "node scripts/copy-board-assets.mjs"

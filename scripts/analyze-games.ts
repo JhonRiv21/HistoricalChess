@@ -9,6 +9,7 @@ import { cpus } from 'node:os';
 import { Chess } from 'chess.js';
 import { readPgnFile, replay } from './lib/pgn.ts';
 import { materialOffered } from './lib/sacrifice.ts';
+import { openingMarks } from './lib/openings.ts';
 
 const ROOT = join(import.meta.dirname, '..');
 const MATCHES = join(ROOT, 'src/content/matches');
@@ -164,6 +165,7 @@ async function analyze(engine: Engine, job: Job) {
     depth: DEPTH,
     moves: history.map((m, i) => ({ san: m.san, from: m.from, to: m.to, ...(sacrifices.has(i) ? { offered: sacrifices.get(i) } : {}) })),
     positions,
+    openings: openingMarks(positions.map((p) => p.fen)),
   }));
 }
 

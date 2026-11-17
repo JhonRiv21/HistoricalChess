@@ -22,7 +22,7 @@ const champions = await Promise.all((await getChampions()).map(async (c) => ({ c
         {champions.map(({ champion: c, photo }) => (
           <li>
             <a class="champion-card" href={championUrl(lang, c.id)}>
-              <div class="champion-photo">
+              <div class="champion-photo" transition:name={`champion-${c.id}`}>
                 {photo && <Picture src={photoAsset(photo.data.file)} formats={['avif', 'webp']} widths={[240, 420]} sizes="(max-width: 600px) 45vw, 220px" alt="" style={`object-position:${photo.data.focus}`} />}
               </div>
               <span class="champion-order">{c.data.order}</span>

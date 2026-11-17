@@ -2,7 +2,7 @@
   // cm-chessboard wrapper: position, last-move squares (tinted by move class), the engine's best-move arrow
   // and a class badge on the destination square, the way broadcast boards show them.
   import { onMount } from 'svelte';
-  import { Chessboard } from 'cm-chessboard/src/Chessboard.js';
+  import { Chessboard, COLOR } from 'cm-chessboard/src/Chessboard.js';
   import { Markers, MARKER_TYPE } from 'cm-chessboard/src/extensions/markers/Markers.js';
   import { Arrows, ARROW_TYPE } from 'cm-chessboard/src/extensions/arrows/Arrows.js';
   import { Accessibility } from 'cm-chessboard/src/extensions/accessibility/Accessibility.js';
@@ -20,8 +20,9 @@
     klass?: MoveClass | null; // class of the move that led to this position
     klassLabel?: string;
     lang: 'es' | 'en';
+    flipped?: boolean; // Black at the bottom
   }
-  let { fen, lastMove, bestMove, showArrow, klass = null, klassLabel = '', lang }: Props = $props();
+  let { fen, lastMove, bestMove, showArrow, klass = null, klassLabel = '', lang, flipped = false }: Props = $props();
 
   // Text glyphs for annotation classes; best and excellent use drawn icons (star, thumbs up) like broadcast boards.
   const GLYPH: Partial<Record<MoveClass, string>> = { brilliant: '!!', great: '!', inaccuracy: '?!', mistake: '?', blunder: '??' };
@@ -36,6 +37,7 @@
   onMount(() => {
     const instance = new Chessboard(host, {
       position: fen,
+      orientation: flipped ? COLOR.black : COLOR.white,
       assetsUrl: '/cm-chessboard/',
       style: { cssClass: 'hc', showCoordinates: true, borderType: 'none', pieces: { file: 'pieces/standard.svg' }, animationDuration: reducedMotion() ? 0 : 200 },
       extensions: [
@@ -63,11 +65,16 @@
     if (showArrow && bestMove) current.addArrow(ARROW_TYPE.success, bestMove.slice(0, 2), bestMove.slice(2, 4));
   });
 
-  // Badge sits on the top-right corner of the destination square (board seen from White's side).
+  $effect(() => {
+    const side = flipped ? COLOR.black : COLOR.white;
+    if (board && board.getOrientation() !== side) board.setOrientation(side, !reducedMotion());
+  });
+
+  // Badge sits on the top-right corner of the destination square, as seen from the side at the bottom.
   const badge = $derived.by(() => {
     if (!lastMove || !klass || (!GLYPH[klass] && !ICON[klass])) return null;
-    const file = lastMove.to.charCodeAt(0) - 97;
-    const rank = Number(lastMove.to[1]);
+    const file = flipped ? 7 - (lastMove.to.charCodeAt(0) - 97) : lastMove.to.charCodeAt(0) - 97;
+    const rank = flipped ? 9 - Number(lastMove.to[1]) : Number(lastMove.to[1]);
     // Centered on the square's top-right corner, nudged inside on the board's right and top edges.
     return { glyph: GLYPH[klass], icon: ICON[klass], left: Math.min(96.2, (file + 1) * 12.5 - 1.9), top: Math.max(0, (8 - rank) * 12.5 - 1.9) };
   });

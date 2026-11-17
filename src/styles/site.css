@@ -88,6 +88,31 @@
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .board-row > .board-wrap { flex: 1; min-width: 0; }
 .viewer.engine-off .player-plate { padding-left: 0; }
+.opening-side.is-white .piece-chip { background: #f4f4ef; }
+.opening-side.is-black .piece-chip { background: #111513; }
+
+/* Viewer tools: engine switch on the left, flip on the right. */
+.side-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.5rem 1rem; }
+.flip-btn { display: inline-flex; align-items: center; gap: 0.5rem; }
+.flip-btn svg { width: 1.15rem; height: 1.15rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.flip-btn[aria-pressed='true'] { border-color: var(--accent); }
+
+/* Black at the bottom: White's share of the bar grows from the top. */
+.evalbar.is-flipped .evalbar-white { top: 0; bottom: auto; }
+.evalbar.is-flipped .evalbar-label[data-side='white'] { top: 0; bottom: auto; transform: none; }
+.evalbar.is-flipped .evalbar-label[data-side='black'] { bottom: 0; top: auto; transform: rotate(180deg); }
+
+/* Opening named so far, and the part each side chose. */
+.opening { display: flex; flex-direction: column; gap: 0.6rem; padding: 0.9rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); min-height: 6.5rem; }
+.opening-head { display: flex; align-items: baseline; gap: 0.6rem; }
+.opening-eco { flex: none; font-family: var(--font-mono); font-size: 0.875rem; color: var(--ink-2); }
+.opening-name { font-size: 1rem; line-height: 1.35; }
+.opening-sides { display: grid; gap: 0.35rem; margin: 0; }
+.opening-side { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 0.6rem; align-items: baseline; font-size: 0.95rem; }
+.opening-side dt { display: inline-flex; align-items: center; gap: 0.45rem; color: var(--ink-2); }
+.opening-side dt .piece-chip { width: 0.8rem; height: 0.8rem; align-self: center; }
+.opening-side dd { margin: 0; }
+.opening-empty { color: var(--ink-2); font-size: 0.95rem; }
 
 /* ---------- Memorial ---------- */
 .champion-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(11.5rem, 1fr)); gap: 1rem; }
